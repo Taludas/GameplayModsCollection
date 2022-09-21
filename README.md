@@ -47,6 +47,8 @@ For more Details see below and the attached pictures.
 * James Fitzjames, Expert on the pulley:  -60% Cargo Slowdown, +40% Loading Speed -> Trader Arctic
 </details>
 
+-----
+
 ![banner](https://user-images.githubusercontent.com/64583643/191513574-0dab9ff9-2be5-4141-a64b-489fbd6c25c9.png)
 ### Coffee and Tobacco in Enbesa
 This mod enables you to plant Coffee and Tobacco in Enbesa and modifies the Coffee Production chain.
@@ -63,6 +65,8 @@ There are four versions:
 * Light version where the Coffee Roasters in Enbesa use linen cloth only.
 * Super Light version where Coffee Roasters are not altered at all.
 * Farms Only. Does what it says on the label.
+
+-----
 
 ![banner](https://user-images.githubusercontent.com/64583643/191513621-2578593d-1aa8-4e19-8b14-8a04278f3f0c.png)
 ### Museum, Zoo and Botanical Garden in Enbesa
@@ -116,6 +120,7 @@ If you already collected the items and build the buildings the new buffs influen
 * (Beautiful Branches: Pipe maker and Pottery: Replace input goods: Wanza Wood instead of Clay, Additional Output Wood Veniers 1/10)
 </details>
 
+-----
 
 ![banner](https://user-images.githubusercontent.com/64583643/191513654-564f0dcb-ef41-4271-a3ca-6385a25d7443.png)
 ### The Alkaloid Collection
@@ -158,6 +163,7 @@ How to get the Plants:
 * Papaver: Elder Quest, Bente/Qing Drop, World Fair, Expedition
 </details>
 
+-----
 
 ![banner](https://user-images.githubusercontent.com/64583643/191513677-1c0dc202-70f0-486b-8b46-e2eb5b012991.png)
 ### The Arctic Zoo
