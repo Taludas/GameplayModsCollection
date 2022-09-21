@@ -1,0 +1,93 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000111</GUID>
+      <Text>Museum</Text>
+    </Text>
+  </ModOp>	
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000112</GUID>
+      <Text>Zoo</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000113</GUID>
+      <Text>Botanischer Garten</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000114</GUID>
+      <Text>Amazonas-Garten</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000115</GUID>
+      <Text>Aktiviert Hibiskus-Fruchtbarkeit, sofern in Enbesa errichtet.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000116</GUID>
+      <Text>Anden-Garten</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000117</GUID>
+      <Text>Aktiviert Tabak-Fruchtbarkeit, sofern in Enbesa errichtet.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000118</GUID>
+      <Text>Verwunschener Garten</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000119</GUID>
+      <Text>Aktiviert Kaffee-Fruchtbarkeit, sofern in Enbesa errichtet.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000120</GUID>
+      <Text>Nahost-​Garten</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000121</GUID>
+      <Text>Aktiviert Gewürz-Fruchtbarkeit, sofern in Enbesa errichtet.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000122</GUID>
+      <Text>Subalpin-​Garten</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000123</GUID>
+      <Text>Aktiviert Bienen im Überfluss, sofern in Enbesa errichtet.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000124</GUID>
+      <Text>Inspiration der Enbesanischen Hochebene</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000125</GUID>
+      <Text>Üppige Zweige Handwerkstechniken</Text>
+    </Text>
+  </ModOp>
+
+</ModOps>

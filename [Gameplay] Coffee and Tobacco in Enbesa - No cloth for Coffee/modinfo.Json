@@ -1,0 +1,74 @@
+{
+  "Version": "1.4",
+  "ModID": "Taludas_CoffeeTobaccoEnbesa",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": "Gameplay",
+    "English": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Coffee and Tobacoo in Enbesa",
+    "English": "Coffee and Tobacoo in Enbesa",
+    "French": "Coffee and Tobacoo in Enbesa",
+    "German": "Coffee and Tobacoo in Enbesa",
+    "Italian": "Coffee and Tobacoo in Enbesa",
+    "Japanese": "Coffee and Tobacoo in Enbesa",
+    "Korean": "Coffee and Tobacoo in Enbesa",
+    "Polish": "Coffee and Tobacoo in Enbesa",
+    "Russian": "Coffee and Tobacoo in Enbesa",
+    "Spanish": "Coffee and Tobacoo in Enbesa",
+    "Taiwanese": "Coffee and Tobacoo in Enbesa"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Ever wanted to plant Coffee and Tobacco in the region those crops usually come from? Then look no further! This mod enables you to plant Coffee and Tobacco in Enbesa and modifies the Coffee Production chain.",
+    "French": null,
+    "German": "Wolltet Ihr schon immer Kaffee und Tabak in der Region anbauen, aus der diese Pflanzen hauptsächlich stammen? Dann sucht nicht weiter! Mit dieser Mod könnt Ihr Kaffee und Tabak in Enbesa anbauen und es wird die Kaffeeproduktionskette komplexer gestaltet.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": 
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    {
+      "DLC":"LandOfLions",
+      "Dependant": "required"
+    },
+    {
+      "DLC":"BrightHarvest",
+      "Dependant": "partly"
+    }
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "https://github.com/Taludas/GameplayModsCollection",
+  "Image": null
+}

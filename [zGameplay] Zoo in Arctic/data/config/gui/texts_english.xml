@@ -1,0 +1,99 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000131</GUID>
+      <Text>Arctic Zoo</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000132</GUID>
+      <Text>Empty arctic Enclosure</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000133</GUID>
+      <Text>Polar Circle Park</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000134</GUID>
+      <Text>Inspired by the animals that come from the Polar Circle, your engineers have optimized the use of the natural gas by-product from oil production.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000135</GUID>
+      <Text>Equipped in the Arctic Region, this set can give your airship engineers new inspirations.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000136</GUID>
+      <Text>Polar Circle Park</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000137</GUID>
+      <Text>This collection of rare and endangered animal species from the polar circle inspire your brave aviators to new inspirations in the design of their aircraft.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000138</GUID>
+      <Text>Equipped in the other sessions, this set can optimize oil production. As a result, natural gas is generated as a by-product.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000139</GUID>
+      <Text>Nate's Cargo Airship</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000140</GUID>
+      <Text>Designed according to an idea by Old Nate, this huge cargo airship offers plenty of storage space for goods from all over the world. Commanded by skilled aviators, this ship can move large quantities of goods at a decent speed.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000141</GUID>
+      <Text>Arctic Tundra Park</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000142</GUID>
+      <Text>By studying the fur of the animals that live in the harsh climatic conditions of the Arctic tundra, your tailors have made significant advances in the design of your residents' clothing.</Text>
+    </Text>
+  </ModOp>  
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000143</GUID>
+      <Text>Equipped in the Arctic Region, this set enables construction material savings in airship production.</Text>
+    </Text>
+  </ModOp> 
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000144</GUID>
+      <Text>Arctic Tundra Park</Text>
+    </Text>
+  </ModOp>  
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000145</GUID>
+      <Text>By studying the fur of the animals that live in the harsh climatic conditions of the Arctic tundra, your airship engineers have made significant advances in the usage of airship construction materials.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000146</GUID>
+      <Text>Equipped in the other sessions, this set can inspire your tailors to achieve new top performances.</Text>
+    </Text>
+  </ModOp>
+
+</ModOps>

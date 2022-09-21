@@ -1,0 +1,99 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000131</GUID>
+      <Text>Zoo Arctic</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000132</GUID>
+      <Text>Parc animalier arctic vide</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000133</GUID>
+      <Text>Parc du cercle polaire</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000134</GUID>
+      <Text>Inspirés par les animaux issus du cercle polaire, vos ingénieurs ont optimisé l'utilisation des produits dérivés du gaz naturel dans la production pétrolière.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000135</GUID>
+      <Text>Équipé dans la région arctique, cet ensemble peut donner de nouvelles inspirations à vos ingénieurs de dirigeable.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000136</GUID>
+      <Text>Parc du cercle polaire</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000137</GUID>
+      <Text>Cette collection d'espèces animales rares et menacées du cercle polaire inspire vos courageux aviateurs à de nouvelles inspirations dans la conception de leurs avions.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000138</GUID>
+      <Text>Equipé dans les autres sessions, cet ensemble permet d'optimiser la production de pétrole. En conséquence, le gaz naturel est généré en tant que sous-produit.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000139</GUID>
+      <Text>Le dirigeable cargo de Nate</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000140</GUID>
+      <Text>Conçu selon une idée du bon vieuxs Nates, cet énorme dirigeable cargo offre beaucoup d'espace de stockage pour les marchandises du monde entier. Piloté par des aviateurs qualifiés, ce navire peut déplacer de grandes quantités de marchandises à une vitesse honnorable.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000141</GUID>
+      <Text>Parc de la toundra arctique</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000142</GUID>
+      <Text>En étudiant la fourrure des animaux qui vivent dans les rudes conditions climatiques de la toundra arctique, vos tailleurs ont fait des avancées significatives dans la conception des vêtements de vos résidents.</Text>
+    </Text>
+  </ModOp>  
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000143</GUID>
+      <Text>Équipé dans la région arctique, cet ensemble permet des économies de matériaux de construction dans la production de dirigeables.</Text>
+    </Text>
+  </ModOp> 
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000144</GUID>
+      <Text>Parc de la toundra arctique</Text>
+    </Text>
+  </ModOp>  
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000145</GUID>
+      <Text>En étudiant la fourrure des animaux qui vivent dans les conditions climatiques difficiles de la toundra arctique, les ingénieurs de vos dirigeables ont fait des progrès significatifs dans l'utilisation des matériaux de construction des dirigeables.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000146</GUID>
+      <Text>Equipé dans les autres sessions, cet ensemble peut inspirer vos tailleurs à réaliser de nouvelles performances de haut niveau.</Text>
+    </Text>
+  </ModOp>
+
+</ModOps>

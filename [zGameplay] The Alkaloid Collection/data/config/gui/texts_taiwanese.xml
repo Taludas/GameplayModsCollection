@@ -1,0 +1,110 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000151</GUID>
+      <Text>THE ALKALOID COLLECTION</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000152</GUID>
+      <Text>A collection of exotic alkaloid plants. Serve as daily drugs in remote parts of the world. Maybe your residents are interested in tasting them?</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000153</GUID>
+      <Text>Alkaloid-Garden</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000154</GUID>
+      <Text>The introduction of new exotic and legal daily drugs leads to an unprecedented euphoria among your residents, which is accompanied by an increase in the workload of your workers. With the new alternatives, the consumption of classic daily drugs is falling. However, when importing the new "cultural asset", note that the increased consumption of psychotropic substances leads to an increased susceptibility to illness and in some cases to an increased propensity for violence on the part of your population.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000155</GUID>
+      <Text>Alkaloid-Garden</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000156</GUID>
+      <Text>Alkaloid-Garden</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000157</GUID>
+      <Text>Areca palm</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000158</GUID>
+      <Text>&lt;b&gt;Areca catechu.&lt;/b&gt; The seeds of the Areca palm are traditionally chewed with slaked lime as a so-called betel bite. As a result, the arecoline contained in the seed is converted into arecaidin and can thus be more easily absorbed. It works against tiredness and exhaustion. The saliva is colored intensely red when chewed due to the coloring agents it contains.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000159</GUID>
+      <Text>Khat</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000160</GUID>
+      <Text>&lt;b&gt;Catha edulis.&lt;/b&gt; The branch tips and young leaves of the Kath shrub are traditionally chewed in larger groups during lunchtime. The contained cathine acts as a stimulant and keeps you awake. The cultivation is very water-intensive.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000161</GUID>
+      <Text>Kola Tree</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000162</GUID>
+      <Text>&lt;b&gt;Cola nitida.&lt;/b&gt; The seeds of the kola nut tree contain significantly more caffeine than the same amount of coffee beans. When chewing, the caffeine is absorbed and acts against fatigue, headaches and loss of libido.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000163</GUID>
+      <Text>Yohimbe</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000164</GUID>
+      <Text>&lt;b&gt;Corynanthe johimbe.&lt;/b&gt; The bark of the evergreen yohimba tree contains the alkaloid yohmibine. Therefore, the bark is traditionally consumed in African countries as an aphrodisiac and sexual enhancer.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000165</GUID>
+      <Text>Coca</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000166</GUID>
+      <Text>&lt;b&gt;Erythroxylum coca.&lt;/b&gt; The consumption of the leaves of the coca bush is widespread in South America. They contain the alkaloid cocaine. While the leaves are traditionally chewed by native South Americans, the "pure" cocaine is consumed in western countries. In the Andes, people use it to alleviate the symptoms of altitude sickness by increasing oxygen uptake. In addition, it helps to suppress hunger, tiredness and cold. By alkalizing the chewed leaves with lime, the cocaine loses its addictive properties, which is why the Andean population is hardly dependent on the effects of cocaine.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000167</GUID>
+      <Text>Opium Poppy</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000168</GUID>
+      <Text>&lt;b&gt;Papaver somniferum.&lt;/b&gt; An alkaloid mixture is extracted from the milky sap contained in the opium poppy capsules, which has become famous as opium. It has strong analgesic and numbing effects. Perhaps your engineers can use opium to develop a highly effective medicine that can be sold in drugstores for headaches, colds and coughs?</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,94 @@
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000111</GUID>
+      <Text>Museum</Text>
+    </Text>
+  </ModOp>	
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000112</GUID>
+      <Text>Zoo</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000113</GUID>
+      <Text>Botanical Garden</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000114</GUID>
+      <Text>Amazonas Garden</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000115</GUID>
+      <Text>Activates hibiscus fertility if built in Enbesa.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000116</GUID>
+      <Text>Anden Garden</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000117</GUID>
+      <Text>Activates tobacco fertility if built in Enbesa.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000118</GUID>
+      <Text>Enchanted Garden</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000119</GUID>
+      <Text>Activates coffee fertility if built in Enbesa.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000120</GUID>
+      <Text>Near East Garden</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000121</GUID>
+      <Text>Activates spices fertility if built in Enbesa.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000122</GUID>
+      <Text>Subalpin Garden</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000123</GUID>
+      <Text>Activates bee abundance if built in Enbesa.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000124</GUID>
+      <Text>Inspiration of the Enbesan Plateau</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000125</GUID>
+      <Text>Bountiful Branches Crafting Techniques</Text>
+    </Text>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,110 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000151</GUID>
+      <Text>ALKALOIDPFLANZEN</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000152</GUID>
+      <Text>Eine Sammlung exotischer Alkaloidpflanzen. Dienen als Volksdrogen in entfernten Teilen der Erde. Vielleicht sind Eure Einwohner an einer Kostprobe interessiert?</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000153</GUID>
+      <Text>Alkaloid-Garten</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000154</GUID>
+      <Text>Die Einführung neuer exotischer und legaler Volksdrogen führt bei Euren Einwohnern zu einer nie gekannten Euphorie, die von einer Steigerung des Leistungspensums bei euren Arbeitern begleitet wird. Durch die neuen Alternativen geht der Konsum der klassischen Volksdrogen zurück. Doch beachtet beim Import des neuen "Kulturguts", dass der vermehrte Konsum von psychotropen Substanzen zu einer erhöhten Krankheitsanfälligkeit und teilweise auch zu einer erhöhten Gewaltbereitschaft Eurer Bevölkerung führt.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000155</GUID>
+      <Text>Alkaloid-Garten</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000156</GUID>
+      <Text>Alkaloid-Garten</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000157</GUID>
+      <Text>Betelnusspalme</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000158</GUID>
+      <Text>&lt;b&gt;Areca catechu.&lt;/b&gt; Der Samen der Betelnusspalme wird traditionell mit gelöschtem Kalk als sogenannter Betelbissen gekaut. Dadurch wird das im Samen enthaltene Arecolin in Arecaidin umgewandelt und kann so leichter resorbiert werden. Es wirkt gegen Ermüdung und Erschöpfung. Durch enthaltene Farbstoffe wird der Speichel beim Kauen intensiv rot gefärbt.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000159</GUID>
+      <Text>Kathstrauch</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000160</GUID>
+      <Text>&lt;b&gt;Catha edulis.&lt;/b&gt; Die Zweigspitzen und jungen Blätter des Kathstrauchs werden traditionell auch im Rahmen größerer Gruppen während der Mittagszeit gekaut. Das enthaltene Cathin wirkt als Stimulanz und hält wach. Der Anbau ist sehr wasserintensiv.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000161</GUID>
+      <Text>Kolanuss</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000162</GUID>
+      <Text>&lt;b&gt;Cola nitida.&lt;/b&gt; Der Samen des Kolanussbaums enthält deutlich mehr Coffein als die gleiche Menge Kaffeebohnen. Beim Kauen wird das Coffein aufgenommen und wirkt gegen Ermüdung, Kopfschmerzen und Libidoverlust. </Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000163</GUID>
+      <Text>Yohimbe</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000164</GUID>
+      <Text>&lt;b&gt;Corynanthe johimbe.&lt;/b&gt; Die Rinde des immergrünen Yohimbebaums enthält das Alkaloid Yohmibin. Daher wird die Rinde traditionell in afrikanischen Ländern als Aphrodisiakum und Potenzmittel konsumiert.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000165</GUID>
+      <Text>Cocastrauch</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000166</GUID>
+      <Text>&lt;b&gt;Erythroxylum coca.&lt;/b&gt; Der Konsum der Blätter des Cocastrauchs ist in Südamerika weit verbreitet. Sie enthalten das im Westen eher als "Reinsubstanz" bekannte Alkaloid Kokain. In den Anden nutzen es die Menschen, um die Symptome der Höhenkrankheit durch erhöhte Sauerstoffaufnahme abzumildern. Darüber hinaus hilft es, Hunger, Müdigkeit und Kälte zu verdrängen. Durch Alkalisieren der gekauten Blätter mit Kalk verliert das Kokain die suchterzeugenden Eigenschaften, weshalb die Andenbevölkerung kaum abhängig von den Wirkungen des Kokains wird.  </Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000167</GUID>
+      <Text>Schlafmohn</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000168</GUID>
+      <Text>&lt;b&gt;Papaver somniferum.&lt;/b&gt; Aus dem in den Kapseln des Schlafmohn enthaltenen Milchsaft wird ein Alkaloid-Gemisch gewonnen, dass als Opium Berühmtheit erlangt hat. Es hat stark schmerzstillende und betäubende Wirkung. Vielleicht können Eure Ingenieure aus dem Opium ein hochwirksames Arzneimittel entwickeln, dass in Drugstores gegen Kopfschmerzen, Erkältung und Husten verkauft werden kann?</Text>
+    </Text>
+  </ModOp>
+</ModOps>

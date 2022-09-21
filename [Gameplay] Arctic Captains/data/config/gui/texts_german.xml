@@ -1,0 +1,62 @@
+<ModOps>
+
+    <ModOp Type="add" Path="/TextExport/Texts">
+        <Text>
+            <GUID>1999000171</GUID>
+            <Text>Sir John Faithful, wiedereingesetzter Admiral der verlorenen Expedition</Text>
+        </Text>
+        <Text>
+            <GUID>1999000172</GUID>
+            <Text>Nachdem Sir John Faithful wie durch ein Wunder aus der arktischen Hölle entkommen konnte, kann er es kaum erwarten, Eure Luftschiffflotte zu neuer Größe zu verhelfen.</Text>
+        </Text>
+        <Text>
+            <GUID>1999000173</GUID>
+            <Text>El Presidente, Globetrotter par excellence</Text>
+        </Text>
+        <Text>
+            <GUID>1999000174</GUID>
+            <Text>Gebürtig in La Corona, zog El Presidente quer durch die bekannte Welt, bevor er sich der Schatzsuche in der unwirtlichen Gegend der Eiswüste verschrieben hat.</Text>
+        </Text>
+        <Text>
+            <GUID>1999000175</GUID>
+            <Text>Ming Shu, scharfe Zunge der östlichen Hauptstadt</Text>
+        </Text>
+        <Text>
+            <GUID>1999000176</GUID>
+            <Text>Aus dem fernen Osten angeheuert, kann Ming jeden Mann beim Feilschen um den kleinen Finger wickeln, ohne das dieser etwas mitbekommt.</Text>
+        </Text>
+        <Text>
+            <GUID>1999000177</GUID>
+            <Text>Jürgen Vogel, Heber fliegender Kisten</Text>
+        </Text>
+        <Text>
+            <GUID>1999000178</GUID>
+            <Text>Trotz seiner andauernd schlechten Laune wird Jürgen von jeder Crew geschätzt, da kein anderer die Frachtkisten so effizient anordnen kann wie er.</Text>
+        </Text>
+        <Text>
+            <GUID>1999000179</GUID>
+            <Text>Francis Crozier, Lufthandelsspezialist</Text>
+        </Text>
+        <Text>
+            <GUID>1999000180</GUID>
+            <Text>Verwandelt Luft in Handelsvolumen.</Text>
+        </Text>
+        <Text>
+            <GUID>1999000181</GUID>
+            <Text>Franca d'Artois, Gläubige der Geschwindigkeit</Text>
+        </Text>
+        <Text>
+            <GUID>1999000182</GUID>
+            <Text>Mit Dampf im Blut kann kein Gegenwind sie in ihrem Bestreben nach totaler Geschwindigkeit ausbremsen.</Text>
+        </Text>
+        <Text>
+            <GUID>1999000183</GUID>
+            <Text>James Fitzjames, Könner am Flaschenzug</Text>
+        </Text>
+        <Text>
+            <GUID>1999000184</GUID>
+            <Text>Die Flaschenzüge jeglicher Schiffe fürchten sich vor seiner Geschwindigkeit beim Verladen der Ware.</Text>
+        </Text>
+    </ModOp>
+
+</ModOps>

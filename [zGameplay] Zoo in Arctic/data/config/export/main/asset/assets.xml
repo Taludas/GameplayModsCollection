@@ -1,0 +1,1310 @@
+<ModOps>
+
+    <!-- ADD ZOO IN ARCTIC: SETS ARCTIC TUNDRA AND POLAR CIRCLE -->
+    <!-- Add Item Filter Cultural for Arctic Session -->
+    <ModOp Type="add" GUID="502015" Path="/Values/ItemFilter/ItemCategories">
+        <Item>
+            <CategoryAsset>18432</CategoryAsset>
+            <ItemTypes>Culture;Zoo;BotanicGarden;Museum;Pavilion;BuildPermit</ItemTypes>
+        </Item>
+    </ModOp>
+
+    <!-- #Add Zoo Asset for Arctic -->
+    <ModOp Type="addNextSibling" GUID="102283">
+        <Asset>
+            <Template>CultureBuildingColony</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000131</GUID>
+                    <Name>culture_colony01_01 (Zoo)</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_zoo.png</IconFilename>
+                    <InfoDescription>118025</InfoDescription>
+                </Standard>
+                <Building>
+                    <PickingAsset>1999000131</PickingAsset>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <AssociatedRegions>Arctic</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>10000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>30</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/modgraphics/cultural_01_main_arctic/cultural_01_main.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <Selection />
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Zoo</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>20112</LineID>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200529</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <FeedbackController />
+                <Infolayer />
+                <UpgradeList />
+                <Culture>
+                    <CultureSpawnGroup>1</CultureSpawnGroup>
+                    <Sets>
+                        <Item>
+                            <Set>193773</Set>
+                        </Item>
+                        <Item>
+                            <Set>191119</Set>
+                        </Item>
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                    </Sets>
+                    <UndiscoveredSet>14021</UndiscoveredSet>
+                    <ModuleListHeader>13973</ModuleListHeader>
+                    <OpenSetPages>13971</OpenSetPages>
+                    <CultureMoodImage>data/ui/2kimages/main/assets/cultural_building_mood_bg/bg_main_zoo.png</CultureMoodImage>
+                </Culture>
+                <ModuleOwner>
+                    <ModuleLimits>
+                        <Connector>
+                            <Limit>500</Limit>
+                        </Connector>
+                    </ModuleLimits>
+                    <ConstructionOptions>
+                        <Item>
+                            <ModuleGUID>1999000132</ModuleGUID>
+                        </Item>
+                    </ConstructionOptions>
+                </ModuleOwner>
+                <AmbientMoodProvider>
+                    <AttractivityDependentMurmur>
+                        <Item>
+                            <Attractivity>30</Attractivity>
+                            <Murmur>ZooLowAttractiveness</Murmur>
+                        </Item>
+                        <Item>
+                            <Attractivity>100</Attractivity>
+                            <Murmur>ZooMedAttractiveness</Murmur>
+                        </Item>
+                        <Item>
+                            <Attractivity>250</Attractivity>
+                            <Murmur>ZooHighAttractiveness</Murmur>
+                        </Item>
+                    </AttractivityDependentMurmur>
+                    <ApplyMurmurAndMoodToModules>1</ApplyMurmurAndMoodToModules>
+                    <DynamicEnvironmentType>Fog</DynamicEnvironmentType>
+                </AmbientMoodProvider>
+                <LogisticNode />
+                <Factory7 />
+                <FactoryBase />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>100</Amount>
+                            <InactiveAmount>100</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                    <ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+                </Maintenance>
+                <Attackable>
+                    <MaximumHitPoints>3250</MaximumHitPoints>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <IncidentInfectable />
+                <Pausable />
+                <StreetActivation />
+                <QuestObject />
+                <InfluenceSource />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Add Zoo to FeedbackBuildingGroup-->
+    <ModOp Type="add" GUID="141484" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>1999000131</Building>
+        </Item>
+    </ModOp>
+
+    <!-- Add Zoo to ItemEffectTargetPools-->
+    <ModOp Type="add" GUID="193666,191561,190609,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1999000131</GUID>
+        </Item>
+    </ModOp>
+
+    <!-- Add Zoo to Construction Menus-->
+    <ModOp Type="addNextSibling" GUID="112791" Path="/Values/ConstructionCategory/BuildingList/Item[Building='112684']">
+        <Item>
+            <Building>1999000131</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="116343" Path="/Values/ConstructionCategory/BuildingList/Item[Building='112684']">
+        <Item>
+            <Building>1999000131</Building>
+        </Item>
+    </ModOp>
+
+    <!-- Add Empty Exhibition Artic-->
+    <ModOp Type="addNextSibling" GUID="100455">
+        <Asset>
+            <Template>CultureModule</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000132</GUID>
+                    <Name>culture_01_module_06_empty arctis</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_general_module_01.png</IconFilename>
+                    <InfoDescription>118026</InfoDescription>
+                </Standard>
+                <Building>
+                    <PickingAsset>1999000132</PickingAsset>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01;Africa;Arctic</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <BuildModeStartVariation>1</BuildModeStartVariation>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>500</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                    <InfluenceCostType>ZooModule</InfluenceCostType>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/public/cultural_01/cultural_01_module_06/cultural_01_module_06.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/modgraphics/cultural_01_arctic/cultural_01_module_06/cultural_01_module_06.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Empty Compound</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>6998</LineID>
+                </Text>
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <SoundEmitter />
+                <FeedbackController />
+                <Infolayer />
+                <BuildingModule>
+                    <PlazaSize>20</PlazaSize>
+                    <ModuleMoodImage>data/ui/2kimages/main/assets/cultural_building_mood_bg/bg_empty_zoo.png</ModuleMoodImage>
+                </BuildingModule>
+                <ItemContainer />
+                <Attackable>
+                    <HasRuinState>1</HasRuinState>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <QuestObject />
+                <AmbientMoodProvider />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Add Empty Exhibition and Ornaments to be buildable in Enbesa&Arctic 
+    <ModOp Type="replace" GUID="100455,114435,103119,101510" Path="/Values/Building/AssociatedRegions">
+        <AssociatedRegions>Moderate;Colony01;Africa;Arctic</AssociatedRegions>
+    </ModOp> -->
+
+    <!-- #ADD CUSTOM EXHIBITION MODULES IN ARCTIC -->
+    <!-- Empty Variation -->
+    <ModOp Type="replace" GUID="114788,114787,114786,102559,114785,114784,114783" Path="/Values/Building">
+        <Building>
+            <PickingAsset>1999000132</PickingAsset>
+            <AssociatedRegions>Moderate;Colony01;Africa;Arctic</AssociatedRegions>
+        </Building>
+    </ModOp>
+    <ModOp Type="add" GUID="114788,114787,114786,102559,114785,114784,114783" Path="/Values/Building">
+        <AllowChangeVariation>1</AllowChangeVariation>
+    </ModOp>
+
+    <!-- Trigger to change arctic enclosure to normal one for OW/NW/Africa -->
+    <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000150</GUID>
+                    <Name>arctic_enclosure to normal in OW/NW/Africa</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>ObjectBuilt</PlayerCounter>
+                                <Context>1999000132</Context>
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionSetObjectGUID</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionSetObjectGUID>
+                                        <NewGUID>100455</NewGUID>
+                                    </ActionSetObjectGUID>
+                                    <ObjectFilter>
+                                        <ObjectGUID>1999000132</ObjectGUID>
+                                        <ObjectSession>180023</ObjectSession>
+                                    </ObjectFilter>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionSetObjectGUID</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionSetObjectGUID>
+                                        <NewGUID>100455</NewGUID>
+                                    </ActionSetObjectGUID>
+                                    <ObjectFilter>
+                                        <ObjectGUID>1999000132</ObjectGUID>
+                                        <ObjectSession>180025</ObjectSession>
+                                    </ObjectFilter>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionSetObjectGUID</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionSetObjectGUID>
+                                        <NewGUID>100455</NewGUID>
+                                    </ActionSetObjectGUID>
+                                    <ObjectFilter>
+                                        <ObjectGUID>1999000132</ObjectGUID>
+                                        <ObjectSession>112132</ObjectSession>
+                                    </ObjectFilter>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionResetTrigger</Template>
+                                <Values>
+                                    <Action/>
+                                    <ActionResetTrigger/>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <AutoRegisterTrigger>1</AutoRegisterTrigger>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000130</GUID>
+                    <Name>normal enclosure to arctic in Arctic</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>ObjectBuilt</PlayerCounter>
+                                <Context>100455</Context>
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionSetObjectGUID</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionSetObjectGUID>
+                                        <NewGUID>1999000132</NewGUID>
+                                    </ActionSetObjectGUID>
+                                    <ObjectFilter>
+                                        <ObjectGUID>100455</ObjectGUID>
+                                        <ObjectSession>180045</ObjectSession>
+                                    </ObjectFilter>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionSetObjectVariation</Template>
+                                <Values>
+                                    <Action />
+                                    <ObjectFilter>
+                                        <ObjectGUID>1999000132</ObjectGUID>
+                                        <ObjectSession>180045</ObjectSession>
+                                    </ObjectFilter>
+                                    <ActionSetObjectVariation>
+                                        <NewVariation>1</NewVariation>
+                                    </ActionSetObjectVariation>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionResetTrigger</Template>
+                                <Values>
+                                    <Action/>
+                                    <ActionResetTrigger/>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <AutoRegisterTrigger>1</AutoRegisterTrigger>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Musk Ox -->
+    <ModOp Type="add" GUID="114786" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/cultural_01_arctic/cultural_colony03_01_module_02/cultural_colony03_module_02_a.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- Reindeer -->
+    <ModOp Type="add" GUID="114787" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/cultural_01_arctic/cultural_colony03_01_module_02/cultural_colony03_module_02_b.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- Arctic Fox, Arctic Wolf -->
+    <ModOp Type="add" GUID="114788" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/cultural_01_arctic/cultural_colony03_01_module_02/cultural_colony03_module_02_c.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- Auk -->
+    <ModOp Type="add" GUID="102559" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/cultural_01_arctic/cultural_01_module_05/cultural_01_module_05_birds.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- Narwhal -->
+    <ModOp Type="add" GUID="114785" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/cultural_01_arctic/cultural_colony03_01_module_01/cultural_colony03_module_01_c.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- Polar Bear -->
+    <ModOp Type="add" GUID="114784" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/cultural_01_arctic/cultural_colony03_01_module_01/cultural_colony03_module_01_b.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- Sealion, Walrus -->
+    <ModOp Type="add" GUID="114783" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/cultural_01_arctic/cultural_colony03_01_module_01/cultural_colony03_module_01_a.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- #ADD SET BUFFS IN ARCTIC - VANILLA -->
+    <!-- Polar Circle; extra Gas and new Airship -->
+    <ModOp Type="replace" GUID="191119" Path="/Values/ItemSocketSet">
+        <ItemSocketSet>
+            <RegionSetBuff>
+                <Moderate>
+                    <SetBuff>1999000133</SetBuff>
+                </Moderate>
+                <Colony01>
+                    <SetBuff>1999000133</SetBuff>
+                </Colony01>
+                <Africa>
+                    <SetBuff>1999000133 </SetBuff>
+                </Africa>
+                <Arctic>
+                    <SetBuff>1999000136</SetBuff>
+                </Arctic>
+            </RegionSetBuff>
+            <BuffScope>Area</BuffScope>
+            <DLCMoodImage>data/ui/2kimages/main/assets16/dlc/bgr_dlc_card_nwpassage.png</DLCMoodImage>
+        </ItemSocketSet>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="191137">
+        <Asset>
+            <Template>GuildhouseBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000133</GUID>
+                    <Name>polar circle OW/NW/Enbesa</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_polar_bear.png</IconFilename>
+                    <InfoDescription>1999000134</InfoDescription>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>101331</GUID>
+                        </Item>
+                        <Item>
+                            <GUID>1010561</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Arctic Tundra Park</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>36147</LineID>
+                </Text>
+                <FactoryUpgrade>
+                    <AdditionalOutput>
+                        <Item>
+                            <Product>112706</Product>
+                            <AdditionalOutputCycle>50</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                    </AdditionalOutput>
+                </FactoryUpgrade>
+                <BuildingUpgrade />
+                <Buff>
+                    <PossibleFluffTexts>
+                        <Item>
+                            <FluffText>1999000135</FluffText>
+                        </Item>
+                    </PossibleFluffTexts>
+                </Buff>
+                <AttackerUpgrade />
+                <VisitorHarborUpgrade />
+                <VisitorUpgrade />
+                <PassiveTradeGoodGenUpgrade />
+                <KontorUpgrade />
+                <AttackableUpgrade />
+                <PierUpgrade />
+                <CultureUpgrade />
+                <WarehouseUpgrade />
+                <ItemContainerUpgrade />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="22411">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000135</GUID>
+                    <Name>Nates Airship Arctic buildable</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_polar_bear.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Make Nates Airship Buildable</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>2</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>33290</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!--Polar Circle Buff Arctic: Nate's Airship buildable in Arctis -->
+    <ModOp Type="addNextSibling" GUID="193772">
+        <Asset>
+            <Template>GuildhouseBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000136</GUID>
+                    <Name>polar circle Arctis</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_polar_bear.png</IconFilename>
+                    <InfoDescription>1999000137</InfoDescription>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>112689</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Arctic Tundra Park</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>36147</LineID>
+                </Text>
+                <FactoryUpgrade />
+                <BuildingUpgrade />
+                <Buff>
+                    <PossibleFluffTexts>
+                        <Item>
+                            <FluffText>1999000138</FluffText>
+                        </Item>
+                    </PossibleFluffTexts>
+                </Buff>
+                <AttackerUpgrade />
+                <VisitorHarborUpgrade />
+                <VisitorUpgrade />
+                <PassiveTradeGoodGenUpgrade />
+                <ShipyardUpgrade>
+                    <AddAssemblyOptions>
+                        <Item>
+                            <NewOption>1999000139</NewOption>
+                        </Item>
+                    </AddAssemblyOptions>
+                </ShipyardUpgrade>
+                <KontorUpgrade />
+                <AttackableUpgrade />
+                <PierUpgrade />
+                <CultureUpgrade />
+                <WarehouseUpgrade />
+                <ItemContainerUpgrade />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="22411">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000138</GUID>
+                    <Name>Oil Refinery Gas extra</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_polar_bear.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Boosts production of cloths in other sessions.</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>2</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>33290</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Add Nate's airship as playable ship to the game -->
+    <ModOp Type="addNextSibling" GUID='114166'>
+        <Asset>
+            <Template>AirShip</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000139</GUID>
+                    <Name>Nates airship</Name>
+                    <IconFilename>data/modgraphics/ui/airship_nate.png</IconFilename>
+                    <InfoDescription>1999000140</InfoDescription>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/modgraphics/3rd_party_06_kontor_01/3rd_party_06_kontor_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh>
+                    <ObjectPosition>Dynamic</ObjectPosition>
+                </Mesh>
+                <Selection>
+                    <ObjectmenuHeaderImage>data/ui/2kimages/main/3dicons/icon_ship.png</ObjectmenuHeaderImage>
+                    <MultiSelectable>1</MultiSelectable>
+                </Selection>
+                <Walking>
+                    <TurnAroundRadius>10</TurnAroundRadius>
+                    <Acceleration>1</Acceleration>
+                    <Deceleration>1</Deceleration>
+                    <TurnRadius>10</TurnRadius>
+                    <TurnSpeed>30</TurnSpeed>
+                    <TurnSpeedInPlace>15</TurnSpeedInPlace>
+                    <LeaningMaxAngle>0</LeaningMaxAngle>
+                    <ForwardSpeed>8.5</ForwardSpeed>
+                    <WindMinSlowdownFactor>0.30</WindMinSlowdownFactor>
+                    <WindMaxSpeedupFactor>1.4</WindMaxSpeedupFactor>
+                    <WindSlowdownEffectOnTurningSpeed>0.35</WindSlowdownEffectOnTurningSpeed>
+                    <WindSpeedupEffectOnTurningSpeed>0.85</WindSpeedupEffectOnTurningSpeed>
+                    <MinSlowdownFactor>0.3</MinSlowdownFactor>
+                </Walking>
+                <Text>
+                    <LocaText />
+                    <LineID>14872</LineID>
+                </Text>
+                <CommandQueue>
+                    <FollowRadius>4</FollowRadius>
+                    <FormationPriority>1</FormationPriority>
+                    <TradeShipPoints>4</TradeShipPoints>
+                    <PriorityShipList>2</PriorityShipList>
+                </CommandQueue>
+                <Drifting>
+                    <OverrideAssetWidthAndLength>1</OverrideAssetWidthAndLength>
+                    <Length>7</Length>
+                    <Width>3.5</Width>
+                </Drifting>
+                <Collector />
+                <Attackable>
+                    <DEPRECATEDCanBeAttackedByPlayer>0</DEPRECATEDCanBeAttackedByPlayer>
+                    <DEPRECATEDDisableGettingAutoAttacked>1</DEPRECATEDDisableGettingAutoAttacked>
+                    <MaximumHitPoints>4800</MaximumHitPoints>
+                </Attackable>
+                <MinimapToken>
+                    <TokenAsset>2001947</TokenAsset>
+                    <StrategicMapAsset>117300</StrategicMapAsset>
+                </MinimapToken>
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>238322</Sound>
+                        </Item>
+                    </DestroySounds>
+                    <VehicleSounds>
+                        <MovementStart>
+                            <Item>
+                                <Sound>244873</Sound>
+                            </Item>
+                        </MovementStart>
+                    </VehicleSounds>
+                </SoundEmitter>
+                <UpgradeList>
+                    <DefaultBuff>1746</DefaultBuff>
+                </UpgradeList>
+                <QuestObject />
+                <Infolayer />
+                <ItemContainer>
+                    <SocketCount>3</SocketCount>
+                    <SocketAllocation>AirShip</SocketAllocation>
+                    <SlotCount>6</SlotCount>
+                    <StackLimit>50</StackLimit>
+                </ItemContainer>
+                <FeedbackController />
+                <Draggable>
+                    <DraggableOnDrag>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </DraggableOnDrag>
+                    <DraggableOnDrop>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </DraggableOnDrop>
+                </Draggable>
+                <TradeRouteVehicle>
+                    <LoadingSpeedFactor>1.0</LoadingSpeedFactor>
+                </TradeRouteVehicle>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>75</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010210</Ingredient>
+                            <Amount>50</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010224</Ingredient>
+                            <Amount>30</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>112706</Ingredient>
+                            <Amount>50</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>115980</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                    <InfluenceCostType>AirshipTrade</InfluenceCostType>
+                    <InfluenceCostPoints>10</InfluenceCostPoints>
+                </Cost>
+                <Craftable>
+                    <CraftingTime>1200000</CraftingTime>
+                </Craftable>
+                <Nameable />
+                <MetaPersistent />
+                <ExpeditionAttribute />
+                <ShipMaintenance>
+                    <Maintenance>2000</Maintenance>
+                </ShipMaintenance>
+                <Sellable>
+                    <Baseprice>
+                        <Item>
+                            <Resource>1010017</Resource>
+                            <Amount>1000000</Amount>
+                        </Item>
+                    </Baseprice>
+                    <CanBeSoldToTrader>0</CanBeSoldToTrader>
+                </Sellable>
+                <Stance />
+                <Rentable />
+                <WorldMapSound />
+                <Pausable />
+                <ShipIncident>
+                    <InfectableByIncident>
+                        <Illness>
+                            <Infectable>0</Infectable>
+                        </Illness>
+                    </InfectableByIncident>
+                </ShipIncident>
+                <SoundEmitterCommandBarks>
+                    <BarkMapping>
+                        <Selection>
+                            <AudioPool>4806</AudioPool>
+                        </Selection>
+                        <SelectionDamaged>
+                            <AudioPool>4808</AudioPool>
+                        </SelectionDamaged>
+                        <AttackCommand>
+                            <AudioPool>0</AudioPool>
+                        </AttackCommand>
+                        <MoveCommand>
+                            <AudioPool>4807</AudioPool>
+                        </MoveCommand>
+                        <EscortCommand>
+                            <AudioPool>4811</AudioPool>
+                        </EscortCommand>
+                        <PatrolCommand>
+                            <AudioPool>4807</AudioPool>
+                        </PatrolCommand>
+                        <DropCommand>
+                            <AudioPool>4812</AudioPool>
+                        </DropCommand>
+                    </BarkMapping>
+                </SoundEmitterCommandBarks>
+                <ItemReplacer>
+                    <ItemReplacementPools>193855</ItemReplacementPools>
+                </ItemReplacer>
+                <Bombarder>
+                    <Shafts>4</Shafts>
+                </Bombarder>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Add to Influence Effect Pool -->
+    <ModOp Type="add" GUID='193982,4147' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1999000139</GUID>
+        </Item>
+    </ModOp>
+
+    <!-- Add to AssetPool -->
+    <ModOp Type="add" GUID='112725,102180' Path="/Values/AssetPool/AssetList">
+        <Item>
+            <Asset>1999000139</Asset>
+        </Item>
+    </ModOp>
+
+    <!-- Add to PlayerCounterContextPool -->
+    <ModOp Type="add" GUID='103085,104750' Path="/Values/PlayerCounterContextPool/Contexts">
+        <Item>
+            <Asset>1999000139</Asset>
+        </Item>
+    </ModOp>
+
+    <!-- Change UI Type of Monument to Shipyard so you can build more than one ship in it -->
+    <ModOp Type="replace" GUID='112689' Path="/Values/Selection/GUIType">
+        <GUIType>Shipyard</GUIType>
+    </ModOp>
+
+
+
+    <!-- Arctic Tundra Buff -->
+    <!-- Arctic Tundra Split Buff for Regions -->
+    <ModOp Type="replace" GUID="193773" Path="/Values/ItemSocketSet">
+        <ItemSocketSet>
+            <RegionSetBuff>
+                <Moderate>
+                    <SetBuff>1999000141</SetBuff>
+                </Moderate>
+                <Colony01>
+                    <SetBuff>1999000141</SetBuff>
+                </Colony01>
+                <Africa>
+                    <SetBuff>1999000141 </SetBuff>
+                </Africa>
+                <Arctic>
+                    <SetBuff>1999000144</SetBuff>
+                </Arctic>
+            </RegionSetBuff>
+            <BuffScope>Area</BuffScope>
+            <DLCMoodImage>data/ui/2kimages/main/assets16/dlc/bgr_dlc_card_nwpassage.png</DLCMoodImage>
+        </ItemSocketSet>
+    </ModOp>
+
+    <!-- Arctic Tundra Buff OW/SA/Enbesa: +15% Productivity, AdditionalOutput: Parkas 1/15 -->
+    <ModOp Type="addNextSibling" GUID="193772">
+        <Asset>
+            <Template>GuildhouseBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000141</GUID>
+                    <Name>Arctic Tundra Buff Enbesa</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_reindeer.png</IconFilename>
+                    <InfoDescription>1999000142</InfoDescription>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1010315</GUID>
+                        </Item>
+                        <Item>
+                            <GUID>1010325</GUID>
+                        </Item>
+                        <Item>
+                            <GUID>101266</GUID>
+                        </Item>
+                        <Item>
+                            <GUID>101273</GUID>
+                        </Item>
+                        <Item>
+                            <GUID>118734</GUID>
+                        </Item>
+                        <Item>
+                            <GUID>118733</GUID>
+                        </Item>
+                        <Item>
+                            <GUID>114466</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Arctic Tundra Park</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>36147</LineID>
+                </Text>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>15</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <AdditionalOutput>
+                        <Item>
+                            <Product>112700</Product>
+                            <AdditionalOutputCycle>15</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                    </AdditionalOutput>
+                </FactoryUpgrade>
+                <BuildingUpgrade />
+                <Buff>
+                    <PossibleFluffTexts>
+                        <Item>
+                            <FluffText>1999000143</FluffText>
+                        </Item>
+                    </PossibleFluffTexts>
+                </Buff>
+                <CultureUpgrade />
+                <ModuleOwnerUpgrade />
+                <IncidentInfectableUpgrade />
+                <PowerplantUpgrade />
+                <IndustrializableUpgrade />
+                <ItemContainerUpgrade />
+                <IncidentInfluencerUpgrade />
+                <IrrigationUpgrade />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="22411">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000143</GUID>
+                    <Name>Airship Construction Buff</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_reindeer.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Reduces the costs of Airship Construction.</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>2</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>33290</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Arctic Tundra Buff Arctic: Reduce Buildcosts/Buildtime Airships -50% -->
+    <ModOp Type="addNextSibling" GUID="193772">
+        <Asset>
+            <Template>HarbourOfficeBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000144</GUID>
+                    <Name>tundra Arctis</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_reindeer.png</IconFilename>
+                    <InfoDescription>1999000145</InfoDescription>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>112689</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Arctic Tundra Park</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>36147</LineID>
+                </Text>
+                <FactoryUpgrade />
+                <BuildingUpgrade />
+                <Buff>
+                    <PossibleFluffTexts>
+                        <Item>
+                            <FluffText>1999000146</FluffText>
+                        </Item>
+                    </PossibleFluffTexts>
+                </Buff>
+                <AttackerUpgrade />
+                <VisitorHarborUpgrade />
+                <VisitorUpgrade />
+                <PassiveTradeGoodGenUpgrade />
+                <ShipyardUpgrade>
+                    <ConstructionCostInPercent>-50</ConstructionCostInPercent>
+                    <ConstructionTimeInPercent>-50</ConstructionTimeInPercent>
+                </ShipyardUpgrade>
+                <KontorUpgrade />
+                <AttackableUpgrade />
+                <PierUpgrade />
+                <CultureUpgrade />
+                <WarehouseUpgrade />
+                <ItemContainerUpgrade />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="22411">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000146</GUID>
+                    <Name>Cloth Buff extra Parkas</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_reindeer.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Boosts production of cloths in other sessions.</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>2</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>33290</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- SPICE IT UP MODULE INTEGRATION -->
+    <!-- MUSEUM/ZOO/BATANICAL GARDEN NW - Modules use range instead of snap -->
+    <ModOp Type="add" GUID="1999000131" Path="/Values/ModuleOwner">
+        <ModuleBuildRadius>32</ModuleBuildRadius>
+    </ModOp>
+
+    <!-- MUSEUM/ZOO/BOTANICAL GARDEN Modules no module limit -->
+    <ModOp Type="replace" GUID="1999000131" Path="/Values/ModuleOwner/ModuleLimits">
+        <ModuleLimits>
+            <Main>
+                <Limit>0</Limit>
+            </Main>
+            <Pavilion>
+                <Limit>0</Limit>
+            </Pavilion>
+            <Connector>
+                <Limit>0</Limit>
+            </Connector>
+        </ModuleLimits>
+    </ModOp>
+
+    <!-- Trigger Zoo Arctis -->
+    <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000147</GUID>
+                    <Name>MOD Trigger</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition/>
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>112643</Context>
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionResetTrigger</Template>
+                                <Values>
+                                    <Action/>
+                                    <ActionResetTrigger/>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action/>
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1999000131</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000148</GUID>
+                    <Name>MOD Trigger</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition/>
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>112643</Context>
+                                <CounterAmount>100</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionResetTrigger</Template>
+                                <Values>
+                                    <Action/>
+                                    <ActionResetTrigger/>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action/>
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1999000131</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Trigger Nate's Airship-->
+    <ModOp Type="addNextSibling" GUID='130248'>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000149</GUID>
+                    <Name>Airship</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier01.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>112643</Context>
+                                <CounterAmount>750</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1999000139</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1999000139</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

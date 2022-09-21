@@ -1,0 +1,62 @@
+<ModOps>
+
+    <ModOp Type="add" Path="/TextExport/Texts">
+        <Text>
+            <GUID>1999000171</GUID>
+            <Text>Sir John Faithful, Reinstated Admiral of the Lost Expedition</Text>
+        </Text>
+        <Text>
+            <GUID>1999000172</GUID>
+            <Text>After Sir John Faithful miraculously escaped arctic hell, he can't wait to rebuild your airship fleet.</Text>
+        </Text>
+        <Text>
+            <GUID>1999000173</GUID>
+            <Text>El Presidente, Globetrotter par excellence</Text>
+        </Text>
+        <Text>
+            <GUID>1999000174</GUID>
+            <Text>Born in La Corona, El Presidente traveled across the known world before he dedicated himself to the treasure hunt in the inhospitable region of the ice desert.</Text>
+        </Text>
+        <Text>
+            <GUID>1999000175</GUID>
+            <Text>Ming Shu, Sharp tongue of the eastern capital</Text>
+        </Text>
+        <Text>
+            <GUID>1999000176</GUID>
+            <Text>Hired from the Far East, Ming can wrap any man around her little finger while bargaining without him noticing.</Text>
+        </Text>
+        <Text>
+            <GUID>1999000177</GUID>
+            <Text>Jürgen Vogel, Lifter of flying crates</Text>
+        </Text>
+        <Text>
+            <GUID>1999000178</GUID>
+            <Text>Despite his constantly bad mood, Jürgen is valued by every crew, as no one else can arrange the freight boxes as efficiently as he can.</Text>
+        </Text>
+        <Text>
+            <GUID>1999000179</GUID>
+            <Text>Francis Crozier, Aerial Trade Specialist</Text>
+        </Text>
+        <Text>
+            <GUID>1999000180</GUID>
+            <Text>Turns air into trading volume.</Text>
+        </Text>
+        <Text>
+            <GUID>1999000181</GUID>
+            <Text>Franca d'Artois, Believer of Speed</Text>
+        </Text>
+        <Text>
+            <GUID>1999000182</GUID>
+            <Text>With steam in your blood, no headwind can slow her down in the persuit of total speed.</Text>
+        </Text>
+        <Text>
+            <GUID>1999000183</GUID>
+            <Text>James Fitzjames, Expert on the pulley</Text>
+        </Text>
+        <Text>
+            <GUID>1999000184</GUID>
+            <Text>The pulley blocks of any ship fear his speed when loading the goods.</Text>
+        </Text>
+    </ModOp>
+
+</ModOps>

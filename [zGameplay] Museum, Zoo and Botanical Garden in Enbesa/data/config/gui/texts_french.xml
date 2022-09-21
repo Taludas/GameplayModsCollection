@@ -1,0 +1,94 @@
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000111</GUID>
+      <Text>Musée</Text>
+    </Text>
+  </ModOp>	
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000112</GUID>
+      <Text>Zoo</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000113</GUID>
+      <Text>Jardin Botanique</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000114</GUID>
+      <Text>Jardin Amazonien</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000115</GUID>
+      <Text>Active la fertilité pour l'hibiscus si construit à Enbesa.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000116</GUID>
+      <Text>Jardin Andin</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000117</GUID>
+      <Text>Active la fertilité pour le tabac si construit à Enbesa.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000118</GUID>
+      <Text>Jardin Enchanté</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000119</GUID>
+      <Text>Active la fertilité pour le café si construit à Enbesa.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000120</GUID>
+      <Text>Jardin Oriental</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000121</GUID>
+      <Text>Active la fertilité pour les épices si construit à Enbesa.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000122</GUID>
+      <Text>Jardin Subalpin</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000123</GUID>
+      <Text>Active l'abondance d'abeilles si construit à Enbesa.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000124</GUID>
+      <Text>Inspiration Enbesane</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000125</GUID>
+      <Text>Techniques d'artisanat fin sur les branches infinies</Text>
+    </Text>
+  </ModOp>
+
+</ModOps>

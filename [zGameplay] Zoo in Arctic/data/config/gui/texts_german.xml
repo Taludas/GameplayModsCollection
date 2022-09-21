@@ -1,0 +1,100 @@
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000131</GUID>
+      <Text>Arktischer Zoo</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000132</GUID>
+      <Text>Leeres Arktis-Gehege</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000133</GUID>
+      <Text>Park: Polarkreis</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000134</GUID>
+      <Text>Inspiriert von den Tieren, die aus der Region des arktischen Polarkreises stammen, haben Eure Ingineure die Verwertung des natürlicherweise bei der Erdölgewinnung anfallenden Erdgases optimiert.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000135</GUID>
+      <Text>In der Arktis ausgerüstet, kann dieses Set Euren Luftschiff-Ingenieure neue Ideen bescheren.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000136</GUID>
+      <Text>Park: Polarkreis</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000137</GUID>
+      <Text>Die Sammlung seltener und vom Aussterben bedrohter Tierarten aus der Region des arktischen Polarkreises inspirieren Eure tapferen Luftfahrer zu außergewöhnlichen Eingebungen beim Design neuer Fluggeräte.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000138</GUID>
+      <Text>In den übrigen Sessions ausgerüstet, kann dies die Erdölgewinnung optimieren. Dadurch fällt natürliches Erdgas als Nebenprodukt an.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000139</GUID>
+      <Text>Nate's Luftfrachtschiff</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000140</GUID>
+      <Text>Nach einer Idee des Alten Nates konzipiert bietet dieses gewaltige Luftfrachtschiff jede Menge Stauraum für Ware aus aller Welt. Kommandiert von fähigen Luftschiffpiloten kann dieses Luftschiff große Mengen Ware mit ordentlicher Geschwindigkeit transportieren.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000141</GUID>
+      <Text>Park: Arktische Tundra</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000142</GUID>
+      <Text>Durch das Studieren des Fells der Tiere, die in den rauen klimatischen Bedingungen der Arktischen Tundra leben, konnten Eure Schneider entscheidende Fortschritte im Design der Kleidung Eurer Einwohner verzeichnen.</Text>
+    </Text>
+  </ModOp>  
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000143</GUID>
+      <Text>In den Arktis ausgerüstet, ermöglicht dieses Set Einsparungen beim Materialbedarf im Luftschiffbau.</Text>
+    </Text>
+  </ModOp> 
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000144</GUID>
+      <Text>Park: Arktische Tundra</Text>
+    </Text>
+  </ModOp>  
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000145</GUID>
+      <Text>Durch das Studieren des Fells der Tiere, die in den rauen klimatischen Bedingungen der Arktischen Tundra leben, konnten Eure Luftschiff-Ingenieure entscheidene Fortschritte beim Materialeinsatz im Luftschiffbau verzeichnen.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000146</GUID>
+      <Text>In den übrigen Sessions ausgerüstet, kann dieses Set Eure Schneider zu neuen Höchstleistungen anspornen.</Text>
+    </Text>
+  </ModOp>
+
+</ModOps>
