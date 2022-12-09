@@ -1,7 +1,11 @@
 {
-  "Version": "1.4",
-  "ModID": "Taludas_CoffeeTobaccoEnbesa",
-  "IncompatibleIds": null,
+  "Version": "1.5",
+  "ModID": "Taludas_CoffeeTobaccoEnbesaFull",
+  "IncompatibleIds": [
+    "Taludas_CoffeeTobaccoEnbesaFarmsOnly",
+    "Taludas_CoffeeTobaccoEnbesaLight",
+    "Taludas_CoffeeTobaccoEnbesaSuperLight"
+  ],
   "ModDependencies": null,
   "Category": {
     "Chinese": "Gameplay",

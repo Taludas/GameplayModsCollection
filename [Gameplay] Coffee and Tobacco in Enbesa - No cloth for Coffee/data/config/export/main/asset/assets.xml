@@ -38,7 +38,7 @@
       </Item>
   </ModOp>
 
-  <!-- add to Ketemas pools -->
+  <!-- add to some pools -->
   <ModOp GUID="127457" Type="add" Path="/Values/RewardPool/ItemsPool">
     <Item>
       <ItemLink>190946</ItemLink>
@@ -71,81 +71,58 @@
     <IconFilename>data/modgraphics/icons/icon_kaffeeroesterei.png</IconFilename>
   </ModOp>
 
-  <ModOp GUID="120032" Type="replace" Path="/Values/Product">
-    <Product>
-      <StorageLevel>Building</StorageLevel>
-      <ProductCategory>11704</ProductCategory>
-      <BasePrice>100</BasePrice>
-      <CivLevel>2</CivLevel>
-      <AssociatedRegion>Colony01;Arctic;Africa</AssociatedRegion>
-      <ProductionRegions>
-        <Item>
-          <RegionType>Colony01</RegionType>
-        </Item>
-        <Item>
-          <RegionType>Africa</RegionType>
-          <RequiredDLCs>
-            <Item>
-              <RequiredDLC>410071</RequiredDLC>
-            </Item>
-          </RequiredDLCs>
-        </Item>
-        <Item>
-          <RegionType>Moderate</RegionType>
-          <RequiredDLCs>
-            <Item>
-              <RequiredDLC>410071</RequiredDLC>
-            </Item>
-          </RequiredDLCs>
-        </Item>
-      </ProductionRegions>
-    </Product>
+  <ModOp GUID="120032" Type="replace" Path="/Values/Product/AssociatedRegion">
+    <AssociatedRegion>Colony01;Arctic;Africa</AssociatedRegion>
+  </ModOp>
+
+  <ModOp GUID="120032" Type="replace" Path="/Values/Product/ProductionRegions">
+    <ProductionRegions>
+      <Item>
+        <RegionType>Colony01</RegionType>
+      </Item>
+      <Item>
+        <RegionType>Africa</RegionType>
+        <RequiredDLCs>
+          <Item>
+            <RequiredDLC>410071</RequiredDLC>
+          </Item>
+        </RequiredDLCs>
+      </Item>
+      <Item>
+        <RegionType>Moderate</RegionType>
+        <RequiredDLCs>
+          <Item>
+            <RequiredDLC>410071</RequiredDLC>
+          </Item>
+        </RequiredDLCs>
+      </Item>
+    </ProductionRegions>
   </ModOp>
 
   <!-- Kaffee Icon ersetzen Neue Welt kaffeeroesterei -->
-  <ModOp GUID="101252" Type="replace" Path="/Values/Standard">
-    <Standard>
-      <GUID>101252</GUID>
-      <Name>food_colony01_03 (Coffee Maker)</Name>
-      <IconFilename>data/modgraphics/icons/icon_kaffeeroesterei.png</IconFilename>
-    </Standard>
+  <ModOp GUID="101252" Type="replace" Path="/Values/Standard/IconFilename">
+    <IconFilename>data/modgraphics/icons/icon_kaffeeroesterei.png</IconFilename>
   </ModOp>
 
+
   <!-- Kaffee Icon ersetzen LoL alternative ProductionChain -->
-  <ModOp GUID="124740" Type="replace" Path="/Values/Standard">
-    <Standard>
-      <GUID>124740</GUID>
-      <Name>alt_moderate LoL coffee chain</Name>
-      <IconFilename>data/modgraphics/icons/icon_kaffeeroesterei.png</IconFilename>
-      <Version>dlc06</Version>
-    </Standard>
+  <ModOp GUID="124740" Type="replace" Path="/Values/Standard/IconFilename">
+    <IconFilename>data/modgraphics/icons/icon_kaffeeroesterei.png</IconFilename>
   </ModOp>
 
   <!-- Kaffee Icon ersetzen OW -->
-  <ModOp GUID="500902" Type="replace" Path="/Values/Standard">
-    <Standard>
-      <GUID>500902</GUID>
-      <Name>coffee chain</Name>
-      <IconFilename>data/modgraphics/icons/icon_kaffeeroesterei.png</IconFilename>
-    </Standard>
+  <ModOp GUID="500902" Type="replace" Path="/Values/Standard/IconFilename">
+    <IconFilename>data/modgraphics/icons/icon_kaffeeroesterei.png</IconFilename>
   </ModOp>
 
   <!-- Kaffee Icon ersetzen Neue Welt Produktionskette -->
-  <ModOp GUID="500913" Type="replace" Path="/Values/Standard">
-    <Standard>
-      <GUID>500913</GUID>
-      <Name>colony01 coffee chain</Name>
-      <IconFilename>data/modgraphics/icons/icon_kaffeeroesterei.png</IconFilename>
-    </Standard>
+  <ModOp GUID="500913" Type="replace" Path="/Values/Standard/IconFilename">
+    <IconFilename>data/modgraphics/icons/icon_kaffeeroesterei.png</IconFilename>
   </ModOp>
 
   <!-- Kaffee Icon ersetzen Arktis Production Chain -->
-  <ModOp GUID="117075" Type="Replace" Path="/Values/Standard">
-    <Standard>
-      <GUID>117075</GUID>
-      <Name>food_colony01_03 (Coffee Maker)</Name>
-      <IconFilename>data/modgraphics/icons/icon_kaffeeroesterei.png</IconFilename>
-    </Standard>
+  <ModOp GUID="117075" Type="replace" Path="/Values/Standard/IconFilename">
+    <IconFilename>data/modgraphics/icons/icon_kaffeeroesterei.png</IconFilename>
   </ModOp>
 
   <ModOp Type="add" GUID="502074,502072" Path="/Values/ProductList/List">
@@ -156,22 +133,19 @@
   </ModOp>
 
   <!-- Produkt Kaffeebohnen Enbesa -->
-  <ModOp GUID="120031" Type="replace" Path="/Values/Product">
-    <Product>
-      <ProductCategory>11702</ProductCategory>
-      <BasePrice>25</BasePrice>
-      <CivLevel>2</CivLevel>
-      <AssociatedRegion>Colony01;Africa</AssociatedRegion>
-      <StorageLevel>Building</StorageLevel>
-      <ProductionRegions>
-        <Item>
-          <RegionType>Colony01</RegionType>
-        </Item>
-        <Item>
-          <RegionType>Africa</RegionType>
-        </Item>
-      </ProductionRegions>
-    </Product>
+  <ModOp GUID="120031" Type="replace" Path="/Values/Product/AssociatedRegion">
+    <AssociatedRegion>Colony01;Africa</AssociatedRegion>
+  </ModOp>
+
+  <ModOp GUID="120031" Type="replace" Path="/Values/Product/ProductionRegions">
+    <ProductionRegions>
+      <Item>
+        <RegionType>Colony01</RegionType>
+      </Item>
+      <Item>
+        <RegionType>Africa</RegionType>
+      </Item>
+    </ProductionRegions>
   </ModOp>
 
   <ModOp Type="add" GUID="502076,502072" Path="/Values/ProductList/List">
@@ -182,7 +156,7 @@
   </ModOp>
 
   <!-- Kaffeeplantage in Enbesa -->
-  <ModOp Type="AddNextSibling" GUID="101251">
+  <ModOp Type="addNextSibling" GUID="101251">
     <Asset>
       <Template>FarmBuilding</Template>
       <Values>
@@ -290,17 +264,13 @@
           <FertilizerModuleData>
             <Module>25242</Module>
           </FertilizerModuleData>
-          <ModuleBuildRadius>0</ModuleBuildRadius>
           <EnableIrrigationFertilizer>1</EnableIrrigationFertilizer>
           <IrrigationLevelsWorking>LowWater;MediumWater;HighWater;FullWater</IrrigationLevelsWorking>
           <AmountNonIrrigatedModulesRequiredForInfolayer>4</AmountNonIrrigatedModulesRequiredForInfolayer>
           <MissingIrrigationInfolayerIcon>125036</MissingIrrigationInfolayerIcon>
-          <FarmType>PlantFarm</FarmType>
           <HardFarmsConfig>2</HardFarmsConfig>
+          <FarmType>PlantFarm</FarmType>
         </ModuleOwner>
-        <Motorizable>
-          <MotorizableType>Tractor</MotorizableType>
-        </Motorizable>
         <LogisticNode />
         <AmbientMoodProvider>
           <AmbientMood>AgricultureBuildingsSouthAmerica</AmbientMood>
@@ -356,6 +326,8 @@
         <Motorizable>
           <MotorizableType>Tractor</MotorizableType>
         </Motorizable>
+        <EcoSystemProvider />
+        <MonoCulture />
       </Values>
     </Asset>
   </ModOp>
@@ -364,7 +336,7 @@
       <GUID>1999000100</GUID>
     </Item>
   </ModOp>
-  <ModOp GUID="25000087" Type="Add" Path="/Values/WorkforceMenu/BoostableFactories">
+  <ModOp GUID="25000087" Type="add" Path="/Values/WorkforceMenu/BoostableFactories">
     <Item>
       <Factory>1999000100</Factory>
     </Item>
@@ -372,7 +344,7 @@
 
   <!-- Kaffeefelder in Enbesa -->
 
-  <ModOp GUID="114488" Type="addnextSibling">
+  <ModOp GUID="114488" Type="addNextSibling">
     <!-- Kaffeefeld -->
     <Asset>
       <Template>Farmfield</Template>
@@ -381,7 +353,6 @@
           <GUID>1999000108</GUID>
           <Name>(Coffee Field)</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/icon_farmfield_module.png</IconFilename>
-          <Version>dlc06</Version>
         </Standard>
         <Building>
           <AssociatedRegions>Africa</AssociatedRegions>
@@ -475,7 +446,14 @@
           </Variations>
         </Object>
         <Mesh />
-        <Selection />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
         <Text>
           <LocaText>
             <English>
@@ -647,11 +625,6 @@
           <MandatoryIndustrialization>0</MandatoryIndustrialization>
           <BoostedByIndustrialization>0</BoostedByIndustrialization>
         </Industrializable>
-        <Heated>
-          <RequiresHeat>0</RequiresHeat>
-        </Heated>
-        <StreetActivation />
-        <LogisticNode />
         <IncidentInfectable>
           <IncidentInfectionChanceFactors>
             <Fire>
@@ -661,6 +634,12 @@
             </Fire>
           </IncidentInfectionChanceFactors>
         </IncidentInfectable>
+        <Attackable />
+        <Culture />
+        <Pausable />
+        <QuestObject />
+        <Electrifiable />
+        <EcoSystemProvider />
       </Values>
     </Asset>
   </ModOp>
@@ -749,7 +728,7 @@
   </ModOp>
 
   <!-- Trigger Kaffee in Enbesa -->
-  <ModOp Type="addnextSibling" GUID="130248">
+  <ModOp Type="addNextSibling" GUID="130248">
     <Asset>
       <Template>Trigger</Template>
       <Values>
@@ -770,15 +749,6 @@
             </Values>
           </TriggerCondition>
           <TriggerActions>
-            <Item>
-              <TriggerAction>
-                <Template>ActionResetTrigger</Template>
-                <Values>
-                  <Action />
-                  <ActionResetTrigger />
-                </Values>
-              </TriggerAction>
-            </Item>
             <Item>
               <TriggerAction>
                 <Template>ActionUnlockAsset</Template>
@@ -826,7 +796,7 @@
     </Asset>
   </ModOp>
 
-  <ModOp Type="addnextSibling" GUID="130248">
+  <ModOp Type="addNextSibling" GUID="130248">
     <Asset>
       <Template>Trigger</Template>
       <Values>
@@ -847,15 +817,6 @@
             </Values>
           </TriggerCondition>
           <TriggerActions>
-            <Item>
-              <TriggerAction>
-                <Template>ActionResetTrigger</Template>
-                <Values>
-                  <Action />
-                  <ActionResetTrigger />
-                </Values>
-              </TriggerAction>
-            </Item>
             <Item>
               <TriggerAction>
                 <Template>ActionUnlockAsset</Template>
@@ -903,23 +864,20 @@
     </Asset>
   </ModOp>
 
-  <!-- Tabak in Enbesa -->
-  <ModOp GUID="1010252" Type="replace" Path="/Values/Product">
-    <Product>
-      <ProductCategory>11702</ProductCategory>
-      <BasePrice>50</BasePrice>
-      <CivLevel>2</CivLevel>
-      <AssociatedRegion>Colony01;Africa</AssociatedRegion>
-      <StorageLevel>Building</StorageLevel>
-      <ProductionRegions>
-        <Item>
-          <RegionType>Colony01</RegionType>
-        </Item>
-        <Item>
-          <RegionType>Africa</RegionType>
-        </Item>
-      </ProductionRegions>
-    </Product>
+  <!-- Tabakfarm in Enbesa -->
+  <ModOp GUID="1010252" Type="replace" Path="/Values/Product/AssociatedRegion">
+    <AssociatedRegion>Colony01;Africa</AssociatedRegion>
+  </ModOp>
+
+  <ModOp GUID="1010252" Type="replace" Path="/Values/Product/ProductionRegions">
+    <ProductionRegions>
+      <Item>
+        <RegionType>Colony01</RegionType>
+      </Item>
+      <Item>
+        <RegionType>Africa</RegionType>
+      </Item>
+    </ProductionRegions>
   </ModOp>
 
   <ModOp Type="add" GUID="502076,502072" Path="/Values/ProductList/List">
@@ -968,6 +926,12 @@
         </Object>
         <Mesh />
         <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
           <ParticipantMessageArcheType>Africa_Resident_tier01</ParticipantMessageArcheType>
           <Colors>
             <WeakSelectionColorType>NoColor</WeakSelectionColorType>
@@ -1014,7 +978,7 @@
               <Product>1010252</Product>
               <!-- Tabak -->
               <Amount>1</Amount>
-              <StorageAmount>1</StorageAmount>
+              <StorageAmount>2</StorageAmount>
             </Item>
           </FactoryOutputs>
           <CycleTime>60</CycleTime>
@@ -1039,7 +1003,6 @@
           <FertilizerModuleData>
             <Module>25242</Module>
           </FertilizerModuleData>
-          <ModuleBuildRadius>0</ModuleBuildRadius>
           <HardFarmsConfig>1</HardFarmsConfig>
           <EnableIrrigationFertilizer>1</EnableIrrigationFertilizer>
           <IrrigationLevelsWorking>LowWater;MediumWater;HighWater;FullWater</IrrigationLevelsWorking>
@@ -1072,11 +1035,6 @@
           <MandatoryIndustrialization>0</MandatoryIndustrialization>
           <BoostedByIndustrialization>0</BoostedByIndustrialization>
         </Industrializable>
-        <Heated>
-          <RequiresHeat>0</RequiresHeat>
-        </Heated>
-        <StreetActivation />
-        <LogisticNode />
         <IncidentInfectable>
           <IncidentInfectionChanceFactors>
             <Fire>
@@ -1086,6 +1044,13 @@
             </Fire>
           </IncidentInfectionChanceFactors>
         </IncidentInfectable>
+        <EcoSystemProvider />
+        <MonoCulture />
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>1500</MaximumHitPoints>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
       </Values>
     </Asset>
   </ModOp>
@@ -1096,14 +1061,14 @@
     </Item>
   </ModOp>
 
-  <ModOp GUID="25000087" Type="add" Path="/Values/WorkforceMenu/BoostableFactories">
+  <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
     <Item>
       <Factory>1999000102</Factory>
     </Item>
   </ModOp>
 
   <!-- Tabakfeld in Enbesa -->
-  <ModOp GUID="114488" Type="addnextSibling">
+  <ModOp Type="addNextSibling" GUID="114488">
     <!-- Tabakfeld -->
     <Asset>
       <Template>Farmfield</Template>
@@ -1112,7 +1077,6 @@
           <GUID>1999000109</GUID>
           <Name>(Tabaco Field)</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/icon_farmfield_module.png</IconFilename>
-          <Version>dlc06</Version>
         </Standard>
         <Building>
           <AssociatedRegions>Africa</AssociatedRegions>
@@ -1209,7 +1173,14 @@
           </Variations>
         </Object>
         <Mesh />
-        <Selection />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
         <Text>
           <LocaText>
             <English>
@@ -1258,22 +1229,14 @@
   </ModOp>
 
   <!-- Tonpfeifenproduktionskette ersetzen -->
-  <ModOp GUID="114619" Type="replace" Path="/Values/ProductionChain">
-    <ProductionChain>
-      <Building>114472</Building>
-      <Tier1>
-        <Item>
-          <Building>117743</Building>
-        </Item>
-        <Item>
-          <Building>1999000102</Building>
-        </Item>
-      </Tier1>
-    </ProductionChain>
+  <ModOp Type="replace" GUID="114619" Path="/Values/ProductionChain/Tier1/Item[Building = '1010330']">
+    <Item>
+      <Building>1999000102</Building>
+    </Item>
   </ModOp>
 
   <!-- Trigger Tabak in Enbesa -->
-  <ModOp Type="addnextSibling" GUID="130248">
+  <ModOp Type="addNextSibling" GUID="130248">
     <Asset>
       <Template>Trigger</Template>
       <Values>
@@ -1294,15 +1257,6 @@
             </Values>
           </TriggerCondition>
           <TriggerActions>
-            <Item>
-              <TriggerAction>
-                <Template>ActionResetTrigger</Template>
-                <Values>
-                  <Action />
-                  <ActionResetTrigger />
-                </Values>
-              </TriggerAction>
-            </Item>
             <Item>
               <TriggerAction>
                 <Template>ActionUnlockAsset</Template>
@@ -1341,7 +1295,7 @@
       </Values>
     </Asset>
   </ModOp>
-  <ModOp Type="addnextSibling" GUID="130248">
+  <ModOp Type="addNextSibling" GUID="130248">
     <Asset>
       <Template>Trigger</Template>
       <Values>
@@ -1362,15 +1316,6 @@
             </Values>
           </TriggerCondition>
           <TriggerActions>
-            <Item>
-              <TriggerAction>
-                <Template>ActionResetTrigger</Template>
-                <Values>
-                  <Action />
-                  <ActionResetTrigger />
-                </Values>
-              </TriggerAction>
-            </Item>
             <Item>
               <TriggerAction>
                 <Template>ActionUnlockAsset</Template>

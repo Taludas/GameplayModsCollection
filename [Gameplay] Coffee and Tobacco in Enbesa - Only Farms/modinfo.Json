@@ -1,7 +1,11 @@
 {
-  "Version": "1.4",
-  "ModID": "Taludas_CoffeeTobaccoEnbesa",
-  "IncompatibleIds": null,
+  "Version": "1.5",
+  "ModID": "Taludas_CoffeeTobaccoEnbesaFarmsOnly",
+  "IncompatibleIds": [
+    "Taludas_CoffeeTobaccoEnbesaFull",
+    "Taludas_CoffeeTobaccoEnbesaLight",
+    "Taludas_CoffeeTobaccoEnbesaSuperLight"
+  ],
   "ModDependencies": null,
   "Category": {
     "Chinese": "Gameplay",
@@ -17,17 +21,17 @@
     "Taiwanese": "Gameplay"
   },
   "ModName": {
-    "Chinese": "Coffee and Tobacoo in Enbesa",
-    "English": "Coffee and Tobacoo in Enbesa",
-    "French": "Coffee and Tobacoo in Enbesa",
-    "German": "Coffee and Tobacoo in Enbesa",
-    "Italian": "Coffee and Tobacoo in Enbesa",
-    "Japanese": "Coffee and Tobacoo in Enbesa",
-    "Korean": "Coffee and Tobacoo in Enbesa",
-    "Polish": "Coffee and Tobacoo in Enbesa",
-    "Russian": "Coffee and Tobacoo in Enbesa",
-    "Spanish": "Coffee and Tobacoo in Enbesa",
-    "Taiwanese": "Coffee and Tobacoo in Enbesa"
+    "Chinese": "Coffee and Tobacoo in Enbesa - Farms Only",
+    "English": "Coffee and Tobacoo in Enbesa - Farms Only",
+    "French": "Coffee and Tobacoo in Enbesa - Farms Only",
+    "German": "Coffee and Tobacoo in Enbesa - Farms Only",
+    "Italian": "Coffee and Tobacoo in Enbesa - Farms Only",
+    "Japanese": "Coffee and Tobacoo in Enbesa - Farms Only",
+    "Korean": "Coffee and Tobacoo in Enbesa - Farms Only",
+    "Polish": "Coffee and Tobacoo in Enbesa - Farms Only",
+    "Russian": "Coffee and Tobacoo in Enbesa - Farms Only",
+    "Spanish": "Coffee and Tobacoo in Enbesa - Farms Only",
+    "Taiwanese": "Coffee and Tobacoo in Enbesa - Farms Only"
   },
   "Description": {
     "Chinese": null,

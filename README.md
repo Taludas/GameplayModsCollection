@@ -4,23 +4,31 @@
 
 ## How to use
 
-- Be sure how to use either the [Anno Mod Manager](https://www.nexusmods.com/anno1800/mods/35) or the [Anno Mod Loader](https://github.com/xforce/anno1800-mod-loader) directly.
+- Be sure how to use either the [iModYourAnno Anno Mod Manager](https://github.com/anno-mods/iModYourAnno) or the [Anno Mod Loader](https://github.com/xforce/anno1800-mod-loader) directly.
 - Make sure you always have the latest version of the Anno Mod Loader installed.
 - download the mod archieve from [GitHub releases](https://github.com/Taludas/GameplayModsCollection/releases)
-- select the relevant mods and drag them to your 1800 Mod Folder or use the AMM to install.
+- select the relevant mods and drag them to your 1800 Mod Folder or use the iModYourAnno Anno Mod Manager to install.
 
-***These Mods are savegame-compatible. Please install only one version of the Coffe and Tobacco in ENbesa mod! Delete or disable the other mods through renaming them with "-" in front.***
+***These Mods are savegame-compatible. Please install only one version of the Coffee and Tobacco in Enbesa mod (iModYourAnno Anno Mod Manager will warn you about incompatibility)! Delete or disable the other mods!***
 
 ## Mod Images
 You can find a gallery of images from my mod [here](https://drive.google.com/drive/folders/1zzSFYF4OY3BeBJWS7EzDVFm9_jXvVkO-?usp=sharing).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.1</summary>
+
+* Added Support for GU16 to all mods.
+* Fixed minor bugs with Coffee and Tobacco in Enbesa
+* Fixed File missplacment with Alkaloid Collection and Museum, Zoo and Botanicaql Garden in Enbesa, where the mods had the assets file of the opposite one.
+</details>
+
+<details>
     <summary>Patch Notes Version 1.0</summary>
 
 * Added Support for GU15 to all mods.
 * Fixed minor bugs with Coffee and Tobacco in Enbesa, where the tobacco plantation couldn't be build due to missing build menu entry as well as farms and production buildings not being buffed by influence buff Captain of Industries.
-* Fixed minor bugs with Arctic Zoom, where sometimes artic skinned enclosures would be visable in the Old World and empty normal enclosures in the Arctic.
+* Fixed minor bugs with Arctic Zoo, where sometimes artic skinned enclosures would be visable in the Old World and empty normal enclosures in the Arctic.
 </details>
 
 ## Mod Description with main feature overview
