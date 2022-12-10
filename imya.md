@@ -1,6 +1,6 @@
 # GameplayModsCollection
  
- This is a collection of my standalone gameplay mods for Anno 1800, bringing new features to the game or modifying existing ones.
+This is a collection of my standalone gameplay mods for Anno 1800, bringing new features to the game or modifying existing ones.
 
 ***These Mods are savegame-compatible. Please install only one version of the Coffee and Tobacco in Enbesa mod (iModYourAnno Anno Mod Manager will warn you about incompatibility)! Delete or disable the other mods!***
 
