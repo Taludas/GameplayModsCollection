@@ -1,5 +1,5 @@
 {
-  "Version": "1.3",
+  "Version": "1.3.1",
   "ModID": "Taludas_ZooMuseumBotanicalGardenInEnbesa",
   "IncompatibleIds": null,
   "ModDependencies": [
@@ -23,23 +23,23 @@
     "Taiwanese": "Gameplay"
   },
   "ModName": {
-    "Chinese": "The Alkaloid Collection",
-    "English": "The Alkaloid Collection",
-    "French": "The Alkaloid Collection",
-    "German": "The Alkaloid Collection",
-    "Italian": "The Alkaloid Collection",
-    "Japanese": "The Alkaloid Collection",
-    "Korean": "The Alkaloid Collection",
-    "Polish": "The Alkaloid Collection",
-    "Russian": "The Alkaloid Collection",
-    "Spanish": "The Alkaloid Collection",
-    "Taiwanese": "The Alkaloid Collection"
+    "Chinese": "Zoo, Museum and Botanical Garden in Enbesa",
+    "English": "Zoo, Museum and Botanical Garden in Enbesa",
+    "French": "Zoo, Museum and Botanical Garden in Enbesa",
+    "German": "Zoo, Museum and Botanical Garden in Enbesa",
+    "Italian": "Zoo, Museum and Botanical Garden in Enbesa",
+    "Japanese": "Zoo, Museum and Botanical Garden in Enbesa",
+    "Korean": "Zoo, Museum and Botanical Garden in Enbesa",
+    "Polish": "Zoo, Museum and Botanical Garden in Enbesa",
+    "Russian": "Zoo, Museum and Botanical Garden in Enbesa",
+    "Spanish": "Zoo, Museum and Botanical Garden in Enbesa",
+    "Taiwanese": "Zoo, Museum and Botanical Garden in Enbesa"
   },
   "Description": {
     "Chinese": null,
-    "English": "Been missing the typical plant based consumption goods of the 19th century? Look no further, at least I got you the plants!",
+    "English": "Bring some culture to your colony! Build zoo, museum and botanical garden in the Land of Lions to get some nice bonus effects from it and beautify your settlement!",
     "French": null,
-    "German": "Vermisst Ihr die typischen pflanzlichen Konsumgüter des 19. Jahrhunderts? Sucht nicht weiter, ich habe euch wenigstens die Pflanzen besorgt!",
+    "German": "Bringt etwas Kultur in Eure Kolonie! Errichtet einen Zoo, ein Museum und einen botanischen Garten im Land der Löwen, um einige nette Bonuseffekte zu erhalten und Eure Siedlung zu verschönern!",
     "Italian": null,
     "Japanese": null,
     "Korean": null,
