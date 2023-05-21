@@ -2,6 +2,10 @@
  
 This is a collection of my standalone gameplay mods for Anno 1800, bringing new features to the game or modifying existing ones.
 
+If you like this mod and want to support me, feel free to share it with your friends. You can also buy me a coffee at Ko-Fi (yes, I want to raise my coffee consume to Investor's hight!)
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W8L558T)
+
 ***These Mods are savegame-compatible. Please install only one version of the Coffee and Tobacco in Enbesa mod (iModYourAnno Anno Mod Manager will warn you about incompatibility)! Delete or disable the other mods!***
 
 ## Mod Description with main feature overview
