@@ -1,0 +1,141 @@
+<ModOps>
+  <!-- # Product: Sewing Thread -->
+  <ModOp GUID="1010197" Type="addNextSibling">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1500020010</GUID>
+          <Name>Sewing Thread</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_wool.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11703</ProductCategory>
+          <BasePrice>40</BasePrice>
+          <CivLevel>1</CivLevel>
+          <AssociatedRegion>Moderate;Colony01</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+            <Item>
+              <RegionType>Colony01</RegionType>
+            </Item>                
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>15</BaseMorale>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp GUID="1010267,1010197,151174" Type="replace" Path= "/Values/Standard/IconFilename">
+    <IconFilename>data/products\sewing-thread\icon_wool_raw.png</IconFilename> 
+  </ModOp>
+
+  <!-- # Lists: After Wool / Alpacawool -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="120055"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1500020010']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010197']">
+      <Item>
+        <Product>1500020010</Product>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="502017,502004"
+      Condition="!~/Values/ProductList/List/Item[Product='1500020010']"
+      Path="/Values/ProductList/List/Item[Product='1010197']">
+      <Item>
+        <Product>1500020010</Product>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="502022,502008"
+      Condition="!~/Values/ProductList/List/Item[Product='1500020010']"
+      Path="/Values/ProductList/List/Item[Product='120036']">
+      <Item>
+        <Product>1500020010</Product>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="addPrevSibling" GUID="502043,502044"
+      Condition="!~/Values/ProductList/List/Item[Product='1500020010']"
+      Path="/Values/ProductList/List/Item[1]">
+      <Item>
+        <Product>1500020010</Product>
+      </Item>
+    </ModOp>
+  </Group>
+
+  <!-- # Docklands: Old Levant -->
+  <Group Condition="!//TradeLevels/Item/Trades[Item/Good='1500020010']">
+    <ModOp Type="addNextSibling" GUID="1010197"
+      Condition="!//FactoryBase[FactoryOutputs/Item/Product='1500020010']/IsMainFactory[text()='1']">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>1500020003</GUID>
+            <Name>IsMainFactory_Fake: Sewing Thread</Name>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+          </Building>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/graphics/buildings/production/processing_04/processing_04.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Locked />
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>1010197</Product>
+                <Amount>1</Amount>
+                <StorageAmount>5</StorageAmount>
+              </Item>								
+            </FactoryInputs>
+            <FactoryOutputs>
+              <Item>
+                <Product>1500020010</Product>
+                <Amount>1</Amount>
+                <StorageAmount>5</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>30</CycleTime>				  
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010052</Product>
+                <Amount>50</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+        </Values>
+      </Asset>   
+    </ModOp>
+
+    <ModOp Type="add" GUID="131764"
+      Path="/Values/TradeContractFeature/Traders/Item[TraderName='131811']/TradeLevels/Item/Trades[Item/Good='1010197']">
+      <Item>
+      	<Level>Uncommon</Level>
+        <Good>1500020010</Good>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="502237" Path="/Values/ProductList/List">
+      <Item>
+        <Product>1500020010</Product>
+      </Item>
+    </ModOp>
+  </Group>
+</ModOps>

@@ -1,0 +1,11 @@
+<ModOps>
+  <Include File="/data/products/barrels/assets.include.xml" />
+  <Include File="/data/products/cattle/assets.include.xml" />
+  <Include File="/data/products/cherries/assets.include.xml" />
+  <Include File="/data/products/sewing-thread/assets.include.xml" />
+  <Include File="/data/products/wool-fabric/assets.include.xml" />
+  <Include File="/data/products/wanza-wood/assets.include.xml" />
+  <Include File="/data/products/cherry-timber/assets.include.xml" />
+</ModOps>
+
+<!-- force cache refresh: 1681659901936 -->

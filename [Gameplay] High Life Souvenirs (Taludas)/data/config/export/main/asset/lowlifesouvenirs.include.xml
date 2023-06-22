@@ -1,0 +1,1494 @@
+<ModOps>
+    <Group Condition="!@1999002247">
+        <!-- #Remove Souvenir Chemical Plant from important occurrence in ItemEffects-->
+        <ModOp Type="remove" GUID="136746"
+            Path="/Values/ItemEffect/EffectTargets/Item[GUID='133533']"></ModOp>
+        <ModOp Type="remove" GUID="194011"
+            Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='133533']"></ModOp>
+        <ModOp Type="remove" GUID="132774" Path="/Values/RecipeList/Recipes/Item[Recipe='133534']"></ModOp>
+
+        <!-- #Change souvenir Product to show in the worker workforce boost -->
+        <ModOp Type="remove" GUID="502007" Path="/Values/ProductList/List/Item[Product='133532']"></ModOp>
+    </Group>
+
+    <ModOp Type="addNextSibling" GUID="502005"
+        Path="/Values/ProductList/List/Item[Product='1010232']">
+        <Item>
+            <Product>133532</Product>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="700053" Path="/Values/PlayerCounterContextPool/Contexts">
+        <Item>
+            <Asset>133532</Asset>
+        </Item>
+    </ModOp>
+
+    <!-- #Add new multifactory assembly line for souvenirs-->
+    <ModOp Type="addNextSibling" GUID="133533">
+        <Asset>
+            <Template>Multifactory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000050</GUID>
+                    <Name>Assembly Line: Souvenirs</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_souvenir.png</IconFilename>
+                    <InfoDescription>132783</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>132773</BuildingCategoryName>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>
+                                data/modgraphics/models/multifactory_02_03/multifactory_souvenirs.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>49000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>50</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>30</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Mesh />
+                <Selection>
+                    <GUIType>Production</GUIType>
+                    <StaticHelpEntryPoint>HighLifeAssemblyLines</StaticHelpEntryPoint>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Assembly Line: Souvenirs</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>52155</LineID>
+                </Text>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>410084</DLCDependency>
+                </Locked>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Multifactory</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <Sound>279511</Sound>
+                        </Item>
+                    </ActiveSounds>
+                </SoundEmitter>
+                <Factory7 />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>1010241</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>5</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010204</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>5</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>135150</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>5</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <FactoryOutputs>
+                        <Item>
+                            <Product>133532</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>4</StorageAmount>
+                        </Item>
+                    </FactoryOutputs>
+                    <IsMainFactory>0</IsMainFactory>
+                </FactoryBase>
+                <LogisticNode />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>600</Amount>
+                            <InactiveAmount>300</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010115</Product>
+                            <Amount>300</Amount>
+                            <InactiveAmount>150</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Industrializable>
+                    <MandatoryIndustrialization>1</MandatoryIndustrialization>
+                </Industrializable>
+                <IncidentInfectable>
+                    <Explosion>
+                        <ExplosionCoreDamage>2000</ExplosionCoreDamage>
+                        <DamageExplosionChance>15</DamageExplosionChance>
+                    </Explosion>
+                    <IncidentInfectionChanceFactors>
+                        <Explosion>
+                            <BaseChance>4</BaseChance>
+                        </Explosion>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Electrifiable />
+                <AmbientMoodProvider>
+                    <Murmur>Factory</Murmur>
+                </AmbientMoodProvider>
+                <Attackable>
+                    <MaximumHitPoints>5000</MaximumHitPoints>
+                </Attackable>
+                <UpgradeList />
+                <Pausable />
+                <FeedbackController />
+                <Infolayer />
+                <RecipeBuilding>
+                    <RecipeList>134620</RecipeList>
+                </RecipeBuilding>
+                <Culture>
+                    <Attractiveness>-5</Attractiveness>
+                    <HasPollution>1</HasPollution>
+                </Culture>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="1999000050" Path="/Values/FactoryBase/IsMainFactory"
+        Condition="!@1999002247">
+        <IsMainFactory>1</IsMainFactory>
+    </ModOp>
+    <ModOp Type="replace" GUID="133533" Path="/Values/FactoryBase/IsMainFactory"
+        Condition="!@1999002247">
+        <IsMainFactory>0</IsMainFactory>
+    </ModOp>
+
+    <!-- #Add new Souvenir Recipe -->
+    <ModOp Type="addNextSibling" GUID="135419">
+        <Asset>
+            <Template>Recipe</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000051</GUID>
+                    <Name>Recipe_Souvenirs</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_souvenir.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Souvenirs</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>52424</LineID>
+                </Text>
+                <Recipe>
+                    <RecipeBuilding>1999000050</RecipeBuilding>
+                    <RecipeDescriptionText>1999000052</RecipeDescriptionText>
+                    <RecipeImage>
+                        data/ui/2kimages/main/assets/recipebook/chemical_factory/recipebook_chemical_souvenir.png</RecipeImage>
+                    <RecipeIngredientUIData>
+                        <Item>
+                            <PosX>-5</PosX>
+                            <PosY>10</PosY>
+                            <UICirclePointer>SouthEast</UICirclePointer>
+                        </Item>
+                        <Item>
+                            <PosX>400</PosX>
+                            <PosY>60</PosY>
+                            <UICirclePointer>SouthWest</UICirclePointer>
+                        </Item>
+                        <Item>
+                            <PosX>-15</PosX>
+                            <PosY>275</PosY>
+                            <UICirclePointer>East</UICirclePointer>
+                        </Item>
+                    </RecipeIngredientUIData>
+                    <RecipeUnlockConditionText>135017</RecipeUnlockConditionText>
+                </Recipe>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- #Souvenirs Assembly Line and Recipe Unlock Trigger -->
+    <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002243</GUID>
+                    <Name>Souvenir Assembly Line and Recipe Trigger</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>601379</Context>
+                                <CounterAmount>2000</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1999000050</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999000051</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1999000050</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999000051</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- #Add new Souvenir Recipe to the RecipeList Assembly Line -->
+    <ModOp Type="addPrevSibling" GUID="134620"
+        Path="/Values/RecipeList/Recipes/Item[Recipe='134621']">
+        <Item>
+            <Recipe>1999000051</Recipe>
+        </Item>
+    </ModOp>
+
+    <!-- #Replace ProductionChain Souvenirs Vanilla-Glass-->
+    <ModOp Type="addNextSibling" GUID="137609">
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000059</GUID>
+                    <Name>souvenir chain</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_souvenir.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1999000050</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>1010319</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1010560</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                        <Item>
+                            <Building>1010282</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1010307</Building>
+                                </Item>
+                                <Item>
+                                    <Building>1010308</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                        <Item>
+                            <Building>135224</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1010331</Building>
+                                </Item>
+                                <Item>
+                                    <Building>134614</Building>
+                                </Item>
+                                <Item>
+                                    <Building>135134</Building>
+                                    <Tier3>
+                                        <Item>
+                                            <Building>1010266</Building>
+                                        </Item>
+                                        <Item>
+                                            <Building>101270</Building>
+                                        </Item>
+                                    </Tier3>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked />
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Souvenir</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>51953</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000060</GUID>
+                    <Name>Separate Souvenir ProductionChain Unhide Trigger</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>601379</Context>
+                                <CounterAmount>1500</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1999000059</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000061</GUID>
+                    <Name>Separate Souvenir ProductionChain Unhide Trigger</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>601379</Context>
+                                <CounterAmount>2000</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1999000059</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <Group Condition="!@1999002247">
+        <ModOp Type="replace" GUID="500945,132779"
+            Path="/Values/ConstructionCategory/BuildingList/Item[Building='137609']">
+            <Item>
+                <Building>1999000059</Building>
+            </Item>
+        </ModOp>
+    </Group>
+
+    <Group Condition="@1999002247">
+        <ModOp Type="addNextSibling" GUID="500945,132779"
+            Path="/Values/ConstructionCategory/BuildingList/Item[Building='137609']">
+            <Item>
+                <Building>1999000059</Building>
+            </Item>
+        </ModOp>
+    </Group>
+
+    <!-- #Change Items/Assets to correctly match the new AssemblyLine -->
+    <ModOp Type="addPrevSibling" GUID="194023"
+        Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='134622']">
+        <Item>
+            <GUID>1999000050</GUID>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="142311" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>1999000050</Building>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="addPrevSibling" GUID="25000087"
+        Path="/Values/WorkforceMenu/BoostableFactories/Item[Factory='134622']">
+        <Item>
+            <Factory>1999000050</Factory>
+        </Item>
+    </ModOp>
+
+    <Group Condition="!@1999002247">
+        <ModOp Type="replace" GUID="280092"
+            Path="/Values/ItemEffect/EffectTargets/Item[GUID='133533']">
+            <Item>
+                <GUID>1999000050</GUID>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="replace" GUID="134717" Path="/Values/AssetPool/AssetList/Item[Asset='133533']">
+            <Item>
+                <Asset>1999000050</Asset>
+            </Item>
+        </ModOp>
+    </Group>
+    <Group Condition="@1999002247">
+        <ModOp Type="addNextSibling" GUID="280092"
+            Path="/Values/ItemEffect/EffectTargets/Item[GUID='133533']">
+            <Item>
+                <GUID>1999000050</GUID>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="134717"
+            Path="/Values/AssetPool/AssetList/Item[Asset='1999000040']">
+            <Item>
+                <Asset>1999000050</Asset>
+            </Item>
+        </ModOp>
+    </Group>
+
+    <Group Condition="!@1999002247">
+        <!-- #Remove Ethanol and Celluloid from BuildingLists in the Investor Tier and rearrange the
+	BuildingList Obreros -->
+        <ModOp Type="remove" GUID="500447"
+            Path="/Values/ConstructionCategory/BuildingList/Item[Building='137606']"></ModOp>
+        <ModOp Type="remove" GUID="500945"
+            Path="/Values/ConstructionCategory/BuildingList/Item[Building='137606']"></ModOp>
+
+        <ModOp Type="remove" GUID="25000194"
+            Path="/Values/ConstructionCategory/BuildingList/Item[Building='137605']"></ModOp>
+        <ModOp Type="remove" GUID="25000194"
+            Path="/Values/ConstructionCategory/BuildingList/Item[Building='137606']"></ModOp>
+
+        <ModOp Type="addNextSibling" GUID="25000194"
+            Path="/Values/ConstructionCategory/BuildingList/Item[Building='500909']">
+            <Item>
+                <Building>137605</Building>
+            </Item>
+        </ModOp>
+        <ModOp Type="addNextSibling" GUID="25000194"
+            Path="/Values/ConstructionCategory/BuildingList/Item[Building='137605']">
+            <Item>
+                <Building>137606</Building>
+            </Item>
+        </ModOp>
+
+
+        <ModOp Type="remove" GUID="500950"
+            Path="/Values/ConstructionCategory/BuildingList/Item[Building='137605']"></ModOp>
+        <ModOp Type="remove" GUID="500950"
+            Path="/Values/ConstructionCategory/BuildingList/Item[Building='137606']"></ModOp>
+
+        <ModOp Type="addNextSibling" GUID="500950"
+            Path="/Values/ConstructionCategory/BuildingList/Item[Building='500909']">
+            <Item>
+                <Building>137605</Building>
+            </Item>
+        </ModOp>
+        <ModOp Type="addNextSibling" GUID="500950"
+            Path="/Values/ConstructionCategory/BuildingList/Item[Building='137605']">
+            <Item>
+                <Building>137606</Building>
+            </Item>
+        </ModOp>
+
+        <!-- #Rearrange Chemical Plant Formulas NW -->
+        <ModOp Type="remove" GUID="135226" Path="/Values/RecipeList/Recipes/Item[Recipe='135223']"></ModOp>
+
+        <ModOp Type="addNextSibling" GUID="135226"
+            Path="/Values/RecipeList/Recipes/Item[Recipe='135222']">
+            <Item>
+                <Recipe>135223</Recipe>
+            </Item>
+        </ModOp>
+
+        <!-- #Unlock Ethanol and Celluloid Productionchain in NW earlier -->
+        <ModOp Type="addNextSibling" GUID="130248">
+            <Asset>
+                <Template>Trigger</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999002244</GUID>
+                        <Name>Unhide Ethanol and Celluloid ProductionChains NW earlier</Name>
+                    </Standard>
+                    <Trigger>
+                        <TriggerCondition>
+                            <Template>ConditionPlayerCounter</Template>
+                            <Values>
+                                <Condition />
+                                <ConditionPlayerCounter>
+                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                    <Context>15000006</Context>
+                                    <CounterAmount>1500</CounterAmount>
+                                </ConditionPlayerCounter>
+                            </Values>
+                        </TriggerCondition>
+                        <TriggerActions>
+                            <Item>
+                                <TriggerAction>
+                                    <Template>ActionUnlockAsset</Template>
+                                    <Values>
+                                        <Action />
+                                        <ActionUnlockAsset>
+                                            <UnhideAssets>
+                                                <Item>
+                                                    <Asset>137605</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>137606</Asset>
+                                                </Item>
+                                            </UnhideAssets>
+                                        </ActionUnlockAsset>
+                                    </Values>
+                                </TriggerAction>
+                            </Item>
+                        </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="130248">
+            <Asset>
+                <Template>Trigger</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999002245</GUID>
+                        <Name>Unlock Ethanol and Celluloid ProductionChains NW earlier</Name>
+                    </Standard>
+                    <Trigger>
+                        <TriggerCondition>
+                            <Template>ConditionPlayerCounter</Template>
+                            <Values>
+                                <Condition />
+                                <ConditionPlayerCounter>
+                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                    <Context>15000006</Context>
+                                    <CounterAmount>2000</CounterAmount>
+                                </ConditionPlayerCounter>
+                            </Values>
+                        </TriggerCondition>
+                        <TriggerActions>
+                            <Item>
+                                <TriggerAction>
+                                    <Template>ActionUnlockAsset</Template>
+                                    <Values>
+                                        <Action />
+                                        <ActionUnlockAsset>
+                                            <UnlockAssets>
+                                                <Item>
+                                                    <Asset>137605</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>137606</Asset>
+                                                </Item>
+                                            </UnlockAssets>
+                                        </ActionUnlockAsset>
+                                    </Values>
+                                </TriggerAction>
+                            </Item>
+                        </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                </Values>
+            </Asset>
+        </ModOp>
+    </Group>
+
+    <!-- #Unlock Ethanol and Celluloid Recipes in NW earlier -->
+    <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002246</GUID>
+                    <Name>Unhide/Unlock Ethanol and Celluloid Recipes NW earlier</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>2000</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>135147</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>135222</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>135147</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>135222</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+
+
+    <!-- #Souvenirladen, der Hotels und den Besucherhafen bufft, und dabei Souvenirs verbraucht ->
+	Ausgleich für den Mehraufwand -->
+    <Group Condition="!@1999002257">
+        <ModOp Type="addNextSibling" GUID="134725">
+            <Asset>
+                <Template>BuffFactory</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999002257</GUID>
+                        <Name>Souvenirladen 2x2 BuffFactory</Name>
+                        <IconFilename>
+                            data/ui/2kimages/main/3dicons/ornaments/tourism/tourism_ornaments_kiosk_01.png</IconFilename>
+                        <InfoDescription>1999002258</InfoDescription>
+                    </Standard>
+                    <Text>
+                        <LocaText>
+                            <English>
+                                <Text>Buff Building</Text>
+                                <Status>Exported</Status>
+                            </English>
+                        </LocaText>
+                        <LineID>36881</LineID>
+                    </Text>
+                    <Building>
+                        <BuildingCategoryName>136515</BuildingCategoryName>
+                        <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                        <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+                        <SecondPartyRelevant>0</SecondPartyRelevant>
+                    </Building>
+                    <Blocking />
+                    <Mesh />
+                    <BuffFactory>
+                        <BaseBuff>1999002266</BaseBuff>
+                        <BaseBuffScope>Radius</BaseBuffScope>
+                        <BaseBuffDistance>10</BaseBuffDistance>
+                        <ProductionBuffs>
+                            <Item>
+                                <ProductivityBuff>1999002261</ProductivityBuff>
+                            </Item>
+                        </ProductionBuffs>
+                        <ProductionBuffScope>Radius</ProductionBuffScope>
+                        <ProductionBuffDistance>10</ProductionBuffDistance>
+                    </BuffFactory>
+                    <FactoryBase>
+                        <FactoryInputs>
+                            <Item>
+                                <Product>133532</Product>
+                                <Amount>1</Amount>
+                                <StorageAmount>10</StorageAmount>
+                            </Item>
+                        </FactoryInputs>
+                        <CycleTime>300</CycleTime>
+                        <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                        <ClampedMaxTransporterLogisticCost>60</ClampedMaxTransporterLogisticCost>
+                    </FactoryBase>
+                    <FeedbackController />
+                    <Pausable />
+                    <Selection>
+                        <OnSelection>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <ActionList />
+                            </Values>
+                        </OnSelection>
+                        <ParticipantMessageArcheType>Resident_Tourist</ParticipantMessageArcheType>
+                    </Selection>
+                    <Attackable />
+                    <Maintenance>
+                        <Maintenances>
+                            <Item>
+                                <Product>1010017</Product>
+                                <Amount>50</Amount>
+                            </Item>
+                            <Item>
+                                <Product>132723</Product>
+                                <Amount>20</Amount>
+                            </Item>
+                        </Maintenances>
+                    </Maintenance>
+                    <AmbientMoodProvider />
+                    <LogisticNode>
+                        <TransporterCountMax>1</TransporterCountMax>
+                    </LogisticNode>
+                    <Constructable />
+                    <Locked>
+                        <DLCDependency>410084</DLCDependency>
+                    </Locked>
+                    <IncidentInfectable />
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>
+                                    data/modgraphics/models/souvenir_shop_01/souvenir_shop_01.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <SoundEmitter />
+                    <Cost>
+                        <Costs>
+                            <Item>
+                                <Ingredient>1010017</Ingredient>
+                                <Amount>500</Amount>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010196</Ingredient>
+                                <Amount>10</Amount>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010205</Ingredient>
+                                <Amount>5</Amount>
+                            </Item>
+                        </Costs>
+                    </Cost>
+                    <BuildingModule />
+                    <Infolayer />
+                    <UpgradeList />
+                    <Industrializable>
+                        <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                    </Industrializable>
+                </Values>
+            </Asset>
+            <Asset>
+                <BaseAssetGUID>1999002257</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1999002259</GUID>
+                        <Name>Souvenirladen 1x1 BuffFactory Postcards</Name>
+                        <IconFilename>
+                            data/ui/2kimages/main/3dicons/ornaments/tourism/tourism_ornaments_kiosk_02.png</IconFilename>
+                        <InfoDescription>1999002258</InfoDescription>
+                    </Standard>
+                    <Text />
+                    <Building>
+                        <BuildingCategoryName>136515</BuildingCategoryName>
+                    </Building>
+                    <Blocking />
+                    <Mesh />
+                    <BuffFactory>
+                        <BaseBuffDistance>8</BaseBuffDistance>
+                        <ProductionBuffDistance>8</ProductionBuffDistance>
+                    </BuffFactory>
+                    <FactoryBase />
+                    <FeedbackController />
+                    <Pausable />
+                    <Selection />
+                    <Attackable />
+                    <Maintenance>
+                        <Maintenances>
+                            <Item>
+                                <Product>1010017</Product>
+                                <Amount>25</Amount>
+                            </Item>
+                            <Item>
+                                <Product>132723</Product>
+                                <Amount>10</Amount>
+                            </Item>
+                        </Maintenances>
+                    </Maintenance>
+                    <AmbientMoodProvider />
+                    <LogisticNode />
+                    <Constructable />
+                    <Locked />
+                    <IncidentInfectable />
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>
+                                    data/modgraphics/models/souvenir_shop_01/souvenir_shop_02.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <SoundEmitter />
+                    <Cost>
+                        <Costs>
+                            <Item>
+                                <Ingredient>1010017</Ingredient>
+                                <Amount>250</Amount>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010196</Ingredient>
+                                <Amount>5</Amount>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010205</Ingredient>
+                                <Amount>2</Amount>
+                            </Item>
+                        </Costs>
+                    </Cost>
+                    <BuildingModule />
+                    <Infolayer />
+                    <UpgradeList />
+                    <Industrializable />
+                </Values>
+            </Asset>
+            <Asset>
+                <BaseAssetGUID>1999002257</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1999002260</GUID>
+                        <Name>Souvenirladen 1x1 BuffFactory Kiosk</Name>
+                        <IconFilename>
+                            data/ui/2kimages/main/3dicons/ornaments/tourism/tourism_ornaments_kiosk_03.png</IconFilename>
+                        <InfoDescription>1999002258</InfoDescription>
+                    </Standard>
+                    <Text />
+                    <Building>
+                        <BuildingCategoryName>136515</BuildingCategoryName>
+                    </Building>
+                    <Blocking />
+                    <Mesh />
+                    <BuffFactory>
+                        <BaseBuffDistance>8</BaseBuffDistance>
+                        <ProductionBuffDistance>8</ProductionBuffDistance>
+                    </BuffFactory>
+                    <FactoryBase />
+                    <FeedbackController />
+                    <Pausable />
+                    <Selection />
+                    <Attackable />
+                    <Maintenance>
+                        <Maintenances>
+                            <Item>
+                                <Product>1010017</Product>
+                                <Amount>25</Amount>
+                            </Item>
+                            <Item>
+                                <Product>132723</Product>
+                                <Amount>10</Amount>
+                            </Item>
+                        </Maintenances>
+                    </Maintenance>
+                    <AmbientMoodProvider />
+                    <LogisticNode />
+                    <Constructable />
+                    <Locked />
+                    <IncidentInfectable />
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>
+                                    data/modgraphics/models/souvenir_shop_01/souvenir_shop_03.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <SoundEmitter />
+                    <Cost>
+                        <Costs>
+                            <Item>
+                                <Ingredient>1010017</Ingredient>
+                                <Amount>250</Amount>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010196</Ingredient>
+                                <Amount>5</Amount>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010205</Ingredient>
+                                <Amount>2</Amount>
+                            </Item>
+                        </Costs>
+                    </Cost>
+                    <BuildingModule />
+                    <Infolayer />
+                    <UpgradeList />
+                    <Industrializable />
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+            <Item>
+                <GUID>1999002257</GUID>
+            </Item>
+            <Item>
+                <GUID>1999002259</GUID>
+            </Item>
+            <Item>
+                <GUID>1999002260</GUID>
+            </Item>
+        </ModOp>
+
+        <!-- Buff für den Souvenirladen -->
+        <ModOp Type="addNextSibling" GUID="133563">
+            <Asset>
+                <Template>TownhallBuff</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999002261</GUID>
+                        <Name>Buff_Souvenirs_100</Name>
+                        <IconFilename>data/modgraphics/ui/icon_souvenir_buff.png</IconFilename>
+                    </Standard>
+                    <ItemEffect>
+                        <EffectTargets>
+                            <Item>
+                                <GUID>194016</GUID>
+                            </Item>
+                            <Item>
+                                <GUID>191563</GUID>
+                            </Item>
+                        </EffectTargets>
+                        <AllowStacking>0</AllowStacking>
+                    </ItemEffect>
+                    <Text>
+                        <LocaText>
+                            <English>
+                                <Text>Archduke's Schnitzel</Text>
+                                <Status>Exported</Status>
+                            </English>
+                        </LocaText>
+                        <LineID>49890</LineID>
+                    </Text>
+                    <BuildingUpgrade />
+                    <Buff />
+                    <PopulationUpgrade>
+                        <ResidentsUpgrade>
+                            <Value>10</Value>
+                            <Percental>1</Percental>
+                        </ResidentsUpgrade>
+                        <InputBenefitModifier>
+                            <Item>
+                                <Product>133532</Product>
+                                <AdditionalSupply>50</AdditionalSupply>
+                                <AdditionalMoney>99</AdditionalMoney>
+                            </Item>
+                            <Item>
+                                <Product>133891</Product>
+                                <AdditionalMoney>99</AdditionalMoney>
+                            </Item>
+                            <Item>
+                                <Product>133573</Product>
+                                <AdditionalMoney>99</AdditionalMoney>
+                            </Item>
+                            <Item>
+                                <Product>132751</Product>
+                                <AdditionalMoney>99</AdditionalMoney>
+                            </Item>
+                            <Item>
+                                <Product>132755</Product>
+                                <AdditionalMoney>99</AdditionalMoney>
+                            </Item>
+                            <Item>
+                                <Product>132754</Product>
+                                <AdditionalMoney>99</AdditionalMoney>
+                            </Item>
+                            <Item>
+                                <Product>132761</Product>
+                                <AdditionalMoney>99</AdditionalMoney>
+                            </Item>
+                            <Item>
+                                <Product>601485</Product>
+                                <AdditionalMoney>99</AdditionalMoney>
+                            </Item>
+                            <Item>
+                                <Product>133535</Product>
+                                <AdditionalMoney>99</AdditionalMoney>
+                            </Item>
+                        </InputBenefitModifier>
+                    </PopulationUpgrade>
+                    <ResidenceUpgrade>
+                        <AdditionalHappiness>5</AdditionalHappiness>
+                        <GoodConsumptionUpgrade>
+                            <Item>
+                                <ProvidedNeed>133532</ProvidedNeed>
+                                <AmountInPercent>-50</AmountInPercent>
+                            </Item>
+                        </GoodConsumptionUpgrade>
+                    </ResidenceUpgrade>
+                    <IncidentInfectableUpgrade />
+                    <CultureUpgrade />
+                    <InfluenceSourceUpgrade />
+                    <WarehouseUpgrade />
+                    <DistributionUpgrade />
+                    <ItemContainerUpgrade />
+                    <FactoryUpgrade />
+                    <VisitorHarborUpgrade>
+                        <SpawnProbabilityFactor>
+                            <Value>5</Value>
+                            <Percental>1</Percental>
+                        </SpawnProbabilityFactor>
+                    </VisitorHarborUpgrade>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="133563">
+            <Asset>
+                <Template>TownhallBuff</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999002266</GUID>
+                        <Name>Buff_Souvenirs_base</Name>
+                        <IconFilename>data/modgraphics/ui/icon_souvenir_buff.png</IconFilename>
+                    </Standard>
+                    <ItemEffect>
+                        <EffectTargets>
+                            <Item>
+                                <GUID>194016</GUID>
+                            </Item>
+                            <Item>
+                                <GUID>191563</GUID>
+                            </Item>
+                        </EffectTargets>
+                        <AllowStacking>0</AllowStacking>
+                    </ItemEffect>
+                    <Text>
+                        <LocaText>
+                            <English>
+                                <Text>Archduke's Schnitzel</Text>
+                                <Status>Exported</Status>
+                            </English>
+                        </LocaText>
+                        <LineID>49890</LineID>
+                    </Text>
+                    <BuildingUpgrade />
+                    <Buff />
+                    <PopulationUpgrade />
+                    <ResidenceUpgrade />
+                    <IncidentInfectableUpgrade />
+                    <CultureUpgrade>
+                        <HideBuff>1</HideBuff>
+                    </CultureUpgrade>
+                    <InfluenceSourceUpgrade />
+                    <WarehouseUpgrade />
+                    <DistributionUpgrade />
+                    <ItemContainerUpgrade />
+                    <FactoryUpgrade />
+                    <VisitorHarborUpgrade />
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- Buff Souvenirläden um Hotels und Touristenhäfen zu highlighten, wenn im Radius -->
+        <ModOp Type="replace" GUID="601445,100429,133890" Path="/Values/UpgradeList">
+            <UpgradeList>
+                <DefaultBuff>1999002267</DefaultBuff>
+            </UpgradeList>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="25743">
+            <Asset>
+                <Template>ForwardBuff</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999002267</GUID>
+                        <Name>Forward Buff Hotel on self</Name>
+                        <IconFilename>data/modgraphics/ui/icon_souvenir_buff.png</IconFilename>
+                    </Standard>
+                    <CultureUpgrade>
+                        <HideBuff>1</HideBuff>
+                    </CultureUpgrade>
+                    <EffectForward>
+                        <ForwardEffect>1999002268</ForwardEffect>
+                        <ForwardEffectRange>10</ForwardEffectRange>
+                    </EffectForward>
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>GuildhouseBuff</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999002268</GUID>
+                        <Name>Bass Buff Hotel Radius Highlight</Name>
+                        <IconFilename>data/modgraphics/ui/icon_souvenir_buff.png</IconFilename>
+                    </Standard>
+                    <ItemEffect>
+                        <EffectTargets>
+                            <Item>
+                                <GUID>1999002257</GUID>
+                            </Item>
+                            <Item>
+                                <GUID>1999002259</GUID>
+                            </Item>
+                            <Item>
+                                <GUID>1999002260</GUID>
+                            </Item>
+                        </EffectTargets>
+                        <AllowStacking>0</AllowStacking>
+                    </ItemEffect>
+                    <FactoryUpgrade />
+                    <BuildingUpgrade />
+                    <CultureUpgrade>
+                        <HideBuff>1</HideBuff>
+                    </CultureUpgrade>
+                    <EffectForward />
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- Jakobs Hotels -->
+        <ModOp Type="add" GUID="1500010511" Path="/Values" Condition="@1500010511">
+            <EffectForward>
+                <ForwardEffect>1999002268</ForwardEffect>
+                <ForwardEffectRange>10</ForwardEffectRange>
+            </EffectForward>
+        </ModOp>
+
+        <!-- Build Menu für Souvenirshops -->
+        <ModOp Type="addNextSibling" GUID="25178">
+            <Asset>
+                <Template>ConstructionCategory</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999002262</GUID>
+                        <Name>ConstructionCategory Souvenirläden</Name>
+                        <IconFilename>
+                            data/ui/2kimages/main/3dicons/ornaments/tourism/tourism_ornaments_kiosk_01.png</IconFilename>
+                    </Standard>
+                    <ConstructionCategory>
+                        <BuildingList>
+                            <Item>
+                                <Building>1999002257</Building>
+                            </Item>
+                            <Item>
+                                <Building>1999002259</Building>
+                            </Item>
+                            <Item>
+                                <Building>1999002260</Building>
+                            </Item>
+                        </BuildingList>
+                        <CategoryDescription>1999002263</CategoryDescription>
+                    </ConstructionCategory>
+                    <Text>
+                        <LocaText>
+                            <English>
+                                <Text>Hacienda Publics</Text>
+                                <Status>Exported</Status>
+                            </English>
+                        </LocaText>
+                        <LineID>27185</LineID>
+                    </Text>
+                    <Locked />
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="132779,500945"
+            Path="/Values/ConstructionCategory/BuildingList/Item[Building='1999000059']">
+            <Item>
+                <Building>1999002262</Building>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="1440134380" Condition="@1440134380"
+            Path="/Values/ConstructionCategory/BuildingList/Item[Building='137609']">
+            <Item>
+                <Building>1999002262</Building>
+            </Item>
+        </ModOp>
+
+        <!-- #Trigger Souvenirläden -->
+        <ModOp Type="addNextSibling" GUID="130248">
+            <Asset>
+                <Template>Trigger</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999002264</GUID>
+                        <Name>Unhide Souvenirläden</Name>
+                    </Standard>
+                    <Trigger>
+                        <TriggerCondition>
+                            <Template>ConditionPlayerCounter</Template>
+                            <Values>
+                                <Condition />
+                                <ConditionPlayerCounter>
+                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                    <Context>601379</Context>
+                                    <CounterAmount>1500</CounterAmount>
+                                </ConditionPlayerCounter>
+                            </Values>
+                        </TriggerCondition>
+                        <TriggerActions>
+                            <Item>
+                                <TriggerAction>
+                                    <Template>ActionUnlockAsset</Template>
+                                    <Values>
+                                        <Action />
+                                        <ActionUnlockAsset>
+                                            <UnhideAssets>
+                                                <Item>
+                                                    <Asset>1999002257</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1999002259</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1999002260</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1999002262</Asset>
+                                                </Item>
+                                            </UnhideAssets>
+                                        </ActionUnlockAsset>
+                                    </Values>
+                                </TriggerAction>
+                            </Item>
+                        </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="130248">
+            <Asset>
+                <Template>Trigger</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999002265</GUID>
+                        <Name>Unlock Souvenirläden</Name>
+                    </Standard>
+                    <Trigger>
+                        <TriggerCondition>
+                            <Template>ConditionPlayerCounter</Template>
+                            <Values>
+                                <Condition />
+                                <ConditionPlayerCounter>
+                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                    <Context>601379</Context>
+                                    <CounterAmount>2000</CounterAmount>
+                                </ConditionPlayerCounter>
+                            </Values>
+                        </TriggerCondition>
+                        <TriggerActions>
+                            <Item>
+                                <TriggerAction>
+                                    <Template>ActionUnlockAsset</Template>
+                                    <Values>
+                                        <Action />
+                                        <ActionUnlockAsset>
+                                            <UnlockAssets>
+                                                <Item>
+                                                    <Asset>1999002257</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1999002259</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1999002260</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1999002262</Asset>
+                                                </Item>
+                                            </UnlockAssets>
+                                        </ActionUnlockAsset>
+                                    </Values>
+                                </TriggerAction>
+                            </Item>
+                        </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                </Values>
+            </Asset>
+        </ModOp>
+    </Group>
+
+    <!-- #Compatibility with NW Tourism -->
+    <Group Condition="@1999002247">
+        <Group Condition="@1440134380">
+            <!-- NW Tourism Menu -->
+            <ModOp Type="addNextSibling" GUID="1440134380"
+                Path="/Values/ConstructionCategory/BuildingList/Item[Building='137609']">
+                <Item>
+                    <Building>1999000059</Building>
+                </Item>
+            </ModOp>
+        </Group>
+    </Group>
+
+    <Group Condition="!@1999002247">
+        <Group Condition="@1440134380">
+            <!-- NW Tourism Menu -->
+            <ModOp Type="replace" GUID="1440134380"
+                Path="/Values/ConstructionCategory/BuildingList/Item[Building='137609']">
+                <Item>
+                    <Building>1999000059</Building>
+                </Item>
+            </ModOp>
+        </Group>
+    </Group>
+
+    <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000063</GUID>
+                    <Name>Creative Unlock</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionIsCreativeMode</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionIsCreativeMode />
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1999002257</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002259</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002260</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002262</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>135147</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>135222</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999000059</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999000050</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999000051</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>

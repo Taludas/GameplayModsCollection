@@ -1,0 +1,139 @@
+<ModOps>
+  <!-- # Product: Cherry Wood Timber -->
+  <Group>
+    <ModOp GUID="135087" Type="addNextSibling">
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301151</GUID>
+            <Name>Cherry Timber</Name>
+            <IconFilename>data/products/cherry-timber/icon_cherry_planks.png</IconFilename>
+          </Standard>
+          <Locked>
+            <DLCDependency>410085</DLCDependency>
+          </Locked>
+          <Product>
+            <StorageLevel>Building</StorageLevel>
+            <ProductCategory>11707</ProductCategory>
+            <BasePrice>5</BasePrice>
+            <CivLevel>5</CivLevel>
+            <AssociatedRegion>Moderate;Colony01</AssociatedRegion>
+            <ProductionRegions>
+              <Item>
+                <RegionType>Moderate</RegionType>
+              </Item>
+              <Item>
+                <RegionType>Colony01</RegionType>
+              </Item>
+            </ProductionRegions>
+          </Product>
+          <ExpeditionAttribute>
+            <BaseMorale>0</BaseMorale>
+            <ExpeditionAttributes>
+              <Item>
+                <Attribute>Crafting</Attribute>
+                <Amount>20</Amount>
+              </Item>
+            </ExpeditionAttributes>
+            <FluffText>12815</FluffText>
+          </ExpeditionAttribute>
+        </Values>
+      </Asset>  
+    </ModOp>
+      <ModOp Type="replace" GUID='135087,135088,135090' Path="/Values/Standard/IconFilename">
+        <IconFilename>data/products/cherry-timber/icon_cherry_wood_2.png</IconFilename>
+      </ModOp> 
+  </Group>
+  <!-- # Lists -->
+  <Group>
+    <ModOp Type="add" GUID="120055"
+      Condition="!/Values/ProductStorageList/ProductList/Item[Product='1500301151']"
+      Path="/Values/ProductStorageList/ProductList">
+      <Item>
+        <Product>1500301151</Product>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="502006,502009,502021"
+      Condition="!/Values/ProductList/List/Item[Product='1500301151']"
+      Path="/Values/ProductList/List">
+      <Item>
+        <Product>1500301151</Product>
+      </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="501957,502221"
+      Condition="!/Values/ProductList/List/Item[Product='1500301151']"
+      Path="/Values/ProductList/List/Item[Product='1010223']">
+      <Item>
+        <Product>1500301151</Product>
+      </Item>
+    </ModOp>    
+  </Group>
+  <!-- # Docklands: Kitea -->
+  <Group Condition="!//TradeLevels/Item/Trades[Item/Good='1500301151']">
+    <ModOp Type="addNextSibling" GUID="1010196"
+      Condition="!//FactoryBase[FactoryOutputs/Item/Product='1500301151']/IsMainFactory[text()='1']">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301147</GUID>
+            <Name>IsMainFactory_Fake: Cherry_Wood_Timber</Name>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+          </Building>
+          <Blocking />
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data\graphics\buildings\public\logistic_01\logistic_01.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Locked />
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>135087</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>								
+            </FactoryInputs>          
+            <FactoryOutputs>
+              <Item>
+                <Product>1500301151</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>30</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010116</Product>
+                <Amount>50</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+        </Values>
+      </Asset>  
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="131764"
+      Path="/Values/TradeContractFeature/Traders/Item[TraderName='131811']/TradeLevels/Item/Trades/Item[Good='1010242']">
+      <Item>
+      	<Level>Rare</Level>
+        <Good>1500301151</Good>
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="502238" Path="/Values/ProductList/List">
+      <Item>
+        <Product>1500301151</Product>
+      </Item>
+    </ModOp>
+  </Group>
+</ModOps>

@@ -1,0 +1,344 @@
+<ModOps>
+
+  <!-- #Glas Fabrik überarbeiten -->
+  <!-- Potash als zweites Eingangsprodukt -->
+  <ModOp Type="add" GUID="1010319" Path="/Values/FactoryBase/FactoryInputs">
+    <Item>
+      <Product>1999002211</Product>
+      <Amount>1</Amount>
+      <StorageAmount>6</StorageAmount>
+    </Item>
+  </ModOp>
+
+  <!-- <ModOp Type="add" GUID="1010319" Path="/Values">
+    <ItemContainer>
+      <SocketCount>2</SocketCount>
+      <SocketAllocation>RadiusBuilding;GuildHouse</SocketAllocation>
+      <SocketScope>Radius</SocketScope>
+      <SocketScopeRadius>10</SocketScopeRadius>
+        <InitSocketItems>
+          <Item>
+            <Item>1999002236</Item>
+            <StackSize>1</StackSize>
+          </Item>
+          <Item>
+            <Item>1999002240</Item>
+            <StackSize>1</StackSize>
+          </Item>
+        </InitSocketItems>
+    </ItemContainer>
+  </ModOp> -->
+
+  <!-- Buff Glassmakers x1.1 für Platzausgleich-->
+  <ModOp Type="addNextSibling" GUID="25743">
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1999002234</GUID>
+          <Name>Buff ForestGlass Space Compensation</Name>
+          <IconFilename>data/modgraphics/ui/icon_forestglass.png</IconFilename>
+          <InfoDescription>1999002235</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1010319</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <Text />
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>10</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <BuildingUpgrade />
+        <Buff />
+        <CultureUpgrade />
+        <ModuleOwnerUpgrade />
+        <IncidentInfectableUpgrade />
+        <PowerplantUpgrade />
+        <IndustrializableUpgrade />
+        <ItemContainerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+        <ResourceUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Trigger to distribute the buff upon reaching 1 Artisan-->
+  <ModOp Type="addNextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1999002239</GUID>
+          <Name>Trigger Distribution GuildhouseBuff ForestGlass Space Compensation</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionAlwaysTrue</Template>
+            <Values>
+              <ConditionAlwaysTrue />
+              <Condition />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionBuff</Template>
+                <Values>
+                  <Action />
+                  <ActionBuff>
+                    <BuffAsset>1999002234</BuffAsset>
+                    <AddBuff>1</AddBuff>
+                    <BuffProcessingParticipant>1</BuffProcessingParticipant>
+                  </ActionBuff>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>1</AutoRegisterTrigger>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Buff Woodcutter + Potash Works to boost Glassmakers if in radius +10% Prod. +5% Fire
+  Chance-->
+  <ModOp Type="add" GUID="1010266,1999002232" Path="/Values">
+    <UpgradeList>
+      <DefaultBuff>1999002240</DefaultBuff>
+    </UpgradeList>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="25743">
+    <Asset>
+      <Template>ForwardBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1999002240</GUID>
+          <Name>Get Buff on Potash and Wood Cutter self</Name>
+          <IconFilename>data/modgraphics/ui/icon_forestglass_buff.png</IconFilename>
+          <InfoDescription>1999002237</InfoDescription>
+        </Standard>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+        <EffectForward>
+          <ForwardEffect>1999002236</ForwardEffect>
+          <ForwardEffectRange>9</ForwardEffectRange>
+        </EffectForward>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1999002236</GUID>
+          <Name>Buff Glassmakers through Woodcutters and Potash Works</Name>
+          <IconFilename>data/modgraphics/ui/icon_forestglass_buff.png</IconFilename>
+          <InfoDescription>1999002237</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1010319</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>10</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <IncidentInfectableUpgrade>
+          <IncidentFireIncreaseUpgrade>
+            <Value>5</Value>
+            <Percental>1</Percental>
+          </IncidentFireIncreaseUpgrade>
+        </IncidentInfectableUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Buff Glassmakers to boost Woodcutter + Potash Factory if in Radius +50% Prod. -->
+  <ModOp Type="add" GUID="1010319" Path="/Values">
+    <UpgradeList>
+      <DefaultBuff>1999002255</DefaultBuff>
+    </UpgradeList>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="25743">
+    <Asset>
+      <Template>ForwardBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1999002255</GUID>
+          <Name>Get Buff on Glassmakers self</Name>
+          <IconFilename>data/modgraphics/ui/icon_forestglass_buff.png</IconFilename>
+          <InfoDescription>1999002237</InfoDescription>
+        </Standard>
+        <CultureUpgrade>
+          <HideBuff>1</HideBuff>
+        </CultureUpgrade>
+        <EffectForward>
+          <ForwardEffect>1999002256</ForwardEffect>
+          <ForwardEffectRange>9</ForwardEffectRange>
+        </EffectForward>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1999002256</GUID>
+          <Name>Buff Potash and Wood Cutter through glassmakers</Name>
+          <IconFilename>data/modgraphics/ui/icon_forestglass_buff.png</IconFilename>
+          <InfoDescription>1999002237</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1010266</GUID>
+            </Item>
+            <Item>
+              <GUID>1999002232</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+        <IncidentInfectableUpgrade>
+          <IncidentFireIncreaseUpgrade>
+            <Value>5</Value>
+            <Percental>1</Percental>
+          </IncidentFireIncreaseUpgrade>
+        </IncidentInfectableUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Universal addition Potash to all Production Chains using Glass -->
+  <ModOp Type="addNextSibling" Path="//Item[Building = '1010319']/*/Item[Building = '1010560']">
+    <Item>
+      <Building>1999002232</Building>
+      <Tier3>
+        <Item>
+          <Building>1010266</Building>
+        </Item>
+      </Tier3>
+    </Item>
+  </ModOp>
+
+  <!-- #Trigger Produkte und Fabriken -->
+  <ModOp Type="addNextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1999002238</GUID>
+          <Name>Trigger Produkte und Fabriken</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000002</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionResetTrigger</Template>
+                <Values>
+                  <Action />
+                  <ActionResetTrigger />
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>1999002211</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1999002232</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1999002272</GUID>
+          <Name>Trigger Produkte und Fabriken Creative Mode</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsCreativeMode</Template>
+            <Values>
+              <Condition />
+              <ConditionIsCreativeMode />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>1999002211</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1999002232</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+
+</ModOps>

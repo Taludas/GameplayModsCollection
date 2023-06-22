@@ -1,0 +1,139 @@
+<ModOps>
+  <!-- # Product: Barrels -->
+  <ModOp GUID="1010241" Type="addNextSibling">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1500300000</GUID>
+          <Name>Barrels</Name>
+          <IconFilename>data/products\barrels\icon_barrels.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11703</ProductCategory>
+          <BasePrice>225</BasePrice>
+          <CivLevel>3</CivLevel>
+          <AssociatedRegion>Moderate;Colony01</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+            <Item>
+              <RegionType>Colony01</RegionType>
+            </Item>                
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>25</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>     
+  </ModOp>
+
+  <!-- # Lists: After Glass / Felt -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="120055"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1500300000']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010241']">
+      <Item>
+        <Product>1500300000</Product>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="502019,502006,502043"
+      Condition="!~/Values/ProductList/List/Item[Product='1500300000']"
+      Path="/Values/ProductList/List/Item[Product='1010241']">
+      <Item>
+        <Product>1500300000</Product>
+      </Item>
+    </ModOp>
+    
+    <ModOp Type="addNextSibling" GUID="502008,502044"
+      Condition="!~/Values/ProductList/List/Item[Product='1500300000']"
+      Path="/Values/ProductList/List/Item[Product='120044']">
+      <Item>
+        <Product>1500300000</Product>
+      </Item>
+    </ModOp>    
+  </Group>
+
+  <!-- # Docklands: Kitea -->
+  <Group Condition="!//TradeLevels/Item/Trades[Item/Good='1500300000']">
+    <ModOp Type="addNextSibling" GUID="1010241"
+      Condition="!//FactoryBase[FactoryOutputs/Item/Product='1500300000']/IsMainFactory[text()='1']">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301130</GUID>
+            <Name>IsMainFactory_Fake: Barrels</Name>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+          </Building>
+          <Blocking />
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data\graphics\buildings\public\logistic_01\logistic_01.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Locked />
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>1010196</Product>
+                <Amount>1</Amount>
+                <StorageAmount>6</StorageAmount>
+              </Item>
+              <Item>
+                <Product>1010219</Product>
+                <Amount>1</Amount>
+                <StorageAmount>6</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <FactoryOutputs>
+              <Item>
+                <Product>1500300000</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>60</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010116</Product>
+                <Amount>150</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+        </Values>
+      </Asset>  
+    </ModOp>
+    <ModOp Type="add" GUID="131764"
+      Path="/Values/TradeContractFeature/Traders/Item[TraderName='131811']/TradeLevels/Item/Trades[Item/Good='1010242']/Item[1]">
+      <Item>
+        <Level>Rare</Level>
+        <Good>1500300000</Good>
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="502238" Path="/Values/ProductList/List">
+      <Item>
+        <Product>1500300000</Product>
+      </Item>
+    </ModOp>
+  </Group>
+</ModOps>

@@ -1,0 +1,32 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500300000</GUID>
+      <Text>Barrels</Text>
+    </Text>
+    <Text>
+      <GUID>1404422300</GUID>
+      <Text>Cattle</Text>
+    </Text>
+    <Text>
+      <GUID>1404420030</GUID>
+      <Text>Cherries</Text>
+    </Text>
+    <Text>
+      <GUID>1500020000</GUID>
+      <Text>Wool Fabric</Text>
+    </Text>
+    <Text>
+      <GUID>1500020010</GUID>
+      <Text>Sewing Thread</Text>
+    </Text>
+    <Text>
+      <GUID>1500301150</GUID>
+      <Text>Wanza Wood</Text>
+    </Text>
+    <Text>
+      <GUID>1500301151</GUID>
+      <Text>Cherry Timber</Text>
+    </Text>
+  </ModOp>
+</ModOps>

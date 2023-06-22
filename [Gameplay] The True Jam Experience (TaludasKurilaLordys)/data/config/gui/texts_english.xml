@@ -1,0 +1,73 @@
+<ModOps>
+  	<ModOp Type="add" Path="/TextExport/Texts">
+		<!-- Products -->
+			<Text>
+				<GUID>1999000003</GUID>
+				<Text>In contrast to jam, these grow on trees.</Text>
+			</Text>
+		<!-- Jam Manufactory -->
+			<Text>
+				<GUID>1999000005</GUID>
+				<Text>Jam Manufactory</Text>
+			</Text>
+			<Text>
+				<GUID>1999000009</GUID>
+				<Text>[AssetData(133183) Text]</Text>
+			</Text>
+			<Text>
+				<GUID>1999000010</GUID>
+				<Text>[AssetData(1010239) Text]</Text>
+			</Text>
+			<Text>
+				<GUID>1999000006</GUID>
+				<Text>Jam</Text>
+			</Text>
+			<Text>
+				<GUID>1999000007</GUID>
+				<Text>Fortunately, the artisan's old recipe book reveals a well-kept secret: Grandma's recipe for the extra-fruity cherry jam in stylish and reusable glasses.</Text>
+			</Text>
+			<Text>
+				<GUID>1999000013</GUID>
+				<Text>This fruity jam is made by hand from ripe sweet and sour cherries with a little bit of sugar. The Jam is stired and tasted until the perfect mixture of cherries and sugar is found. The jam is served grandma's style in chic reusable glasses.</Text>
+			</Text>
+		<!-- Recipe Cherries -->
+			<Text>
+				<GUID>1999000004</GUID>
+				<Text>Thick, fruity cherries, picked straight from the tree, not grown inside the glass.</Text>
+			</Text>
+			<Text>
+				<GUID>133498</GUID>
+				<Text>Cherries</Text>
+			</Text>
+			<Text>
+				<GUID>133496</GUID>
+				<Text>Orchard: Cherries</Text>
+			</Text>
+		<!-- Specialists -->
+			<Text>
+				<GUID>1999000011</GUID>
+				<Text>Marlene, Mother of Marmelade</Text>
+			</Text>
+			<Text>
+				<GUID>1999000012</GUID>
+				<Text>Makes the most delicious jam in recycled glasses.</Text>
+			</Text>
+		<!-- Extended InfoDesciption -->
+			<Text>
+				<GUID>1404420043</GUID>
+				<Text>[AssetData(1500300045) Text][AssetData(1404420011) Text][AssetData(1404420015) Text][AssetData(1404420047) Text][AssetData(1500300046) Text] [AssetData(1404420019) Text]</Text>
+			</Text>
+			<Text>
+				<GUID>1404420011</GUID>
+				<Text>&#xD;&#xA;&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;b&gt;1t&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1404420030) Icon]"/&gt; [AssetData(1404420030) Text]&lt;/font&gt;&#xD;&#xA;</Text>
+			</Text>
+			<Text>
+				<GUID>1404420015</GUID>
+				<Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;b&gt;0,5t&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1010239) Icon]"/&gt;[AssetData(1010239) Text]&lt;/font&gt;&#xD;&#xA;</Text>
+			</Text>
+			<Text>
+				<GUID>1404420047</GUID>
+				<Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;b&gt;0,5t&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1010241) Icon]"/&gt;[AssetData(1010241) Text]&lt;/font&gt;&#xD;&#xA;&#xD;&#xA;</Text>
+			</Text>
+  </ModOp>
+</ModOps>

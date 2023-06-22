@@ -1,0 +1,169 @@
+<ModOps>
+
+  <!-- #Produktionskette Seife -->
+  <!-- Neue Produktionskette -->
+  <ModOp Type="add" GUID="25000220" Path="/Values/ProductionChain/Tier1">
+    <Item>
+      <Building>1999002232</Building>
+      <Tier2>
+        <Item>
+          <Building>1010266</Building>
+        </Item>
+      </Tier2>
+    </Item>
+  </ModOp>
+
+  <!-- Soap Fabrik überarbeiten, um Potasche zu verarbeiten -->
+  <ModOp Type="add" GUID="1010281" Path="/Values/FactoryBase/FactoryInputs">
+    <Item>
+      <Product>1999002211</Product>
+      <Amount>1</Amount>
+      <StorageAmount>4</StorageAmount>
+    </Item>
+  </ModOp>
+
+  <!-- #Produktionskette Seife Industrialized Low Tier Production -->
+  <Group Condition="@1404423050">
+    <!-- Neue Produktionskette -->
+    <ModOp Type="add" GUID="1404423052" Path="/Values/ProductionChain/Tier1">
+      <Item>
+        <Building>1999002232</Building>
+        <Tier2>
+          <Item>
+            <Building>1010266</Building>
+          </Item>
+        </Tier2>
+      </Item>
+    </ModOp>
+
+    <!-- Soap II Fabrik überarbeiten, um Potasche zu verarbeiten -->
+    <ModOp Type="add" GUID="1404423050" Path="/Values/FactoryBase/FactoryInputs">
+      <Item>
+        <Product>1999002211</Product>
+        <Amount>1</Amount>
+        <StorageAmount>12</StorageAmount>
+      </Item>
+    </ModOp>
+  </Group>
+
+  <!-- #Produktionskette Seife Jakobs Olivenseife -->
+  <Group Condition="@1500010108">
+    <!-- Olive Soap Fabrik überarbeiten, um Potasche zu verarbeiten -->
+    <ModOp Type="add" GUID="1500010108" Path="/Values/FactoryBase/FactoryInputs">
+      <Item>
+        <Product>1999002211</Product>
+        <Amount>1</Amount>
+        <StorageAmount>4</StorageAmount>
+      </Item>
+    </ModOp>
+  </Group>
+
+  <!-- #Produktionskette Shampoo -->
+  <!-- Neue Produktionskette -->
+  <ModOp Type="addNextSibling" GUID="137608" Path="//Tier2/Item[1]">
+    <Item>
+      <Building>1999002232</Building>
+      <Tier3>
+        <Item>
+          <Building>1010266</Building>
+        </Item>
+      </Tier3>
+    </Item>
+  </ModOp>
+
+  <!-- #Trigger Produkte und Fabriken -->
+  <ModOp Type="addNextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1999002233</GUID>
+          <Name>Trigger Produkte und Fabriken</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000001</Context>
+                <CounterAmount>300</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionResetTrigger</Template>
+                <Values>
+                  <Action />
+                  <ActionResetTrigger />
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>1999002211</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1999002232</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1999002272</GUID>
+          <Name>Trigger Produkte und Fabriken Creative Mode</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsCreativeMode</Template>
+            <Values>
+              <Condition />
+              <ConditionIsCreativeMode />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>1999002211</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1999002232</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+
+</ModOps>

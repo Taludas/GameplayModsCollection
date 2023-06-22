@@ -1,0 +1,36 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500300000</GUID>
+      <Text>桶子</Text>
+    </Text>
+    <Text>
+      <GUID>1404422300</GUID>
+      <Text>牛</Text>
+    </Text>
+    <Text>
+      <GUID>1404420030</GUID>
+      <Text>樱桃</Text>
+    </Text>
+    <Text>
+      <GUID>1500020000</GUID>
+      <Text>羊毛织物</Text>
+    </Text>
+    <Text>
+      <GUID>1500020010</GUID>
+      <Text>缝纫线</Text>
+    </Text>
+    <Text>
+      <GUID>1500301150</GUID>
+      <Text>万扎原木</Text>
+    </Text>
+    <Text>
+      <GUID>114356</GUID>
+      <Text>万扎木材</Text>
+    </Text>
+    <Text>
+      <GUID>1500301151</GUID>
+      <Text>樱桃木材</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,64 @@
+{
+  "Version": "1.0",
+  "ModID": "TaludasKurilaLordys_TrueJamExperience",
+  "DeprecateIds": [],
+  "ModDependencies": [
+    "shared_products_extended_kurila",
+    "shared_info_description_parts_kurila"
+  ],
+  "LoadAfterIds": [
+    "OrchardRework",
+    "[Gameplay] Orchard Rework",
+    "shared_products_extended_kurila",
+    "FamTaubeLexy_NewWorldHotels"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Gameplay",
+    "Chinese": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "The True Jam Experience (Taludas/Kurila/Lordys)",
+    "English": "The True Jam Experience (Taludas/Kurila/Lordys)",
+    "French": "The True Jam Experience (Taludas/Kurila/Lordys)",
+    "German": " The True Jam Experience (Taludas/Kurila/Lordys)",
+    "Italian": "The True Jam Experience (Taludas/Kurila/Lordys)",
+    "Japanese": "The True Jam Experience (Taludas/Kurila/Lordys)",
+    "Korean": "The True Jam Experience (Taludas/Kurila/Lordys)",
+    "Polish": "The True Jam Experience (Taludas/Kurila/Lordys)",
+    "Russian": "The True Jam Experience (Taludas/Kurila/Lordys)",
+    "Spanish": "The True Jam Experience (Taludas/Kurila/Lordys)",
+    "Taiwanese": "The True Jam Experience (Taludas/Kurila/Lordys)"
+  },
+  "Description": {
+    "English": "# Ever wondered why Jam grows directly on trees in Anno 1800? \n\n Because they chose the simple way. But I don't like it the simple way. So I took the idea and assets from Lrds42 and made a separat mod that only adds a new Jam Production Chain based on Cherries, Sugar and Glas. You'll need 1t of Cherries/min 0.5t of Sugar and Glass/min to produce 1t Jam/min. \n\nThe Jam manufactory is now a Multifactory so we can expand it in the future with different Jam flavours. \n\n To get a nice boost on the new production facility there is a special item: 'Marlene - Mother of Marmelades'. She is buyable at Eli. \n\n Compatibility between mods provided by Kurila! Big Thank you for that!",
+    "German": "# Warum noch mal wächst in Anno 1800 die Marmelade direkt im Glas an den Bäumen? \n\n Weil es der einfache Weg ist. Aber ich mag den einfachen Weg nicht. Daher habe ich die Mod von Lrds42 genommen und bearbeitet, sodass ausschließlich eine neue Produktionskette für Konfitüre hinzugefügt wird. Nun bekommt man die neue Ware Kirschen aus der 'alten' Baumschule, Zucker aus der neuen Welt und das Marmeladenglas, sodass die Handwerker in der Konfitüren-Manufaktur eine schöne fruchtige Marmelade kochen können. Man benötigt eine Baumschule (1t Kirschen/min) und eine viertel Zuckerraffinerie (0,5t Zucker/min) sowie eine viertel Glasshütte (0,5t Glass/min) für eine Konfitüren-Manufaktur (1t Konfitüre/min). \n\n Die Konfitüre Manufaktur ist nun eine Multifactory mit Rezept, um in Zukunft weitere Marmeladen-Sorten anbieten zu können. \n\n Ein besonderes Item 'Marlene - Mutter der Marmeladen' boostet die Konfitüren-Manufaktur. Sie ist eine Spezialistin, die sich besonders für das Recycling der benutzten leeren Marmeladen-Gläser einsetzt. Daher fällt ab und zu ein bisschen Glas bei der Produktion ab. \n\n Kompatibilität zwischen den beiden Mods wurde mit Kurila's Hilfe ermöglicht. Ein ganz großes Dankeschön geht an ihn!",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+      "DLC": "Tourism",
+      "Dependant": "Required"
+    }
+  ],
+  "CreatorName": "Taludas/Kurila/Lordys",
+  "Image": null
+}

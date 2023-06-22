@@ -1,0 +1,161 @@
+<ModOps>
+    <!-- SA -->
+    <ImyaTweaks
+        Title="Adjust NW Buff" />
+    <ModOp Type="addNextSibling" GUID="193772" ModOpID="AlkaloidBuffNW">
+        <Asset>
+            <Template>TownhallBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000155</GUID>
+                    <Name>The Alkaloid Collection Set Buff SA</Name>
+                    <IconFilename>data/ui/icons/Papver_somniferum.png</IconFilename>
+                    <InfoDescription>1999000154</InfoDescription>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>25677</GUID>
+                            <!-- all SA Residences -->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <Text />
+                <BuildingUpgrade />
+                <Buff />
+                <PopulationUpgrade>
+                    <StressUpgrade>
+                        <Value>-50</Value>
+                        <Percental>1</Percental>
+                    </StressUpgrade>
+                </PopulationUpgrade>
+                <ResidenceUpgrade>
+                    <AdditionalHappiness>10</AdditionalHappiness>
+                    <GoodConsumptionUpgrade>
+                        <Item>
+                            <ProvidedNeed>1010216</ProvidedNeed>
+                            <!-- Schnaps -->
+                            <AmountInPercent>-5</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>1010214</ProvidedNeed>
+                            <!-- Beer -->
+                            <AmountInPercent>-10</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>1010257</ProvidedNeed>
+                            <!-- Rum -->
+                            <AmountInPercent>-5</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>1010259</ProvidedNeed>
+                            <!-- Cigars -->
+                            <AmountInPercent>-15</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>120032</ProvidedNeed>
+                            <!-- Coffee -->
+                            <AmountInPercent>-10</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>6600</ProvidedNeed>
+                            <!-- Mezcal -->
+                            <AmountInPercent>-10</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>120016</ProvidedNeed>
+                            <!-- Champagne -->
+                            <AmountInPercent>-5</AmountInPercent>
+                        </Item>
+                    </GoodConsumptionUpgrade>
+                </ResidenceUpgrade>
+                <IncidentInfectableUpgrade>
+                    <IncidentIllnessIncreaseUpgrade>
+                        <Value>50</Value>
+                        <Percental>1</Percental>
+                    </IncidentIllnessIncreaseUpgrade>
+                    <IncidentRiotIncreaseUpgrade>
+                        <Value>25</Value>
+                        <Percental>1</Percental>
+                    </IncidentRiotIncreaseUpgrade>
+                </IncidentInfectableUpgrade>
+                <CultureUpgrade />
+                <InfluenceSourceUpgrade />
+                <WarehouseUpgrade />
+                <DistributionUpgrade />
+                <ItemContainerUpgrade />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ImyaExpose
+        Path="self::Asset/Values/ResidenceUpgrade/AdditionalHappiness"
+        ModOpID="AlkaloidBuffNW" ExposeID="Alkaloid Buff NW Strength: Happiness"
+        Description="Sets the buff strength for flat Happiness increase.">
+        <AdditionalHappiness>10</AdditionalHappiness>
+    </ImyaExpose>
+
+    <ImyaExpose
+        Path="self::Asset/Values/PopulationUpgrade/StressUpgrade/Value"
+        ModOpID="AlkaloidBuffNW" ExposeID="Alkaloid Buff NW Strength: Working Conditions"
+        Description="Sets the buff strength for reduced impact on happiness for prolonging the working hours.">
+        <Value>-50</Value>
+    </ImyaExpose>
+
+    <ImyaExpose
+        Path="self::Asset/Values/ResidenceUpgrade/GoodConsumptionUpgrade/Item[ProvidedNeed = '1010216']/AmountInPercent"
+        ModOpID="AlkaloidBuffNW" ExposeID="Alkaloid Buff NW Strength: Schnaps">
+        <AmountInPercent>-5</AmountInPercent>
+    </ImyaExpose>
+
+    <ImyaExpose
+        Path="self::Asset/Values/ResidenceUpgrade/GoodConsumptionUpgrade/Item[ProvidedNeed = '1010214']/AmountInPercent"
+        ModOpID="AlkaloidBuffNW" ExposeID="Alkaloid Buff NW Strength: Beer">
+        <AmountInPercent>-10</AmountInPercent>
+    </ImyaExpose>
+
+    <ImyaExpose
+        Path="self::Asset/Values/ResidenceUpgrade/GoodConsumptionUpgrade/Item[ProvidedNeed = '1010257']/AmountInPercent"
+        ModOpID="AlkaloidBuffNW" ExposeID="Alkaloid Buff NW Strength: Rum">
+        <AmountInPercent>-5</AmountInPercent>
+    </ImyaExpose>
+
+    <ImyaExpose
+        Path="self::Asset/Values/ResidenceUpgrade/GoodConsumptionUpgrade/Item[ProvidedNeed = '120032']/AmountInPercent"
+        ModOpID="AlkaloidBuffNW" ExposeID="Alkaloid Buff NW Strength: Coffee">
+        <AmountInPercent>-10</AmountInPercent>
+    </ImyaExpose>
+
+    <ImyaExpose
+        Path="self::Asset/Values/ResidenceUpgrade/GoodConsumptionUpgrade/Item[ProvidedNeed = '120016']/AmountInPercent"
+        ModOpID="AlkaloidBuffNW" ExposeID="Alkaloid Buff NW Strength: Champagne">
+        <AmountInPercent>-5</AmountInPercent>
+    </ImyaExpose>
+
+    <ImyaExpose
+        Path="self::Asset/Values/ResidenceUpgrade/GoodConsumptionUpgrade/Item[ProvidedNeed = '1010259']/AmountInPercent"
+        ModOpID="AlkaloidBuffNW" ExposeID="Alkaloid Buff NW Strength: Cigars">
+        <AmountInPercent>-15</AmountInPercent>
+    </ImyaExpose>
+
+    <ImyaExpose
+        Path="self::Asset/Values/ResidenceUpgrade/GoodConsumptionUpgrade/Item[ProvidedNeed = '6600']/AmountInPercent"
+        ModOpID="AlkaloidBuffNW" ExposeID="Alkaloid Buff NW Strength: Mezcal"
+        Description="Sets the buff strength for good consumption. Apply negative values for reduced need.">
+        <AmountInPercent>-10</AmountInPercent>
+    </ImyaExpose>
+
+    <ImyaExpose
+        Path="self::Asset/Values/IncidentInfectableUpgrade/IncidentRiotIncreaseUpgrade/Value"
+        ModOpID="AlkaloidBuffNW" ExposeID="Alkaloid Buff NW Malus: Riot Chance"
+        Description="Sets the buff's malus for increasing riot chance.">
+        <Value>25</Value>
+    </ImyaExpose>
+
+    <ImyaExpose
+        Path="self::Asset/Values/IncidentInfectableUpgrade/IncidentIllnessIncreaseUpgrade/Value"
+        ModOpID="AlkaloidBuffNW" ExposeID="Alkaloid Buff NW Malus: Illness Chance"
+        Description="Sets the buff's malus for increasing illness chance.">
+        <Value>50</Value>
+    </ImyaExpose>
+</ModOps>

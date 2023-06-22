@@ -1,0 +1,153 @@
+<ModOps>
+  <!-- # Product: Cattle -->
+  <ModOp GUID="1010199" Type="addNextSibling">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1404422300</GUID>
+          <Name>Cattle</Name>
+          <IconFilename>data/products\cattle\icon_cattle.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11702</ProductCategory>
+          <BasePrice>20</BasePrice>
+          <CivLevel>3</CivLevel>
+          <AssociatedRegion>Moderate;Colony01</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+            <Item>
+              <RegionType>Colony01</RegionType>
+            </Item>                
+          </ProductionRegions>          
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Melee</Attribute>
+              <Amount>5</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>   
+  </ModOp>
+
+  <!-- # Lists: Bevor Beef -->
+  <Group>
+    <ModOp Type="addPrevSibling" GUID="120055"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1404422300']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010193']">
+      <Item>
+        <Product>1404422300</Product>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="addPrevSibling" GUID="502019,502004,502037"
+      Condition="!~/Values/ProductList/List/Item[Product='1404422300']"
+      Path="/Values/ProductList/List/Item[Product='1010193']">
+      <Item>
+        <Product>1404422300</Product>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="addPrevSibling" GUID="502023,502008,502038"
+      Condition="!~/Values/ProductList/List/Item[Product='1404422300']"
+      Path="/Values/ProductList/List/Item[Product='1010193']">
+      <Item>
+        <Product>1404422300</Product>
+      </Item>
+    </ModOp>    
+  </Group>
+
+  <!-- # Expedition -->
+  <ModOp Type="add" GUID="800111"
+    Condition="!~/ExpeditionFeature/FeedOption/FeedOptions[Item/Product='1404422300']"
+    Path="/Values/ExpeditionFeature/FeedOption/FeedOptions">
+    <Item>
+      <MoraleFactor>0.5</MoraleFactor>
+      <Product>1404422300</Product>
+    </Item>
+  </ModOp>
+
+  <!-- # Docklands: Tattershire -->
+  <Group Condition="!//TradeLevels/Item/Trades[Item/Good='1404422300']">
+    <ModOp Type="addNextSibling" GUID="1010199"
+      Condition="!//FactoryBase[FactoryOutputs/Item/Product='1404422300']/IsMainFactory[text()='1']">
+      <Asset>
+        <Template>FarmBuilding</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301143</GUID>
+            <Name>IsMainFactory_Fake: Cattle</Name>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+          </Building>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/graphics/buildings/production/agriculture_02/agriculture_02.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Locked />
+          <FactoryBase>
+            <FactoryOutputs>
+              <Item>
+                <Product>1404422300</Product>
+                <Amount>1</Amount>
+                <StorageAmount>2</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>60</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010052</Product>
+                <Amount>20</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <ModuleOwner>
+            <ModuleLimits>
+              <Main>
+                <Limit>4</Limit>
+              </Main>
+            </ModuleLimits>
+            <ConstructionOptions>
+              <Item>
+                <ModuleGUID>1010271</ModuleGUID>
+              </Item>
+            </ConstructionOptions>
+          </ModuleOwner>          
+        </Values>
+      </Asset>    
+    </ModOp>
+
+    <ModOp Type="addPrevSibling" GUID="131764"
+      Path="/Values/TradeContractFeature/Traders/Item[TraderName='131819']/TradeLevels/Item/Trades/Item[Good='1010193']">
+      <Item>
+        <Good>1404422300</Good>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="addPrevSibling" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131819']/TradeLevels/Item/Trades/Item[Good='1010193']/Good">
+      <Level>Uncommon</Level>
+    </ModOp> 
+
+    <ModOp Type="add" GUID="502233" Path="/Values/ProductList/List">
+      <Item>
+        <Product>1404422300</Product>
+      </Item>
+    </ModOp>
+  </Group>
+</ModOps>

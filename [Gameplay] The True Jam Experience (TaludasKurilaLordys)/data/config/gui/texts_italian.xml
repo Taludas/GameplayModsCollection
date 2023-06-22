@@ -1,0 +1,88 @@
+<ModOps>
+  	<ModOp Type="add" Path="/TextExport/Texts">
+		<!-- Products -->
+			<Text>
+				<!-- TODO translation -->
+				<GUID>1999000003</GUID>
+				<Text>A differenza della marmellata, queste crescono sugli alberi.</Text>
+			</Text>
+		<!-- Jam Manufactory -->
+			<Text>
+				<!-- TODO translation -->
+				<GUID>1999000005</GUID>
+				<Text>Fabbrica di marmellata</Text>
+			</Text>
+			<Text>
+				<!-- TODO translation -->
+				<GUID>1999000009</GUID>
+				<Text>[AssetData(133183) Text]</Text>
+			</Text>
+			<Text>
+				<!-- TODO translation -->
+				<GUID>1999000010</GUID>
+				<Text>[AssetData(1010239) Text]</Text>
+			</Text>
+			<Text>
+				<!-- TODO translation -->
+				<GUID>1999000006</GUID>
+				<Text>Marmellata</Text>
+			</Text>
+			<Text>
+				<!-- TODO translation -->
+				<GUID>1999000007</GUID>
+				<Text>Fortunatamente, il vecchio ricettario dell'artigiano rivela un segreto ben custodito: la ricetta della nonna per la confettura di ciliegie extra-fruttata in eleganti bicchieri riutilizzabili.</Text>
+			</Text>
+			<Text>
+				<!-- TODO translation -->
+				<GUID>1999000013</GUID>
+				<Text>Questa marmellata fruttata è preparata a mano con ciliegie mature e amarene e un po' di zucchero. La confettura viene mescolata e assaggiata fino a trovare la miscela perfetta di ciliegie e zucchero. La marmellata viene servita alla maniera della nonna in eleganti bicchieri riutilizzabili.</Text>
+			</Text>
+		<!-- Recipe Cherries -->
+			<Text>
+				<!-- TODO translation -->
+				<GUID>1999000004</GUID>
+				<Text>Ciliegie spesse e fruttate, raccolte direttamente dall'albero, non coltivate nel bicchiere.</Text>
+			</Text>
+			<Text>
+				<!-- TODO translation -->
+				<GUID>133498</GUID>
+				<Text>Ciliegie</Text>
+			</Text>
+			<Text>
+				<GUID>133496</GUID>
+				<Text>Frutteto: Ciliegie</Text>
+			</Text>
+		<!-- Specialists -->
+			<Text>
+				<!-- TODO translation -->
+				<GUID>1999000011</GUID>
+				<Text>Marlene, madre di Marmelade</Text>
+			</Text>
+			<Text>
+				<!-- TODO translation -->
+				<GUID>1999000012</GUID>
+				<Text>Produce la più deliziosa delle marmellate in bicchieri riciclati.</Text>
+			</Text>
+		<!-- Extended InfoDesciption -->
+			<Text>
+				<!-- TODO translation -->
+				<GUID>1404420043</GUID>
+				<Text>[AssetData(1500300045) Text][AssetData(1404420011) Text][AssetData(1404420015) Text][AssetData(1404420047) Text][AssetData(1500300046) Text] [AssetData(1404420019) Text]</Text>
+			</Text>
+			<Text>
+				<!-- TODO translation -->
+				<GUID>1404420011</GUID>
+				<Text>&#xD;&#xA;&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;b&gt;1t&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1404420030) Icon]"/&gt; [AssetData(1404420030) Text]&lt;/font&gt;&#xD;&#xA;</Text>
+			</Text>
+			<Text>
+				<!-- TODO translation -->
+				<GUID>1404420015</GUID>
+				<Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;b&gt;0,5t&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1010239) Icon]"/&gt;[AssetData(1010239) Text]&lt;/font&gt;&#xD;&#xA;</Text>
+			</Text>
+			<Text>
+				<!-- TODO translation -->
+				<GUID>1404420047</GUID>
+				<Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;b&gt;0,5t&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1010241) Icon]"/&gt;[AssetData(1010241) Text]&lt;/font&gt;&#xD;&#xA;&#xD;&#xA;</Text>
+			</Text>
+  </ModOp>
+</ModOps>

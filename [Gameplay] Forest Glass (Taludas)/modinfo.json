@@ -1,0 +1,62 @@
+{
+  "Version": "1.0",
+  "ModID": "Taludas_ForestGlass",
+  "DeprecateIds": [],
+  "ModDependencies": [
+    "Taludas_SharedExtraGoods"
+  ],
+  "LoadAfterIds": [
+    "*",
+    "Taludas_SharedExtraGoods",
+    "lion053_Enbesa_Spectacles_Production",
+    "TaludasKurilaLordys_TrueJamExperience",
+    "Taludas_HighLifeSouvenirs",
+    "revival_of_the_low_tier_goods_kurila",
+    "extended_rum_champagne_and_cognac_production_kurila"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Gameplay",
+    "Chinese": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Forest Glass (Taludas)",
+    "English": "Forest Glass (Taludas)",
+    "French": "Forest Glass (Taludas)",
+    "German": " Forest Glass (Taludas)",
+    "Italian": "Forest Glass (Taludas)",
+    "Japanese": "Forest Glass (Taludas)",
+    "Korean": "Forest Glass (Taludas)",
+    "Polish": "Forest Glass (Taludas)",
+    "Russian": "Forest Glass (Taludas)",
+    "Spanish": "Forest Glass (Taludas)",
+    "Taiwanese": "Forest Glass (Taludas)"
+  },
+  "Description": {
+    "English": "# Forest Glass \n\n Also known as Waldglas in German, refers to a type of glass that was produced during the late medieval and early modern periods in Europe, particularly in the regions of Germany and Bohemia. It is characterized by its distinct green color and often exhibits a slightly crude or uneven texture. \n\n Forest glass was primarily used for making drinking vessels, bottles, and window panes. Its production was a significant industry in the forested areas where it thrived, hence the name 'forest glass'. \n\n Ingredients: \n\n - Quartz sand \n\n - wood ash to provide potash (K2CO3) as flux. \n\nThe green color of forest glass is attributed to impurities present in the raw materials, particularly iron oxide from the sand and plant ashes used. These impurities, combined with the specific firing conditions in the forest glass production, resulted in the distinctive green hue. \n\n To compensate the increased resource input, there are several buffs in place: \n\n - a standard 10% production boost on the glasshouse. \n\n - a near field buff coming from the glasshouses and boosting potash and woodcutter buildings in its vicinity. \n\n - A return buff from potash and woodcutter buildings to increase productivity of the glasshouse. \n\n - This ensures a good synergy effect, if the buildings are built in close range, as it is historically correct. \n\nThis mod will modify other mods using the vanilla glassworks.",
+    "German": "# Waldglas \n\n Auch als Waldglas bekannt, bezeichnet es eine Art von Glas, das im späten Mittelalter und in der frühen Neuzeit in Europa, insbesondere in den Regionen Deutschlands und Böhmens, hergestellt wurde. Es zeichnet sich durch seine ausgeprägte grüne Farbe aus und weist oft eine leicht grobe oder ungleichmäßige Textur auf. \n\n Waldglas wurde hauptsächlich für die Herstellung von Trinkgefäßen, Flaschen und Fensterscheiben verwendet. Seine Herstellung war ein bedeutender Wirtschaftszweig in den bewaldeten Gebieten, in denen es florierte, daher der Name 'Waldglas'. \n\n Zutaten: \n\n - Quarzsand \n\n - Holzasche zur Bereitstellung von Pottasche (K2CO3) als Flussmittel. \n\nDie grüne Farbe von Waldglas ist auf Verunreinigungen in den Rohstoffen zurückzuführen, insbesondere auf Eisenoxid aus dem verwendeten Sand und der Pflanzenasche. Diese Verunreinigungen führen in Verbindung mit den besonderen Brennbedingungen bei der Waldglasherstellung zu dem unverwechselbaren grünen Farbton. \n\n Um den erhöhten Ressourceneinsatz zu kompensieren, gibt es mehrere Ausgleichsmaßnahmen: \n\n - eine standardmäßige Produktionssteigerung von 10% im Glashaus. \n\n - ein Nahfeld-Buff, der von den Glashütten ausgeht und die Pottasche und die Holzfäller-Gebäude in der Umgebung verstärkt. \n\n - Ein Return-Buff von Pottasche und Holzfällergebäuden, der die Produktivität der Glashütte erhöht. \n\n - Dies sorgt für einen guten Synergieeffekt, wenn die Gebäude in unmittelbarer Nähe gebaut werden, da es historisch korrekt ist. \n\nDiese Mod wird andere Mods modifizieren, die die Vanilla-Glashütte verwenden.",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Taludas",
+  "Image": null
+}

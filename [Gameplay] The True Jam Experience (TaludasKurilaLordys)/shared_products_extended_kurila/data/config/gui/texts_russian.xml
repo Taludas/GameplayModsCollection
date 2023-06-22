@@ -1,0 +1,32 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500300000</GUID>
+      <Text>Бочки</Text>
+    </Text>
+    <Text>
+      <GUID>1404422300</GUID>
+      <Text>Скот</Text>
+    </Text>
+    <Text>
+      <GUID>1404420030</GUID>
+      <Text>Вишня</Text>
+    </Text>
+    <Text>
+      <GUID>1500020000</GUID>
+      <Text>Шерстяная ткань</Text>
+    </Text>
+    <Text>
+      <GUID>1500020010</GUID>
+      <Text>Швейная нить</Text>
+    </Text>
+    <Text>
+      <GUID>1500301150</GUID>
+      <Text>Древесина из кордия</Text>
+    </Text>
+    <Text>
+      <GUID>1500301151</GUID>
+      <Text>Древесина вишневого Доски</Text>
+    </Text>
+  </ModOp>
+</ModOps>

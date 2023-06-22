@@ -1,0 +1,126 @@
+<ModOps>
+  <!-- # Product: Wanza Wood -->
+  <Group>
+    <ModOp GUID="114356" Type="addPrevSibling">
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301150</GUID>
+            <Name>Wanza Wood</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_wansa_wood.png</IconFilename>
+          </Standard>
+          <Locked>
+            <DLCDependency>410071</DLCDependency>
+          </Locked>
+          <Product>
+            <StorageLevel>Building</StorageLevel>
+            <ProductCategory>11707</ProductCategory>
+            <BasePrice>3</BasePrice>
+            <CivLevel>1</CivLevel>
+            <AssociatedRegion>Africa</AssociatedRegion>
+            <ProductionRegions>
+              <Item>
+                <RegionType>Africa</RegionType>
+                <RequiredDLCs>
+                  <Item>
+                    <RequiredDLC>410071</RequiredDLC>
+                  </Item>
+                </RequiredDLCs>
+              </Item>
+            </ProductionRegions>
+          </Product>
+          <ExpeditionAttribute>
+            <BaseMorale>0</BaseMorale>
+            <ExpeditionAttributes>
+              <Item>
+                <Attribute>Crafting</Attribute>
+                <Amount>10</Amount>
+              </Item>
+            </ExpeditionAttributes>
+            <FluffText>129483</FluffText>
+          </ExpeditionAttribute>
+        </Values>
+      </Asset>
+    </ModOp>
+    <ModOp Type="replace" GUID='114356' Path="/Values/Standard/IconFilename">
+      <IconFilename>data/products/wanza-wood/icon_wanza_planks.png</IconFilename>
+    </ModOp>
+  </Group>
+  <!-- # Lists -->
+  <Group>
+    <ModOp Type="add" GUID="120055"
+      Condition="!/Values/ProductStorageList/ProductList/Item[Product='1500301150']"
+      Path="/Values/ProductStorageList/ProductList">
+      <Item>
+        <Product>1500301150</Product>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="502069,502071,502075"
+      Condition="!/Values/ProductList/List/Item[Product='1500301150']"
+      Path="/Values/ProductList/List">
+      <Item>
+        <Product>1500301150</Product>
+      </Item>
+    </ModOp>
+  </Group>
+  <!-- # Docklands: Tattershire -->
+  <Group Condition="!//TradeLevels/Item/Trades[Item/Good='1500301150']">
+    <ModOp Type="addNextSibling" GUID="120008"
+      Condition="!//FactoryBase[FactoryOutputs/Item/Product='1500301150']/IsMainFactory[text()='1']">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301146</GUID>
+            <Name>IsMainFactory_Fake: Wanza_Wood</Name>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Africa</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+          </Building>
+          <Blocking />
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data\graphics\buildings\public\logistic_01\logistic_01.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Locked />
+          <FactoryBase>
+            <FactoryOutputs>
+              <Item>
+                <Product>1500301150</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>15</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>114340</Product>
+                <Amount>15</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+        </Values>
+      </Asset>
+    </ModOp>
+    <ModOp Type="add" GUID="131764"
+      Path="/Values/TradeContractFeature/Traders/Item[TraderName='131819']/TradeLevels/Item/Trades[Item/Good='120008']">
+      <Item>
+        <Good>1500301150</Good>
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="502233" Path="/Values/ProductList/List">
+      <Item>
+        <Product>1500301150</Product>
+      </Item>
+    </ModOp>
+  </Group>
+</ModOps>

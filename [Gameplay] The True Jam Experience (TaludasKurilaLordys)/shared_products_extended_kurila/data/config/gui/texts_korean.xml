@@ -1,0 +1,32 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500300000</GUID>
+      <Text>배럴</Text>
+    </Text>
+    <Text>
+      <GUID>1404422300</GUID>
+      <Text>소</Text>
+    </Text>
+    <Text>
+      <GUID>1404420030</GUID>
+      <Text>체리</Text>
+    </Text>
+    <Text>
+      <GUID>1500020000</GUID>
+      <Text>모직 원단</Text>
+    </Text>
+    <Text>
+      <GUID>1500020010</GUID>
+      <Text>재봉사</Text>
+    </Text>
+    <Text>
+      <GUID>1500301150</GUID>
+      <Text>완자 나무</Text>
+    </Text>
+    <Text>
+      <GUID>1500301151</GUID>
+      <Text>체리 목재</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,716 @@
+<ModOps>
+
+    <!-- Sir John Faithful -->
+    <ModOp Type="addNextSibling" GUID="116174">
+        <Asset>
+            <Template>ShipSpecialist</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000171</GUID>
+                    <Name>Sir John Faithful, Reinstated Admiral of the Lost Expedition</Name>
+                    <IconFilename>data/modgraphics/ui/icon_captain_10.png</IconFilename>
+                    <InfoDescription>1999000172</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Particularly Pull-y Pulley</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>36233</LineID>
+                </Text>
+                <Item>
+                    <Allocation>AirShip</Allocation>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Legendary</Rarity>
+                    <TradePrice>678000</TradePrice>
+                </Item>
+                <Cost />
+                <VehicleUpgrade>
+                    <ForwardSpeedUpgrade>
+                        <Value>50</Value>
+                        <Percental>1</Percental>
+                    </ForwardSpeedUpgrade>
+                    <MaintainanceUpgrade>
+                        <Value>-75</Value>
+                        <Percental>1</Percental>
+                    </MaintainanceUpgrade>
+                    <IgnoreWeightFactorUpgrade>
+                        <Value>100</Value>
+                        <Percental>1</Percental>
+                    </IgnoreWeightFactorUpgrade>
+                </VehicleUpgrade>
+                <ExpeditionAttribute>
+                    <BaseMorale>50</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkMale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Navigation</Attribute>
+                            <Amount>55</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Hunting</Attribute>
+                            <Amount>25</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Diplomacy</Attribute>
+                            <Amount>15</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Faith</Attribute>
+                            <Amount>10</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemRegions>Arctic;NorthernEurope;NorthAmerica</ItemRegions>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                    <FluffText>1999000172</FluffText>
+                </ExpeditionAttribute>
+                <AttackerUpgrade>
+                    <LineOfSightRangeUpgrade>
+                        <Value>25</Value>
+                        <Percental>1</Percental>
+                    </LineOfSightRangeUpgrade>
+                </AttackerUpgrade>
+                <AttackableUpgrade />
+                <Locked>
+                    <DLCDependency>410042</DLCDependency>
+                </Locked>
+                <TradeShipUpgrade>
+                    <LoadingSpeedUpgrade>
+                        <Value>100</Value>
+                        <Percental>1</Percental>
+                    </LoadingSpeedUpgrade>
+                </TradeShipUpgrade>
+                <CraftableItem />
+                <DivingBellUpgrade />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- El Presidente, Globetrotter par excellence -->
+    <ModOp Type="addNextSibling" GUID="116174">
+        <Asset>
+            <Template>ShipSpecialist</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000173</GUID>
+                    <Name>El Presidente, Globetrotter par excellence</Name>
+                    <IconFilename>data/modgraphics/ui/icon_captain_5_1.png</IconFilename>
+                    <InfoDescription>1999000174</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Particularly Pull-y Pulley</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>36233</LineID>
+                </Text>
+                <Item>
+                    <Allocation>DivingVessel</Allocation>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Legendary</Rarity>
+                    <TradePrice>678000</TradePrice>
+                </Item>
+                <Cost />
+                <VehicleUpgrade>
+                    <ForwardSpeedUpgrade>
+                        <Value>25</Value>
+                        <Percental>1</Percental>
+                    </ForwardSpeedUpgrade>
+                </VehicleUpgrade>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkMale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Hunting</Attribute>
+                            <Amount>55</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Faith</Attribute>
+                            <Amount>25</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemRegions>Arctic;NorthernEurope;NorthAmerica</ItemRegions>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                    <FluffText>1999000174</FluffText>
+                </ExpeditionAttribute>
+                <AttackerUpgrade />
+                <AttackableUpgrade />
+                <Locked>
+                    <DLCDependency>410042</DLCDependency>
+                </Locked>
+                <TradeShipUpgrade />
+                <CraftableItem />
+                <DivingBellUpgrade>
+                    <ScrapAmountLevelUpgrade>
+                        <Value>10</Value>
+                    </ScrapAmountLevelUpgrade>
+                    <RarityWeightUpgrade>
+                        <Epic>
+                            <AdditionalWeight>15</AdditionalWeight>
+                        </Epic>
+                        <Legendary>
+                            <AdditionalWeight>25</AdditionalWeight>
+                        </Legendary>
+                    </RarityWeightUpgrade>
+                    <AllocationWeightUpgrade>
+                        <GuildHouse>
+                            <AdditionalWeight>40</AdditionalWeight>
+                        </GuildHouse>
+                        <TownHall>
+                            <AdditionalWeight>40</AdditionalWeight>
+                        </TownHall>
+                        <HarborOffice>
+                            <AdditionalWeight>40</AdditionalWeight>
+                        </HarborOffice>
+                        <Ship>
+                            <AdditionalWeight>40</AdditionalWeight>
+                        </Ship>
+                        <SailShip>
+                            <AdditionalWeight>40</AdditionalWeight>
+                        </SailShip>
+                        <SteamShip>
+                            <AdditionalWeight>40</AdditionalWeight>
+                        </SteamShip>
+                        <Warship>
+                            <AdditionalWeight>40</AdditionalWeight>
+                        </Warship>
+                        <Tradeship>
+                            <AdditionalWeight>40</AdditionalWeight>
+                        </Tradeship>
+                    </AllocationWeightUpgrade>
+                </DivingBellUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Ming Shu, Sharp tongue of the eastern capital -->
+    <ModOp Type="addNextSibling" GUID="116174">
+        <Asset>
+            <Template>ShipSpecialist</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000175</GUID>
+                    <Name>Ming Shu, Sharp tongue of the eastern capital</Name>
+                    <IconFilename>data/modgraphics/ui/icon_captain_15.png</IconFilename>
+                    <InfoDescription>1999000176</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Particularly Pull-y Pulley</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>36233</LineID>
+                </Text>
+                <Item>
+                    <Allocation>AirShip</Allocation>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Legendary</Rarity>
+                    <TradePrice>678000</TradePrice>
+                </Item>
+                <Cost />
+                <VehicleUpgrade>
+                    <ForwardSpeedUpgrade>
+                        <Value>25</Value>
+                        <Percental>1</Percental>
+                    </ForwardSpeedUpgrade>
+                    <MaintainanceUpgrade>
+                        <Value>-40</Value>
+                        <Percental>1</Percental>
+                    </MaintainanceUpgrade>
+                </VehicleUpgrade>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkFemale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Diplomacy</Attribute>
+                            <Amount>55</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemRegions>Arctic;NorthernEurope;NorthAmerica</ItemRegions>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                    <FluffText>1999000176</FluffText>
+                </ExpeditionAttribute>
+                <AttackerUpgrade />
+                <AttackableUpgrade />
+                <Locked>
+                    <DLCDependency>410042</DLCDependency>
+                </Locked>
+                <TradeShipUpgrade>
+                    <ActiveTradePriceInPercent>50</ActiveTradePriceInPercent>
+                </TradeShipUpgrade>
+                <CraftableItem />
+                <DivingBellUpgrade />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Jürgen Vogel, Lifter of flying crates -->
+    <ModOp Type="addNextSibling" GUID="116174">
+        <Asset>
+            <Template>ShipSpecialist</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000177</GUID>
+                    <Name>Jürgen Vogel, Lifter of flying crates</Name>
+                    <IconFilename>data/modgraphics/ui/icon_captain_21.png</IconFilename>
+                    <InfoDescription>1999000178</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Particularly Pull-y Pulley</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>36233</LineID>
+                </Text>
+                <Item>
+                    <Allocation>AirShip</Allocation>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Legendary</Rarity>
+                    <TradePrice>678000</TradePrice>
+                </Item>
+                <Cost />
+                <VehicleUpgrade>
+                    <IgnoreWeightFactorUpgrade>
+                        <Value>100</Value>
+                        <Percental>1</Percental>
+                    </IgnoreWeightFactorUpgrade>
+                </VehicleUpgrade>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkMale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Crafting</Attribute>
+                            <Amount>55</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemRegions>Arctic;NorthernEurope;NorthAmerica</ItemRegions>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                    <FluffText>1999000178</FluffText>
+                </ExpeditionAttribute>
+                <AttackerUpgrade />
+                <AttackableUpgrade />
+                <Locked>
+                    <DLCDependency>410042</DLCDependency>
+                </Locked>
+                <TradeShipUpgrade>
+                    <LoadingSpeedUpgrade>
+                        <Value>75</Value>
+                        <Percental>1</Percental>
+                    </LoadingSpeedUpgrade>
+                </TradeShipUpgrade>
+                <CraftableItem />
+                <DivingBellUpgrade />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Francis Crozier, Aerial Trade Specialist -->
+    <ModOp Type="addNextSibling" GUID="116174">
+        <Asset>
+            <Template>ShipSpecialist</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000179</GUID>
+                    <Name>Francis Crozier, Aerial Trade Specialist</Name>
+                    <IconFilename>data/modgraphics/ui/icon_captain_20_2.png</IconFilename>
+                    <InfoDescription>1999000180</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Particularly Pull-y Pulley</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>36233</LineID>
+                </Text>
+                <Item>
+                    <Allocation>AirShip</Allocation>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Epic</Rarity>
+                    <TradePrice>255000</TradePrice>
+                </Item>
+                <Cost />
+                <VehicleUpgrade>
+                    <ForwardSpeedUpgrade>
+                        <Value>10</Value>
+                        <Percental>1</Percental>
+                    </ForwardSpeedUpgrade>
+                    <MaintainanceUpgrade>
+                        <Value>-25</Value>
+                        <Percental>1</Percental>
+                    </MaintainanceUpgrade>
+                </VehicleUpgrade>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkMale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Diplomacy</Attribute>
+                            <Amount>25</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemRegions>Arctic;NorthernEurope;NorthAmerica</ItemRegions>
+                    <ItemDifficulties>Average;Hard</ItemDifficulties>
+                    <FluffText>1999000180</FluffText>
+                </ExpeditionAttribute>
+                <AttackerUpgrade />
+                <AttackableUpgrade />
+                <Locked>
+                    <DLCDependency>410042</DLCDependency>
+                </Locked>
+                <TradeShipUpgrade>
+                    <ActiveTradePriceInPercent>75</ActiveTradePriceInPercent>
+                </TradeShipUpgrade>
+                <CraftableItem />
+                <DivingBellUpgrade />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Franca d'Artois, Believer of Speed -->
+    <ModOp Type="addNextSibling" GUID="116174">
+        <Asset>
+            <Template>ShipSpecialist</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000181</GUID>
+                    <Name>Franca d'Artois, Believer of Speed</Name>
+                    <IconFilename>data/modgraphics/ui/icon_captain_7_1.png</IconFilename>
+                    <InfoDescription>1999000182</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Particularly Pull-y Pulley</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>36233</LineID>
+                </Text>
+                <Item>
+                    <Allocation>AirShip</Allocation>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Epic</Rarity>
+                    <TradePrice>255000</TradePrice>
+                </Item>
+                <Cost />
+                <VehicleUpgrade>
+                    <ForwardSpeedUpgrade>
+                        <Value>25</Value>
+                        <Percental>1</Percental>
+                    </ForwardSpeedUpgrade>
+                </VehicleUpgrade>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkFemale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Faith</Attribute>
+                            <Amount>25</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemRegions>Arctic;NorthernEurope;NorthAmerica</ItemRegions>
+                    <ItemDifficulties>Average;Hard</ItemDifficulties>
+                    <FluffText>1999000182</FluffText>
+                </ExpeditionAttribute>
+                <AttackerUpgrade />
+                <AttackableUpgrade />
+                <Locked>
+                    <DLCDependency>410042</DLCDependency>
+                </Locked>
+                <TradeShipUpgrade />
+                <CraftableItem />
+                <DivingBellUpgrade />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- James Fitzjames, Expert on the pulley -->
+    <ModOp Type="addNextSibling" GUID="116174">
+        <Asset>
+            <Template>ShipSpecialist</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000183</GUID>
+                    <Name>James Fitzjames, Expert on the pulley</Name>
+                    <IconFilename>data/modgraphics/ui/icon_captain_23.png</IconFilename>
+                    <InfoDescription>1999000184</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Particularly Pull-y Pulley</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>36233</LineID>
+                </Text>
+                <Item>
+                    <Allocation>AirShip</Allocation>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Epic</Rarity>
+                    <TradePrice>255000</TradePrice>
+                </Item>
+                <Cost />
+                <VehicleUpgrade>
+                    <IgnoreWeightFactorUpgrade>
+                        <Value>60</Value>
+                        <Percental>1</Percental>
+                    </IgnoreWeightFactorUpgrade>
+                </VehicleUpgrade>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkMale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Crafting</Attribute>
+                            <Amount>25</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemRegions>Arctic;NorthernEurope;NorthAmerica</ItemRegions>
+                    <ItemDifficulties>Average;Hard</ItemDifficulties>
+                    <FluffText>1999000184</FluffText>
+                </ExpeditionAttribute>
+                <AttackerUpgrade />
+                <AttackableUpgrade />
+                <Locked>
+                    <DLCDependency>410042</DLCDependency>
+                </Locked>
+                <TradeShipUpgrade>
+                    <LoadingSpeedUpgrade>
+                        <Value>40</Value>
+                        <Percental>1</Percental>
+                    </LoadingSpeedUpgrade>
+                </TradeShipUpgrade>
+                <CraftableItem />
+                <DivingBellUpgrade />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Reward Sir John Faithful at the end of Arctic Quests-->
+    <ModOp Type="add" GUID="116876" Path="/Values/Reward/RewardAssets">
+        <Item>
+            <Reward>1999000171</Reward>
+            <Amount>1</Amount>
+        </Item>
+    </ModOp>
+
+    <!-- Sir John Faithful Rescue Mission Reward-->
+    <ModOp Type="add" GUID="193415" Path="/Values/RewardPool/ItemsPool">
+        <Item>
+            <ItemLink>1999000171</ItemLink>
+        </Item>
+    </ModOp>
+
+    <!-- Specialists - Trading - Legendary (Sir John Faithful, Ming Shu, Jürgen Vogel) -->
+    <ModOp Type="add" GUID="192762" Path="/Values/RewardPool/ItemsPool">
+        <Item>
+            <ItemLink>1999000175</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1999000177</ItemLink>
+        </Item>
+    </ModOp>
+
+    <!-- Specialists - Treasure Hunters - Legendary (El Presidente) -->
+    <ModOp Type="add" GUID="193477" Path="/Values/RewardPool/ItemsPool">
+        <Item>
+            <ItemLink>1999000173</ItemLink>
+        </Item>
+    </ModOp>
+
+    <!-- Specialists - Arctic Goods - Epic (Francis Crozier, Franca d'Artois, James Fitzjames) -->
+    <ModOp Type="add" GUID="193787,193951" Path="/Values/RewardPool/ItemsPool">
+        <Item>
+            <ItemLink>1999000179</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1999000181</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1999000183</ItemLink>
+        </Item>
+    </ModOp>
+
+    <!-- Trigger Items with first Airship -->
+    <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000185</GUID>
+                    <Name>MOD Trigger Unlock Items</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <Context>114166</Context>
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionResetTrigger</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionResetTrigger />
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1999000171</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999000173</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999000175</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999000177</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999000179</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999000181</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999000183</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1999000171</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999000173</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999000175</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999000177</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999000179</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999000181</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999000183</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999000186</GUID>
+                    <Name>MOD Trigger Unlock Items Creative Mode</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Values>
+                            <ConditionPropsNegatable />
+                            <Condition />
+                            <ConditionIsCreativeMode />
+                        </Values>
+                        <Template>ConditionIsCreativeMode</Template>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1999000171</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999000173</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999000175</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999000177</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999000179</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999000181</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999000183</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>

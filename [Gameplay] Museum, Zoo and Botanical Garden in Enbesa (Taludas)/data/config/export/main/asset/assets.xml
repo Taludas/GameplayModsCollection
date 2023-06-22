@@ -1,0 +1,1920 @@
+<ModOps>
+
+	<!-- #MUSEUM IN ENBESA -->
+	<Group>
+		<!-- Add Museum Asset for Enbesa-->
+		<ModOp Type="addNextSibling" GUID="102283">
+			<Asset>
+				<Template>CultureBuildingColony</Template>
+				<Values>
+					<Standard>
+						<GUID>1999000111</GUID>
+						<Name>culture_colony01_02 (Museum)</Name>
+						<IconFilename>data/ui/2kimages/main/3dicons/icon_museum.png</IconFilename>
+						<InfoDescription>11663</InfoDescription>
+					</Standard>
+					<Building>
+						<PickingAsset>1999000111</PickingAsset>
+						<BuildModeRandomRotation>180</BuildModeRandomRotation>
+						<AssociatedRegions>Africa</AssociatedRegions>
+					</Building>
+					<Blocking />
+					<Cost>
+						<Costs>
+							<Item>
+								<Ingredient>1010017</Ingredient>
+								<Amount>10000</Amount>
+							</Item>
+							<Item>
+								<Ingredient>114356</Ingredient>
+								<Amount>30</Amount>
+							</Item>
+							<Item>
+								<Ingredient>114402</Ingredient>
+								<Amount>30</Amount>
+							</Item>
+							<Item>
+								<Ingredient>1010218</Ingredient>
+								<Amount>10</Amount>
+							</Item>
+							<Item>
+								<Ingredient>1010207</Ingredient>
+								<Amount>5</Amount>
+							</Item>
+							<Item>
+								<Ingredient>1010202</Ingredient>
+							</Item>
+						</Costs>
+					</Cost>
+					<Object>
+						<Variations>
+							<Item>
+								<Filename>data/graphics/buildings/public/cultural_02/cultural_02_main/cultural_02_main.cfg</Filename>
+							</Item>
+						</Variations>
+					</Object>
+					<Mesh />
+					<Selection />
+					<Text>
+						<LocaText>
+							<English>
+								<Text>Museum</Text>
+								<Status>Exported</Status>
+							</English>
+						</LocaText>
+						<LineID>20113</LineID>
+					</Text>
+					<Constructable />
+					<Locked />
+					<SoundEmitter>
+						<ActiveSounds>
+							<Item>
+								<Sound>200531</Sound>
+							</Item>
+						</ActiveSounds>
+						<IncidentSounds>
+							<InfectedFire>
+								<Item>
+									<Sound>214659</Sound>
+								</Item>
+							</InfectedFire>
+						</IncidentSounds>
+						<BuildingRepaired>
+							<Item>
+								<Sound>203866</Sound>
+							</Item>
+						</BuildingRepaired>
+					</SoundEmitter>
+					<FeedbackController />
+					<Infolayer />
+					<UpgradeList />
+					<Culture>
+						<CultureSpawnGroup>1</CultureSpawnGroup>
+						<Sets>
+							<Item>
+								<Set>191130</Set>
+							</Item>
+							<Item>
+								<Set>191124</Set>
+							</Item>
+							<Item>
+								<Set>191127</Set>
+							</Item>
+							<Item>
+								<Set>191126</Set>
+							</Item>
+							<Item />
+							<Item>
+								<Set>191131</Set>
+							</Item>
+							<Item>
+								<Set>191129</Set>
+							</Item>
+							<Item>
+								<Set>191125</Set>
+							</Item>
+							<Item>
+								<Set>191128</Set>
+							</Item>
+							<Item>
+								<Set>191123</Set>
+							</Item>
+							<Item />
+							<Item />
+							<Item>
+								<Set>193408</Set>
+							</Item>
+							<Item>
+								<Set>193405</Set>
+							</Item>
+							<Item>
+								<Set>193776</Set>
+							</Item>
+							<Item>
+								<Set>193774</Set>
+							</Item>
+							<Item />
+							<Item />
+							<Item>
+								<Set>124908</Set>
+							</Item>
+							<Item>
+								<Set>124906</Set>
+							</Item>
+							<Item>
+								<Set>124905</Set>
+							</Item>
+							<Item>
+								<Set>124907</Set>
+							</Item>
+						</Sets>
+						<UndiscoveredSet>14022</UndiscoveredSet>
+						<ModuleListHeader>13974</ModuleListHeader>
+						<OpenSetPages>13972</OpenSetPages>
+						<CultureMoodImage>data/ui/2kimages/main/assets/cultural_building_mood_bg/bg_main_museum.png</CultureMoodImage>
+					</Culture>
+					<ModuleOwner>
+						<ModuleLimits>
+							<Connector>
+								<Limit>500</Limit>
+							</Connector>
+						</ModuleLimits>
+						<ConstructionOptions>
+							<Item>
+								<ModuleGUID>100454</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>113452</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114435</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>103119</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>101510</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>102466</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>102469</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114295</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114299</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114297</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114296</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114300</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114293</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114298</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114294</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114301</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114302</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114303</ModuleGUID>
+							</Item>
+						</ConstructionOptions>
+					</ModuleOwner>
+					<AmbientMoodProvider>
+						<AttractivityDependentMurmur>
+							<Item>
+								<Attractivity>30</Attractivity>
+								<Murmur>MuseumLowAttractiveness</Murmur>
+							</Item>
+							<Item>
+								<Attractivity>100</Attractivity>
+								<Murmur>MuseumMedAttractiveness</Murmur>
+							</Item>
+							<Item>
+								<Attractivity>250</Attractivity>
+								<Murmur>MuseumHighAttractiveness</Murmur>
+							</Item>
+						</AttractivityDependentMurmur>
+						<DynamicEnvironmentType>Fog</DynamicEnvironmentType>
+					</AmbientMoodProvider>
+					<LogisticNode />
+					<Factory7 />
+					<FactoryBase />
+					<Maintenance>
+						<Maintenances>
+							<Item>
+								<Product>1010017</Product>
+								<Amount>100</Amount>
+								<InactiveAmount>100</InactiveAmount>
+							</Item>
+						</Maintenances>
+						<ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+					</Maintenance>
+					<Attackable>
+						<MaximumHitPoints>4750</MaximumHitPoints>
+						<SelfHealPerHealTick>4</SelfHealPerHealTick>
+					</Attackable>
+					<IncidentInfectable />
+					<Pausable />
+					<StreetActivation />
+					<QuestObject />
+					<InfluenceSource />
+				</Values>
+			</Asset>
+		</ModOp>
+
+		<!-- Add Museum to FeedbackBuildingGroup-->
+		<ModOp Type="add" GUID="141484" Path="/Values/FeedbackBuildingGroup/Buildings">
+			<Item>
+				<Building>1999000111</Building>
+			</Item>
+		</ModOp>
+
+		<!-- Add Museum to ItemEffectTargetPools-->
+		<ModOp Type="add" GUID="193666,191562,190609,368"
+			Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+			<Item>
+				<GUID>1999000111</GUID>
+			</Item>
+		</ModOp>
+
+		<!-- Add Museum to Construction Menus-->
+		<ModOp Type="addNextSibling" GUID="114554"
+			Path="/Values/ConstructionCategory/BuildingList/Item[Building='117859']">
+			<Item>
+				<Building>1999000111</Building>
+			</Item>
+		</ModOp>
+		<ModOp Type="addNextSibling" GUID="119012"
+			Path="/Values/ConstructionCategory/BuildingList/Item[Building='117859']">
+			<Item>
+				<Building>1999000111</Building>
+			</Item>
+		</ModOp>
+
+		<!-- Add Empty Exhibition, Music Pavillion and Ornaments to be buildable in Enbesa -->
+		<ModOp Type="replace"
+			GUID="100454,113452,112486,114148,114149,114150,114151,114435,103119,101510"
+			Path="/Values/Building/AssociatedRegions">
+			<AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+		</ModOp>
+
+		<!-- Add different Exhibition Modules in Enbesa-->
+		<ModOp Type="replace"
+			GUID="1010481,101451,101452,101453,101454,1010482,101455,101456,101457,101458,1010483,101459,101460,101461,101462,1010484,100917,100918,100919,100920,100921,100922,100923,100924,100925,100926,100927,101956,100928,100929,100930,100931,100932,100933,100940,100941,100942,100943,100944,100945,112479,112480,112481,112482,113376,114789,114790,114791,114792,114793,124786,124787,124788,124789,124790,124791,124792,124793,124794,124795,130922,130923,125029"
+			Path="/Values/Building/AssociatedRegions">
+			<AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+		</ModOp>
+
+		<!-- Add Museum Set Buffs in Enbesa-->
+		<!-- Vanilla Version -->
+
+		<!-- Aegean Cultures Set in Enbesa-->
+		<ModOp Type="add" GUID="191142" Path="/Values/ItemEffect/EffectTargets">
+			<Item>
+				<GUID>114519</GUID>
+			</Item>
+		</ModOp>
+
+		<!-- Bronze Age Set in Enbesa-->
+		<ModOp Type="add" GUID="191141" Path="/Values/ItemEffect/EffectTargets">
+			<Item>
+				<GUID>122963</GUID>
+			</Item>
+			<Item>
+				<GUID>117743</GUID>
+			</Item>
+		</ModOp>
+
+		<!-- Lost Tribes Set in Enbesa-->
+		<ModOp Type="add" GUID="124914" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+			<Item>
+				<ProvidedNeed>114414</ProvidedNeed>
+				<AmountInPercent>-5</AmountInPercent>
+			</Item>
+		</ModOp>
+
+		<!-- Roots of Enbesa Set in Enbesa-->
+		<ModOp Type="add" GUID="124915" Path="/Values/ItemEffect/EffectTargets">
+			<Item>
+				<GUID>114437</GUID>
+			</Item>
+		</ModOp>
+	</Group>
+
+
+	<!-- #ZOO IN ENBESA -->
+	<Group>
+		<!-- Add Zoo Asset for Enbesa-->
+		<ModOp Type="addNextSibling" GUID="102283">
+			<Asset>
+				<Template>CultureBuildingColony</Template>
+				<Values>
+					<Standard>
+						<GUID>1999000112</GUID>
+						<Name>culture_colony01_01 (Zoo)</Name>
+						<IconFilename>data/ui/2kimages/main/3dicons/icon_zoo.png</IconFilename>
+						<InfoDescription>118025</InfoDescription>
+					</Standard>
+					<Building>
+						<PickingAsset>1999000112</PickingAsset>
+						<BuildModeRandomRotation>180</BuildModeRandomRotation>
+						<AssociatedRegions>Africa</AssociatedRegions>
+					</Building>
+					<Blocking />
+					<Cost>
+						<Costs>
+							<Item>
+								<Ingredient>1010017</Ingredient>
+								<Amount>10000</Amount>
+							</Item>
+							<Item>
+								<Ingredient>114356</Ingredient>
+								<Amount>30</Amount>
+							</Item>
+							<Item>
+								<Ingredient>114402</Ingredient>
+								<Amount>30</Amount>
+							</Item>
+							<Item>
+								<Ingredient>1010218</Ingredient>
+								<Amount>10</Amount>
+							</Item>
+							<Item>
+								<Ingredient>1010207</Ingredient>
+								<Amount>5</Amount>
+							</Item>
+							<Item>
+								<Ingredient>1010202</Ingredient>
+							</Item>
+						</Costs>
+					</Cost>
+					<Object>
+						<Variations>
+							<Item>
+								<Filename>data/graphics/buildings/public/cultural_01/cultural_01_main/cultural_01_main.cfg</Filename>
+							</Item>
+						</Variations>
+					</Object>
+					<Mesh />
+					<Selection />
+					<Text>
+						<LocaText>
+							<English>
+								<Text>Zoo</Text>
+								<Status>Exported</Status>
+							</English>
+						</LocaText>
+						<LineID>20112</LineID>
+					</Text>
+					<Constructable />
+					<Locked />
+					<SoundEmitter>
+						<ActiveSounds>
+							<Item>
+								<Sound>200529</Sound>
+							</Item>
+						</ActiveSounds>
+						<IncidentSounds>
+							<InfectedFire>
+								<Item>
+									<Sound>214659</Sound>
+								</Item>
+							</InfectedFire>
+						</IncidentSounds>
+						<BuildingRepaired>
+							<Item>
+								<Sound>203866</Sound>
+							</Item>
+						</BuildingRepaired>
+					</SoundEmitter>
+					<FeedbackController />
+					<Infolayer />
+					<UpgradeList />
+					<Culture>
+						<CultureSpawnGroup>1</CultureSpawnGroup>
+						<Sets>
+							<Item>
+								<Set>191114</Set>
+							</Item>
+							<Item>
+								<Set>191118</Set>
+							</Item>
+							<Item>
+								<Set>191115</Set>
+							</Item>
+							<Item>
+								<Set>193193</Set>
+							</Item>
+							<Item />
+							<Item>
+								<Set>191120</Set>
+							</Item>
+							<Item>
+								<Set>191116</Set>
+							</Item>
+							<Item>
+								<Set>191121</Set>
+							</Item>
+							<Item>
+								<Set>191122</Set>
+							</Item>
+							<Item>
+								<Set>191117</Set>
+							</Item>
+							<Item />
+							<Item />
+							<Item>
+								<Set>193403</Set>
+							</Item>
+							<Item>
+								<Set>193401</Set>
+							</Item>
+							<Item>
+								<Set>193773</Set>
+							</Item>
+							<Item>
+								<Set>191119</Set>
+							</Item>
+							<Item />
+							<Item>
+								<Set>124198</Set>
+							</Item>
+							<Item>
+								<Set>124197</Set>
+							</Item>
+							<Item>
+								<Set>124199</Set>
+							</Item>
+							<Item>
+								<Set>124196</Set>
+							</Item>
+							<Item>
+								<Set>124200</Set>
+							</Item>
+						</Sets>
+						<UndiscoveredSet>14021</UndiscoveredSet>
+						<ModuleListHeader>13973</ModuleListHeader>
+						<OpenSetPages>13971</OpenSetPages>
+						<CultureMoodImage>data/ui/2kimages/main/assets/cultural_building_mood_bg/bg_main_zoo.png</CultureMoodImage>
+					</Culture>
+					<ModuleOwner>
+						<ModuleLimits>
+							<Connector>
+								<Limit>500</Limit>
+							</Connector>
+						</ModuleLimits>
+						<ConstructionOptions>
+							<Item>
+								<ModuleGUID>100455</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>113452</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114435</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>103119</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>101510</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>102466</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>102469</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114295</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114299</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114297</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114296</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114300</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114293</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114298</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114294</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114301</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114302</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114303</ModuleGUID>
+							</Item>
+						</ConstructionOptions>
+					</ModuleOwner>
+					<AmbientMoodProvider>
+						<AttractivityDependentMurmur>
+							<Item>
+								<Attractivity>30</Attractivity>
+								<Murmur>ZooLowAttractiveness</Murmur>
+							</Item>
+							<Item>
+								<Attractivity>100</Attractivity>
+								<Murmur>ZooMedAttractiveness</Murmur>
+							</Item>
+							<Item>
+								<Attractivity>250</Attractivity>
+								<Murmur>ZooHighAttractiveness</Murmur>
+							</Item>
+						</AttractivityDependentMurmur>
+						<ApplyMurmurAndMoodToModules>1</ApplyMurmurAndMoodToModules>
+						<DynamicEnvironmentType>Fog</DynamicEnvironmentType>
+					</AmbientMoodProvider>
+					<LogisticNode />
+					<Factory7 />
+					<FactoryBase />
+					<Maintenance>
+						<Maintenances>
+							<Item>
+								<Product>1010017</Product>
+								<Amount>100</Amount>
+								<InactiveAmount>100</InactiveAmount>
+							</Item>
+						</Maintenances>
+						<ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+					</Maintenance>
+					<Attackable>
+						<MaximumHitPoints>3250</MaximumHitPoints>
+						<SelfHealPerHealTick>4</SelfHealPerHealTick>
+					</Attackable>
+					<IncidentInfectable />
+					<Pausable />
+					<StreetActivation />
+					<QuestObject />
+					<InfluenceSource />
+				</Values>
+			</Asset>
+		</ModOp>
+
+		<!-- Add Zoo to FeedbackBuildingGroup-->
+		<ModOp Type="add" GUID="141484" Path="/Values/FeedbackBuildingGroup/Buildings">
+			<Item>
+				<Building>1999000112</Building>
+			</Item>
+		</ModOp>
+
+		<!-- Add Zoo to ItemEffectTargetPools-->
+		<ModOp Type="add" GUID="193666,191561,190609"
+			Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+			<Item>
+				<GUID>1999000112</GUID>
+			</Item>
+		</ModOp>
+
+		<!-- Add Zoo to Construction Menus-->
+		<ModOp Type="addNextSibling" GUID="114554"
+			Path="/Values/ConstructionCategory/BuildingList/Item[Building='117859']">
+			<Item>
+				<Building>1999000112</Building>
+			</Item>
+		</ModOp>
+		<ModOp Type="addNextSibling" GUID="119012"
+			Path="/Values/ConstructionCategory/BuildingList/Item[Building='117859']">
+			<Item>
+				<Building>1999000112</Building>
+			</Item>
+		</ModOp>
+
+		<!-- Add Empty Exhibition, Music Pavillion and Ornaments to be buildable in Enbesa -->
+		<ModOp Type="replace"
+			GUID="100455,113452,112486,114148,114149,114150,114151,114435,103119,101510"
+			Path="/Values/Building/AssociatedRegions">
+			<AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+		</ModOp>
+
+		<!-- Add different Exhibition Modules in Enbesa-->
+		<ModOp Type="replace"
+			GUID="1010477,100812,101984,101985,102014,1010474,100813,100814,101986,101987,1010479,100815,101989,101990,101991,101992,101993,102015,100816,101810,101811,101816,102016,110255,100645,102557,102558,102559,102560,102561,102566,112477,113763,113764,114783,114784,114785,114786,114787,114788,124057,124087,124088,124091,124094,124101,124102,124109,124110,124111,124112,124113,124114,124090,124084,124089,124103,124104,124105,124106,124107,124108,125030,125031,125033,125034"
+			Path="/Values/Building/AssociatedRegions">
+			<AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+		</ModOp>
+
+		<!-- Add Zoo Set Buffs in Enbesa-->
+		<!-- Vanilla -->
+
+		<!-- Cordillera Set in Enbesa -->
+		<ModOp Type="add" GUID="191132" Path="/Values/ItemEffect/EffectTargets">
+			<Item>
+				<GUID>114436</GUID>
+			</Item>
+		</ModOp>
+
+		<!-- Taiga Forest Set in Enbesa -->
+		<ModOp Type="add" GUID="191133" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+			<Item>
+				<ProvidedNeed>114359</ProvidedNeed>
+				<AmountInPercent>-5</AmountInPercent>
+			</Item>
+		</ModOp>
+
+		<!-- Proud Savannah Set in Enbesa -->
+		<ModOp Type="add" GUID="124209" Path="/Values/ItemEffect/EffectTargets">
+			<Item>
+				<GUID>114456</GUID>
+			</Item>
+			<Item>
+				<GUID>114439</GUID>
+			</Item>
+		</ModOp>
+
+		<!-- Great Coral Reef Set in Enbesa -->
+		<ModOp Type="add" GUID="191135" Path="/Values/ItemEffect/EffectTargets">
+			<Item>
+				<GUID>114437</GUID>
+			</Item>
+		</ModOp>
+
+		<!-- Luminaries Set in Enbesa -->
+		<ModOp Type="add" GUID="193404" Path="/Values/ItemEffect/EffectTargets">
+			<Item>
+				<GUID>114519</GUID>
+			</Item>
+		</ModOp>
+
+		<!-- Miombo Woodlands Set in Enbesa -->
+		<ModOp Type="add" GUID="124210" Path="/Values/ItemEffect/EffectTargets">
+			<Item>
+				<GUID>122963</GUID>
+			</Item>
+		</ModOp>
+
+		<!-- Polar Circle Set in Enbesa -->
+		<ModOp Type="add" GUID="191137" Path="/Values/ItemEffect/EffectTargets">
+			<Item>
+				<GUID>114466</GUID>
+			</Item>
+			<Item>
+				<GUID>114469</GUID>
+			</Item>
+		</ModOp>
+	</Group>
+
+
+	<!-- #BOTANICAL GARDEN IN ENBESA -->
+	<Group>
+		<!-- Add Botanical Garden Asset for Enbesa-->
+		<ModOp Type="addNextSibling" GUID="114141">
+			<Asset>
+				<Template>CultureBuildingColony</Template>
+				<Values>
+					<Standard>
+						<GUID>1999000113</GUID>
+						<Name>africa_culture_03 (BotanicalGarden)</Name>
+						<IconFilename>data/ui/2kimages/main/3dicons/icon_botanic_garden.png</IconFilename>
+						<InfoDescription>111084</InfoDescription>
+					</Standard>
+					<Building>
+						<PickingAsset>1999000113</PickingAsset>
+						<BuildModeRandomRotation>180</BuildModeRandomRotation>
+						<AssociatedRegions>Africa</AssociatedRegions>
+					</Building>
+					<Blocking />
+					<Cost>
+						<Costs>
+							<Item>
+								<Ingredient>1010017</Ingredient>
+								<Amount>10000</Amount>
+							</Item>
+							<Item>
+								<Ingredient>114356</Ingredient>
+								<Amount>30</Amount>
+							</Item>
+							<Item>
+								<Ingredient>114402</Ingredient>
+								<Amount>30</Amount>
+							</Item>
+							<Item>
+								<Ingredient>1010218</Ingredient>
+								<Amount>10</Amount>
+							</Item>
+							<Item>
+								<Ingredient>1010207</Ingredient>
+								<Amount>5</Amount>
+							</Item>
+						</Costs>
+					</Cost>
+					<Object>
+						<Variations>
+							<Item>
+								<Filename>data/dlc02/graphics/buildings/cultural/cultural_03_main/cultural_03_main.cfg</Filename>
+							</Item>
+						</Variations>
+					</Object>
+					<Mesh />
+					<Selection />
+					<Text>
+						<LocaText>
+							<English>
+								<Text>Botanical Garden</Text>
+								<Status>Exported</Status>
+							</English>
+						</LocaText>
+						<LineID>33177</LineID>
+					</Text>
+					<Constructable />
+					<Locked>
+						<DLCDependency>410041</DLCDependency>
+					</Locked>
+					<SoundEmitter>
+						<ActiveSounds>
+							<Item>
+								<Sound>208794</Sound>
+							</Item>
+						</ActiveSounds>
+						<IncidentSounds>
+							<InfectedFire>
+								<Item>
+									<Sound>214659</Sound>
+								</Item>
+							</InfectedFire>
+						</IncidentSounds>
+						<BuildingRepaired>
+							<Item>
+								<Sound>203866</Sound>
+							</Item>
+						</BuildingRepaired>
+					</SoundEmitter>
+					<FeedbackController />
+					<Infolayer />
+					<UpgradeList />
+					<Culture>
+						<CultureSpawnGroup>1</CultureSpawnGroup>
+						<Sets>
+							<Item>
+								<Set>193665</Set>
+							</Item>
+							<Item>
+								<Set>193653</Set>
+							</Item>
+							<Item>
+								<Set>193662</Set>
+							</Item>
+							<Item>
+								<Set>193655</Set>
+							</Item>
+							<Item />
+							<Item>
+								<Set>193660</Set>
+							</Item>
+							<Item>
+								<Set>193657</Set>
+							</Item>
+							<Item>
+								<Set>193658</Set>
+							</Item>
+							<Item>
+								<Set>193670</Set>
+							</Item>
+							<Item>
+								<Set>193672</Set>
+							</Item>
+							<Item />
+						</Sets>
+						<UndiscoveredSet>22342</UndiscoveredSet>
+						<ModuleListHeader>22346</ModuleListHeader>
+						<OpenSetPages>22345</OpenSetPages>
+						<CultureMoodImage>data/ui/2kimages/main/assets/cultural_building_mood_bg/bg_main_botanica.png</CultureMoodImage>
+					</Culture>
+					<ModuleOwner>
+						<ModuleLimits>
+							<Connector>
+								<Limit>500</Limit>
+							</Connector>
+						</ModuleLimits>
+						<ConstructionOptions>
+							<Item>
+								<ModuleGUID>111104</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>113452</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114435</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>103119</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>101510</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>102466</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>102469</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114295</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114299</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114297</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114296</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114300</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114293</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114298</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114294</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114301</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114302</ModuleGUID>
+							</Item>
+							<Item>
+								<ModuleGUID>114303</ModuleGUID>
+							</Item>
+						</ConstructionOptions>
+					</ModuleOwner>
+					<AmbientMoodProvider>
+						<AttractivityDependentMurmur>
+							<Item>
+								<Attractivity>-1000</Attractivity>
+								<Murmur>ZooLowAttractiveness</Murmur>
+							</Item>
+							<Item>
+								<Attractivity>-20</Attractivity>
+								<Murmur>ZooMedAttractiveness</Murmur>
+							</Item>
+							<Item>
+								<Attractivity>20</Attractivity>
+								<Murmur>ZooHighAttractiveness</Murmur>
+							</Item>
+						</AttractivityDependentMurmur>
+						<ApplyMurmurAndMoodToModules>1</ApplyMurmurAndMoodToModules>
+						<DynamicEnvironmentType>Fog</DynamicEnvironmentType>
+					</AmbientMoodProvider>
+					<LogisticNode />
+					<Factory7 />
+					<FactoryBase />
+					<Maintenance>
+						<Maintenances>
+							<Item>
+								<Product>1010017</Product>
+								<Amount>100</Amount>
+								<InactiveAmount>100</InactiveAmount>
+							</Item>
+						</Maintenances>
+						<ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+					</Maintenance>
+					<Attackable>
+						<MaximumHitPoints>3250</MaximumHitPoints>
+						<SelfHealPerHealTick>4</SelfHealPerHealTick>
+					</Attackable>
+					<IncidentInfectable />
+					<Pausable />
+					<StreetActivation />
+					<QuestObject />
+					<InfluenceSource />
+				</Values>
+			</Asset>
+		</ModOp>
+
+		<!-- Add Botanical Garden to FeedbackBuildingGroup-->
+		<ModOp Type="add" GUID="141484" Path="/Values/FeedbackBuildingGroup/Buildings">
+			<Item>
+				<Building>1999000113</Building>
+			</Item>
+		</ModOp>
+
+		<!-- Add Botanical Garden to ItemEffectTargetPools-->
+		<ModOp Type="add" GUID="193666,193667,368"
+			Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+			<Item>
+				<GUID>1999000113</GUID>
+			</Item>
+		</ModOp>
+
+		<!-- Add Botanical Garden to Construction Menus-->
+		<ModOp Type="addNextSibling" GUID="114554"
+			Path="/Values/ConstructionCategory/BuildingList/Item[Building='117859']">
+			<Item>
+				<Building>1999000113</Building>
+			</Item>
+		</ModOp>
+		<ModOp Type="addNextSibling" GUID="119012"
+			Path="/Values/ConstructionCategory/BuildingList/Item[Building='117859']">
+			<Item>
+				<Building>1999000113</Building>
+			</Item>
+		</ModOp>
+
+		<!-- Add Empty Plot, Music Pavillion and Ornaments to be buildable in Enbesa -->
+		<ModOp Type="replace"
+			GUID="111104,113452,112486,114148,114149,114150,114151,114435,103119,101510"
+			Path="/Values/Building/AssociatedRegions">
+			<AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+		</ModOp>
+
+		<!-- Add different Plant Plots in Enbesa-->
+		<ModOp Type="replace"
+			GUID="111083,111086,111088,111087,111089,111090,111091,111092,111093,112610,112609,111094,111095,111096,111097,111098,111099,111100,111101,111102,114310,114311"
+			Path="/Values/Building/AssociatedRegions">
+			<AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+		</ModOp>
+
+		<!-- Add Botanical Garden Set Buffs in Enbesa-->
+		<!-- Vanilla Version -->
+
+		<!-- Amazonas Garden in Enbesa -->
+		<ModOp Type="add" GUID="193653" Path="/Values/ItemSocketSet/RegionSetBuff">
+			<Africa>
+				<SetBuff>1999000114</SetBuff>
+			</Africa>
+		</ModOp>
+
+		<ModOp Type="addNextSibling" GUID="193764">
+			<Asset>
+				<Template>GuildhouseBuff</Template>
+				<Values>
+					<Standard>
+						<GUID>1999000114</GUID>
+						<Name>amazon river flora Enbesa</Name>
+						<IconFilename>data/ui/2kimages/main/3dicons/plants/icon_lianas.png</IconFilename>
+						<InfoDescription>22329</InfoDescription>
+					</Standard>
+					<ItemEffect>
+						<EffectTargets>
+							<Item>
+								<GUID>114447</GUID>
+							</Item>
+						</EffectTargets>
+					</ItemEffect>
+					<Text>
+						<LocaText>
+							<English>
+								<Text>Amazon Garden</Text>
+								<Status>Exported</Status>
+							</English>
+						</LocaText>
+						<LineID>33510</LineID>
+					</Text>
+					<FactoryUpgrade>
+						<ProductivityUpgrade>
+							<Value>25</Value>
+							<Percental>1</Percental>
+						</ProductivityUpgrade>
+						<AddedFertility>114352</AddedFertility>
+					</FactoryUpgrade>
+					<BuildingUpgrade />
+					<Buff>
+						<PossibleFluffTexts>
+							<Item>
+								<FluffText>22404</FluffText>
+							</Item>
+							<Item>
+								<FluffText>22409</FluffText>
+							</Item>
+						</PossibleFluffTexts>
+					</Buff>
+					<CultureUpgrade />
+					<ModuleOwnerUpgrade />
+					<IncidentInfectableUpgrade />
+					<PowerplantUpgrade />
+					<IndustrializableUpgrade />
+					<ItemContainerUpgrade />
+					<IncidentInfluencerUpgrade />
+					<IrrigationUpgrade />
+				</Values>
+			</Asset>
+		</ModOp>
+
+		<ModOp Type="add" GUID="193652,193764" Path="/Values/Buff/PossibleFluffTexts">
+			<Item>
+				<FluffText>1999000115</FluffText>
+			</Item>
+		</ModOp>
+
+		<ModOp Type="addNextSibling" GUID="22409">
+			<Asset>
+				<Template>Text</Template>
+				<Values>
+					<Standard>
+						<GUID>1999000115</GUID>
+						<Name>Hibiscus in Enbesa</Name>
+						<IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_hibiscus_farm.png</IconFilename>
+					</Standard>
+					<Text>
+						<LocaText>
+							<English>
+								<Text>Activates Hibiscus fertility if built in Enbesa.</Text>
+								<Status>Exported</Status>
+							</English>
+						</LocaText>
+						<LineID>33290</LineID>
+					</Text>
+				</Values>
+			</Asset>
+		</ModOp>
+
+		<!-- Anden Garden in Enbesa -->
+		<ModOp Type="add" GUID="193665" Path="/Values/ItemSocketSet/RegionSetBuff">
+			<Africa>
+				<SetBuff>1999000116</SetBuff>
+			</Africa>
+		</ModOp>
+
+		<ModOp Type="addNextSibling" GUID="193664">
+			<Asset>
+				<Template>GuildhouseBuff</Template>
+				<Values>
+					<Standard>
+						<GUID>1999000116</GUID>
+						<Name>andes Enbesa</Name>
+						<IconFilename>data/ui/2kimages/main/3dicons/plants/icon_frailejones.png</IconFilename>
+						<InfoDescription>22341</InfoDescription>
+					</Standard>
+					<ItemEffect>
+						<EffectTargets>
+							<Item>
+								<GUID>1999000102</GUID>
+							</Item>
+						</EffectTargets>
+					</ItemEffect>
+					<Text>
+						<LocaText>
+							<English>
+								<Text>Andean Garden</Text>
+								<Status>Exported</Status>
+							</English>
+						</LocaText>
+						<LineID>33507</LineID>
+					</Text>
+					<FactoryUpgrade>
+						<ProductivityUpgrade>
+							<Value>25</Value>
+							<Percental>1</Percental>
+						</ProductivityUpgrade>
+						<AddedFertility>1010577</AddedFertility>
+					</FactoryUpgrade>
+					<BuildingUpgrade />
+					<Buff>
+						<PossibleFluffTexts>
+							<Item>
+								<FluffText>22405</FluffText>
+							</Item>
+							<Item>
+								<FluffText>22410</FluffText>
+							</Item>
+						</PossibleFluffTexts>
+					</Buff>
+					<CultureUpgrade />
+					<ModuleOwnerUpgrade />
+					<IncidentInfectableUpgrade />
+					<PowerplantUpgrade />
+					<IndustrializableUpgrade />
+					<ItemContainerUpgrade />
+					<IncidentInfluencerUpgrade />
+					<IrrigationUpgrade />
+				</Values>
+			</Asset>
+		</ModOp>
+
+		<ModOp Type="add" GUID="193664,193767" Path="/Values/Buff/PossibleFluffTexts">
+			<Item>
+				<FluffText>1999000117</FluffText>
+			</Item>
+		</ModOp>
+
+		<ModOp Type="addNextSibling" GUID="22411">
+			<Asset>
+				<Template>Text</Template>
+				<Values>
+					<Standard>
+						<GUID>1999000117</GUID>
+						<Name>Tabak in Enbesa</Name>
+						<IconFilename>data/ui/2kimages/main/3dicons/icon_tobacco.png</IconFilename>
+					</Standard>
+					<Text>
+						<LocaText>
+							<English>
+								<Text>Activates Tobacco fertility if built in Enbesa.</Text>
+								<Status>Exported</Status>
+							</English>
+						</LocaText>
+						<LineID>33290</LineID>
+					</Text>
+				</Values>
+			</Asset>
+		</ModOp>
+
+		<!-- Enchanted Garden in Enbesa -->
+		<ModOp Type="add" GUID="193672" Path="/Values/ItemSocketSet/RegionSetBuff">
+			<Africa>
+				<SetBuff>1999000118</SetBuff>
+			</Africa>
+		</ModOp>
+
+		<ModOp Type="addNextSibling" GUID="193671">
+			<Asset>
+				<Template>GuildhouseBuff</Template>
+				<Values>
+					<Standard>
+						<GUID>1999000118</GUID>
+						<Name>spiritual Enbesa</Name>
+						<IconFilename>data/ui/2kimages/main/3dicons/plants/icon_jujube.png</IconFilename>
+						<InfoDescription>22341</InfoDescription>
+					</Standard>
+					<ItemEffect>
+						<EffectTargets>
+							<Item>
+								<GUID>1999000100</GUID>
+							</Item>
+						</EffectTargets>
+					</ItemEffect>
+					<Text>
+						<LocaText>
+							<English>
+								<Text>Andean Garden</Text>
+								<Status>Exported</Status>
+							</English>
+						</LocaText>
+						<LineID>33507</LineID>
+					</Text>
+					<FactoryUpgrade>
+						<ProductivityUpgrade>
+							<Value>25</Value>
+							<Percental>1</Percental>
+						</ProductivityUpgrade>
+						<AddedFertility>120039</AddedFertility>
+					</FactoryUpgrade>
+					<BuildingUpgrade />
+					<Buff>
+						<PossibleFluffTexts>
+							<Item>
+								<FluffText>22406</FluffText>
+							</Item>
+							<Item>
+								<FluffText>22411</FluffText>
+							</Item>
+						</PossibleFluffTexts>
+					</Buff>
+					<CultureUpgrade />
+					<ModuleOwnerUpgrade />
+					<IncidentInfectableUpgrade />
+					<PowerplantUpgrade />
+					<IndustrializableUpgrade />
+					<ItemContainerUpgrade />
+					<IncidentInfluencerUpgrade />
+					<IrrigationUpgrade />
+				</Values>
+			</Asset>
+		</ModOp>
+
+		<ModOp Type="add" GUID="193671,193768" Path="/Values/Buff/PossibleFluffTexts">
+			<Item>
+				<FluffText>1999000119</FluffText>
+			</Item>
+		</ModOp>
+
+		<ModOp Type="addNextSibling" GUID="22411">
+			<Asset>
+				<Template>Text</Template>
+				<Values>
+					<Standard>
+						<GUID>1999000119</GUID>
+						<Name>Coffee in Enbesa</Name>
+						<IconFilename>data/ui/2kimages/main/3dicons/icon_coffee_beans.png</IconFilename>
+					</Standard>
+					<Text>
+						<LocaText>
+							<English>
+								<Text>Activates Coffee fertility if built in Enbesa.</Text>
+								<Status>Exported</Status>
+							</English>
+						</LocaText>
+						<LineID>33290</LineID>
+					</Text>
+				</Values>
+			</Asset>
+		</ModOp>
+
+		<!-- Near East Garden in Enbesa -->
+		<ModOp Type="add" GUID="193658" Path="/Values/ItemSocketSet/RegionSetBuff">
+			<Africa>
+				<SetBuff>1999000120</SetBuff>
+			</Africa>
+		</ModOp>
+
+		<ModOp Type="addNextSibling" GUID="193765">
+			<Asset>
+				<Template>GuildhouseBuff</Template>
+				<Values>
+					<Standard>
+						<GUID>1999000120</GUID>
+						<Name>Orient Garden Enbesa</Name>
+						<IconFilename>data/ui/2kimages/main/3dicons/plants/icon_blue_lotus.png</IconFilename>
+						<InfoDescription>22341</InfoDescription>
+					</Standard>
+					<ItemEffect>
+						<EffectTargets>
+							<Item>
+								<GUID>114452</GUID>
+							</Item>
+						</EffectTargets>
+					</ItemEffect>
+					<Text>
+						<LocaText>
+							<English>
+								<Text>Orient Garden</Text>
+								<Status>Exported</Status>
+							</English>
+						</LocaText>
+						<LineID>33507</LineID>
+					</Text>
+					<FactoryUpgrade>
+						<ProductivityUpgrade>
+							<Value>25</Value>
+							<Percental>1</Percental>
+						</ProductivityUpgrade>
+						<AddedFertility>114348</AddedFertility>
+					</FactoryUpgrade>
+					<BuildingUpgrade />
+					<Buff>
+						<PossibleFluffTexts>
+							<Item>
+								<FluffText>22407</FluffText>
+							</Item>
+							<Item>
+								<FluffText>22412</FluffText>
+							</Item>
+						</PossibleFluffTexts>
+					</Buff>
+					<CultureUpgrade />
+					<ModuleOwnerUpgrade />
+					<IncidentInfectableUpgrade />
+					<PowerplantUpgrade />
+					<IndustrializableUpgrade />
+					<ItemContainerUpgrade />
+					<IncidentInfluencerUpgrade />
+					<IrrigationUpgrade />
+				</Values>
+			</Asset>
+		</ModOp>
+
+		<ModOp Type="add" GUID="193659,193765" Path="/Values/Buff/PossibleFluffTexts">
+			<Item>
+				<FluffText>1999000121</FluffText>
+			</Item>
+		</ModOp>
+
+		<ModOp Type="addNextSibling" GUID="22411">
+			<Asset>
+				<Template>Text</Template>
+				<Values>
+					<Standard>
+						<GUID>1999000121</GUID>
+						<Name>Spices in Enbesa</Name>
+						<IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_spices.png</IconFilename>
+					</Standard>
+					<Text>
+						<LocaText>
+							<English>
+								<Text>Activates Spices fertility if built in Enbesa.</Text>
+								<Status>Exported</Status>
+							</English>
+						</LocaText>
+						<LineID>33290</LineID>
+					</Text>
+				</Values>
+			</Asset>
+		</ModOp>
+
+		<!-- Subalpine Garden in Enbesa -->
+		<ModOp Type="add" GUID="193662" Path="/Values/ItemSocketSet/RegionSetBuff">
+			<Africa>
+				<SetBuff>1999000122</SetBuff>
+			</Africa>
+		</ModOp>
+
+		<ModOp Type="addNextSibling" GUID="193766">
+			<Asset>
+				<Template>GuildhouseBuff</Template>
+				<Values>
+					<Standard>
+						<GUID>1999000122</GUID>
+						<Name>Subalpine Garden Enbesa</Name>
+						<IconFilename>data/ui/2kimages/main/3dicons/plants/icon_rocky_mountain_fir.png</IconFilename>
+						<InfoDescription>22341</InfoDescription>
+					</Standard>
+					<ItemEffect>
+						<EffectTargets>
+							<Item>
+								<GUID>114453</GUID>
+							</Item>
+						</EffectTargets>
+					</ItemEffect>
+					<Text>
+						<LocaText>
+							<English>
+								<Text>Subalpine Garden</Text>
+								<Status>Exported</Status>
+							</English>
+						</LocaText>
+						<LineID>33507</LineID>
+					</Text>
+					<FactoryUpgrade>
+						<ProductivityUpgrade>
+							<Value>25</Value>
+							<Percental>1</Percental>
+						</ProductivityUpgrade>
+						<AddedFertility>114349</AddedFertility>
+					</FactoryUpgrade>
+					<BuildingUpgrade />
+					<Buff>
+						<PossibleFluffTexts>
+							<Item>
+								<FluffText>22403</FluffText>
+							</Item>
+							<Item>
+								<FluffText>22408</FluffText>
+							</Item>
+						</PossibleFluffTexts>
+					</Buff>
+					<CultureUpgrade />
+					<ModuleOwnerUpgrade />
+					<IncidentInfectableUpgrade />
+					<PowerplantUpgrade />
+					<IndustrializableUpgrade />
+					<ItemContainerUpgrade />
+					<IncidentInfluencerUpgrade />
+					<IrrigationUpgrade />
+				</Values>
+			</Asset>
+		</ModOp>
+
+		<ModOp Type="add" GUID="193663,193766" Path="/Values/Buff/PossibleFluffTexts">
+			<Item>
+				<FluffText>1999000123</FluffText>
+			</Item>
+		</ModOp>
+
+		<ModOp Type="addNextSibling" GUID="22411">
+			<Asset>
+				<Template>Text</Template>
+				<Values>
+					<Standard>
+						<GUID>1999000123</GUID>
+						<Name>Bees in Enbesa</Name>
+						<IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_beeswax.png</IconFilename>
+					</Standard>
+					<Text>
+						<LocaText>
+							<English>
+								<Text>Activates Bee Abundance if built in Enbesa.</Text>
+								<Status>Exported</Status>
+							</English>
+						</LocaText>
+						<LineID>33290</LineID>
+					</Text>
+				</Values>
+			</Asset>
+		</ModOp>
+	</Group>
+
+	<!-- #SPICE IT UP MODULE INTEGRATION -->
+	<!-- MUSEUM/ZOO/BATANICAL GARDEN NW - Modules use range instead of snap -->
+	<ModOp Type="add" GUID="1999000111,1999000112,1999000113"
+		Condition="@110935/ModuleOwner/ModuleBuildRadius[text()='32']"
+		Path="/Values/ModuleOwner">
+		<ModuleBuildRadius>32</ModuleBuildRadius>
+	</ModOp>
+
+	<!-- MUSEUM/ZOO/BOTANICAL GARDEN Modules no module limit -->
+	<ModOp Type="replace" GUID="1999000111,1999000112,1999000113"
+		Condition="@110935/ModuleOwner/ModuleLimits/Connector/Limit[text()='0']"
+		Path="/Values/ModuleOwner/ModuleLimits">
+		<ModuleLimits>
+			<Main>
+				<Limit>0</Limit>
+			</Main>
+			<Pavilion>
+				<Limit>0</Limit>
+			</Pavilion>
+			<Connector>
+				<Limit>0</Limit>
+			</Connector>
+		</ModuleLimits>
+	</ModOp>
+
+	<!-- MUSEUM/ZOO/BOTANICAL GARDEN Modules: unlimit & remove at
+	Kahinas Habour + fix Canal -->
+
+	<ModOp Type="remove" Path="//Values/RewardPool/ItemsPool/Item[ItemLink = '193739']" />
+	<ModOp Type="remove" Path="//Values/RewardPool/ItemsPool/Item[ItemLink = '193740']" />
+	<ModOp Type="remove" Path="//Values/RewardPool/ItemsPool/Item[ItemLink = '193741']" />
+
+	<!-- MUSEUM/ZOO/BOTANICAL GARDEN Modules: Use Taube's Canal&Plaza Module -->
+	<Group Condition="@902244">
+
+		<ModOp Type="replace" GUID="1999000111,1999000112,1999000113"
+			Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID = '102466']">
+			<Item>
+				<ModuleGUID>902244</ModuleGUID>
+			</Item>
+		</ModOp>
+		<ModOp Type="replace" GUID="1999000111,1999000112,1999000113"
+			Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID = '102469']">
+			<Item>
+				<ModuleGUID>902236</ModuleGUID>
+			</Item>
+		</ModOp>
+
+		<ModOp Type="replace" GUID="902244,902236" Path="/Values/Building/AssociatedRegions">
+			<AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+		</ModOp>
+
+		<ModOp Type="replace"
+			GUID="902246,902247,902248,902249,902250,902251,902252,902253,902254,902255,902256,902257,902258,902259,902237,902238,902239"
+			Path="/Values/Building/AssociatedRegions">
+			<AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+		</ModOp>
+
+		<!-- Add canals to Elder construction menu 2 (tier) -->
+		<ModOp Type="addNextSibling" GUID="114554"
+			Path="/Values/ConstructionCategory/BuildingList/Item[Building='1999000111']">
+			<Item>
+				<Building>902263</Building>
+			</Item>
+		</ModOp>
+		<!-- Add canals to Enbesa construction menu culture (category) -->
+		<ModOp Type="addNextSibling" GUID="119012"
+			Path="/Values/ConstructionCategory/BuildingList/Item[Building='1999000111']">
+			<Item>
+				<Building>902263</Building>
+			</Item>
+		</ModOp>
+
+	</Group>
+
+	<!-- #FAMS ENBESAN FLORA INTEGRATION -->
+	<Group Condition="@1660011001">
+		<!-- Second Page at Botanical Garden -->
+		<ModOp Type="replace" GUID="114141,1999000113" Path="/Values/Culture/Sets">
+			<Sets>
+				<Item>
+					<Set>193665</Set>
+				</Item>
+				<Item>
+					<Set>193653</Set>
+				</Item>
+				<Item>
+					<Set>193662</Set>
+				</Item>
+				<Item>
+					<Set>193655</Set>
+				</Item>
+				<Item />
+				<Item>
+					<Set>193660</Set>
+				</Item>
+				<Item>
+					<Set>193657</Set>
+				</Item>
+				<Item>
+					<Set>193658</Set>
+				</Item>
+				<Item>
+					<Set>193670</Set>
+				</Item>
+				<Item>
+					<Set>193672</Set>
+				</Item>
+				<Item />
+				<Item />
+			</Sets>
+		</ModOp>
+
+		<ModOp Type="add" GUID="114141,1999000113"
+			Path='//Values/Culture/Sets[count(Item)=12]'>
+			<Item>
+				<Set>65488</Set>
+			</Item>
+			<Item>
+				<Set>65488</Set>
+			</Item>
+			<Item>
+				<Set>65488</Set>
+			</Item>
+			<Item>
+				<Set>65488</Set>
+			</Item>
+			<Item />
+			<Item>
+				<Set>65488</Set>
+			</Item>
+		</ModOp>
+
+		<ModOp Type="replace" GUID="114141,1999000113"
+			Path='//Values/Culture/Sets/Item[Set/text()="65488"][1]/Set'>
+			<Set>1660011001</Set>
+		</ModOp>
+		<ModOp Type="replace" GUID="114141,1999000113"
+			Path='//Values/Culture/Sets/Item[Set/text()="65488"][1]/Set'>
+			<Set>1660011101</Set>
+		</ModOp>
+		<ModOp Type="replace" GUID="114141,1999000113"
+			Path='//Values/Culture/Sets/Item[Set/text()="65488"][1]/Set'>
+			<Set>1660011201</Set>
+		</ModOp>
+		<ModOp Type="replace" GUID="114141,1999000113"
+			Path='//Values/Culture/Sets/Item[Set/text()="65488"][1]/Set'>
+			<Set>1660011301</Set>
+		</ModOp>
+
+		<!-- Split Buff Enbesa Plateau into sessions -->
+		<ModOp Type="replace" GUID="1660011001" Path="/Values/ItemSocketSet">
+			<ItemSocketSet>
+				<RegionSetBuff>
+					<Moderate>
+						<SetBuff>1660011003</SetBuff>
+					</Moderate>
+					<Colony01>
+						<SetBuff>1660011003</SetBuff>
+					</Colony01>
+					<Africa>
+						<SetBuff>1999000124</SetBuff>
+					</Africa>
+				</RegionSetBuff>
+				<BuffScope>Area</BuffScope>
+				<DLCMoodImage>data/ui/2kimages/main/assets16/dlc/bgr_dlc_card_botanica.png</DLCMoodImage>
+			</ItemSocketSet>
+		</ModOp>
+
+		<!--Enbesa
+		Buff Enbesa Plateau -->
+		<ModOp Type="addNextSibling" GUID="193772">
+			<Asset>
+				<Template>GuildhouseBuff</Template>
+				<Values>
+					<Standard>
+						<GUID>1999000124</GUID>
+						<Name>Enbesa Plateau Africa session</Name>
+						<IconFilename>data/ui/2kimages/main/3dicons/plants_enbesanflora/treefuschia.png</IconFilename>
+						<InfoDescription>1660011004</InfoDescription>
+					</Standard>
+					<ItemEffect>
+						<EffectTargets>
+							<Item>
+								<GUID>190865</GUID>
+							</Item>
+						</EffectTargets>
+					</ItemEffect>
+					<Text>
+						<LocaText>
+							<English>
+								<Text>Enbesa Plateau</Text>
+								<Status>Exported</Status>
+							</English>
+						</LocaText>
+						<LineID>1660011004</LineID>
+					</Text>
+					<FactoryUpgrade>
+						<AdditionalOutput>
+							<Item>
+								<!-- Cotton -->
+								<Product>1010253</Product>
+								<AdditionalOutputCycle>8</AdditionalOutputCycle>
+								<Amount>1</Amount>
+							</Item>
+							<Item>
+								<!-- Cocoa -->
+								<Product>1010254</Product>
+								<AdditionalOutputCycle>10</AdditionalOutputCycle>
+								<Amount>1</Amount>
+							</Item>
+						</AdditionalOutput>
+					</FactoryUpgrade>
+					<BuildingUpgrade />
+					<Buff />
+					<AttackerUpgrade />
+					<VisitorHarborUpgrade />
+					<VisitorUpgrade />
+					<PassiveTradeGoodGenUpgrade />
+					<KontorUpgrade />
+					<AttackableUpgrade />
+					<PierUpgrade />
+					<CultureUpgrade />
+					<WarehouseUpgrade />
+					<ItemContainerUpgrade />
+				</Values>
+			</Asset>
+		</ModOp>
+
+		<!-- Split Buff Beautiful Branches into sessions -->
+		<ModOp Type="replace" GUID="1660011201" Path="/Values/ItemSocketSet">
+			<ItemSocketSet>
+				<RegionSetBuff>
+					<Moderate>
+						<SetBuff>1660011203</SetBuff>
+					</Moderate>
+					<Colony01>
+						<SetBuff>1660011203</SetBuff>
+					</Colony01>
+					<Africa>
+						<SetBuff>1999000125</SetBuff>
+					</Africa>
+				</RegionSetBuff>
+				<BuffScope>Area</BuffScope>
+				<DLCMoodImage>data/ui/2kimages/main/assets16/dlc/bgr_dlc_card_botanica.png</DLCMoodImage>
+			</ItemSocketSet>
+		</ModOp>
+
+		<!--Enbesa
+		Buff Enbesa Plateau -->
+		<ModOp Type="addNextSibling" GUID="193772">
+			<Asset>
+				<Template>GuildhouseBuff</Template>
+				<Values>
+					<Standard>
+						<GUID>1999000125</GUID>
+						<Name>Beautiful Branches Africa session</Name>
+						<IconFilename>data/ui/2kimages/main/3dicons/plants_enbesanflora/moringa.png</IconFilename>
+						<InfoDescription>1660011204</InfoDescription>
+					</Standard>
+					<ItemEffect>
+						<EffectTargets>
+							<Item>
+								<!-- Pipe maker -->
+								<GUID>114472</GUID>
+							</Item>
+							<Item>
+								<!-- Pottery -->
+								<GUID>118725</GUID>
+							</Item>
+						</EffectTargets>
+					</ItemEffect>
+					<Text>
+						<LocaText>
+							<English>
+								<Text>Enbesa Plateau</Text>
+								<Status>Exported</Status>
+							</English>
+						</LocaText>
+						<LineID>1660011004</LineID>
+					</Text>
+					<FactoryUpgrade>
+						<AdditionalOutput>
+							<Item>
+								<Product>1010242</Product>
+								<AdditionalOutputCycle>10</AdditionalOutputCycle>
+								<Amount>1</Amount>
+							</Item>
+						</AdditionalOutput>
+						<ReplaceInputs>
+							<Item>
+								<OldInput>1010201</OldInput>
+								<NewInput>114356</NewInput>
+							</Item>
+						</ReplaceInputs>
+					</FactoryUpgrade>
+					<BuildingUpgrade />
+					<Buff />
+					<AttackerUpgrade />
+					<VisitorHarborUpgrade />
+					<VisitorUpgrade />
+					<PassiveTradeGoodGenUpgrade />
+					<KontorUpgrade />
+					<AttackableUpgrade />
+					<PierUpgrade />
+					<CultureUpgrade />
+					<WarehouseUpgrade />
+					<ItemContainerUpgrade />
+				</Values>
+			</Asset>
+		</ModOp>
+	</Group>
+
+
+	<!-- #TRIGGER SECTION -->
+	<!-- Trigger Buildings in Enbesa -->
+	<ModOp Type="addNextSibling" GUID="130248">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1999000126</GUID>
+					<Name>MOD Trigger</Name>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>PopulationByLevel</PlayerCounter>
+								<Context>114330</Context>
+								<CounterAmount>1</CounterAmount>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionResetTrigger</Template>
+								<Values>
+									<Action />
+									<ActionResetTrigger />
+								</Values>
+							</TriggerAction>
+						</Item>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action />
+									<ActionUnlockAsset>
+										<UnhideAssets>
+											<Item>
+												<Asset>1999000111</Asset>
+											</Item>
+											<Item>
+												<Asset>1999000112</Asset>
+											</Item>
+											<Item>
+												<Asset>1999000113</Asset>
+											</Item>
+										</UnhideAssets>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<ModOp Type="addNextSibling" GUID="130248">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1999000187</GUID>
+					<Name>MOD Trigger Creative Mode</Name>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Values>
+							<ConditionPropsNegatable />
+							<Condition />
+							<ConditionIsCreativeMode />
+						</Values>
+						<Template>ConditionIsCreativeMode</Template>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action />
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>1999000111</Asset>
+											</Item>
+											<Item>
+												<Asset>1999000112</Asset>
+											</Item>
+											<Item>
+												<Asset>1999000113</Asset>
+											</Item>
+										</UnlockAssets>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<ModOp Type="addNextSibling" GUID="130248">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1999000127</GUID>
+					<Name>MOD Trigger</Name>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>PopulationByLevel</PlayerCounter>
+								<Context>114330</Context>
+								<CounterAmount>300</CounterAmount>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionResetTrigger</Template>
+								<Values>
+									<Action />
+									<ActionResetTrigger />
+								</Values>
+							</TriggerAction>
+						</Item>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action />
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>1999000111</Asset>
+											</Item>
+											<Item>
+												<Asset>1999000112</Asset>
+											</Item>
+											<Item>
+												<Asset>1999000113</Asset>
+											</Item>
+										</UnlockAssets>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>

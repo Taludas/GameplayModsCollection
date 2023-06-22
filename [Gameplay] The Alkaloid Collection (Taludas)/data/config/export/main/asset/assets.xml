@@ -1,0 +1,924 @@
+<ModOps>
+
+	<ImyaTweaks
+		Title="Adjust the strength of the buff and the malus of the Allcaloid set for the Botanical Garden to your liking." />
+	<!-- FAMS ENBESAN FLORA INTEGRATION -->
+	<ModOp Type="replace" GUID="1999000113" Condition="@1999000113" Path="/Values/Culture/Sets">
+		<Sets>
+			<Item>
+				<Set>193665</Set>
+			</Item>
+			<Item>
+				<Set>193653</Set>
+			</Item>
+			<Item>
+				<Set>193662</Set>
+			</Item>
+			<Item>
+				<Set>193655</Set>
+			</Item>
+			<Item />
+			<Item>
+				<Set>193660</Set>
+			</Item>
+			<Item>
+				<Set>193657</Set>
+			</Item>
+			<Item>
+				<Set>193658</Set>
+			</Item>
+			<Item>
+				<Set>193670</Set>
+			</Item>
+			<Item>
+				<Set>193672</Set>
+			</Item>
+			<Item />
+			<Item />
+		</Sets>
+	</ModOp>
+
+	<Group Condition="@1660011001">
+		<Group Condition="@1999000113">
+			<ModOp Type="add" GUID="1999000113"
+				Path="/Values/Culture/Sets[count(Item)=12]">
+				<Item>
+					<Set>65488</Set>
+				</Item>
+				<Item>
+					<Set>65488</Set>
+				</Item>
+				<Item>
+					<Set>65488</Set>
+				</Item>
+				<Item>
+					<Set>65488</Set>
+				</Item>
+				<Item />
+				<Item>
+					<Set>65488</Set>
+				</Item>
+			</ModOp>
+
+
+			<ModOp Type="replace" GUID="1999000113"
+				Path="/Values/Culture/Sets/Item[Set/text()='65488'][1]/Set">
+				<Set>1660011001</Set>
+			</ModOp>
+			<ModOp Type="replace" GUID="1999000113"
+				Path="/Values/Culture/Sets/Item[Set/text()='65488'][1]/Set">
+				<Set>1660011101</Set>
+			</ModOp>
+			<ModOp Type="replace" GUID="1999000113"
+				Path="/Values/Culture/Sets/Item[Set/text()='65488'][1]/Set">
+				<Set>1660011201</Set>
+			</ModOp>
+			<ModOp Type="replace" GUID="1999000113"
+				Path="/Values/Culture/Sets/Item[Set/text()='65488'][1]/Set">
+				<Set>1660011301</Set>
+			</ModOp>
+
+			<ModOp Type="replace" GUID="1999000113"
+				Path="/Values/Culture/Sets/Item[Set/text()='65488'][1]/Set">
+				<Set>1999000151</Set>
+			</ModOp>
+		</Group>
+	</Group>
+
+	<Group Condition="@1660011001">
+		<Group Condition="!@1999000113">
+			<ModOp Type="add" GUID="114141"
+				Path="/Values/Culture/Sets[count(Item)=12]">
+				<Item>
+					<Set>65488</Set>
+				</Item>
+				<Item>
+					<Set>65488</Set>
+				</Item>
+				<Item>
+					<Set>65488</Set>
+				</Item>
+				<Item>
+					<Set>65488</Set>
+				</Item>
+				<Item />
+				<Item>
+					<Set>65488</Set>
+				</Item>
+			</ModOp>
+
+
+			<ModOp Type="replace" GUID="114141"
+				Path="/Values/Culture/Sets/Item[Set/text()='65488'][1]/Set">
+				<Set>1660011001</Set>
+			</ModOp>
+			<ModOp Type="replace" GUID="114141"
+				Path="/Values/Culture/Sets/Item[Set/text()='65488'][1]/Set">
+				<Set>1660011101</Set>
+			</ModOp>
+			<ModOp Type="replace" GUID="114141"
+				Path="/Values/Culture/Sets/Item[Set/text()='65488'][1]/Set">
+				<Set>1660011201</Set>
+			</ModOp>
+			<ModOp Type="replace" GUID="114141"
+				Path="/Values/Culture/Sets/Item[Set/text()='65488'][1]/Set">
+				<Set>1660011301</Set>
+			</ModOp>
+
+			<ModOp Type="replace" GUID="114141"
+				Path="/Values/Culture/Sets/Item[Set/text()='65488'][1]/Set">
+				<Set>1999000151</Set>
+			</ModOp>
+		</Group>
+	</Group>
+
+	<Group Condition="!@1660011001">
+		<Group Condition="@1999000113">
+			<ModOp Type="add" GUID="1999000113"
+				Path="/Values/Culture/Sets[count(Item)=12]">
+				<Item />
+				<Item>
+					<Set>65488</Set>
+				</Item>
+			</ModOp>
+
+			<ModOp Type="replace" GUID="1999000113"
+				Path="/Values/Culture/Sets/Item[Set/text()='65488'][1]/Set">
+				<Set>1999000151</Set>
+			</ModOp>
+		</Group>
+	</Group>
+
+
+	<!-- add my new Set to the Botanical Gardens -->
+	<ModOp Type="add" GUID="110935,114141" Condition="!@1660011001" Path="/Values/Culture/Sets">
+		<Item />
+		<Item>
+			<Set>65488</Set>
+		</Item>
+	</ModOp>
+
+	<ModOp Type="replace" GUID="110935,114141"
+		Path="/Values/Culture/Sets/Item[Set/text()='65488'][1]/Set">
+		<Set>1999000151</Set>
+	</ModOp>
+
+	<!-- add my new Set Asset -->
+	<ModOp Type="addNextSibling" GUID="124908">
+		<Asset>
+			<Template>ItemSet</Template>
+			<Values>
+				<Standard>
+					<GUID>1999000151</GUID>
+					<Name>The Alkaloid Collection Set</Name>
+					<IconFilename>data/ui/icons/Papver_somniferum.png</IconFilename>
+					<InfoDescription>1999000152</InfoDescription>
+				</Standard>
+				<ItemSocketSet>
+					<RegionSetBuff>
+						<Moderate>
+							<SetBuff>1999000153</SetBuff>
+						</Moderate>
+						<Colony01>
+							<SetBuff>1999000155</SetBuff>
+						</Colony01>
+					</RegionSetBuff>
+					<BuffScope>Area</BuffScope>
+					<DLCMoodImage>data/ui/2kimages/main/assets16/dlc/bgr_dlc_card_botanica.png</DLCMoodImage>
+				</ItemSocketSet>
+				<Text />
+				<Locked>
+					<DLCDependency>410071</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<ModOp Type="add" GUID="1999000151" Condition="@1999000113"
+		Path="/Values/ItemSocketSet/RegionSetBuff">
+		<Africa>
+			<SetBuff>1999000156</SetBuff>
+		</Africa>
+	</ModOp>
+
+	<!-- add Buff Assets -->
+	<Include File="alkaloidbuffOW.include.xml" />
+	<Include File="alkaloidbuffNW.include.xml" />
+	<Include File="alkaloidbuffEnbesa.include.xml" />
+
+	<!-- add CULTURAL ITEMS -->
+	<!-- Betel nut -->
+	<ModOp Type="addNextSibling" GUID="130945">
+		<Asset>
+			<Template>CultureItem</Template>
+			<Values>
+				<Standard>
+					<GUID>1999000157</GUID>
+					<Name>Betel Tree</Name>
+					<IconFilename>data/ui/icons/Areca_catechu.png</IconFilename>
+					<InfoDescription>1999000158</InfoDescription>
+				</Standard>
+				<Text />
+				<Item>
+					<Allocation>BotanicGarden</Allocation>
+					<Rarity>Rare</Rarity>
+					<ItemType>Normal</ItemType>
+					<ItemSet>1999000151</ItemSet>
+					<TradePrice>99000</TradePrice>
+					<TradePriceOnlineCurrency>10</TradePriceOnlineCurrency>
+				</Item>
+				<Cost />
+				<CultureUpgrade>
+					<ChangeModule>111101</ChangeModule>
+					<AttractivenessUpgrade>
+						<Value>30</Value>
+					</AttractivenessUpgrade>
+				</CultureUpgrade>
+				<BuildingUpgrade />
+				<ExpeditionAttribute>
+					<BaseMorale>5</BaseMorale>
+					<ExpeditionAttributes>
+						<Item>
+							<Attribute>Medicine</Attribute>
+							<Amount>10</Amount>
+						</Item>
+					</ExpeditionAttributes>
+					<ItemRegions>NorthAfrica;Africa;SouthernEurope</ItemRegions>
+					<ItemDifficulties>Easy;Average</ItemDifficulties>
+					<FluffText>1999000158</FluffText>
+				</ExpeditionAttribute>
+				<Locked>
+					<DLCDependency>410041</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- Cath -->
+	<ModOp Type="addNextSibling" GUID="130945">
+		<Asset>
+			<Template>CultureItem</Template>
+			<Values>
+				<Standard>
+					<GUID>1999000159</GUID>
+					<Name>Cath bush</Name>
+					<IconFilename>data/ui/icons/Cathu_edulis.png</IconFilename>
+					<InfoDescription>1999000160</InfoDescription>
+				</Standard>
+				<Text />
+				<Item>
+					<Allocation>BotanicGarden</Allocation>
+					<Rarity>Epic</Rarity>
+					<ItemType>Normal</ItemType>
+					<ItemSet>1999000151</ItemSet>
+					<TradePrice>220000</TradePrice>
+					<TradePriceOnlineCurrency>10</TradePriceOnlineCurrency>
+				</Item>
+				<Cost />
+				<CultureUpgrade>
+					<ChangeModule>111083</ChangeModule>
+					<AttractivenessUpgrade>
+						<Value>40</Value>
+					</AttractivenessUpgrade>
+				</CultureUpgrade>
+				<BuildingUpgrade />
+				<ExpeditionAttribute>
+					<BaseMorale>10</BaseMorale>
+					<ExpeditionAttributes>
+						<Item>
+							<Attribute>Medicine</Attribute>
+							<Amount>20</Amount>
+						</Item>
+					</ExpeditionAttributes>
+					<ItemRegions>NorthAfrica;Africa;SouthernEurope</ItemRegions>
+					<ItemDifficulties>Average;Hard</ItemDifficulties>
+					<FluffText>1999000160</FluffText>
+				</ExpeditionAttribute>
+				<Locked>
+					<DLCDependency>410041</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- Cola -->
+	<ModOp Type="addNextSibling" GUID="130945">
+		<Asset>
+			<Template>CultureItem</Template>
+			<Values>
+				<Standard>
+					<GUID>1999000161</GUID>
+					<Name>Cola tree</Name>
+					<IconFilename>data/ui/icons/Cola_nitida.png</IconFilename>
+					<InfoDescription>1999000162</InfoDescription>
+				</Standard>
+				<Text />
+				<Item>
+					<Allocation>BotanicGarden</Allocation>
+					<Rarity>Uncommon</Rarity>
+					<ItemType>Normal</ItemType>
+					<ItemSet>1999000151</ItemSet>
+					<TradePrice>22400</TradePrice>
+					<TradePriceOnlineCurrency>10</TradePriceOnlineCurrency>
+				</Item>
+				<Cost />
+				<CultureUpgrade>
+					<ChangeModule>111098</ChangeModule>
+					<AttractivenessUpgrade>
+						<Value>20</Value>
+					</AttractivenessUpgrade>
+				</CultureUpgrade>
+				<BuildingUpgrade />
+				<ExpeditionAttribute>
+					<BaseMorale>0</BaseMorale>
+					<ExpeditionAttributes>
+						<Item>
+							<Attribute>Medicine</Attribute>
+							<Amount>5</Amount>
+						</Item>
+					</ExpeditionAttributes>
+					<ItemRegions>NorthAfrica;Africa</ItemRegions>
+					<ItemDifficulties>Easy;Average</ItemDifficulties>
+					<FluffText>1999000162</FluffText>
+				</ExpeditionAttribute>
+				<Locked>
+					<DLCDependency>410041</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- Yohimbe -->
+	<ModOp Type="addNextSibling" GUID="130945">
+		<Asset>
+			<Template>CultureItem</Template>
+			<Values>
+				<Standard>
+					<GUID>1999000163</GUID>
+					<Name>Yohmibe tree</Name>
+					<IconFilename>data/ui/icons/Corynanthe_yohimbe.png</IconFilename>
+					<InfoDescription>1999000164</InfoDescription>
+				</Standard>
+				<Text />
+				<Item>
+					<Allocation>BotanicGarden</Allocation>
+					<Rarity>Rare</Rarity>
+					<ItemType>Normal</ItemType>
+					<ItemSet>1999000151</ItemSet>
+					<TradePrice>99000</TradePrice>
+					<TradePriceOnlineCurrency>10</TradePriceOnlineCurrency>
+				</Item>
+				<Cost />
+				<CultureUpgrade>
+					<ChangeModule>111099</ChangeModule>
+					<AttractivenessUpgrade>
+						<Value>30</Value>
+					</AttractivenessUpgrade>
+				</CultureUpgrade>
+				<BuildingUpgrade />
+				<ExpeditionAttribute>
+					<BaseMorale>5</BaseMorale>
+					<ExpeditionAttributes>
+						<Item>
+							<Attribute>Medicine</Attribute>
+							<Amount>10</Amount>
+						</Item>
+					</ExpeditionAttributes>
+					<ItemRegions>NorthAfrica;Africa</ItemRegions>
+					<ItemDifficulties>Easy;Average</ItemDifficulties>
+					<FluffText>1999000164</FluffText>
+				</ExpeditionAttribute>
+				<Locked>
+					<DLCDependency>410041</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- Coca -->
+	<ModOp Type="addNextSibling" GUID="130945">
+		<Asset>
+			<Template>CultureItem</Template>
+			<Values>
+				<Standard>
+					<GUID>1999000165</GUID>
+					<Name>Coca bush</Name>
+					<IconFilename>data/ui/icons/Erythroxylum_cocae.png</IconFilename>
+					<InfoDescription>1999000166</InfoDescription>
+				</Standard>
+				<Text />
+				<Item>
+					<Allocation>BotanicGarden</Allocation>
+					<Rarity>Epic</Rarity>
+					<ItemType>Normal</ItemType>
+					<ItemSet>1999000151</ItemSet>
+					<TradePrice>220000</TradePrice>
+					<TradePriceOnlineCurrency>10</TradePriceOnlineCurrency>
+				</Item>
+				<Cost />
+				<CultureUpgrade>
+					<ChangeModule>111083</ChangeModule>
+					<AttractivenessUpgrade>
+						<Value>40</Value>
+					</AttractivenessUpgrade>
+				</CultureUpgrade>
+				<BuildingUpgrade />
+				<ExpeditionAttribute>
+					<BaseMorale>10</BaseMorale>
+					<ExpeditionAttributes>
+						<Item>
+							<Attribute>Medicine</Attribute>
+							<Amount>20</Amount>
+						</Item>
+					</ExpeditionAttributes>
+					<ItemRegions>SouthAmerica;SouthernSouthAmerica</ItemRegions>
+					<ItemDifficulties>Average;Hard</ItemDifficulties>
+					<FluffText>1999000166</FluffText>
+				</ExpeditionAttribute>
+				<Locked>
+					<DLCDependency>410041</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- Papaver somniferum -->
+	<ModOp Type="addNextSibling" GUID="130945">
+		<Asset>
+			<Template>CultureItem</Template>
+			<Values>
+				<Standard>
+					<GUID>1999000167</GUID>
+					<Name>Papaver somniferum</Name>
+					<IconFilename>data/ui/icons/Papver_somniferum.png</IconFilename>
+					<InfoDescription>1999000168</InfoDescription>
+				</Standard>
+				<Text />
+				<Item>
+					<Allocation>BotanicGarden</Allocation>
+					<Rarity>Legendary</Rarity>
+					<ItemType>Normal</ItemType>
+					<ItemSet>1999000151</ItemSet>
+					<TradePrice>752000</TradePrice>
+					<TradePriceOnlineCurrency>10</TradePriceOnlineCurrency>
+				</Item>
+				<Cost />
+				<CultureUpgrade>
+					<ChangeModule>111083</ChangeModule>
+					<AttractivenessUpgrade>
+						<Value>50</Value>
+					</AttractivenessUpgrade>
+				</CultureUpgrade>
+				<BuildingUpgrade />
+				<ExpeditionAttribute>
+					<BaseMorale>25</BaseMorale>
+					<ExpeditionAttributes>
+						<Item>
+							<Attribute>Medicine</Attribute>
+							<Amount>40</Amount>
+						</Item>
+						<Item>
+							<Attribute>Faith</Attribute>
+							<Amount>30</Amount>
+						</Item>
+					</ExpeditionAttributes>
+					<ItemRegions>NorthAfrica;Africa</ItemRegions>
+					<ItemDifficulties>Average;Hard</ItemDifficulties>
+					<FluffText>1999000168</FluffText>
+				</ExpeditionAttribute>
+				<Locked>
+					<DLCDependency>410041</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- add Plants to RewardPools -->
+
+	<!-- Betel -->
+	<!-- Asset Pool: Africa - Plants - Rare -->
+	<ModOp Type="add" GUID="1660011992" Condition="@1660011992" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>1999000157</ItemLink>
+			<!-- Betel -->
+		</Item>
+	</ModOp>
+
+	<!-- Asset Pool: TraderQuest (Ketema) Rare Reward Pool -->
+	<ModOp Type="add" GUID="130312" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>1999000157</ItemLink>
+			<!-- Betel -->
+		</Item>
+	</ModOp>
+
+	<!-- Asset Pool: Archetype (Shepherd) Rare Reward Pool -->
+	<ModOp Type="add" GUID="129988" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>1999000157</ItemLink>
+			<!-- Betel -->
+		</Item>
+	</ModOp>
+
+	<!-- Asset Pool: (Kahina/Bente/Qing/Expedition) Culture - Faraway Plants - Rare -->
+	<ModOp Type="add" GUID="193691" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>1999000157</ItemLink>
+			<!-- Betel -->
+		</Item>
+	</ModOp>
+
+	<!-- Asset Pool: Exotic Plants - Deep Jungle Plants R -->
+	<ModOp Type="add" GUID="193754" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>1999000157</ItemLink>
+			<!-- Betel -->
+		</Item>
+	</ModOp>
+
+	<!-- Cath -->
+	<!-- Asset Pool: Africa - Plants - Epic -->
+	<ModOp Type="add" GUID="1660011993" Condition="@1660011993" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>1999000159</ItemLink>
+			<!-- Cath -->
+		</Item>
+	</ModOp>
+
+	<!-- Asset Pool: TraderQuest (Ketema) Epic Reward Pool -->
+	<ModOp Type="add" GUID="130313" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>1999000159</ItemLink>
+			<!-- Cath -->
+		</Item>
+	</ModOp>
+
+	<!-- Asset Pool: Archetype (Elder) Epic Reward Pool -->
+	<ModOp Type="add" GUID="130303" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>1999000159</ItemLink>
+			<!-- Cath -->
+		</Item>
+	</ModOp>
+
+	<!-- Asset Pool: (Kahina/Bente/Qing/Expedtion) Culture - Faraway Plants - Rare -->
+	<ModOp Type="add" GUID="193692" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>1999000159</ItemLink>
+			<!-- Cath -->
+		</Item>
+	</ModOp>
+
+	<!-- Asset Pool: Exotic Plants - Hot Climate Plants R/E -->
+	<ModOp Type="add" GUID="193755" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>1999000159</ItemLink>
+			<!-- Cath -->
+		</Item>
+	</ModOp>
+
+	<!-- Cola -->
+	<!-- Asset Pool: Africa - Plants - Uncommon -->
+	<ModOp Type="add" GUID="1660011991" Condition="@1660011991" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>1999000161</ItemLink>
+			<!-- Cola -->
+		</Item>
+	</ModOp>
+
+	<!-- Asset Pool: Archetype (Sheperd) Uncommon Reward Pool -->
+	<ModOp Type="add" GUID="129987" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>1999000161</ItemLink>
+			<!-- Cola -->
+		</Item>
+	</ModOp>
+
+	<!-- Asset Pool: (Kahina/Bente/Qing/Expedtion) Culture - Faraway Plants - Uncommon -->
+	<ModOp Type="add" GUID="193690" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>1999000161</ItemLink>
+			<!-- Cola -->
+		</Item>
+	</ModOp>
+
+	<!-- Asset Pool: Various Trees - Fruit Trees C/U -->
+	<ModOp Type="add" GUID="193746" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>1999000161</ItemLink>
+			<!-- Cola -->
+		</Item>
+	</ModOp>
+
+	<!-- Asset Pool: Flowering Brushes - Flowering Trees U/R -->
+	<ModOp Type="add" GUID="193748" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>1999000161</ItemLink>
+			<!-- Cola -->
+		</Item>
+	</ModOp>
+
+	<!-- Yohimbe -->
+	<!-- Asset Pool: Africa - Plants - Rare -->
+	<ModOp Type="add" GUID="1660011992" Condition="@1660011992" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>1999000163</ItemLink>
+			<!-- Yohimbe -->
+		</Item>
+	</ModOp>
+
+	<!-- Asset Pool: TraderQuest (Ketema) Rare Reward Pool -->
+	<ModOp Type="add" GUID="130312" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>1999000163</ItemLink>
+			<!-- Yohimbe -->
+		</Item>
+	</ModOp>
+
+	<!-- Asset Pool: Archetype (Elder) Rare Reward Pool -->
+	<ModOp Type="add" GUID="130302" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>1999000163</ItemLink>
+			<!-- Yohimbe -->
+		</Item>
+	</ModOp>
+
+	<!-- Asset Pool: (Kahina/Bente/Qing/Expedition) Culture - Faraway Plants - Rare -->
+	<ModOp Type="add" GUID="193691" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>1999000163</ItemLink>
+			<!-- Yohimbe -->
+		</Item>
+	</ModOp>
+
+	<!-- Asset Pool: Exotic Plants - Deep Jungle Plants R -->
+	<ModOp Type="add" GUID="193754" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>1999000163</ItemLink>
+			<!-- Yohimbe -->
+		</Item>
+	</ModOp>
+
+	<!-- Coca -->
+	<!-- Asset Pool: Archetype (Jornalero) Epic Reward Pool -->
+	<ModOp Type="add" GUID="193720" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>1999000165</ItemLink>
+			<!-- Coca -->
+		</Item>
+	</ModOp>
+
+	<!-- Asset Pool: (Sarmento/Bente/Qing/Expedtion) Culture - South American Plants - Epic -->
+	<ModOp Type="add" GUID="193687" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>1999000165</ItemLink>
+			<!-- Coca -->
+		</Item>
+	</ModOp>
+
+	<!-- Unlock Asset Pool Saramento - Culture - South American Plants - Epic for Trading-->
+	<ModOp Type="merge" GUID="190362" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>193894</ItemLink>
+			<Weight>3</Weight>
+		</Item>
+	</ModOp>
+
+	<ModOp Type="merge" GUID="190363" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>193894</ItemLink>
+			<Weight>5</Weight>
+		</Item>
+	</ModOp>
+
+	<ModOp Type="merge" GUID="192072" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>193894</ItemLink>
+			<Weight>10</Weight>
+		</Item>
+	</ModOp>
+
+	<ModOp Type="merge" GUID="192073" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>193894</ItemLink>
+			<Weight>13</Weight>
+		</Item>
+	</ModOp>
+
+	<!-- Asset Pool: Exotic Plants - Deep Jungle Plants R -->
+	<ModOp Type="add" GUID="193754" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>1999000165</ItemLink>
+			<!-- Coca -->
+		</Item>
+	</ModOp>
+
+	<!-- Papaver Somniferum -->
+	<!-- Asset Pool: Africa - Plants - Legendary -->
+	<ModOp Type="add" GUID="1660011994" Condition="@1660011994" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>1999000167</ItemLink>
+			<!-- Papaver Somniferum -->
+		</Item>
+	</ModOp>
+
+	<!-- Asset Pool: Archetype (Elder) Legendary Reward Pool -->
+	<ModOp Type="add" GUID="130304" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>1999000167</ItemLink>
+			<!-- Papaver Somniferum -->
+		</Item>
+	</ModOp>
+
+	<!-- Asset Pool: (Bente/Qing/Expedtion) Culture - Faraway Plants - Legendary -->
+	<ModOp Type="add" GUID="193693" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>1999000167</ItemLink>
+			<!-- Papaver Somniferum -->
+		</Item>
+	</ModOp>
+
+	<!-- Asset Pool: Mythical Plants - Myth based Plants L -->
+	<ModOp Type="add" GUID="193759" Path="/Values/RewardPool/ItemsPool">
+		<Item>
+			<ItemLink>1999000167</ItemLink>
+			<!-- Papaver Somniferum -->
+		</Item>
+	</ModOp>
+
+	<ModOp Type="addNextSibling" GUID="130248">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1999000169</GUID>
+					<Name>Plant Trigger</Name>
+					<IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>PopulationByLevel</PlayerCounter>
+								<Context>15000003</Context>
+								<CounterAmount>1000</CounterAmount>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionResetTrigger</Template>
+								<Values>
+									<Action />
+									<ActionResetTrigger />
+								</Values>
+							</TriggerAction>
+						</Item>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action />
+									<ActionUnlockAsset>
+										<UnhideAssets>
+											<Item>
+												<Asset>1999000157</Asset>
+											</Item>
+											<Item>
+												<Asset>1999000159</Asset>
+											</Item>
+											<Item>
+												<Asset>1999000161</Asset>
+											</Item>
+											<Item>
+												<Asset>1999000163</Asset>
+											</Item>
+											<Item>
+												<Asset>1999000165</Asset>
+											</Item>
+											<Item>
+												<Asset>1999000167</Asset>
+											</Item>
+										</UnhideAssets>
+										<UnlockAssets>
+											<Item>
+												<Asset>1999000157</Asset>
+											</Item>
+											<Item>
+												<Asset>1999000159</Asset>
+											</Item>
+											<Item>
+												<Asset>1999000161</Asset>
+											</Item>
+											<Item>
+												<Asset>1999000163</Asset>
+											</Item>
+											<Item>
+												<Asset>1999000165</Asset>
+											</Item>
+											<Item>
+												<Asset>1999000167</Asset>
+											</Item>
+										</UnlockAssets>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<ModOp Type="addNextSibling" GUID="130248">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1999000170</GUID>
+					<Name>Plant Trigger Alternative</Name>
+					<IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>PopulationByLevel</PlayerCounter>
+								<Context>114330</Context>
+								<CounterAmount>300</CounterAmount>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionResetTrigger</Template>
+								<Values>
+									<Action />
+									<ActionResetTrigger />
+								</Values>
+							</TriggerAction>
+						</Item>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action />
+									<ActionUnlockAsset>
+										<UnhideAssets>
+											<Item>
+												<Asset>1999000157</Asset>
+											</Item>
+											<Item>
+												<Asset>1999000159</Asset>
+											</Item>
+											<Item>
+												<Asset>1999000161</Asset>
+											</Item>
+											<Item>
+												<Asset>1999000163</Asset>
+											</Item>
+											<Item>
+												<Asset>1999000165</Asset>
+											</Item>
+											<Item>
+												<Asset>1999000167</Asset>
+											</Item>
+										</UnhideAssets>
+										<UnlockAssets>
+											<Item>
+												<Asset>1999000157</Asset>
+											</Item>
+											<Item>
+												<Asset>1999000159</Asset>
+											</Item>
+											<Item>
+												<Asset>1999000161</Asset>
+											</Item>
+											<Item>
+												<Asset>1999000163</Asset>
+											</Item>
+											<Item>
+												<Asset>1999000165</Asset>
+											</Item>
+											<Item>
+												<Asset>1999000167</Asset>
+											</Item>
+										</UnlockAssets>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+	</ModOp>
+</ModOps>

@@ -1,0 +1,34 @@
+<ModOps>
+  
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999002234</GUID>
+      <Text>Waldglas</Text>
+    </Text>
+    <Text>
+      <GUID>1999002235</GUID>
+      <Text>Diese Glashütte stellt nun hochwertiges Waldglas nach einem jahrhundertealten traditionellen Rezept her.</Text>
+    </Text>
+    <Text>
+      <GUID>1999002236</GUID>
+      <Text>Waldglashütte</Text>
+    </Text>
+    <Text>
+      <GUID>1999002237</GUID>
+      <Text>Waldglashütten sind in nächster Nähe zur Pottascheproduktion im Wald angesiedelt, da letztere einen unheimlich hohen Bedarf an Holz haben.</Text>
+    </Text>
+    <Text>
+      <GUID>1999002240</GUID>
+      <Text>Waldglashütte</Text>
+    </Text>
+    <Text>
+      <GUID>1999002255</GUID>
+      <Text>Waldglashütte</Text>
+    </Text>
+    <Text>
+      <GUID>1999002256</GUID>
+      <Text>Waldglashütte</Text>
+    </Text>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,1447 @@
+<ModOps>
+
+  <!-- #Potasche Product -->
+  <Group>
+    <!-- Add Product -->
+    <ModOp Type="addNextSibling" GUID="1010255">
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>1999002211</GUID>
+            <Name>Potash</Name>
+            <IconFilename>data/modgraphics/ui/icon_potash.png</IconFilename>
+            <InfoDescription>1999002212</InfoDescription>
+          </Standard>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Potash</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>5388</LineID>
+          </Text>
+          <Locked />
+          <Product>
+            <StorageLevel>Building</StorageLevel>
+            <ProductCategory>11702</ProductCategory>
+            <BasePrice>50</BasePrice>
+            <CivLevel>2</CivLevel>
+            <AssociatedRegion>Moderate;Colony01</AssociatedRegion>
+            <ProductionRegions>
+              <Item>
+                <RegionType>Colony01</RegionType>
+              </Item>
+              <Item>
+                <RegionType>Moderate</RegionType>
+              </Item>
+            </ProductionRegions>
+          </Product>
+          <ExpeditionAttribute>
+            <BaseMorale>0</BaseMorale>
+          </ExpeditionAttribute>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <!-- Add to Standard Product Storage List -->
+    <ModOp Type="addNextSibling" GUID="120055"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010234']">
+      <Item>
+        <Product>1999002211</Product>
+      </Item>
+    </ModOp>
+
+    <!-- Add to Burritos, Soap, Glass/Windows, Glasses, Pocket Watches, Light Bulbs, Chamgapne,
+    Lanterns_Africa, Souvenirs Asset Pool -->
+    <ModOp Type="add" GUID="130101,140030,140037,130041,140042,140044,130055,117720,134717"
+      Path="/Values/AssetPool/AssetList/">
+      <Item>
+        <Asset>1999002211</Asset>
+      </Item>
+    </ModOp>
+
+    <!-- Add to All Worker Products -->
+    <ModOp Type="add" GUID="700053" Path="/Values/PlayerCounterContextPool/Contexts/">
+      <Item>
+        <Asset>1999002211</Asset>
+      </Item>
+    </ModOp>
+
+    <!-- Add to Obrero WorkforceGoods, ObreroUnlockGoods, RawMaterials_SA -->
+    <ModOp Type="addPrevSibling" GUID="502009"
+      Path="/Values/ProductList/List/Item[Product='120035']">
+      <Item>
+        <Product>1999002211</Product>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="502023"
+      Path="/Values/ProductList/List/Item[Product='120034']">
+      <Item>
+        <Product>1999002211</Product>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="addPrevSibling" GUID="502050"
+      Path="/Values/ProductList/List/Item[Product='1010233']">
+      <Item>
+        <Product>1999002211</Product>
+      </Item>
+    </ModOp>
+
+    <!-- Add to WorkerWorkforceGoods,WorkerUnlockGoods,RawMaterials_Europe-->
+    <ModOp Type="addPrevSibling" GUID="502005"
+      Path="/Values/ProductList/List/Item[Product='1010234']">
+      <Item>
+        <Product>1999002211</Product>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="addPrevSibling" GUID="502018"
+      Path="/Values/ProductList/List/Item[Product='1010234']">
+      <Item>
+        <Product>1999002211</Product>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="502049"
+      Path="/Values/ProductList/List/Item[Product='1010226']">
+      <Item>
+        <Product>1999002211</Product>
+      </Item>
+    </ModOp>
+
+    <!-- #Pottasche-Fabrik NW -->
+    <ModOp Type="addNextSibling" GUID="24860">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>1999002222</GUID>
+            <Name>Potash Prodcution</Name>
+            <IconFilename>data/modgraphics/ui/icon_potash.png</IconFilename>
+          </Standard>
+          <Building>
+            <SkipUnlockMessage>1</SkipUnlockMessage>
+            <BuildModeRandomRotation>90</BuildModeRandomRotation>
+            <AssociatedRegions>Colony01</AssociatedRegions>
+          </Building>
+          <Blocking />
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>1000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>5</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/modgraphics/models/potash_production/potash_production.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh />
+          <Selection>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+            <ParticipantMessageArcheType>SA_Resident_tier02_atWork</ParticipantMessageArcheType>
+            <Colors>
+              <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+            </Colors>
+          </Selection>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Potash Production</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>3720</LineID>
+          </Text>
+          <Constructable />
+          <Locked />
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>200802</Sound>
+              </Item>
+              <Item>
+                <Sound>206294</Sound>
+              </Item>
+            </ActiveSounds>
+            <ConstructionSounds>
+              <BuildSuccessful>
+                <Item>
+                  <VectorElement>
+                    <InheritedIndex>0</InheritedIndex>
+                    <InheritanceMapV2>
+                      <Entry>
+                        <TemplateName>FarmBuilding</TemplateName>
+                        <Index>0</Index>
+                      </Entry>
+                      <Entry>
+                        <TemplateName>HeavyFreeAreaBuilding</TemplateName>
+                        <Index>0</Index>
+                      </Entry>
+                    </InheritanceMapV2>
+                  </VectorElement>
+                  <Sound>203830</Sound>
+                </Item>
+              </BuildSuccessful>
+            </ConstructionSounds>
+            <IncidentSounds>
+              <InfectedFire>
+                <Item>
+                  <Sound>214659</Sound>
+                </Item>
+              </InfectedFire>
+            </IncidentSounds>
+            <BuildingRepaired>
+              <Item>
+                <Sound>203866</Sound>
+              </Item>
+            </BuildingRepaired>
+            <MaterialType>Soil</MaterialType>
+          </SoundEmitter>
+          <FeedbackController />
+          <Infolayer />
+          <UpgradeList />
+          <Factory7 />
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>120008</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <FactoryOutputs>
+              <Item>
+                <Product>1999002211</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>30</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
+          </FactoryBase>
+          <LogisticNode />
+          <AmbientMoodProvider>
+            <Murmur>Factory</Murmur>
+            <DynamicEnvironmentType>None</DynamicEnvironmentType>
+          </AmbientMoodProvider>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>50</Amount>
+                <InactiveAmount>25</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010367</Product>
+                <Amount>25</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <Attackable>
+            <MaximumHitPoints>1500</MaximumHitPoints>
+            <SelfHealPerHealTick>6</SelfHealPerHealTick>
+          </Attackable>
+          <Pausable />
+          <IncidentInfectable>
+            <Infectable>
+              <Explosion>
+                <Base>0</Base>
+                <Escalated>0</Escalated>
+              </Explosion>
+            </Infectable>
+            <Explosion>
+              <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+            </Explosion>
+            <IncidentInfectionChanceFactors>
+              <Fire>
+                <DensityDistance>20</DensityDistance>
+                <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+              </Fire>
+              <Riot>
+                <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                <HappinessThreshold>20</HappinessThreshold>
+              </Riot>
+            </IncidentInfectionChanceFactors>
+          </IncidentInfectable>
+          <Industrializable>
+            <BoostedByIndustrialization>0</BoostedByIndustrialization>
+          </Industrializable>
+          <Culture>
+            <CultureType>Factory</CultureType>
+            <Attractiveness>-5</Attractiveness>
+          </Culture>
+          <QuestObject />
+          <Electrifiable />
+          <EcoSystemProvider />
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="add" GUID="130101" Path="/Values/AssetPool/AssetList">
+      <Item>
+        <Asset>1999002222</Asset>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="368,190842,193856,6000018"
+      Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1999002222</GUID>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="142413" Path="/Values/FeedbackBuildingGroup/Buildings">
+      <Item>
+        <Building>1999002222</Building>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="190849,190848,190847" Path="/Values/ItemEffect/EffectTargets">
+      <Item>
+        <GUID>1999002222</GUID>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="25000087"
+      Path="/Values/WorkforceMenu/BoostableFactories/Item[Factory='101270']">
+      <Item>
+        <Factory>1999002222</Factory>
+      </Item>
+    </ModOp>
+
+    <!-- #Potasche Production OW -->
+    <ModOp Type="addNextSibling" GUID="1010298">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>1999002232</GUID>
+            <Name>Potash Prodcution</Name>
+            <IconFilename>data/modgraphics/ui/icon_potash.png</IconFilename>
+          </Standard>
+          <Building>
+            <SkipUnlockMessage>1</SkipUnlockMessage>
+            <BuildModeRandomRotation>90</BuildModeRandomRotation>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+          </Building>
+          <Blocking />
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>1000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>5</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/modgraphics/models/potash_production/potash_production_ow.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh />
+          <Selection>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+            <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+            <Colors>
+              <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+            </Colors>
+          </Selection>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Potash Production</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>3720</LineID>
+          </Text>
+          <Constructable />
+          <Locked />
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>200802</Sound>
+              </Item>
+              <Item>
+                <Sound>206294</Sound>
+              </Item>
+            </ActiveSounds>
+            <ConstructionSounds>
+              <BuildSuccessful>
+                <Item>
+                  <VectorElement>
+                    <InheritedIndex>0</InheritedIndex>
+                    <InheritanceMapV2>
+                      <Entry>
+                        <TemplateName>FarmBuilding</TemplateName>
+                        <Index>0</Index>
+                      </Entry>
+                      <Entry>
+                        <TemplateName>HeavyFreeAreaBuilding</TemplateName>
+                        <Index>0</Index>
+                      </Entry>
+                    </InheritanceMapV2>
+                  </VectorElement>
+                  <Sound>203830</Sound>
+                </Item>
+              </BuildSuccessful>
+            </ConstructionSounds>
+            <IncidentSounds>
+              <InfectedFire>
+                <Item>
+                  <Sound>214659</Sound>
+                </Item>
+              </InfectedFire>
+            </IncidentSounds>
+            <BuildingRepaired>
+              <Item>
+                <Sound>203866</Sound>
+              </Item>
+            </BuildingRepaired>
+            <MaterialType>Soil</MaterialType>
+          </SoundEmitter>
+          <FeedbackController />
+          <Infolayer />
+          <UpgradeList />
+          <Factory7 />
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>120008</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <FactoryOutputs>
+              <Item>
+                <Product>1999002211</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>30</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <LogisticNode />
+          <AmbientMoodProvider>
+            <Murmur>Factory</Murmur>
+            <DynamicEnvironmentType>None</DynamicEnvironmentType>
+          </AmbientMoodProvider>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>50</Amount>
+                <InactiveAmount>25</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010115</Product>
+                <Amount>25</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <Attackable>
+            <MaximumHitPoints>1500</MaximumHitPoints>
+            <SelfHealPerHealTick>6</SelfHealPerHealTick>
+          </Attackable>
+          <Pausable />
+          <IncidentInfectable>
+            <Infectable>
+              <Explosion>
+                <Base>0</Base>
+                <Escalated>0</Escalated>
+              </Explosion>
+            </Infectable>
+            <Explosion>
+              <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+            </Explosion>
+            <IncidentInfectionChanceFactors>
+              <Fire>
+                <DensityDistance>20</DensityDistance>
+                <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+              </Fire>
+              <Riot>
+                <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                <HappinessThreshold>20</HappinessThreshold>
+              </Riot>
+            </IncidentInfectionChanceFactors>
+          </IncidentInfectable>
+          <Industrializable />
+          <Culture>
+            <CultureType>Factory</CultureType>
+            <Attractiveness>-5</Attractiveness>
+          </Culture>
+          <QuestObject />
+          <Electrifiable />
+          <EcoSystemProvider />
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="add" GUID="368,190842,193856,6000018,193875"
+      Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1999002232</GUID>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="142413" Path="/Values/FeedbackBuildingGroup/Buildings">
+      <Item>
+        <Building>1999002232</Building>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="190849,190848,190847" Path="/Values/ItemEffect/EffectTargets">
+      <Item>
+        <GUID>1999002232</GUID>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="addPrevSibling" GUID="25000087"
+      Path="/Values/WorkforceMenu/BoostableFactories/Item[Factory='1010312']">
+      <Item>
+        <Factory>1999002232</Factory>
+      </Item>
+    </ModOp>
+  </Group>
+
+  <!-- #Soda Product-->
+  <Group>
+    <!-- Add Product -->
+    <ModOp Type="addNextSibling" GUID="1010255" Condition="!@1999002300">
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>1999002300</GUID>
+            <Name>Soda</Name>
+            <IconFilename>data/modgraphics/ui/icon_soda_2.png</IconFilename>
+            <InfoDescription>1999002301</InfoDescription>
+          </Standard>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Soda</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>5388</LineID>
+          </Text>
+          <Locked />
+          <Product>
+            <StorageLevel>Building</StorageLevel>
+            <ProductCategory>11702</ProductCategory>
+            <BasePrice>500</BasePrice>
+            <CivLevel>5</CivLevel>
+            <AssociatedRegion>Moderate;Colony01;Africa</AssociatedRegion>
+            <ProductionRegions>
+              <Item>
+                <RegionType>Moderate</RegionType>
+              </Item>
+              <Item>
+                <RegionType>Africa</RegionType>
+              </Item>
+            </ProductionRegions>
+          </Product>
+          <ExpeditionAttribute>
+            <ExpeditionAttributes>
+              <Item>
+                <Attribute>Medicine</Attribute>
+                <Amount>10</Amount>
+              </Item>
+            </ExpeditionAttributes>
+            <FluffText>1999002302</FluffText>
+          </ExpeditionAttribute>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <!-- Add to Standard Product Storage List Prev Quartz Sand if not already there -->
+    <ModOp Type="add" GUID='120055'
+      Condition="!@120055/Values/ProductStorageList/ProductList/Item[Product='1999002300']"
+      Path="/Values/ProductStorageList/ProductList">
+      <Item>
+        <Product>1999002300</Product>
+      </Item>
+    </ModOp>
+
+    <!-- Add to Glass/Windows, Glasses, Pocket Watches, Light Bulbs, Chamgapne, Lanterns_Africa,
+  Souvenirs Asset Pool -->
+    <ModOp Type="add" GUID="130101,140030,140037,130041,140042,140044,130055,117720,134717"
+      Path="/Values/AssetPool/AssetList/">
+      <Item>
+        <Asset>1999002300</Asset>
+      </Item>
+    </ModOp>
+
+    <!-- Add to All Engineer Products -->
+    <ModOp Type="add" GUID="700139" Path="/Values/PlayerCounterContextPool/Contexts/">
+      <Item>
+        <Asset>1999002300</Asset>
+      </Item>
+    </ModOp>
+
+    <!-- Add to
+    ElderWorkforceGoods,ElderunlockGoods,EngineerWorkforceGoods,EngineerUnlockGoods,ElderUnlockGoods,RawMaterials_Europe,
+  RawMaterials_Africa -->
+
+    <!-- NW -->
+    <ModOp Type="addPrevSibling" GUID="502023"
+      Condition="!@502023/Values/ProductList/List/Item[Product='1999002300']"
+      Path="/Values/ProductList/List/Item[Product='1010233']">
+      <Item>
+        <Product>1999002300</Product>
+      </Item>
+    </ModOp>
+    <ModOp Type="addPrevSibling" GUID="502050"
+      Condition="!@502050/Values/ProductList/List/Item[Product='1999002300']"
+      Path="/Values/ProductList/List/Item[Product='1010233']">
+      <Item>
+        <Product>1999002300</Product>
+      </Item>
+    </ModOp>
+
+    <!-- Enbesa for Enbesan Spectacles Mod by Lion-->
+    <ModOp Type="addPrevSibling" GUID="502070"
+      Condition="!@502070/Values/ProductList/List/Item[Product='1999002300']"
+      Path="/Values/ProductList/List/Item[Product='114370']">
+      <Item>
+        <Product>1999002300</Product>
+      </Item>
+      <Item>
+        <Product>1010241</Product>
+      </Item>
+      <Item>
+        <Product>120030</Product>
+      </Item>
+    </ModOp>
+    <ModOp Type="remove" GUID="502072"
+      Condition="!@502072/Values/ProductList/List/Item[Product='1999002300']"
+      Path="/Values/ProductList/List/Item[Product='1010241']"></ModOp>
+    <ModOp Type="addPrevSibling" GUID="502072"
+      Condition="!@502072/Values/ProductList/List/Item[Product='1999002300']"
+      Path="/Values/ProductList/List/Item[Product='120030']">
+      <Item>
+        <Product>1999002300</Product>
+      </Item>
+      <Item>
+        <Product>1010228</Product>
+      </Item>
+      <Item>
+        <Product>1010241</Product>
+      </Item>
+    </ModOp>
+    <ModOp Type="addPrevSibling" GUID="502075"
+      Condition="!@502075/Values/ProductList/List/Item[Product='1999002300']"
+      Path="/Values/ProductList/List/Item[Product='1010228']">
+      <Item>
+        <Product>1999002300</Product>
+      </Item>
+    </ModOp>
+
+    <!-- OW -->
+    <ModOp Type="addPrevSibling" GUID="502020,502066"
+      Condition="!@502020/Values/ProductList/List/Item[Product='1999002300']"
+      Path="/Values/ProductList/List/Item[Product='1010233']">
+      <Item>
+        <Product>1999002300</Product>
+      </Item>
+    </ModOp>
+    <ModOp Type="addPrevSibling" GUID="502007"
+      Condition="!@502007/Values/ProductList/List/Item[Product='1999002300']"
+      Path="/Values/ProductList/List/Item[Product='1010246']">
+      <Item>
+        <Product>1999002300</Product>
+      </Item>
+    </ModOp>
+    <ModOp Type="addPrevSibling" GUID="502049"
+      Condition="!@502049/Values/ProductList/List/Item[Product='1999002300']"
+      Path="/Values/ProductList/List/Item[Product='1010228']">
+      <Item>
+        <Product>1999002300</Product>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="130248">
+      <Asset>
+        <Template>Trigger</Template>
+        <Values>
+          <Standard>
+            <GUID>1999002304</GUID>
+            <Name>Unhide Soda Trigger</Name>
+          </Standard>
+          <Trigger>
+            <TriggerCondition>
+              <Template>ConditionPlayerCounter</Template>
+              <Values>
+                <Condition />
+                <ConditionPlayerCounter>
+                  <PlayerCounter>PopulationByLevel</PlayerCounter>
+                  <Context>15000006</Context>
+                  <CounterAmount>1</CounterAmount>
+                </ConditionPlayerCounter>
+              </Values>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionUnlockAsset</Template>
+                  <Values>
+                    <Action />
+                    <ActionUnlockAsset>
+                      <UnhideAssets>
+                        <Item>
+                          <Asset>1999002300</Asset>
+                        </Item>
+                      </UnhideAssets>
+                      <UnlockAssets>
+                        <Item>
+                          <Asset>1999002300</Asset>
+                        </Item>
+                      </UnlockAssets>
+                    </ActionUnlockAsset>
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+          </Trigger>
+          <TriggerSetup />
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- #Limestone name and Icon change -->
+  <ModOp Type="replace" GUID="23813,1010309,1010505,1010547,1010231"
+    Path="/Values/Standard/IconFilename">
+    <IconFilename>data/modgraphics/ui/icon_limestone.png</IconFilename>
+  </ModOp>
+
+  <!-- #Champagne name and Icon change -->
+  <ModOp Type="replace" GUID="100659,19639,120016,500434" Path="/Values/Standard/IconFilename">
+    <IconFilename>data/modgraphics/ui/icon_wine.png</IconFilename>
+  </ModOp>
+
+  <ModOp Type="replace" GUID="100659" Path="/Values/Object/Variations">
+    <Variations>
+      <Item>
+        <Filename>data/modgraphics/models/wine_cellar/wine_cellar.cfg</Filename>
+      </Item>
+    </Variations>
+  </ModOp>
+
+  <!-- #Tortilla-Fladen -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="1010240">
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>1999002213</GUID>
+            <Name>Tortillas</Name>
+            <IconFilename>data/modgraphics/ui/icon_tortillas.png</IconFilename>
+            <InfoDescription>1999002214</InfoDescription>
+          </Standard>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Tortillas</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>5388</LineID>
+          </Text>
+          <Locked />
+          <Product>
+            <StorageLevel>Building</StorageLevel>
+            <ProductCategory>11703</ProductCategory>
+            <BasePrice>75</BasePrice>
+            <CivLevel>2</CivLevel>
+            <AssociatedRegion>Colony01</AssociatedRegion>
+            <ProductionRegions>
+              <Item>
+                <RegionType>Colony01</RegionType>
+              </Item>
+            </ProductionRegions>
+          </Product>
+          <ExpeditionAttribute>
+            <BaseMorale>15</BaseMorale>
+          </ExpeditionAttribute>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <!-- Add to Standard Product Storage List -->
+    <ModOp Type="addNextSibling" GUID="120055"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='120034']">
+      <Item>
+        <Product>1999002213</Product>
+      </Item>
+    </ModOp>
+
+    <!-- Add to BurritosAsset Pool -->
+    <ModOp Type="add" GUID="130101" Path="/Values/AssetPool/AssetList/">
+      <Item>
+        <Asset>1999002213</Asset>
+      </Item>
+    </ModOp>
+
+    <!-- Add to Expedition Balancing -->
+    <ModOp Type="add" GUID="800111" Path="/Values/ExpeditionFeature/FeedOption/FeedOptions">
+      <Item>
+        <MoraleFactor>0.4</MoraleFactor>
+        <Product>1999002213</Product>
+      </Item>
+    </ModOp>
+
+    <!-- Add to Obrero WorkforceGoods, ObreroUnlockGoods, IntermediateGoods_SA -->
+    <ModOp Type="addPrevSibling" GUID="502009"
+      Path="/Values/ProductList/List/Item[Product='120035']">
+      <Item>
+        <Product>1999002213</Product>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="addPrevSibling" GUID="502023"
+      Path="/Values/ProductList/List/Item[Product='120035']">
+      <Item>
+        <Product>1999002213</Product>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="addPrevSibling" GUID="502044"
+      Path="/Values/ProductList/List/Item[Product='120044']">
+      <Item>
+        <Product>1999002213</Product>
+      </Item>
+    </ModOp>
+  </Group>
+
+  <!-- #Avocados -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="1010255">
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>1999002209</GUID>
+            <Name>Avocados</Name>
+            <IconFilename>data/modgraphics/ui/icon_avocado.png</IconFilename>
+            <InfoDescription>1999002210</InfoDescription>
+          </Standard>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Avocados</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>5388</LineID>
+          </Text>
+          <Locked />
+          <Product>
+            <StorageLevel>Building</StorageLevel>
+            <ProductCategory>11702</ProductCategory>
+            <BasePrice>25</BasePrice>
+            <CivLevel>2</CivLevel>
+            <AssociatedRegion>Colony01</AssociatedRegion>
+            <ProductionRegions>
+              <Item>
+                <RegionType>Colony01</RegionType>
+              </Item>
+            </ProductionRegions>
+          </Product>
+          <ExpeditionAttribute>
+            <BaseMorale>15</BaseMorale>
+            <ExpeditionAttributes>
+              <Item>
+                <Attribute>Medicine</Attribute>
+                <Amount>5</Amount>
+              </Item>
+            </ExpeditionAttributes>
+          </ExpeditionAttribute>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <!-- Add to Standard Product Storage List -->
+    <ModOp Type="addNextSibling" GUID="120055"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='120034']">
+      <Item>
+        <Product>1999002209</Product>
+      </Item>
+    </ModOp>
+
+    <!-- Add to Burritos Asset Pool -->
+    <ModOp Type="add" GUID="130101" Path="/Values/AssetPool/AssetList/">
+      <Item>
+        <Asset>1999002209</Asset>
+      </Item>
+    </ModOp>
+
+    <!-- Add to Expedition Balancing -->
+    <ModOp Type="add" GUID="800111" Path="/Values/ExpeditionFeature/FeedOption/FeedOptions">
+      <Item>
+        <MoraleFactor>0.4</MoraleFactor>
+        <Product>1999002209</Product>
+      </Item>
+    </ModOp>
+
+    <!-- Add to Jornalero WorkforceGoods, ObreroUnlockGoods, AgriculturalGoods_SA -->
+    <ModOp Type="addNextSibling" GUID="502008,502038"
+      Path="/Values/ProductList/List/Item[Product='120034']">
+      <Item>
+        <Product>1999002209</Product>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="502023"
+      Path="/Values/ProductList/List/Item[Product='120035']">
+      <Item>
+        <Product>1999002209</Product>
+      </Item>
+    </ModOp>
+
+    <!-- #neue Fruchtbarkeit Avocados möglich machen -->
+    <Group>
+      <ModOp Type="addNextSibling" GUID="1010574">
+        <Asset>
+          <Template>Fertility</Template>
+          <Values>
+            <Standard>
+              <GUID>1999002200</GUID>
+              <Name>Avocado Fertility</Name>
+              <IconFilename>data/modgraphics/ui/icon_avocado.png</IconFilename>
+            </Standard>
+            <Text>
+              <LocaText>
+                <English>
+                  <Text>Avocado Fertility</Text>
+                  <Status>Exported</Status>
+                </English>
+              </LocaText>
+              <LineID>5404</LineID>
+            </Text>
+            <Fertility />
+          </Values>
+        </Asset>
+      </ModOp>
+
+      <!-- Add to Allowed Fertilities -->
+      <ModOp Type="add" GUID="5000001" Path="/Values/Region/AllowedFertilities">
+        <Item>
+          <Fertility>1999002200</Fertility>
+        </Item>
+      </ModOp>
+
+      <!-- Avocado Seeds -->
+      <ModOp Type="addNextSibling" GUID="190097">
+        <Asset>
+          <Template>GuildhouseBuff</Template>
+          <Values>
+            <Standard>
+              <GUID>1999002201</GUID>
+              <Name>item action fertility avocados</Name>
+              <IconFilename>data/modgraphics/ui/icon_avocado.png</IconFilename>
+            </Standard>
+            <ItemEffect>
+              <EffectTargets>
+                <Item>
+                  <GUID>1999002218</GUID>
+                </Item>
+              </EffectTargets>
+            </ItemEffect>
+            <Text>
+              <LocaText>
+                <English>
+                  <Text>Handful of Avocado Seeds</Text>
+                  <Status>Exported</Status>
+                </English>
+              </LocaText>
+              <LineID>26357</LineID>
+            </Text>
+            <FactoryUpgrade>
+              <AddedFertility>1999002200</AddedFertility>
+            </FactoryUpgrade>
+            <BuildingUpgrade />
+            <Buff />
+            <CultureUpgrade />
+            <ModuleOwnerUpgrade />
+            <IncidentInfectableUpgrade />
+            <PowerplantUpgrade />
+            <IndustrializableUpgrade />
+            <ItemContainerUpgrade />
+            <IncidentInfluencerUpgrade />
+            <IrrigationUpgrade />
+            <EcoSystemProviderUpgrade />
+            <ResourceUpgrade />
+          </Values>
+        </Asset>
+      </ModOp>
+
+      <ModOp Type="addNextSibling" GUID="190943">
+        <Asset>
+          <Template>GuildhouseItem</Template>
+          <Values>
+            <Standard>
+              <GUID>1999002202</GUID>
+              <Name>Mixed Avocado Seeds</Name>
+              <IconFilename>data/modgraphics/ui/icon_seeds_avocado.png</IconFilename>
+              <InfoDescription>1999002203</InfoDescription>
+            </Standard>
+            <Text>
+              <LocaText>
+                <English>
+                  <Text>Avocado Saplings</Text>
+                  <Status>Exported</Status>
+                </English>
+              </LocaText>
+              <LineID>15309</LineID>
+            </Text>
+            <Item>
+              <MaxStackSize>1</MaxStackSize>
+              <Rarity>Uncommon</Rarity>
+              <TradePrice>20500</TradePrice>
+            </Item>
+            <FactoryUpgrade>
+              <ProductivityUpgrade>
+                <Value>-15</Value>
+                <Percental>1</Percental>
+              </ProductivityUpgrade>
+              <AddedFertility>1999002200</AddedFertility>
+            </FactoryUpgrade>
+            <ItemEffect>
+              <EffectTargets>
+                <Item>
+                  <GUID>1999002218</GUID>
+                </Item>
+              </EffectTargets>
+            </ItemEffect>
+            <ItemAction />
+            <ExpeditionAttribute>
+              <ItemDifficulties>Easy;Average</ItemDifficulties>
+            </ExpeditionAttribute>
+            <CultureUpgrade />
+            <BuildingUpgrade />
+            <ModuleOwnerUpgrade />
+            <IncidentInfluencerUpgrade />
+            <IncidentInfectableUpgrade />
+            <ResidenceUpgrade />
+            <PopulationUpgrade />
+            <IndustrializableUpgrade />
+            <Locked />
+            <Buff />
+            <CraftableItem />
+            <HeaterUpgrade />
+            <PowerplantUpgrade />
+            <IrrigationUpgrade />
+            <EcoSystemProviderUpgrade />
+          </Values>
+        </Asset>
+      </ModOp>
+
+      <ModOp Type="addNextSibling" GUID="190944">
+        <Asset>
+          <Template>GuildhouseItem</Template>
+          <Values>
+            <Standard>
+              <GUID>1999002204</GUID>
+              <Name>Avocado Seeds</Name>
+              <IconFilename>data/modgraphics/ui/icon_seeds_avocado.png</IconFilename>
+              <InfoDescription>1999002205</InfoDescription>
+            </Standard>
+            <Text>
+              <LocaText>
+                <English>
+                  <Text>Quality Avocado Saplings</Text>
+                  <Status>Exported</Status>
+                </English>
+              </LocaText>
+              <LineID>15310</LineID>
+            </Text>
+            <Item>
+              <MaxStackSize>1</MaxStackSize>
+              <Rarity>Rare</Rarity>
+              <TradePrice>71000</TradePrice>
+            </Item>
+            <FactoryUpgrade>
+              <AddedFertility>1999002200</AddedFertility>
+            </FactoryUpgrade>
+            <ItemEffect>
+              <EffectTargets>
+                <Item>
+                  <GUID>1999002218</GUID>
+                </Item>
+              </EffectTargets>
+            </ItemEffect>
+            <ItemAction />
+            <ExpeditionAttribute>
+              <BaseMorale>10</BaseMorale>
+              <ItemDifficulties>Easy;Average</ItemDifficulties>
+            </ExpeditionAttribute>
+            <CultureUpgrade />
+            <BuildingUpgrade />
+            <ModuleOwnerUpgrade />
+            <IncidentInfluencerUpgrade />
+            <IncidentInfectableUpgrade />
+            <ResidenceUpgrade />
+            <PopulationUpgrade />
+            <IndustrializableUpgrade />
+            <Locked />
+            <Buff />
+            <CraftableItem />
+            <HeaterUpgrade />
+            <PowerplantUpgrade />
+            <IrrigationUpgrade />
+            <EcoSystemProviderUpgrade />
+          </Values>
+        </Asset>
+      </ModOp>
+
+      <ModOp Type="addNextSibling" GUID="190945">
+        <Asset>
+          <Template>GuildhouseItem</Template>
+          <Values>
+            <Standard>
+              <GUID>1999002206</GUID>
+              <Name>Selected Avocado Seeds</Name>
+              <IconFilename>data/modgraphics/ui/icon_seeds_avocado.png</IconFilename>
+              <InfoDescription>1999002207</InfoDescription>
+            </Standard>
+            <Text>
+              <LocaText>
+                <English>
+                  <Text>Hybrid Avocado Saplings</Text>
+                  <Status>Exported</Status>
+                </English>
+              </LocaText>
+              <LineID>15311</LineID>
+            </Text>
+            <Item>
+              <MaxStackSize>1</MaxStackSize>
+              <Rarity>Epic</Rarity>
+              <TradePrice>224000</TradePrice>
+            </Item>
+            <FactoryUpgrade>
+              <ProductivityUpgrade>
+                <Value>25</Value>
+                <Percental>1</Percental>
+              </ProductivityUpgrade>
+              <AddedFertility>1999002200</AddedFertility>
+            </FactoryUpgrade>
+            <ItemEffect>
+              <EffectTargets>
+                <Item>
+                  <GUID>1999002218</GUID>
+                </Item>
+              </EffectTargets>
+            </ItemEffect>
+            <ItemAction />
+            <ExpeditionAttribute>
+              <BaseMorale>15</BaseMorale>
+              <ItemDifficulties>Average;Hard</ItemDifficulties>
+            </ExpeditionAttribute>
+            <CultureUpgrade />
+            <BuildingUpgrade />
+            <ModuleOwnerUpgrade />
+            <IncidentInfluencerUpgrade />
+            <IncidentInfectableUpgrade />
+            <ResidenceUpgrade />
+            <PopulationUpgrade />
+            <IndustrializableUpgrade />
+            <Locked />
+            <Buff />
+            <CraftableItem />
+            <HeaterUpgrade />
+            <PowerplantUpgrade />
+            <IrrigationUpgrade />
+            <EcoSystemProviderUpgrade />
+          </Values>
+        </Asset>
+      </ModOp>
+
+      <!-- Item Pools Seeds -->
+      <ModOp Type="add" GUID="130190" Path="/Values/AssetPool/AssetList">
+        <Item>
+          <Asset>1999002202</Asset>
+        </Item>
+        <Item>
+          <Asset>1999002204</Asset>
+        </Item>
+        <Item>
+          <Asset>1999002206</Asset>
+        </Item>
+      </ModOp>
+
+      <ModOp Type="add" GUID="193922,192693,191234,191282" Path="/Values/RewardPool/ItemsPool">
+        <Item>
+          <ItemLink>1999002202</ItemLink>
+        </Item>
+      </ModOp>
+
+      <ModOp Type="add" GUID="193924,192694,191241" Path="/Values/RewardPool/ItemsPool">
+        <Item>
+          <ItemLink>1999002204</ItemLink>
+        </Item>
+      </ModOp>
+
+      <ModOp Type="add" GUID="193926,192695,191248" Path="/Values/RewardPool/ItemsPool">
+        <Item>
+          <ItemLink>1999002206</ItemLink>
+        </Item>
+      </ModOp>
+
+      <!-- Minimap Scene Fertility Order -->
+      <ModOp Type="addNextSibling" GUID="500204"
+        Path="/Values/MinimapScene/FertilityOrder/Item[GUID='120038']">
+        <Item>
+          <GUID>1999002200</GUID>
+        </Item>
+      </ModOp>
+
+      <!-- Add Fertility to Fertility Seeds at Map Generation -->
+      <ModOp Type="add"
+        GUID="141531,141529,141528,141526,141535,141537,141539,141545,141540,141546,141550,141536"
+        Path="/Values/FertilitySet/Fertilities">
+        <Item>
+          <Fertility>1999002200</Fertility>
+        </Item>
+      </ModOp>
+
+      <!-- Trigger Fertility and Seeds -->
+      <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+          <Template>Trigger</Template>
+          <Values>
+            <Standard>
+              <GUID>1999002208</GUID>
+              <Name>Avocado Fertility and Seeds Trigger</Name>
+            </Standard>
+            <Trigger>
+              <TriggerCondition>
+                <Template>ConditionPlayerCounter</Template>
+                <Values>
+                  <Condition />
+                  <ConditionPlayerCounter>
+                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                    <Context>15000006</Context>
+                    <CounterAmount>1</CounterAmount>
+                  </ConditionPlayerCounter>
+                </Values>
+              </TriggerCondition>
+              <TriggerActions>
+                <Item>
+                  <TriggerAction>
+                    <Template>ActionResetTrigger</Template>
+                    <Values>
+                      <Action />
+                      <ActionResetTrigger />
+                    </Values>
+                  </TriggerAction>
+                </Item>
+                <Item>
+                  <TriggerAction>
+                    <Template>ActionUnlockAsset</Template>
+                    <Values>
+                      <Action />
+                      <ActionUnlockAsset>
+                        <UnhideAssets>
+                          <Item>
+                            <Asset>1999002200</Asset>
+                          </Item>
+                          <Item>
+                            <Asset>1999002202</Asset>
+                          </Item>
+                          <Item>
+                            <Asset>1999002204</Asset>
+                          </Item>
+                          <Item>
+                            <Asset>1999002206</Asset>
+                          </Item>
+                        </UnhideAssets>
+                      </ActionUnlockAsset>
+                    </Values>
+                  </TriggerAction>
+                </Item>
+                <Item>
+                  <TriggerAction>
+                    <Template>ActionUnlockAsset</Template>
+                    <Values>
+                      <Action />
+                      <ActionUnlockAsset>
+                        <UnlockAssets>
+                          <Item>
+                            <Asset>1999002200</Asset>
+                          </Item>
+                          <Item>
+                            <Asset>1999002202</Asset>
+                          </Item>
+                          <Item>
+                            <Asset>1999002204</Asset>
+                          </Item>
+                          <Item>
+                            <Asset>1999002206</Asset>
+                          </Item>
+                        </UnlockAssets>
+                      </ActionUnlockAsset>
+                    </Values>
+                  </TriggerAction>
+                </Item>
+              </TriggerActions>
+            </Trigger>
+            <TriggerSetup />
+          </Values>
+        </Asset>
+      </ModOp>
+    </Group>
+  </Group>
+
+  <!-- #Guacamole -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="1010240">
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>1999002215</GUID>
+            <Name>Guacamole</Name>
+            <IconFilename>data/modgraphics/ui/icon_guacamole.png</IconFilename>
+            <InfoDescription>1999002216</InfoDescription>
+          </Standard>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Guacamole</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>5388</LineID>
+          </Text>
+          <Locked />
+          <Product>
+            <StorageLevel>Building</StorageLevel>
+            <ProductCategory>11703</ProductCategory>
+            <BasePrice>75</BasePrice>
+            <CivLevel>2</CivLevel>
+            <AssociatedRegion>Colony01</AssociatedRegion>
+            <ProductionRegions>
+              <Item>
+                <RegionType>Colony01</RegionType>
+              </Item>
+            </ProductionRegions>
+          </Product>
+          <ExpeditionAttribute>
+            <BaseMorale>15</BaseMorale>
+          </ExpeditionAttribute>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <!-- Add to Standard Product Storage List -->
+    <ModOp Type="addNextSibling" GUID="120055"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='120034']">
+      <Item>
+        <Product>1999002215</Product>
+      </Item>
+    </ModOp>
+
+    <!-- Add to BurritosAsset Pool -->
+    <ModOp Type="add" GUID="130101" Path="/Values/AssetPool/AssetList/">
+      <Item>
+        <Asset>1999002215</Asset>
+      </Item>
+    </ModOp>
+
+    <!-- Add to Expedition Balancing -->
+    <ModOp Type="add" GUID="800111" Path="/Values/ExpeditionFeature/FeedOption/FeedOptions">
+      <Item>
+        <MoraleFactor>0.4</MoraleFactor>
+        <Product>1999002215</Product>
+      </Item>
+    </ModOp>
+
+    <!-- Add to Obrero WorkforceGoods, ObreroUnlockGoods, IntermediateGoods_SA -->
+    <ModOp Type="addPrevSibling" GUID="502009"
+      Path="/Values/ProductList/List/Item[Product='120035']">
+      <Item>
+        <Product>1999002215</Product>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="addPrevSibling" GUID="502023"
+      Path="/Values/ProductList/List/Item[Product='120035']">
+      <Item>
+        <Product>1999002215</Product>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="addPrevSibling" GUID="502044"
+      Path="/Values/ProductList/List/Item[Product='120044']">
+      <Item>
+        <Product>1999002215</Product>
+      </Item>
+    </ModOp>
+  </Group>
+
+</ModOps>

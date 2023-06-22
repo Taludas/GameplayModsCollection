@@ -1,0 +1,66 @@
+{
+  "Version": "1.0",
+  "ModID": "Taludas_BurritoBoom",
+  "DeprecateIds": [],
+  "ModDependencies": [
+    "Taludas_SharedExtraGoods"
+  ],
+  "LoadAfterIds": [
+    "Taludas_TheWholesomeHaciendaHaul",
+    "Cattle Needs to be butchered",
+    "Taludas_SharedExtraGoods"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Gameplay",
+    "Chinese": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Burrito Boom (Taludas)",
+    "English": "Burrito Boom (Taludas)",
+    "French": "Burrito Boom (Taludas)",
+    "German": "Burrito Boom (Taludas)",
+    "Italian": "Burrito Boom (Taludas)",
+    "Japanese": "Burrito Boom (Taludas)",
+    "Korean": "Burrito Boom (Taludas)",
+    "Polish": "Burrito Boom (Taludas)",
+    "Russian": "Burrito Boom (Taludas)",
+    "Spanish": "Burrito Boom (Taludas)",
+    "Taiwanese": "Burrito Boom (Taludas)"
+  },
+  "Description": {
+    "English": "# Burrito Boom \n\n Craving a flavor-packed fiesta for your taste buds? Look no further than our sizzling, mouthwatering burritos! Picture this: tender, marinated meat, grilled to perfection and paired with creamy, vibrant guacamole, all nestled together in the blanket of a warm, soft tortilla. \n\n Your citizens have stumbled upon an old family recipe, using regional ingredients, which together taste so good, that people from all over the globe come to your colony to taste this flavor paradise. The new ingredients are: \n\n - Meat (uses 'Cattles need to be butcherd' Mod if present) \n\n - Guacamole made from fresh Avocado and fine-tuned with hot spices. \n\n - Tortillas made from corn, extracted using an old technique called Nixtamalization, which requires pot ash. \n\nIn return for your increased efforts, more people will come to your town due to the enormous popularity of the new recipe. \n\n Needs either the Land of Lions or Seeds of Change DLC for acquisition of spices.",
+    "German": "# Burrito Boom \n\n Lust auf eine geschmacksintensive Fiesta für deine Geschmacksnerven? Dann sind unsere brutzelnden, köstlichen Burritos genau das Richtige für dich! Stellt euch das vor: zartes, mariniertes Fleisch, perfekt gegrillt und gepaart mit cremiger, pikanter Guacamole, alles eingebettet in einer warmen, weichen Tortilla. \n\n Deine Einwohner sind auf ein altes Familienrezept gestoßen, bei dem regionale Zutaten verwendet werden, die zusammen so gut schmecken, dass Menschen aus der ganzen Welt in deine Kolonie kommen, um dieses Geschmacksparadies zu probieren. Die neuen Zutaten sind: \n\n -Fleisch (verwendet den 'Cattles need to be butcherd' Mod, falls vorhanden) \n\n -Guacamole, hergestellt aus frischer Avocado und verfeinert mit scharfen Gewürzen. \n\n -Tortillas aus Mais, die mit einer alten Technik namens Nixtamalisierung extrahiert werden, die Pottasche erfordert. \n\nAls Ausgleich für deine erhöhten Anstrengungen werden aufgrund der enormen Beliebtheit des neuen Rezepts mehr Einwohner in deine Stadt kommen. \n\n Benötigt entweder den DLC 'Land der Löwen' oder 'Keim der Hoffnung' für den Bezug von Gewürzen.",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+      "DLC": "LandOfLions",
+      "Dependant": "atLeastOneRequired"
+    },    
+    {
+      "DLC": "SeedsOfChange",
+      "Dependant": "atLeastOneRequired"
+    }
+  ],
+  "CreatorName": "Taludas",
+  "Image": null
+}

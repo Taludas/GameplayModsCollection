@@ -1,0 +1,90 @@
+{
+  "Version": "1.6",
+  "ModID": "Taludas_CoffeeTobaccoEnbesa",
+  "IncompatibleIds": [
+    "Taludas_CoffeeTobaccoEnbesaFull",
+    "Taludas_CoffeeTobaccoEnbesaFarmsOnly",
+    "Taludas_CoffeeTobaccoEnbesaLight",
+    "Taludas_CoffeeTobaccoEnbesaSuperLight"
+  ],
+  "DeprecateIds": [
+    "Taludas_CoffeeTobaccoEnbesaFull",
+    "Taludas_CoffeeTobaccoEnbesaFarmsOnly",
+    "Taludas_CoffeeTobaccoEnbesaLight",
+    "Taludas_CoffeeTobaccoEnbesaSuperLight"
+  ],
+  "ModDependencies": [
+    "shared-pools-and-definitions"
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions"
+  ],
+  "Category": {
+    "Chinese": "Gameplay",
+    "English": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Coffee and Tobacco in Enbesa (Taludas)",
+    "English":  "Coffee and Tobacco in Enbesa (Taludas)",
+    "French":  "Coffee and Tobacco in Enbesa (Taludas)",
+    "German":  "Coffee and Tobacco in Enbesa (Taludas)",
+    "Italian":  "Coffee and Tobacco in Enbesa (Taludas)",
+    "Japanese":  "Coffee and Tobacco in Enbesa (Taludas)",
+    "Korean":  "Coffee and Tobacco in Enbesa (Taludas)",
+    "Polish":  "Coffee and Tobacco in Enbesa (Taludas)",
+    "Russian":  "Coffee and Tobacco in Enbesa (Taludas)",
+    "Spanish":  "Coffee and Tobacco in Enbesa (Taludas)",
+    "Taiwanese":  "Coffee and Tobacco in Enbesa (Taludas)"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Ever wanted to plant Coffee and Tobacco in the region those crops usually come from? Then look no further! This mod enables you to plant Coffee and Tobacco in Enbesa and modifies the Coffee Production chain.",
+    "French": null,
+    "German": "Wolltet Ihr schon immer Kaffee und Tabak in der Region anbauen, aus der diese Pflanzen hauptsächlich stammen? Dann sucht nicht weiter! Mit dieser Mod könnt Ihr Kaffee und Tabak in Enbesa anbauen und es wird die Kaffeeproduktionskette komplexer gestaltet.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": 
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    {
+      "DLC":"LandOfLions",
+      "Dependant": "required"
+    },
+    {
+      "DLC":"BrightHarvest",
+      "Dependant": "partly"
+    }
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "https://github.com/Taludas/GameplayModsCollection",
+  "Image": null
+}

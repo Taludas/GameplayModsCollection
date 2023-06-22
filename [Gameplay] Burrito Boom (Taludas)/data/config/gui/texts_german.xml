@@ -1,0 +1,66 @@
+<ModOps>
+  
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999002223</GUID>
+      <Text>Tortillamühle</Text>
+    </Text>
+    <Text>
+      <GUID>1999002224</GUID>
+      <Text>Guacamole-Küche</Text>
+    </Text>
+    <Text>
+      <GUID>1999002226</GUID>
+      <Text>Burrito Boom</Text>
+    </Text>
+    <Text>
+      <GUID>1999002227</GUID>
+      <Text>Aufgrund der derzeitigen Beliebtheit von Burritos kann ihr Angebot zu einem verstärkten Zustrom neuer Einwanderer in Euren Städten führen.</Text>
+    </Text>
+    <Text>
+      <GUID>1999002229</GUID>
+      <Text>Burrito Boom</Text>
+    </Text>
+    <Text>
+      <GUID>15654</GUID>
+      <Text>Der Investor möchte Burritos vermarkten.</Text>
+    </Text>
+    <Text>
+      <GUID>14991</GUID>
+      <Text>KEINE BURRITOS MEHR!</Text>
+    </Text>
+    <Text>
+      <GUID>12471</GUID>
+      <Text>Qualitätsburritos benötigen Qualitätsmais.</Text>
+    </Text>
+    <Text>
+      <GUID>101271</GUID>
+      <Text>Burrito-Manufaktur</Text>
+    </Text>
+    <Text>
+      <GUID>120035</GUID>
+      <Text>Burritos</Text>
+    </Text>
+    <Text>
+      <GUID>192227</GUID>
+      <Text>Silvas Burritos</Text>
+    </Text>
+    <Text>
+      <GUID>500911</GUID>
+      <Text>Burritos</Text>
+    </Text>
+    <Text>
+      <GUID>16316</GUID>
+      <Text>Ein Investor hofft, die Tortilla den Menschen in der Alten Welt zugänglich zu machen. Aber er braucht ein paar Proben, um zu sehen, ob sie ein Verkaufsschlager werden.</Text>
+    </Text>
+    <Text>
+      <GUID>14992</GUID>
+      <Text>Der Vorrat an Burritos in [Newspaper FindArticle([RefGuid]) Context TownName] ist extrem gering, so dass Eure Stadt hungert. "Ihr solltet uns besser bald aus der Patsche helfen, sonst hinterlässt die ganze Sache einen üblen Beigeschmack."</Text>
+    </Text>
+    <Text>
+      <GUID>15024</GUID>
+      <Text>Burritos sind endlich in [Newspaper FindArticle([RefGuid]) Context TownName] vorrätig, so dass die Einheimischen ein rituelles Fest zur Feier des Maises feiern. Ein Vermächtnis der Vorfahren in der Region, ein Grundnahrungsmittel der Befreiung und Unabhängigkeit, das wunderbar zu einer Kaktusfeige oder einer noch schärferen Chili passt!</Text>
+    </Text>
+  </ModOp>
+
+</ModOps>

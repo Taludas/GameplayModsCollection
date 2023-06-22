@@ -1,0 +1,74 @@
+{
+  "Version": "1.2",
+  "ModID": "Taludas_ArcticCaptains",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": "Gameplay",
+    "English": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Arctic Captains (Taludas)",
+    "English": "Arctic Captains (Taludas)",
+    "French": "Arctic Captains (Taludas)",
+    "German": "Arctic Captains (Taludas)",
+    "Italian": "Arctic Captains (Taludas)",
+    "Japanese": "Arctic Captains (Taludas)",
+    "Korean": "Arctic Captains (Taludas)",
+    "Polish": "Arctic Captains (Taludas)",
+    "Russian": "Arctic Captains (Taludas)",
+    "Spanish": "Arctic Captains (Taludas)",
+    "Taiwanese": "Arctic Captains (Taludas)"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Adds 6 Arctic Airship Specialists to strengthen your airship trading fleet and one new Specialist for the Salvager.",
+    "French": null,
+    "German": "Fügt 6 arktische Luftschiff-Experten zur Verstärkung eurer Luftschiff-Handelsflotte und einen neuen Spezialisten für das Bergungsschiff hinzu.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": 
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    {
+      "DLC":"ThePassage",
+      "Dependant": "required"
+    },
+    {
+      "DLC":"SunkenTreasures",
+      "Dependant": "partly"
+    }
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "https://github.com/Taludas/GameplayModsCollection",
+  "Image": null
+}

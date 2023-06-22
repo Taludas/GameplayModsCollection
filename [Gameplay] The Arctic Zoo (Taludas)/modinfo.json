@@ -1,0 +1,74 @@
+{
+  "Version": "1.3",
+  "ModID": "Taludas_ArcticZoo",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "LoadAfterIds": [
+    "*",
+    "Taludas_ZooMuseumBotanicalGardenInEnbesa"
+  ],
+  "Category": {
+    "Chinese": "Gameplay",
+    "English": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "The Arctic Zoo (Taludas)",
+    "English": "The Arctic Zoo (Taludas)",
+    "French": "The Arctic Zoo (Taludas)",
+    "German": "The Arctic Zoo (Taludas)",
+    "Italian": "The Arctic Zoo (Taludas)",
+    "Japanese": "The Arctic Zoo (Taludas)",
+    "Korean": "The Arctic Zoo (Taludas)",
+    "Polish": "The Arctic Zoo (Taludas)",
+    "Russian": "The Arctic Zoo (Taludas)",
+    "Spanish": "The Arctic Zoo (Taludas)",
+    "Taiwanese": "The Arctic Zoo (Taludas)"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Build a Zoo in the Arctic. Display local animals that are suited for the rough climate. Get unique bonuses from completing sets.",
+    "French": null,
+    "German": "Baut einen Zoo in der Arktis. Stellt einheimische Tiere aus, die an das raue Klima angepasst sind. Erhalte einzigartige Boni durch das Abschließen von Sets.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": 
+  [
+    {
+      "Chinese": null,
+      "English": "Nate's Cargo Airship won't show in the Influence Cost Overview.",
+      "French": null,
+      "German": "Nates Luftfrachtschiff wird nicht in der Übersicht der Einflusskosten angezeigt.",
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    {
+      "DLC":"ThePassage",
+      "Dependant": "required"
+    }
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "https://github.com/Taludas/GameplayModsCollection",
+  "Image": null
+}

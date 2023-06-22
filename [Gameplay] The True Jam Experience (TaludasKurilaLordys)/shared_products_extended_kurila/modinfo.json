@@ -1,0 +1,45 @@
+{
+  "Version": "1.1.1",
+  "ModID": "shared_products_extended_kurila",
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "English": "Products Extended (Kurila)",
+    "Chinese": "Products Extended (Kurila)",
+    "French": "Products Extended (Kurila)",
+    "German": "Products Extended (Kurila)",
+    "Italian": "Products Extended (Kurila)",
+    "Japanese": "Products Extended (Kurila)",
+    "Korean": "Products Extended (Kurila)",
+    "Polish": "Products Extended (Kurila)",
+    "Russian": "Products Extended (Kurila)",
+    "Spanish": "Products Extended (Kurila)",
+    "Taiwanese": "Products Extended (Kurila)"
+  },
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Description": {
+    "English": "# Shared Products\n\nPlease only add products that are of the same quality as the vanilla game, useful to many and really shared between mods.\n\nAlternatively, if you have different requirements for your products you can use this mod as a template and create another shared products mod.\n",
+    "Chinese": null,
+    "French": null,
+    "German": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  }
+}

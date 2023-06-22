@@ -1,0 +1,68 @@
+<ModOps>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1999000040</GUID>
+			<Text>Manufaktur: Souvenirs</Text>
+		</Text>
+		<Text>
+			<GUID>1999000041</GUID>
+			<Text>Souvenirs</Text>
+		</Text>
+		<Text>
+			<GUID>1999000042</GUID>
+			<Text>Der moderne Tourist von heute wünscht sich nichts sehnlicher, als für die Lieben zuhaus ein hochwertiges und von Hand gefertigtes Souvenir von seiner außergewöhnlichen Reise in die Alte Welt mitzubringen. Moderne und traditionelle Materialen können zu einer Vielzahl ansehnlicher Mitbringsel kombiniert werden.</Text>
+		</Text>
+		<Text>
+			<GUID>137609</GUID>
+			<Text>Handgemachte Souvenirs</Text>
+		</Text>
+		<Text>
+			<GUID>1999002257</GUID>
+			<Text>Souvenir-Shop</Text>
+		</Text>
+		<Text>
+			<GUID>1999002258</GUID>
+			<Text>Versorgt Eure Touristen mit Souvenirs für die Hotels und den Touristen-Hafen in der Umgebung.</Text>
+		</Text>
+		<Text>
+			<GUID>1999002259</GUID>
+			<Text>Souvenir-Shop: Postkarten</Text>
+		</Text>
+		<Text>
+			<GUID>1999002260</GUID>
+			<Text>Souvenir-Shop: Kiosk</Text>
+		</Text>
+		<Text>
+			<GUID>1999002261</GUID>
+			<Text>Souvenir Verkäufe</Text>
+		</Text>
+		<Text>
+			<GUID>1999002262</GUID>
+			<Text>Souvenir-Shops</Text>
+		</Text>
+		<Text>
+			<GUID>1999002263</GUID>
+			<Text>Übersicht über die Souvenir-Shops, die neben dem normalen Verkauf in den Hotels die Touristen mit Souvenirs versorgen.</Text>
+		</Text>
+		<Text>
+			<GUID>1999002266</GUID>
+			<Text>Souvenir Verkäufe</Text>
+		</Text>
+		<Text>
+			<GUID>1999000050</GUID>
+			<Text>Fertigungsstraße: Souvenirs</Text>
+		</Text>
+		<Text>
+			<GUID>1999000051</GUID>
+			<Text>Souvenirs</Text>
+		</Text>
+		<Text>
+			<GUID>1999000052</GUID>
+			<Text>Der moderne Tourist wird vom Angebot preisreduzierte Souvenirs angelockt. Um für die Zuhausegebliebenen ausreichend Anschauungsmaterial mitzubringen, verlangt er eine große Produktvielfalt zum angemessenen Preis. Moderne und billige Materialen, kombiniert mit dem Fortschritt des Fließbands, können zu einer Vielzahl von passenden Produkten kombiniert werden.</Text>
+		</Text>
+		<Text>
+			<GUID>1999000059</GUID>
+			<Text>Massenware Souvenirs</Text>
+		</Text>
+	</ModOp>
+</ModOps>

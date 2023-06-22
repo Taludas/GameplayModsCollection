@@ -1,0 +1,63 @@
+{
+  "Version": "1.0",
+  "ModID": "Taludas_HighLifeSouvenirs",
+  "DeprecateIds": [],
+  "ModDependencies": [
+  ],
+  "LoadAfterIds": [
+    "FamTaubeLexy_NewWorldHotels"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Gameplay",
+    "Chinese": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "High Life Souvenirs (Taludas)",
+    "English": "High Life Souvenirs (Taludas)",
+    "French": "High Life Souvenirs (Taludas)",
+    "German": " High Life Souvenirs (Taludas)",
+    "Italian": "High Life Souvenirs (Taludas)",
+    "Japanese": "High Life Souvenirs (Taludas)",
+    "Korean": "High Life Souvenirs (Taludas)",
+    "Polish": "High Life Souvenirs (Taludas)",
+    "Russian": "High Life Souvenirs (Taludas)",
+    "Spanish": "High Life Souvenirs (Taludas)",
+    "Taiwanese": "High Life Souvenirs (Taludas)"
+  },
+  "Description": {
+    "English": "# HighLife Souvenirs \n\n After the introduction of the first form of modern era Plastics in the DLC 'High Life', the Production Chain for Souvenirs felt a little lackluster. Obviously the use of Campher Wax and Cotton resembled the ingredients of celluloid plastic. But why use this anymore after the introduction of the celluloid ware with High Life? \n\n To spice things up a little, I reimagened the Souvenirs to be made of Celluloid for the stand, Gold for the snowflakes and model inside and Glass for the bulb. \n\n You can now also sell the Souvenirs to your Tourists not only in the Hotels directly but also in little Souvenir Stands around the place. This reduces overall sells in the Hotels, gives extra money and attracts a lot of new tourists! \n\n If you use iMYA you can choose between two variants of the mod. One with expansive souvenirs made form gold in a artisan workshop and the other with cheap ones made in an assembly line out of brass. You can also activate both sub-mods to get the full experience.",
+    "German": "# HighLife Souvenirs \n\n Nach der Einführung der ersten Form von Kunststoffen der Neuzeit im DLC 'High Life' fühlte sich die Produktionskette für Souvenirs ein wenig langweilig an. Offensichtlich ähnelte die Verwendung von Campher-Wachs und Baumwolle den Bestandteilen von Zelluloid-Plastik. Aber warum sollte man diese nach der Einführung der Zelluloidware mit High Life noch verwenden? \n\n Um die Sache ein wenig aufzupeppen, habe ich die Souvenirs so umgestaltet, dass der Ständer aus Zelluloid, die Schneeflocken und das Modell im Inneren aus Gold und die Kugel aus Glas bestehen. \n\n Du kannst die Souvenirs jetzt auch an deine Touristen verkaufen, nicht nur direkt in den Hotels, sondern auch in kleinen Souvenirständen in der Umgebung. Das reduziert den Gesamtumsatz in den Hotels, bringt zusätzliches Geld und lockt viele neue Touristen an! \n\n Wenn ihr iMYA benutzt, könnt ihr zwischen zwei Varianten dieses Mods wählen. Eine mit teuren Souvenirs, die in einem Handwerksbetrieb aus Gold hergestellt werden, und die andere mit billigen Souvenirs, die in einer Fließbandproduktion aus Messing hergestellt werden. Du kannst auch beide Sub-Mods aktivieren, um das volle Erlebnis zu bekommen.",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+      "DLC": "Tourism",
+      "Dependant": "Required"
+    },
+    {
+      "DLC": "Highlife",
+      "Dependant": "Partly"
+    }
+  ],
+  "CreatorName": "Taludas",
+  "Image": null
+}

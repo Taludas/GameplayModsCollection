@@ -1,0 +1,62 @@
+{
+  "Version": "1.0",
+  "ModID": "Taludas_SlipperySoap",
+  "DeprecateIds": [],
+  "ModDependencies": [
+    "Taludas_SharedExtraGoods"
+  ],
+  "LoadAfterIds": [
+    "Taludas_SharedExtraGoods",
+    "IndustrializedLowTierProduction",
+    "production-olive-soap-jakob"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Gameplay",
+    "Chinese": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Slippery Soap (Taludas)",
+    "English": "Slippery Soap (Taludas)",
+    "French": "Slippery Soap (Taludas)",
+    "German": " Slippery Soap (Taludas)",
+    "Italian": "Slippery Soap (Taludas)",
+    "Japanese": "Slippery Soap (Taludas)",
+    "Korean": "Slippery Soap (Taludas)",
+    "Polish": "Slippery Soap (Taludas)",
+    "Russian": "Slippery Soap (Taludas)",
+    "Spanish": "Slippery Soap (Taludas)",
+    "Taiwanese": "Slippery Soap (Taludas)"
+  },
+  "Description": {
+    "English": "# Slippery Soap \n\n Historically soap was the first modern product used for cleaning of body and cloths. It was made by boiling animal fat in an alkaline solution over several hours. In Anno this process is poorly represented. \n\n Therefore I included Potash into the production chain as a early version of the alkaline additive. Potash can be obtained by burning wood and extracting the remains with water. \n\n Hope this new soap recipe makes it a little bit more realistic for you!",
+    "German": "# Schlüpfrige Seife \n\n Historisch gesehen war Seife das erste moderne Produkt, das zur Reinigung von Körper und Kleidung verwendet wurde. Sie wurde durch mehrstündiges Sieden von Tierfett in einer alkalischen Lösung hergestellt. In Anno ist dieses Verfahren nur unzureichend dargestellt. \n\n Deshalb habe ich Pottasche als eine frühe Version des alkalischen Zusatzstoffes in die Produktionskette aufgenommen. Pottasche kann man gewinnen, indem man Holz verbrennt und die Reste mit Wasser extrahiert. \n\n Ich hoffe, dieses neue Seifenrezept macht das Spiel für euch ein bisschen realistischer!",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+      "DLC": "Tourism",
+      "Dependant": "partly"
+    }
+  ],
+  "CreatorName": "Taludas",
+  "Image": null
+}

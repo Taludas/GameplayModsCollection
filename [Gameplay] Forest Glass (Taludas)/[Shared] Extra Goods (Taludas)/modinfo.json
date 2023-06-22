@@ -1,0 +1,54 @@
+{
+  "Version": "1.0",
+  "ModID": "Taludas_SharedExtraGoods",
+  "DeprecateIds": [],
+  "ModDependencies": [
+  ],
+  "LoadAfterIds": [
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "Extra Goods (Taludas)",
+    "English": "Extra Goods (Taludas)",
+    "French": "Extra Goods (Taludas)",
+    "German": " Extra Goods (Taludas)",
+    "Italian": "Extra Goods (Taludas)",
+    "Japanese": "Extra Goods (Taludas)",
+    "Korean": "Extra Goods (Taludas)",
+    "Polish": "Extra Goods (Taludas)",
+    "Russian": "Extra Goods (Taludas)",
+    "Spanish": "Extra Goods (Taludas)",
+    "Taiwanese": "Extra Goods (Taludas)"
+  },
+  "Description": {
+    "English": "# Extra Goods \n\n Extra Goods implemented by me for use in some of my mods.",
+    "German": "# Extra Goods \n\n Zusätzliche Waren, die von mir für einige meiner Mods implementiert wurden.",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Taludas",
+  "Image": null
+}

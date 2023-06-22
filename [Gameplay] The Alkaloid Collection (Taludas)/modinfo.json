@@ -1,0 +1,82 @@
+{
+  "Version": "1.3",
+  "ModID": "Taludas_AlkaloidCollection",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "LoadAfterIds": [
+    "*",
+    "Taludas_ZooMuseumBotanicalGardenInEnbesa"
+  ],
+  "Category": {
+    "Chinese": "Gameplay",
+    "English": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "The Alkaloid Collection (Taludas)",
+    "English": "The Alkaloid Collection (Taludas)",
+    "French": "The Alkaloid Collection (Taludas)",
+    "German": "The Alkaloid Collection (Taludas)",
+    "Italian": "The Alkaloid Collection (Taludas)",
+    "Japanese": "The Alkaloid Collection (Taludas)",
+    "Korean": "The Alkaloid Collection (Taludas)",
+    "Polish": "The Alkaloid Collection (Taludas)",
+    "Russian": "The Alkaloid Collection (Taludas)",
+    "Spanish": "The Alkaloid Collection (Taludas)",
+    "Taiwanese": "The Alkaloid Collection (Taludas)"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Been missing the typical plant based consumption goods of the 19th century? Look no further, at least I got you the plants!",
+    "French": null,
+    "German": "Vermisst Ihr die typischen pflanzlichen Konsumgüter des 19. Jahrhunderts? Sucht nicht weiter, ich habe euch wenigstens die Pflanzen besorgt!",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": 
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    {
+      "DLC":"Botanica",
+      "Dependant": "required"
+    },
+    {
+      "DLC":"LandOfLions",
+      "Dependant": "partly"
+    },
+    {
+      "DLC":"Highlife",
+      "Dependant": "partly"
+    }
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "https://github.com/Taludas/GameplayModsCollection",
+  "Image": null
+}
