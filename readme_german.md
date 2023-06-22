@@ -15,7 +15,7 @@ Wenn euch diese Mod gefällt und ihr mich unterstützen wollt, könnt ihr sie ge
 ***Diese Mods sind savegame-kompatibel. Bitte installiert nur eine Version des Coffee and Tobacco in Enbesa Mods (iModYourAnno Anno Mod Manager warnt euch vor Inkompatibilität)! Lösche oder deaktiviere die anderen Mods!***
 
 ## Mod Images
-Hier findet ihr eine Galerie mit Bildern von meinen Mods [here](https://drive.google.com/drive/folders/1zzSFYF4OY3BeBJWS7EzDVFm9_jXvVkO-?usp=sharing).
+Hier findet ihr eine Galerie mit Bildern von meinen Mods [here](docs/).
 
 ## Changelog
 <details>
