@@ -1,9 +1,9 @@
 <ModOps>
   <ImyaTweaks Title="Choose between the two options to adjust the gameplay to your liking." />
-  <Include File="highlifesouvenirs.include.xml" ModOpID="HighLifeSouvenirs" Skip="1" />
+  <Include File="highlifesouvenirs.include.xml" ModOpID="HighLifeSouvenirs" />
   <ImyaExpose Path="*" ModOpID="HighLifeSouvenirs" ExposeID="Enable High Life Souvenirs" Kind="SkipToggle" Description="With this module, Souvenirs are made from celluloid, gold and glass inside a artisan manufactory.">
   </ImyaExpose>
-  <Include File="lowlifesouvenirs.include.xml" ModOpID="LowLifeSouvenirs" Skip="1" />
+  <Include File="lowlifesouvenirs.include.xml" ModOpID="LowLifeSouvenirs" />
   <ImyaExpose Path="*" ModOpID="LowLifeSouvenirs" ExposeID="Enable Low Life Souvenirs" Kind="SkipToggle" Description="With this module, Souvenirs are made from celluloid, brass and glass inside a assembly line multifactory.">
   </ImyaExpose>
 </ModOps>
