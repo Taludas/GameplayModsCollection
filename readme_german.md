@@ -12,7 +12,7 @@ Wenn euch diese Mod gefällt und ihr mich unterstützen wollt, könnt ihr sie ge
 - Wenn du die Mod manuell herunterlädst, verwende das Archiv von [GitHub releases](https://github.com/Taludas/GameplayModsCollection/releases). Ladet nicht das gesamte Repo herunter!
 - Wähle die relevanten Mods aus und ziehe sie in deinen 1800 Mod-Ordner oder verwende den iModYourAnno Anno Mod Manager zur Installation.
 
-***Diese Mods sind savegame-kompatibel. Bitte installiert nur eine Version des Coffee and Tobacco in Enbesa Mods (iModYourAnno Anno Mod Manager warnt euch vor Inkompatibilität)! Lösche oder deaktiviere die anderen Mods!***
+***Diese Mods sind savegame-kompatibel. Bitte nutze den iModYourAnno Anno Mod Manager für individuelle Anpassungen.***
 
 ## Mod Images
 Hier findet ihr eine Galerie mit Bildern von meinen Mods [here](docs/).
@@ -27,10 +27,10 @@ Hier findet ihr eine Galerie mit Bildern von meinen Mods [here](docs/).
   * Arktischer Zoo: Wählt die Stärke der Buffs für arktische Tier-Sets.
   * Die Alkaloid-Sammlung: Wähle die Stärke der Buffs für das Alkaloid-Set.
 * Erweiterungen:
-  * Burrito-Boom (" Überarbeitung der Produktionskette Tortillas")
+  * Burrito-Boom ("Überarbeitung der Produktionskette Tortillas")
   * Waldglas ("Überarbeitung der Produktionskette Glas")
-  * High Life Souvenirs (" Überarbeitung der Produktionskette Souvenirs")
-  * Slippery Soap ("Überarbeitung der Produktionskette" Seife)
+  * High Life Souvenirs ("Überarbeitung der Produktionskette Souvenirs")
+  * Slippery Soap ("Überarbeitung der Produktionskette Seife")
   * True Jam Experience ("Überarbeitung der Produktionskette Marmelade")
   * Kleinere Fehler bei Kaffee und Tabak in Enbesa, Arktischer Zoo behoben
 </details>
@@ -51,13 +51,13 @@ Hier findet ihr eine Galerie mit Bildern von meinen Mods [here](docs/).
 * Kleinere Fehler im Arktischen Zoo behoben, bei denen in der Alten Welt manchmal Gehege mit Arktischen Skins zu sehen waren und in der Arktis leere normale Gehege.
 </details>
 
-## Mod Description with main feature overview
+## Mod Description mit Hauptfeatures
 **Bitte denkt daran, immer das Changelog zu überprüfen, um die neuen oder geänderten Funktionen zu sehen.**
 
 
 ![Banner](https://user-images.githubusercontent.com/64583643/191513547-7a34b7d2-1353-4298-9828-e12335bc20f9.png)
 ### Arctic Captains
-Diese Mod fügt 6 neue Kapitäne hinzu, die eure Luftschiffe kommandieren können, und einen neuen Spezialisten für das Bergeschiff. Die Gegenstände sind nur in der Arktis verfügbar, können aber auch für eure neuen und glänzenden Aluminium-Luftschiffe aus der Neuen Welt verwendet werden!
+Diese Mod fügt 6 neue Kapitäne hinzu, die eure Luftschiffe kommandieren können, und einen neuen Spezialisten für das Tauchschiff. Die Gegenstände sind nur in der Arktis verfügbar, können aber auch für eure neuen und glänzenden Aluminium-Luftschiffe aus der Neuen Welt verwendet werden!
 
 Für weitere Details siehe unten und die angehängten Bilder.
 
@@ -65,12 +65,12 @@ Für weitere Details siehe unten und die angehängten Bilder.
     <summary>Item-Statistiken und Quellen</summary>
 
 **Legendär**
-* Sir John Faithful, wiedereingesetzter Admiral der verlorenen Expedition: +50% Geschwindigkeit, -100% Frachtverlangsamung, +100% Ladegeschwindigkeit, -75% Wartung, +25% LoS -> Belohnung für den Abschluss der Quest um die Verschollene Arktisexpedition und Lady Faithful. Tier 3 Rettungsmission in der Arktis, Nordamerika, Nordeuropa
+* Sir John Faithful, wiedereingesetzter Admiral der verlorenen Expedition: +50% Geschwindigkeit, -100% Frachtverlangsamung, +100% Ladegeschwindigkeit, -75% Wartungskosten, +25% LoS -> Belohnung für den Abschluss der Quest um die Verschollene Arktisexpedition und Lady Faithful. Tier 3 Rettungsmission in der Arktis, Nordamerika, Nordeuropa
 * Ming Shu, Scharfe Zunge der östlichen Hauptstadt: +25% Geschwindigkeit, -40% Unterhalt, -50% Handelspreise -> Händler Arktis
 * Jürgen Vogel, Aufzug der fliegenden Kisten: -100% Frachtverlangsamung, +75% Ladegeschwindigkeit -> Händler Arktis
 * El Presidente, Globetrotter par excellence: +25% Geschwindigkeit, +100% Bergungsschrottmenge, erhöhte Chance, epische und legendäre Maschinen zu finden -> Händler Arktis
 **Episch**
-* Francis Crozier, Lufthandelsspezialist: +10% Geschwindigkeit, -25% Instandhaltung, -25% Handelspreise -> Händler Arktis
+* Francis Crozier, Lufthandelsspezialist: +10% Geschwindigkeit, -25% Wartungskosten, -25% Handelspreise -> Händler Arktis
 * Franca d'Artois, Liebhaberin der Geschwindigkeit: +25% Geschwindigkeit -> Händlerin Arktis
 * James Fitzjames, Experte für den Flaschenzug: -60% Frachtverlangsamung, +40% Ladegeschwindigkeit -> Händler Arktis
 </details>
@@ -80,7 +80,7 @@ Für weitere Details siehe unten und die angehängten Bilder.
 ![banner](https://user-images.githubusercontent.com/64583643/191513574-0dab9ff9-2be5-4141-a64b-489fbd6c25c9.png)
 ### Coffee and Tobacco in Enbesa
 Diese Mod ermöglicht den Anbau von Kaffee und Tabak in Enbesa und modifiziert die Kaffeeproduktionskette.
-Die Kaffee- und Tabakfruchtbarkeit wird beim Spielstart auf die Enbesa-Inseln verteilt. Wenn du also die Fruchtbarkeit auf der ganzen Insel haben willst, musst du ein neues Spiel beginnen.
+Die Kaffee- und Tabakfruchtbarkeit wird beim neuen Spielstart auf die Enbesa-Inseln verteilt. Wenn du also die Fruchtbarkeit auf der ganzen Insel haben willst, musst du ein neues Spiel beginnen.
 
 **Wenn du kein neues Spiel beginnen willst**, kannst du Gegenstände verwenden, um die Fruchtbarkeit auf deiner Insel zu erhalten. Diese Gegenstände kann man im Hafen von Ketema kaufen.
 **Oder** du benutzt das Forschungsinstitut, um die Fruchtbarkeit der Inseln zu verändern.
@@ -92,7 +92,7 @@ Es gibt vier Versionen:
 * Normale Version, bei der der Kaffeeröster Leinen- bzw. Baumwolltuch benötigt.
 * Leichte Version, bei der die Kaffeeröster in Enbesa nur Leinentuch verwenden.
 * Superleichte Version, bei der die Kaffeeröster überhaupt nicht verändert werden.
-* Nur Farmen. Macht, was auf dem Schild steht.
+* Nur Farmen. Macht, was der Name sagt.
 
 -----
 
@@ -102,7 +102,7 @@ Bringt etwas Kultur in eure Kolonie! Errichte einen Zoo, ein Museum und einen bo
 
 SEHR EMPFEHLENSWERT:
 * Fam's Enbesan Flora von Fam's Enbesan Flora
-* Kulturmodulplatzierung durch Radius von Spice it up
+* Kulturmodulplatzierung im Radius von Spice it up
 * Keine Kulturmodulbegrenzungen von Spice it up
 * Unbegrenzte Botanische Ornamente von Spice it up
 * World Fair Items von Spice it up
@@ -122,28 +122,28 @@ Wenn du die Gegenstände bereits gesammelt und die Gebäude gebaut hast, auf die
     <summary>Einzigartige Enbesa-Set-Verstärkungen</summary>
 
 **Museums-Sets:**
-* Ägäis-Kulturen: Beeinflusst den Hof der Musikanten
+* Ägäis-Kulturen: Beeinflusst das Podium
 * Bronzezeit: Beeinflusst Wanza Holzfäller und Tonsammler
 * Verlorene Stämme: -5% Tonpfeifen-Verbrauch
-* Wurzeln von Enbesa: Wirkt sich auch auf die Ältestenresidenzen aus
+* Wurzeln von Enbesa: Wirkt sich auch auf die Ältestenhäuser aus
 
 **Zoo-Sets:**
-* Kordilleren-Set: Wirkt sich auch auf Hirtenresidenzen aus
+* Kordilleren-Set: Wirkt sich auch auf Hirtenhäuser aus
 * Taiga-Wald: -5% Trockenfleischkonsum
 * Stolze Savanne: Wirkt sich auf Ziegen- und Sanga-Farmen aus
-* Großes Korallenriff: Wirkt sich auch auf Ältesten-Residenzen aus
-* Leuchtfeuer: Wirkt sich auf den Hof der Musikanten aus
+* Großes Korallenriff: Wirkt sich auch auf Ältesten-Häuser aus
+* Leuchtkreaturen: Wirkt sich auf das Podium aus
 * Miombo-Waldland: Betrifft Wanza Holzfäller
-* Polarkreis: Wirkt sich auch auf Sticker und Wandteppichmacher aus
+* Polarkreis: Wirkt sich auch auf Stickerei und Teppichknüpferei aus
 
 **Botanische Garten-Sets:**
 * Amazonas-Garten: Fügt Hibiskus Fruchtbarkeit hinzu
-* Anden-Garten: Erhöht die Fruchtbarkeit des Tabaks
+* Anden-Garten: Fügt die Fruchtbarkeit Tabak hinzu
 * Spiritueller Garten: Fügt Kaffee Fruchtbarkeit hinzu
-* Orient-Garten: Erhöht die Fruchtbarkeit von Gewürzen
+* Orient-Garten: Fügt die Fruchtbarkeit Gewürze hinzu
 * Subalpiner Garten: Fügt Bienenfruchtbarkeit hinzu
-* (Garten auf dem Enbesa-Plateau: Alle landwirtschaftlichen Betriebe: Zusätzlicher Ertrag Baumwolle 1/5 und Kakao 1/10)
-* (Schöne Zweige: Pfeifenmacher und Töpfer: Ersetze Inputgüter: Wanza-Holz statt Lehm, zusätzlicher Output Holz-Veniere 1/10)
+* (Enbesa-Plateau: Alle landwirtschaftlichen Betriebe: Zusätzlicher Ertrag Baumwolle 1/5 und Kakao 1/10)
+* (Schöne Zweige: Pfeifenmacher und Töpfer: Ersetze Inputgüter: Wanza-Holz statt Lehm, zusätzlicher Output Holzfurnier 1/10)
 </details>
 
 -----
@@ -165,20 +165,20 @@ FEATURES:
 * Endlich etwas Opium xD
 
 <Details>
-    <summary>Set Gegenstände, Quellen, Stärkungszauber</summary>
+    <summary>Set Gegenstände, Item-Quellen, Buffs</summary>
 
-Das Set besteht aus.
+Das Set besteht aus:
 * Kola-Baum
 * Betelpalme
-* Cath.
+* Cath-Strauch
 * Yohimbe-Baum
-* Koka
+* Koka-Strauch
 * Opiummohn
 
 Einzigartiges Set Buff:
-* OW: Alle Residenzen -5% Schnaps, Bier, Rum, Champagner, Zigarren, Kaffee, Tonpfeifen, Hibiskustee, Cognac,Mezcal +10 Glück, -50% Effekt durch zusätzliche Arbeitszeit, +50% Krankheitsrisiko, +25% Aufruhrchance
-* NW: Alle Wohnsitze -5% Schnaps -10% Bier, -5% Rum, -15% Zigarren, -10% Kaffee -10% Mezcal, +10 Glück, -50% Effekt von zusätzlicher Arbeitszeit, +50% Krankheitsrisiko, +25% Aufruhrchance
-* Enbesa: Alle Wohnsitze -10% Ziegenmilch, -10% Hibsicus-Tee, -20% Tonpfeifen, +10 Glück, -50% Effekt von zusätzlicher Arbeitszeit, +50% Krankheitsrisiko, +25% Aufruhrchance
+* OW: Alle Häuser -5% Schnaps, Bier, Rum, Champagner, Zigarren, Kaffee, Tonpfeifen, Hibiskustee, Cognac, Mezcal +10 Zufriedenheit, -50% Effekt durch zusätzliche Arbeitszeit, +50% Krankheitsrisiko, +25% Aufruhrchance
+* NW: Alle Häuser -5% Schnaps -10% Bier, -5% Rum, -15% Zigarren, -10% Kaffee -10% Mezcal, +10 Zufriedenheit, -50% Effekt von zusätzlicher Arbeitszeit, +50% Krankheitsrisiko, +25% Aufruhrchance
+* Enbesa: Alle Häuser -10% Ziegenmilch, -10% Hibsicus-Tee, -20% Tonpfeifen, +10 Zufriedenheit, -50% Effekt von zusätzlicher Arbeitszeit, +50% Krankheitsrisiko, +25% Aufruhrchance
 
 Wie man die Pflanzen bekommt:
 * Betelpalme: Ketemas Habour, Kahina habour, Qing/Bente Drops, World Fair, Shephard Quest, Expedition
@@ -217,9 +217,9 @@ P.S.: Bitte bringt keine anderen Tiere mit in die Arktis, sie werden einen schre
 
 * Arktische Tundra: 
     - Arktis-Buff: Reduziert die Baukosten und die Bauzeit aller Luftschiffe um -50%. 
-    - OW/NW/Enbesa Buff: +15% Produktivität und zusätzlicher Output Parkas 1/15 für Rahmenstricker, Pelzhändler, Ponchodarner, Bombenweber, Schneiderei, Stiefelmacher und Sticker
+    - OW/NW/Enbesa Buff: +15% Produktivität und zusätzlicher Output Parkas 1/15 für Weberei, Pelmantel-Fabrik, Ponchoweberei, Hutmacher, Schneiderei, Schuster und Stickerei
 * Polarkreis: 
-- Arktischer Buff: Baue Nates Luftfrachtschiff: Angepasstes Modell, 6 Slots zu je 50t, 3 Gegenstandssockel, etwas langsamer als ein normales Luftschiff und etwas umfangreicher. 
+- Arktischer Buff: Baue Nates Luftfrachtschiff: Angepasstes Modell, 6 Slots zu je 50t, 3 Itemsockel, etwas langsamer als ein normales Luftschiff und etwas voluminöser. 
     - OW/NW-Buff: Ölraffinerien: Zusätzlicher Output 1/50 Arktisgas.
 </details>
 
@@ -228,7 +228,7 @@ P.S.: Bitte bringt keine anderen Tiere mit in die Arktis, sie werden einen schre
 ![banner](https://github.com/Taludas/GameplayModsCollection/assets/64583643/4e523da2-01ab-42de-8146-4c75e0a6e991)
 ### Burrito Boom
 
-Lust auf eine geschmacksintensive Fiesta für Ihre Geschmacksnerven? Dann sind meine brutzelnden, köstlichen Burritos genau das Richtige für euch! 
+Lust auf eine geschmacksintensive Fiesta für eure Geschmacksnerven? Dann sind meine brutzelnden, köstlichen Burritos genau das Richtige für euch! 
 
 Stellt euch das vor: zartes, mariniertes Fleisch, perfekt gegrillt und gepaart mit cremiger, kräftiger Guacamole, alles zusammen eingebettet in eine warme, weiche Tortilla. 
 
@@ -237,7 +237,7 @@ Eure Bürger sind auf ein altes Familienrezept mit regionalen Zutaten gestoßen,
 - Guacamole aus frischer Avocado, verfeinert mit scharfen Gewürzen (erfordert LoL oder Seeds of Change/Hacienda). 
 - Tortillas aus Mais, der mit einer alten Technik namens Nixtamalisierung extrahiert wurde, wofür man Pottasche benötigt.
 
-Als Gegenleistung für Ihre verstärkten Bemühungen werden aufgrund der enormen Beliebtheit des neuen Rezepts mehr Menschen in eure Stadt kommen (+5 Einwohner für Obrero- und Artista-Residenzen durch Burritos, Standard plus 50% Produktivität für Burrito-Macher). 
+Als Gegenleistung für eure verstärkten Bemühungen werden aufgrund der enormen Beliebtheit des neuen Rezepts mehr Menschen in eure Stadt kommen (+5 Einwohner für Obrero- und Artista-Häuser durch Burritos, Standard plus 50% Produktivität für Burrito-Manufaktur). 
 
 Benötigt entweder den DLC "Land der Löwen" oder "Keim der Hoffnung" für den Bezug von Gewürzen.
 
@@ -274,7 +274,7 @@ Nach der Einführung der ersten Form des modernen Plastiks im DLC 'High Life' f�
 
 Um die Sache ein wenig aufzupeppen, habe ich die Souvenirs so umgestaltet, dass der Ständer aus Zelluloid, die Schneeflocken und das Modell im Inneren aus Gold und die Kuppel aus Glas bestehen. 
 
-Ihr könnt die Souvenirs jetzt auch an eure Touristen verkaufen, und zwar nicht nur direkt in den Hotels, sondern auch in kleinen Souvenirständen rund um den Ort. Das reduziert die Gesamtverkäufe in den Hotels (-50% Bedarfsreduzierung), bringt zusätzliches Geld und zieht viele neue Touristen an (+50 Touristen durch Souvenirs, +5% Besuchschance auf dem Besucherkai! 
+Ihr könnt die Souvenirs jetzt auch an eure Touristen verkaufen, und zwar nicht nur direkt in den Hotels, sondern auch in kleinen Souvenirständen rund um den Ort. Das reduziert die Gesamtverkäufe in den Hotels (-50% Bedarfsreduzierung), bringt zusätzliches Geld und zieht viele neue Touristen an (+50 Touristen durch Souvenirs, +5% Besuchschance auf dem Besucherkai)! 
 
 Wenn ihr iMYA benutzt, könnt ihr zwischen zwei Varianten dieser Mod wählen. Eine mit teuren Souvenirs, die in einem Handwerksbetrieb aus Gold hergestellt werden (High Life Souvenirs) und die andere mit billigen, die am Fließband aus Messing hergestellt werden (Low Life Souvenirs). Ihr könnt auch beide Untermods aktivieren, um das volle Erlebnis zu bekommen.
 
@@ -303,4 +303,4 @@ Die Marmeladenmanufaktur ist jetzt eine Multifabrik, so dass wir sie in Zukunft 
 
 Zur Aufwertung der neuen Produktionsanlage gibt es einen besonderen Artikel: 'Marlene - Mutter der Marmeladen'. Sie ist bei Eli käuflich zu erwerben. 
 
-Die Kompatibilität zwischen Lordys, Kurilas und meinem Mod wird von [Kurila](https://github.com/Qurila) gewährleistet! Großes Dankeschön dafür!
+Die Kompatibilität zwischen Lordys, Kurilas und meinem Mod wird von [Kurila](https://github.com/Qurila) gewährleistet! Ihm gebührt auch der Dank für die wunderschönen Tooltips, die den In- und Output visualisieren! Großes Dankeschön dafür!
