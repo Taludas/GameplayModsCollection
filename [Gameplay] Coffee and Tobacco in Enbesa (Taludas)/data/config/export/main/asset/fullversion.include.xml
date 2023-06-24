@@ -123,6 +123,26 @@
                 </Tier2>
             </Item>
         </ModOp>
+        <ModOp GUID="500902" Type="add" Path="/Values/ProductionChain/Tier1">
+            <Item>
+                <Building>1010318</Building>
+                <Tier2>
+                    <Item>
+                        <Building>1010331</Building>
+                    </Item>
+                </Tier2>
+            </Item>
+        </ModOp>
+        <ModOp GUID="117075" Type="add" Path="/Values/ProductionChain/Tier1">
+            <Item>
+                <Building>1010318</Building>
+                <Tier2>
+                    <Item>
+                        <Building>1010331</Building>
+                    </Item>
+                </Tier2>
+            </Item>
+        </ModOp>
 
         <!-- Kaffee Icon ersetzen LoL alternative ProductionChain -->
         <ModOp GUID="124740" Type="replace" Path="/Values/Standard/IconFilename">
