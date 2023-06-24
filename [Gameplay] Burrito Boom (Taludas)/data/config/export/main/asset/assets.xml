@@ -1697,14 +1697,12 @@
           </Standard>
           <Trigger>
             <TriggerCondition>
-              <Template>ConditionPlayerCounter</Template>
+              <Template>ConditionEvent</Template>
               <Values>
                 <Condition />
-                <ConditionPlayerCounter>
-                  <PlayerCounter>PopulationByLevel</PlayerCounter>
-                  <Context>15000006</Context>
-                  <CounterAmount>1</CounterAmount>
-                </ConditionPlayerCounter>
+                <ConditionEvent>
+                  <ConditionEvent>SessionEnter</ConditionEvent>
+                </ConditionEvent>
               </Values>
             </TriggerCondition>
             <TriggerActions>
@@ -1715,9 +1713,31 @@
                     <Action />
                     <ActionBuff>
                       <BuffAsset>1999002226</BuffAsset>
-                      <AddBuff>1</AddBuff>
-                      <BuffProcessingParticipant>1</BuffProcessingParticipant>
+                      <AddBuff>0</AddBuff>
                     </ActionBuff>
+                  </Values>
+                </TriggerAction>
+              </Item>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionBuff</Template>
+                  <Values>
+                    <Action />
+                    <ActionBuff>
+                      <BuffAsset>1999002226</BuffAsset>
+                      <AddBuff>1</AddBuff>
+                    </ActionBuff>
+                  </Values>
+                </TriggerAction>
+              </Item>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionRegisterTrigger</Template>
+                  <Values>
+                    <Action />
+                    <ActionRegisterTrigger>
+                      <TriggerAsset>1999002228</TriggerAsset>
+                    </ActionRegisterTrigger>
                   </Values>
                 </TriggerAction>
               </Item>

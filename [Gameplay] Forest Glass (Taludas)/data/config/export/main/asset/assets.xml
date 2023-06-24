@@ -84,10 +84,12 @@
         </Standard>
         <Trigger>
           <TriggerCondition>
-            <Template>ConditionAlwaysTrue</Template>
+            <Template>ConditionEvent</Template>
             <Values>
-              <ConditionAlwaysTrue />
               <Condition />
+              <ConditionEvent>
+                <ConditionEvent>SessionEnter</ConditionEvent>
+              </ConditionEvent>
             </Values>
           </TriggerCondition>
           <TriggerActions>
@@ -97,10 +99,32 @@
                 <Values>
                   <Action />
                   <ActionBuff>
-                    <BuffAsset>1999002234</BuffAsset>
-                    <AddBuff>1</AddBuff>
-                    <BuffProcessingParticipant>1</BuffProcessingParticipant>
+                    <BuffAsset>1999002239</BuffAsset>
+                    <AddBuff>0</AddBuff>
                   </ActionBuff>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionBuff</Template>
+                <Values>
+                  <Action />
+                  <ActionBuff>
+                    <BuffAsset>1999002239</BuffAsset>
+                    <AddBuff>1</AddBuff>
+                  </ActionBuff>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionRegisterTrigger</Template>
+                <Values>
+                  <Action />
+                  <ActionRegisterTrigger>
+                    <TriggerAsset>1999002239</TriggerAsset>
+                  </ActionRegisterTrigger>
                 </Values>
               </TriggerAction>
             </Item>
