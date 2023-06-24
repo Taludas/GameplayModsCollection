@@ -1172,14 +1172,14 @@
   <Include File="fullversion.include.xml" ModOpID="IncludeFullVersion" />
   <ImyaExpose Path="*" ModOpID="IncludeFullVersion" ExposeID="Full Version" Kind="SkipToggle" Description="Toggles the Full version of this mod. Coffee Roasters in both NW and Enbesa require packaging material (Cotton/Linen Cloth) for the coffee to be shipped."></ImyaExpose>
 
-  <Include File="lightversion.include.xml" ModOpID="IncludeLightVersion" Skip="1"/>
+  <Include File="lightversion.include.xml" ModOpID="IncludeLightVersion" />
   <ImyaExpose Path="*" ModOpID="IncludeLightVersion" ExposeID="Light Version" Kind="SkipToggle" Description="Toggles the Light version of this mod. Only the new Coffee Roaster in Enbesa requires packaging material (Linen Cloth) for the coffee to be shipped."></ImyaExpose>
 
-  <Include File="superlightversion.include.xml" ModOpID="IncludeSuperLightVersion" Skip="1"/>
+  <Include File="superlightversion.include.xml" ModOpID="IncludeSuperLightVersion" />
   <ImyaExpose Path="*" ModOpID="IncludeSuperLightVersion" ExposeID="Super Light Version"
     Kind="SkipToggle" Description="Toggles the SuperLight version of this mod. Coffee Roaster do NOT require packaging material."></ImyaExpose>
 
-  <Include File="farmsonlyversion.include.xml" ModOpID="IncludeFarmsVersion" Skip="1"/>
+  <Include File="farmsonlyversion.include.xml" ModOpID="IncludeFarmsVersion" />
   <ImyaExpose Path="*" ModOpID="IncludeFarmsVersion" ExposeID="Farms Only Version" Kind="SkipToggle" Description="Toggles the Farms only version of this mod. Only Coffee and Tobacco Farms will be availible in Enbesa."></ImyaExpose>
 
 </ModOps>

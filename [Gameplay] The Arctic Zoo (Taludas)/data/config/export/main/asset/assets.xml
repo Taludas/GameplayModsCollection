@@ -302,11 +302,6 @@
             </Asset>
         </ModOp>
 
-        <!-- Add Empty Exhibition and Ornaments to be buildable in Enbesa&Arctic 
-    <ModOp Type="replace" GUID="100455,114435,103119,101510" Path="/Values/Building/AssociatedRegions">
-        <AssociatedRegions>Moderate;Colony01;Africa;Arctic</AssociatedRegions>
-    </ModOp> -->
-
         <!-- #ADD CUSTOM EXHIBITION MODULES IN ARCTIC -->
         <!-- Empty Variation -->
         <ModOp Type="replace" GUID="100455,114788,114787,114786,102559,114785,114784,114783"
@@ -1322,7 +1317,6 @@
     </Group>
 
     <!-- #ADD SET BUFFS IN ARCTIC - VANILLA -->
-    <Group>
         <!-- Polar Circle; extra Gas and new Airship -->
         <ModOp Type="replace" GUID="191119" Path="/Values/ItemSocketSet">
             <ItemSocketSet>
@@ -1742,10 +1736,8 @@
                 <GUIType>Shipyard</GUIType>
             </ModOp>
         </Group>
-    </Group>
 
     <!-- Arctic Tundra Buff -->
-    <Group>
         <!-- Arctic Tundra Split Buff for Regions -->
         <ModOp Type="replace" GUID="193773" Path="/Values/ItemSocketSet">
             <ItemSocketSet>
@@ -1856,6 +1848,7 @@
             ModOpID="BuffTundraSetOtherSessionsAdditionalOutput">
             <AdditionalOutputCycle>15</AdditionalOutputCycle>
         </ModOp>
+
         <ImyaExpose Path="self::Value"
             ModOpID="BuffTundraSetOtherSessionsProductivity"
             ExposeID="Productivity Increase from Tundra Set Buff for all tailors in other Sessions"></ImyaExpose>
@@ -1981,7 +1974,6 @@
                 </Values>
             </Asset>
         </ModOp>
-    </Group>
 
     <!-- SPICE IT UP MODULE INTEGRATION -->
     <!-- MUSEUM/ZOO/BATANICAL GARDEN NW - Modules use range instead of snap -->

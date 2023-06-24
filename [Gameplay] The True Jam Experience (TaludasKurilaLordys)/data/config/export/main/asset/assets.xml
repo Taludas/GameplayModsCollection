@@ -16,7 +16,7 @@
     </FactoryBase>
   </ModOp>
   <!-- #Support choice between white/pink cherry trees via iMYA-->
-  <ModOp Type="merge" GUID="133496" Path="/Values" Condition="!@1404429994" ModOpID="WhiteCherry" Skip="1">
+  <ModOp Type="merge" GUID="133496" Path="/Values" Condition="!@1404429994" ModOpID="WhiteCherry">
     <Object>
       <Variations>
         <Item>
@@ -25,7 +25,7 @@
       </Variations>
     </Object>
   </ModOp>
-  <ModOp Type="merge" GUID="133497" Path="/Values" Condition="!@1404429994" ModOpID="WhiteCherry" Skip="1">
+  <ModOp Type="merge" GUID="133497" Path="/Values" Condition="!@1404429994" ModOpID="WhiteCherry">
     <Object>
       <Variations>
         <Item>
@@ -39,7 +39,7 @@
       </Variations>
     </Object>
   </ModOp>
-  <ModOp Type="merge" GUID="135088" Path="/Values" Condition="!@1404429994" ModOpID="WhiteCherry" Skip="1">
+  <ModOp Type="merge" GUID="135088" Path="/Values" Condition="!@1404429994" ModOpID="WhiteCherry">
     <Object>
       <Variations>
         <Item>
@@ -48,7 +48,7 @@
       </Variations>
     </Object>
   </ModOp>
-  <ModOp Type="merge" GUID="414" Path="/Values" Condition="!@1404429994" ModOpID="WhiteCherry" Skip="1">
+  <ModOp Type="merge" GUID="414" Path="/Values" Condition="!@1404429994" ModOpID="WhiteCherry">
     <Object>
       <Variations>
         <Item>
@@ -961,5 +961,4 @@
       <InfoDescription>1999000003</InfoDescription>
     </ModOp>
   </Group>
-  <Include File="./assets.imyatweak.include.xml" />
 </ModOps>
