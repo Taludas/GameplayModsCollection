@@ -198,37 +198,37 @@
         </ModOp>
 
         <!-- Kaffeeproduktionskette Enbesa in diversen Baumenüs ergänzen -->
-        <ModOp Type="addNextSibling" GUID="114554"
+        <ModOp Type="addNextSibling" GUID="114554" Condition="!@114554/ConstructionCategory/BuildingList/Item[Building='1999000103']"
             Path="/Values/ConstructionCategory/BuildingList/Item[Building='114570']">
             <Item>
                 <Building>1999000103</Building>
             </Item>
         </ModOp>
-        <ModOp Type="addNextSibling" GUID="119024"
+        <ModOp Type="addNextSibling" GUID="119024" Condition="!@119024/ConstructionCategory/BuildingList/Item[Building='1999000103']"
             Path="/Values/ConstructionCategory/BuildingList/Item[Building='114570']">
             <Item>
                 <Building>1999000103</Building>
             </Item>
         </ModOp>
-        <ModOp Type="addNextSibling" GUID="25000192"
+        <ModOp Type="addNextSibling" GUID="25000192" Condition="!@25000192/ConstructionCategory/BuildingList/Item[Building='1999000103']"
             Path="/Values/ConstructionCategory/BuildingList/Item[Building='500902']">
             <Item>
                 <Building>1999000103</Building>
             </Item>
         </ModOp>
-        <ModOp Type="addNextSibling" GUID="500945"
+        <ModOp Type="addNextSibling" GUID="500945" Condition="!@500945/ConstructionCategory/BuildingList/Item[Building='1999000103']"
             Path="/Values/ConstructionCategory/BuildingList/Item[Building='500902']">
             <Item>
                 <Building>1999000103</Building>
             </Item>
         </ModOp>
-        <ModOp Type="addNextSibling" GUID="112791"
+        <ModOp Type="addNextSibling" GUID="112791" Condition="!@112791/ConstructionCategory/BuildingList/Item[Building='1999000103']"
             Path="/Values/ConstructionCategory/BuildingList/Item[Building='117075']">
             <Item>
                 <Building>1999000103</Building>
             </Item>
         </ModOp>
-        <ModOp Type="addNextSibling" GUID="116344"
+        <ModOp Type="addNextSibling" GUID="116344" Condition="!@116344/ConstructionCategory/BuildingList/Item[Building='1999000103']"
             Path="/Values/ConstructionCategory/BuildingList/Item[Building='117075']">
             <Item>
                 <Building>1999000103</Building>
@@ -238,7 +238,7 @@
 
     <!-- Tonpfeifenproduktionskette ersetzen - Full version [on] - Light version [on] - superlight
     version [on] - Farms Only [off] -->
-    <ModOp Type="replace" GUID="114619"
+    <ModOp Type="replace" GUID="114619" Condition="!@114619/ProductionChain/Tier1/Item[Building = '1999000102']"
         Path="/Values/ProductionChain/Tier1/Item[Building = '1010330']">
         <Item>
             <Building>1999000102</Building>
