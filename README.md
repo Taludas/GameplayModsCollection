@@ -20,6 +20,19 @@ You can find a gallery of images from my mod [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.2.1</summary>
+
+* Fixes:
+  * High Life Souvenirs: Hot fix for accidentally default skip options in assets, leading to problems with iMYA tweaking and not active mod when used without customization
+  * Burrito Boom/Forest Glass: fix ActionBuffs to be triggered on Session Enter to include Cape and possible new NW session
+  * Coffee and Tobacco in Enbesa/Arctic Zoo/True Jam Experience: fix accidently included iMYA tweak files leading to problems with iMYA tweaking
+  * Coffee and Tobacco in Enbesa: fix issue with multiple coffee build menu entries when using all of the sub mods together (without iMYA tweaking f.e.)
+  * Coffee and Tobacco in Enbesa: fix coffee production chain not showing cotton cloth in OW/Arktis chain if using full version of the mod
+
+If you already used iMYA to tweak the mods, you have to remove the stored settings .json files for the respective mods form iMYA storage location: Go to .../Anno 1800/.imya/tweaks/... and remove the .json files for the mods in description: '[Gameplay] Coffee and Tobacco in Enbesa (Taludas).json', '[Gameplay] High Life Souvenirs (Taludas).json', '[Gameplay] The True Jam Experience (TaludasKurilaLordys).json', '[Gameplay] The Alkaloid Collection (Taludas).json' and '[Gameplay] The Arctic Zoo (Taludas).json' while iMYA is closed. Otherwise the changes by these fixes might be overwritten by the stored iMYA settings.
+</details>
+
+<details>
     <summary>Patch Notes Version 1.2.0</summary>
 
 * Added Support for new modloader features and iMYA customization after GU17 to all mods:
