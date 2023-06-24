@@ -13,7 +13,7 @@
 - If you download the mod manually, use the archieve from [GitHub releases](https://github.com/Taludas/GameplayModsCollection/releases). Don't download the whole repo!
 - Select the relevant mods and drag them to your 1800 Mod Folder or use the iModYourAnno Anno Mod Manager to install.
 
-***These Mods are savegame-compatible. Please install only one version of the Coffee and Tobacco in Enbesa mod (iModYourAnno Anno Mod Manager will warn you about incompatibility)! Delete or disable the other mods!***
+***These Mods are savegame-compatible. Please use the iModYourAnno Anno Mod Manager for individual mod customization. Several mods have multiple versions which can be toggled on and off with iMYA as well.***
 
 ## Mod Images
 You can find a gallery of images from my mod [here](docs/).
