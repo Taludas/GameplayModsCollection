@@ -99,7 +99,7 @@
                 <Values>
                   <Action />
                   <ActionBuff>
-                    <BuffAsset>1999002239</BuffAsset>
+                    <BuffAsset>1999002234</BuffAsset>
                     <AddBuff>0</AddBuff>
                   </ActionBuff>
                 </Values>
@@ -111,7 +111,7 @@
                 <Values>
                   <Action />
                   <ActionBuff>
-                    <BuffAsset>1999002239</BuffAsset>
+                    <BuffAsset>1999002234</BuffAsset>
                     <AddBuff>1</AddBuff>
                   </ActionBuff>
                 </Values>
@@ -123,7 +123,7 @@
                 <Values>
                   <Action />
                   <ActionRegisterTrigger>
-                    <TriggerAsset>1999002239</TriggerAsset>
+                    <TriggerAsset>1999002234</TriggerAsset>
                   </ActionRegisterTrigger>
                 </Values>
               </TriggerAction>

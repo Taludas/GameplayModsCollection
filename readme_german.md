@@ -19,6 +19,15 @@ Hier findet ihr eine Galerie mit Bildern von meinen Mods [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.2.2</summary>
+
+* Fixes:
+  * Coffee and Tobacco in Enbesa: Fix, der den falschen Dateinnamen für die japanische Lokalisation behebt.
+  * Forest Glass: Fix, der den Standard-Buff für die Glasshütte korrekt triggern lässt.
+
+</details>
+
+<details>
     <summary>Patch Notes Version 1.2.1</summary>
 
 * Korrekturen:
