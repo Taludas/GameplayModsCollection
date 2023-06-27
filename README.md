@@ -20,6 +20,14 @@ You can find a gallery of images from my mod [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.3.1</summary>
+
+* Fixes:
+  * Burrito Boom: Guacamole Kitchen and Tortila Mill can be improved by Electricity if you have the New World Rising DLC.
+
+</details>
+
+<details>
     <summary>Patch Notes Version 1.3.0</summary>
 
 * Additions:

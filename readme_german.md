@@ -19,6 +19,14 @@ Hier findet ihr eine Galerie mit Bildern von meinen Mods [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.3.1</summary>
+
+* Fixes:
+  * Burrito Boom: Guacamole Küche und Tortila Mühle können nun von Elektrizität profitieren, wenn DLC Aufstieg der Neuen Welt aktiviert ist.
+
+</details>
+
+<details>
     <summary>Patch Notes Version 1.3.0</summary>
 
 * Ergänzungen:

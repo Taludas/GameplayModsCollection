@@ -218,9 +218,7 @@
               </Riot>
             </IncidentInfectionChanceFactors>
           </IncidentInfectable>
-          <Industrializable>
-            <BoostedByIndustrialization>0</BoostedByIndustrialization>
-          </Industrializable>
+          <Industrializable />
           <Culture>
             <CultureType>Culture</CultureType>
           </Culture>
@@ -1123,9 +1121,7 @@
               </Fire>
             </IncidentInfectionChanceFactors>
           </IncidentInfectable>
-          <Industrializable>
-            <BoostedByIndustrialization>0</BoostedByIndustrialization>
-          </Industrializable>
+          <Industrializable />
           <Culture>
             <CultureType>Culture</CultureType>
           </Culture>
