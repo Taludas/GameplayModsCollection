@@ -120,4 +120,13 @@ Hope this new soap recipe makes it a little bit more realistic for you!
 ### The True Jam Experience
 Ever wondered why Jam grows directly on trees in Anno 1800? 
 
-Because they chose the simple way. But I don't like it the simple way. So I took the idea and assets from Lrds42 and made a separat mod that only adds a new Jam Production Chain based on Cherries, Sugar and Glas.
+Because they chose the simple way. But I don't like it the simple way. So I took the idea and assets from Lrds42 and made a separat mod that only adds a new Jam Production Chain based on Cherries, Sugar and Glass.
+
+-----
+
+![banner](https://user-images.githubusercontent.com/64583643/170326213-2c3aafcc-ed65-4fd2-82ce-a21f3b67d23d.png)
+### Free Farmfield Placement
+
+(Moved over from Wholesome Hacienda Haul)
+
+This mod is an update of the mod "[Free Farmfield Placement](https://www.nexusmods.com/anno1800/mods/26)" by Finnem. The fields of all farms and animal farms incl. Hacienda farms, as well as all modded farms (e.g. farms from 'The Wholesome Hacienda Overhaul' or Jakob's mods) can now be placed freely in their radius. The original mod is no longer required. The radius of plant, animal and Hacienda Farms can be adjusted with the iModYourAnno Modmanager to fit your own playstyle.

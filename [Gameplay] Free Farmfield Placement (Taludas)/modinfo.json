@@ -1,0 +1,91 @@
+{
+  "Version": "3.1",
+  "ModID": "Taludas_FreeFarmfieldPlacement",
+  "IncompatibleIds": null,
+  "ModDependencies": [
+  ],
+  "LoadAfterIds": [
+    "*",
+    "jakob_pescatarians",
+    "Taludas_TheWholesomeHaciendaHaul"
+  ],
+  "DeprecateIds": [
+    "Taludas_TheWholesomeHaciendaHaul_FreeFarmfieldPlacement"
+  ],
+  "Category": {
+    "Chinese": "Gameplay",
+    "English": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Free Farmfield Placement (Taludas)",
+    "English": "Free Farmfield Placement (Taludas)",
+    "French": "Free Farmfield Placement (Taludas)",
+    "German": "Free Farmfield Placement (Taludas)",
+    "Italian": "Free Farmfield Placement (Taludas)",
+    "Japanese": "Free Farmfield Placement (Taludas)",
+    "Korean": "Free Farmfield Placement (Taludas)",
+    "Polish": "Free Farmfield Placement (Taludas)",
+    "Russian": "Free Farmfield Placement (Taludas)",
+    "Spanish": "Free Farmfield Placement (Taludas)",
+    "Taiwanese": "Free Farmfield Placement (Taludas)"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "# Free Farmfield Placement \n\n This Mod updates the not longer maintained mod 'Free Farmfield Placement' from Finnem. \n\n All Farm modules and animal pastures are freely placable inside the radius of the farm. \n\n## While using iModYourAnno you can tweak the radii yourself! \n\n## This mod should be compatible with all modded farms as well.",
+    "French": null,
+    "German": "# Free Farmfield Placement \n\n Dieser Mod aktualisiert den nicht mehr weitergeführten Mod 'Free Farmfield Placement' von Finnem. \n\n Alle Farmmodule und Tierweiden sind innerhalb des Radius der Farm frei platzierbar. \n\n## Bei der Verwendung von iModYourAnno könnt ihr die Radien selbst anpassen! \n\n## Diese Mod ist in der Regel auch mit allen Mod-Farmen kompatibel.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": 
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    {
+      "DLC":"ThePassage",
+      "Dependant": "partly"
+    },
+    {
+      "DLC":"LandOfLions",
+      "Dependant": "partly"
+    },
+    {
+      "DLC":"SeedsOfChange",
+      "Dependant": "partly"
+    },
+    {
+      "DLC":"NewWorldRising",
+      "Dependant": "partly"
+    }
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "https://github.com/Taludas/GameplayModsCollection",
+  "Image": null
+}

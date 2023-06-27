@@ -20,6 +20,14 @@ You can find a gallery of images from my mod [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.3.0</summary>
+
+* Additions:
+  * Free Farm Fields Placement was moved over from The Wholesome Hacienda Overhaul mod. Fixed load order issues by using LoadAfterIds, so it always loads at the bottom of the loadorder and considers most mods from other mod authors.
+
+</details>
+
+<details>
     <summary>Patch Notes Version 1.2.2</summary>
 
 * Fixes:
@@ -316,6 +324,7 @@ Hope this new soap recipe makes it a little bit more realistic for you!
 
 ![banner](https://github.com/Taludas/GameplayModsCollection/assets/64583643/7cfce94a-9444-46e6-8682-6d8d18220e4e)
 ### The True Jam Experience
+
 Ever wondered why Jam grows directly on trees in Anno 1800? 
 
 Because they chose the simple way. But I don't like it the simple way. So I took the idea and assets from Lrds42 and made a separat mod that only adds a new Jam Production Chain based on Cherries, Sugar and Glas. 
@@ -327,3 +336,12 @@ The Jam manufactory is now a Multifactory so we can expand it in the future with
 To get a nice boost on the new production facility there is a special item: 'Marlene - Mother of Marmelades'. She is buyable at Eli. 
 
 Compatibility between Lordys, Kurilas and my mod is provided by [Kurila](https://github.com/Qurila)! Big Thank you for that!
+
+-----
+
+![banner](https://user-images.githubusercontent.com/64583643/170326213-2c3aafcc-ed65-4fd2-82ce-a21f3b67d23d.png)
+### Free Farmfield Placement
+
+(Moved over from Wholesome Hacienda Haul)
+
+This mod is an update of the mod "[Free Farmfield Placement](https://www.nexusmods.com/anno1800/mods/26)" by Finnem. The fields of all farms and animal farms incl. Hacienda farms, as well as all modded farms (e.g. farms from 'The Wholesome Hacienda Overhaul' or Jakob's mods) can now be placed freely in their radius. The original mod is no longer required. The radius of plant, animal and Hacienda Farms can be adjusted with the iModYourAnno Modmanager to fit your own playstyle.

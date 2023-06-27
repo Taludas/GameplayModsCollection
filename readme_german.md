@@ -19,6 +19,14 @@ Hier findet ihr eine Galerie mit Bildern von meinen Mods [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.3.0</summary>
+
+* Ergänzungen:
+  * Free Farm Fields Placement wurde von der Wholesome Hacienda Overhaul Mod übernommen. Probleme mit der Ladereihenfolge wurden durch die Verwendung von LoadAfterIds behoben, so dass die Mod immer am Ende der Ladereihenfolge geladen wird und so auch Mods andere Autoren beeinflusst.
+
+</details>
+
+<details>
     <summary>Patch Notes Version 1.2.2</summary>
 
 * Fixes:
@@ -326,3 +334,12 @@ Die Marmeladenmanufaktur ist jetzt eine Multifabrik, so dass wir sie in Zukunft 
 Zur Aufwertung der neuen Produktionsanlage gibt es einen besonderen Artikel: 'Marlene - Mutter der Marmeladen'. Sie ist bei Eli käuflich zu erwerben. 
 
 Die Kompatibilität zwischen Lordys, Kurilas und meinem Mod wird von [Kurila](https://github.com/Qurila) gewährleistet! Ihm gebührt auch der Dank für die wunderschönen Tooltips, die den In- und Output visualisieren! Großes Dankeschön dafür!
+
+-----
+
+![banner](https://user-images.githubusercontent.com/64583643/170326213-2c3aafcc-ed65-4fd2-82ce-a21f3b67d23d.png)
+### Free Farmfield Placement
+
+(Übernommen vom Wholesome Hacienda Haul Mod)
+
+Diese Mod ist ein Update der Mod "[Free Farmfield Placement](https://www.nexusmods.com/anno1800/mods/26)" von Finnem. Die Felder aller Farmen und Tierfarmen inkl. Hacienda-Farmen, sowie aller modifizierten Farmen (z.B. Farmen aus 'The Wholesome Hacienda Overhaul' oder Jakobs Mods) können nun in ihrem Radius frei platziert werden. Diese Original-Mod von Finnem wird nicht mehr benötigt. Der Radius von Pflanzen-, Tier- und Hacienda-Farmen kann mit dem iModYourAnno Modmanager an den eigenen Spielstil angepasst werden.
