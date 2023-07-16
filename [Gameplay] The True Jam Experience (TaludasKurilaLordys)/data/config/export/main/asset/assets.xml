@@ -576,7 +576,7 @@
           <Template>Trigger</Template>
           <Values>
             <Standard>
-              <GUID>1999000016</GUID>
+              <GUID>1999000017</GUID>
               <Name>Trigger_Unlock</Name>
             </Standard>
             <Trigger>
