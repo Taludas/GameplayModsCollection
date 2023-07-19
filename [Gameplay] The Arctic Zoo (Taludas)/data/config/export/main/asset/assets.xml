@@ -1,6 +1,6 @@
 <ModOps>
-    <ImyaTweaks
-        Title="Custom Buff Values for the modified Polar Circle and Tundra Item Sets in Zoo and Arctic Zoo." />
+    <ImyaTweaks Title="Custom Buff Values for the modified Polar Circle and Tundra Item Sets in Zoo and Arctic Zoo." Description="Use the panels below to fine tune your experience." Icon="data/ui/2kimages/main/3dicons/animals/icon_arctic_fox.png" />
+
     <!-- ADD ZOO IN ARCTIC: SETS ARCTIC TUNDRA AND POLAR CIRCLE -->
     <!-- Add Item Filter Cultural for Arctic Session -->
     <ModOp Type="add" GUID="502015" Path="/Values/ItemFilter/ItemCategories">
@@ -1851,12 +1851,13 @@
 
         <ImyaExpose Path="self::Value"
             ModOpID="BuffTundraSetOtherSessionsProductivity"
-            ExposeID="Productivity Increase from Tundra Set Buff for all tailors in other Sessions"></ImyaExpose>
+            ExposeID="Productivity Increase from Tundra Set Buff for all tailors in other Sessions"
+            Description="Sets the values for the Tundra Set Buff in all other sessions. It increases productivity [in %]."></ImyaExpose>
 
         <ImyaExpose Path="self::AdditionalOutputCycle"
             ModOpID="BuffTundraSetOtherSessionsAdditionalOutput"
             ExposeID="Additional Output Amount from Tundra Set Buff for all tailors in other Sessions"
-            Description="Sets the values for the Tundra Set Buff in all other sessions. It increases productivity [in %] and grants additional output of Parkas [in 1/x cycles]."></ImyaExpose>
+            Description="Sets the values for the Tundra Set Buff in all other sessions. It grants additional output of Parkas for other clothing industries [in 1/x cycles]."></ImyaExpose>
 
 
         <ModOp Type="addNextSibling" GUID="22411">
@@ -1947,11 +1948,13 @@
         </ModOp>
         <ImyaExpose Path="self::ConstructionCostInPercent"
             ModOpID="BuffTundraSetArctisCosts"
-            ExposeID="Construction Cost Reduction for Tundra Set Buff in Arctis"></ImyaExpose>
+            ExposeID="Construction Cost Reduction for Tundra Set Buff in Arctis"
+            Description="Sets the values for the Tundra Set Buff in the Arctis. It reduces costs needed for Airship construction in the Arctis. [in %]"></ImyaExpose>
+
         <ImyaExpose Path="self::ConstructionTimeInPercent"
             ModOpID="BuffTundraSetArctisTime"
             ExposeID="Construction Time Reduction for Tundra Set Buff in Arctis"
-            Description="Sets the values for the Tundra Set Buff in the Arctis. It reduces costs and time needed for Airship construction in the Arctis. [in %]"></ImyaExpose>
+            Description="Sets the values for the Tundra Set Buff in the Arctis. It reduces time needed for Airship construction in the Arctis. [in %]"></ImyaExpose>
 
         <ModOp Type="addNextSibling" GUID="22411">
             <Asset>

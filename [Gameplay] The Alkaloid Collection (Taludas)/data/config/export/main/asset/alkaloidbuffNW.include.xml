@@ -1,7 +1,7 @@
 <ModOps>
     <!-- SA -->
-    <ImyaTweaks
-        Title="Adjust NW Buff" />
+    <ImyaTweaks Title="Adjust NW Buff" Description="Adjust the strength of the buff and the malus of the Allcaloid set for the Botanical Garden to your liking." Icon="data/ui/2kimages/main/3dicons/icon_dlc_botanica.png" />
+
     <ModOp Type="addNextSibling" GUID="193772" ModOpID="AlkaloidBuffNW">
         <Asset>
             <Template>TownhallBuff</Template>
@@ -104,37 +104,43 @@
 
     <ImyaExpose
         Path="self::Asset/Values/ResidenceUpgrade/GoodConsumptionUpgrade/Item[ProvidedNeed = '1010216']/AmountInPercent"
-        ModOpID="AlkaloidBuffNW" ExposeID="Alkaloid Buff NW Strength: Schnaps">
+        ModOpID="AlkaloidBuffNW" ExposeID="Alkaloid Buff NW Strength: Schnaps"
+        Description="Sets the buff strength for good consumption. Apply negative values for reduced need.">
         <AmountInPercent>-5</AmountInPercent>
     </ImyaExpose>
 
     <ImyaExpose
         Path="self::Asset/Values/ResidenceUpgrade/GoodConsumptionUpgrade/Item[ProvidedNeed = '1010214']/AmountInPercent"
-        ModOpID="AlkaloidBuffNW" ExposeID="Alkaloid Buff NW Strength: Beer">
+        ModOpID="AlkaloidBuffNW" ExposeID="Alkaloid Buff NW Strength: Beer"
+        Description="Sets the buff strength for good consumption. Apply negative values for reduced need.">
         <AmountInPercent>-10</AmountInPercent>
     </ImyaExpose>
 
     <ImyaExpose
         Path="self::Asset/Values/ResidenceUpgrade/GoodConsumptionUpgrade/Item[ProvidedNeed = '1010257']/AmountInPercent"
-        ModOpID="AlkaloidBuffNW" ExposeID="Alkaloid Buff NW Strength: Rum">
+        ModOpID="AlkaloidBuffNW" ExposeID="Alkaloid Buff NW Strength: Rum"
+        Description="Sets the buff strength for good consumption. Apply negative values for reduced need.">
         <AmountInPercent>-5</AmountInPercent>
     </ImyaExpose>
 
     <ImyaExpose
         Path="self::Asset/Values/ResidenceUpgrade/GoodConsumptionUpgrade/Item[ProvidedNeed = '120032']/AmountInPercent"
-        ModOpID="AlkaloidBuffNW" ExposeID="Alkaloid Buff NW Strength: Coffee">
+        ModOpID="AlkaloidBuffNW" ExposeID="Alkaloid Buff NW Strength: Coffee"
+        Description="Sets the buff strength for good consumption. Apply negative values for reduced need.">
         <AmountInPercent>-10</AmountInPercent>
     </ImyaExpose>
 
     <ImyaExpose
         Path="self::Asset/Values/ResidenceUpgrade/GoodConsumptionUpgrade/Item[ProvidedNeed = '120016']/AmountInPercent"
-        ModOpID="AlkaloidBuffNW" ExposeID="Alkaloid Buff NW Strength: Champagne">
+        ModOpID="AlkaloidBuffNW" ExposeID="Alkaloid Buff NW Strength: Champagne"
+        Description="Sets the buff strength for good consumption. Apply negative values for reduced need.">
         <AmountInPercent>-5</AmountInPercent>
     </ImyaExpose>
 
     <ImyaExpose
         Path="self::Asset/Values/ResidenceUpgrade/GoodConsumptionUpgrade/Item[ProvidedNeed = '1010259']/AmountInPercent"
-        ModOpID="AlkaloidBuffNW" ExposeID="Alkaloid Buff NW Strength: Cigars">
+        ModOpID="AlkaloidBuffNW" ExposeID="Alkaloid Buff NW Strength: Cigars"
+        Description="Sets the buff strength for good consumption. Apply negative values for reduced need.">
         <AmountInPercent>-15</AmountInPercent>
     </ImyaExpose>
 
