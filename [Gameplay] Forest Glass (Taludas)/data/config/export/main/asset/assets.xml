@@ -294,15 +294,6 @@
           <TriggerActions>
             <Item>
               <TriggerAction>
-                <Template>ActionResetTrigger</Template>
-                <Values>
-                  <Action />
-                  <ActionResetTrigger />
-                </Values>
-              </TriggerAction>
-            </Item>
-            <Item>
-              <TriggerAction>
                 <Template>ActionUnlockAsset</Template>
                 <Values>
                   <Action />

@@ -495,15 +495,6 @@
               <TriggerActions>
                 <Item>
                   <TriggerAction>
-                    <Template>ActionResetTrigger</Template>
-                    <Values>
-                      <Action />
-                      <ActionResetTrigger />
-                    </Values>
-                  </TriggerAction>
-                </Item>
-                <Item>
-                  <TriggerAction>
                     <Template>ActionUnlockAsset</Template>
                     <Values>
                       <Action />
@@ -541,15 +532,6 @@
                 </Values>
               </TriggerCondition>
               <TriggerActions>
-                <Item>
-                  <TriggerAction>
-                    <Template>ActionResetTrigger</Template>
-                    <Values>
-                      <Action />
-                      <ActionResetTrigger />
-                    </Values>
-                  </TriggerAction>
-                </Item>
                 <Item>
                   <TriggerAction>
                     <Template>ActionUnlockAsset</Template>
@@ -593,15 +575,6 @@
                 </Values>
               </TriggerCondition>
               <TriggerActions>
-                <Item>
-                  <TriggerAction>
-                    <Template>ActionResetTrigger</Template>
-                    <Values>
-                      <Action />
-                      <ActionResetTrigger />
-                    </Values>
-                  </TriggerAction>
-                </Item>
                 <Item>
                   <TriggerAction>
                     <Template>ActionUnlockAsset</Template>
@@ -910,10 +883,13 @@
           </Standard>
           <Trigger>
             <TriggerCondition>
-              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Template>ConditionPlayerCounter</Template>
               <Values>
                 <Condition />
-                <ConditionAlwaysTrue />
+                <ConditionPlayerCounter>
+                  <Context>1404420042</Context>
+                  <CounterAmount>1</CounterAmount>
+                </ConditionPlayerCounter>
               </Values>
             </TriggerCondition>
             <TriggerActions>
