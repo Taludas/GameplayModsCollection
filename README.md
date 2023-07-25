@@ -20,6 +20,19 @@ You can find a gallery of images from my mod [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.4.0</summary>
+
+* Additions:
+  * New Mod "Glasshouses for Orchid Farms", replacing the usual Orchid fields with actual glasshouses!
+  * Russian Translations and a new skin for Lady Marmelade (True Jam Experience), thanks to @DrD_AVEL
+  * Adjustments for all mods to the new features of iModYourAnno v0.5 (new images, default options are toggled automatically in the tweaking tab). ***WARNING***: Adjust your Tweaking options in iMYA before you continue playing, because those will be lost after update to v0.5!
+
+* Fixes:
+  * True Jam Experience: Fixed issue with unlock triggers in Sandbox gamemode
+
+</details>
+
+<details>
     <summary>Patch Notes Version 1.3.1</summary>
 
 * Fixes:
@@ -353,3 +366,16 @@ Compatibility between Lordys, Kurilas and my mod is provided by [Kurila](https:/
 (Moved over from Wholesome Hacienda Haul)
 
 This mod is an update of the mod "[Free Farmfield Placement](https://www.nexusmods.com/anno1800/mods/26)" by Finnem. The fields of all farms and animal farms incl. Hacienda farms, as well as all modded farms (e.g. farms from 'The Wholesome Hacienda Overhaul' or Jakob's mods) can now be placed freely in their radius. The original mod is no longer required. The radius of plant, animal and Hacienda Farms can be adjusted with the iModYourAnno Modmanager to fit your own playstyle.
+
+-----
+
+![image](https://github.com/Taludas/GameplayModsCollection/assets/64583643/1e306203-8d36-4316-a197-15aa37d923e8)
+### Free Farmfield PlacementGlasshouses for Orchid Farms
+
+This little mod changes the not very accurate farm fields of the Orchid Farm to one that actually could make sense. Orchids are usually parasitic plants, growing on trees. So them growing in plain farming soil is not really close to reality. Also the usage of a Tractor to harvest the Orchids is as sensitive as the use of a chainsaw on those precious plants.
+
+Therefore, this mod changes the one tile fields to actual Greenhouses, reducing the number of field module needed, but also getting rid of the tractor boost.
+
+***Warning***: Before installing, make sure your Orchid Farms (or at least their fields) have been deleted. Otherwise you might get funny clipping issues and non removable fences which previously sourrounded your fields!
+
+If you use the Hacienda Overhaul Mod, note that the Orchid Fields for the Hacienda Farm will not change, due to the mechanic behind the recipe building.

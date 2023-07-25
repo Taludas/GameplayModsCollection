@@ -19,6 +19,18 @@ Hier findet ihr eine Galerie mit Bildern von meinen Mods [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.4.0</summary>
+
+* Ergänzungen:
+   * Neuer Mod „Gewächshäuser für Orchideenfarmen“, der die üblichen Orchideenfelder durch echte Gewächshäuser ersetzt!
+   * Russische Übersetzungen und ein neuer Skin für Lady Marmelade (True Jam Experience), danke an @DrD_AVEL für die Erstellung!
+   * Anpassungen für alle Mods an die neuen Funktionen von iModYourAnno v0.5 (neue Bilder, Standardoptionen werden im Optimierungs-Tab automatisch eingeschaltet). ***WARNUNG***: Passt Eure Tweaking-Optionen in iMYA an, bevor ihr weiterspielt, da diese nach dem Update auf v0.5 verloren gehen!
+
+* Fixes:
+   * True Jam Experience: Problem mit Freischalt-Triggern im Sandbox-Spielmodus behoben
+</details>
+
+<details>
     <summary>Patch Notes Version 1.3.1</summary>
 
 * Fixes:
@@ -351,3 +363,16 @@ Die Kompatibilität zwischen Lordys, Kurilas und meinem Mod wird von [Kurila](ht
 (Übernommen vom Wholesome Hacienda Haul Mod)
 
 Diese Mod ist ein Update der Mod "[Free Farmfield Placement](https://www.nexusmods.com/anno1800/mods/26)" von Finnem. Die Felder aller Farmen und Tierfarmen inkl. Hacienda-Farmen, sowie aller modifizierten Farmen (z.B. Farmen aus 'The Wholesome Hacienda Overhaul' oder Jakobs Mods) können nun in ihrem Radius frei platziert werden. Diese Original-Mod von Finnem wird nicht mehr benötigt. Der Radius von Pflanzen-, Tier- und Hacienda-Farmen kann mit dem iModYourAnno Modmanager an den eigenen Spielstil angepasst werden.
+
+-----
+
+![image](https://github.com/Taludas/GameplayModsCollection/assets/64583643/1e306203-8d36-4316-a197-15aa37d923e8)
+### Free Farmfield PlacementGlasshouses for Orchid Farms
+
+Diese kleine Mod verändert die nicht sehr akkuraten Farmfelder der Orchideenfarm in eine, die tatsächlich Sinn machen könnte. Orchideen sind normalerweise Schmarotzerpflanzen, die auf Bäumen wachsen. Wenn sie also in normalem Ackerboden wachsen, ist das nicht wirklich realitätsnah. Auch der Einsatz eines Traktors zur Ernte der Orchideen wäre genauso sensibel wie der Einsatz einer Kettensäge an diesen kostbaren Pflanzen. 
+
+Daher ändert dieser Mod die Ein-Kachel-Felder in echte Gewächshäuser, wodurch die Anzahl der benötigten Feldmodule reduziert wird, aber auch der Traktor-Boost wegfällt.
+
+***Warnung***: Stellt vor der Installation sicher, dass eure Orchideenfarmen (oder zumindest deren Felder) gelöscht worden sind. Andernfalls kann es zu komischen Clipping-Problemen und nicht entfernbaren Zäunen kommen, die zuvor Eure Felder umgaben!
+
+Wenn ihr den Hacienda Overhaul Mod verwendet, beachtet, dass sich die Orchideenfelder für die Hacienda-Farm aufgrund der Mechanik hinter dem Rezeptgebäude nicht ändern werden.

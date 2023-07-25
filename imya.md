@@ -130,3 +130,14 @@ Because they chose the simple way. But I don't like it the simple way. So I took
 (Moved over from Wholesome Hacienda Haul)
 
 This mod is an update of the mod "[Free Farmfield Placement](https://www.nexusmods.com/anno1800/mods/26)" by Finnem. The fields of all farms and animal farms incl. Hacienda farms, as well as all modded farms (e.g. farms from 'The Wholesome Hacienda Overhaul' or Jakob's mods) can now be placed freely in their radius. The original mod is no longer required. The radius of plant, animal and Hacienda Farms can be adjusted with the iModYourAnno Modmanager to fit your own playstyle.
+
+-----
+
+![image](https://github.com/Taludas/GameplayModsCollection/assets/64583643/1e306203-8d36-4316-a197-15aa37d923e8)
+### Free Farmfield PlacementGlasshouses for Orchid Farms
+
+This little mod changes the not very accurate farm fields of the Orchid Farm to one that actually could make sense. Orchids are usually parasitic plants, growing on trees. So them growing in plain farming soil is not really close to reality. Also the usage of a Tractor to harvest the Orchids is as sensitive as the use of a chainsaw on those precious plants.
+
+Therefore, this mod changes the one tile fields to actual Greenhouses, reducing the number of field module needed, but also getting rid of the tractor boost.
+
+If you use the Hacienda Overhaul Mod, note that the Orchid Fields for the Hacienda Farm will not change, due to the mechanic behind the recipe building.
