@@ -1,0 +1,10 @@
+<ModOps>
+  
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999002174</GUID>
+      <Text>Orchideen Gewächshaus</Text>
+    </Text>
+  </ModOp>
+
+</ModOps>

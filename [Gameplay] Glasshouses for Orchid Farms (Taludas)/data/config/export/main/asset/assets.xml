@@ -1,0 +1,128 @@
+<ModOps>
+
+    <!-- #replace main module limit to 7, disable Tractor, remove random field feedback units -->
+    <ModOp Type="replace" GUID="5814" Path="/Values/ModuleOwner/ModuleLimits/Main">
+        <Main>
+            <Limit>7</Limit>
+        </Main>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="5814" Path="/Values/Motorizable">
+        <Motorizable />
+    </ModOp>
+
+    <ModOp Type="remove" GUID="141486" Path="/Values/FeedbackSessionDescription/FarmFieldConfig/FarmFieldBuildings/Item[Building = '5814']"></ModOp>
+
+    <!-- #replace main module graphics with glasshouse -->
+
+    <ModOp Type="addNextSibling" GUID="5815">
+        <Asset>
+            <Template>Farmfield</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002174</GUID>
+                    <Name>DLC12 agriculture_colony01_14_field (Orchids) Glasshouses</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_farmfield_module.png</IconFilename>
+                </Standard>
+                <Building>
+                    <AssociatedRegions>Colony01</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>5</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>2</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>2</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                            <Amount>4</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/modgraphics/orchid_farm_module/orchid_farm_module_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/modgraphics/orchid_farm_module/orchid_farm_module_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/modgraphics/orchid_farm_module/orchid_farm_module_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/modgraphics/orchid_farm_module/orchid_farm_module_04.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1999002174</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <Mesh/>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList/>
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Orchid Glasshouse</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60148</LineID>
+                </Text>
+                <Constructable/>
+                <Locked>
+                    <DLCDependency>24963</DLCDependency>
+                </Locked>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200795</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>201613</Sound>
+                        </Item>
+                    </ActiveSounds>
+                </SoundEmitter>
+                <FeedbackController/>
+                <Infolayer/>
+                <BuildingModule/>
+                <AmbientMoodProvider>
+                    <AmbientMood>AgricultureBuildingsSouthAmerica</AmbientMood>
+                </AmbientMoodProvider>
+                <ModuleIrrigation/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="5814" Path="/Values/ModuleOwner/ConstructionOptions/Item">
+        <Item>
+            <ModuleGUID>1999002174</ModuleGUID>
+        </Item>
+    </ModOp>
+
+</ModOps>

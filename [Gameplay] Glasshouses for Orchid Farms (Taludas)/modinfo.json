@@ -1,0 +1,56 @@
+{
+  "Version": "1.0.0",
+  "ModID": "Taludas_GlasshousesforOrchidFarms",
+  "DeprecateIds": [],
+  "ModDependencies": [],
+  "LoadAfterIds": [],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Gameplay",
+    "Chinese": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Glasshouses for Orchid Farms (Taludas)",
+    "English": "Glasshouses for Orchid Farms (Taludas)",
+    "French": "Glasshouses for Orchid Farms (Taludas)",
+    "German": " Glasshouses for Orchid Farms (Taludas)",
+    "Italian": "Glasshouses for Orchid Farms (Taludas)",
+    "Japanese": "Glasshouses for Orchid Farms (Taludas)",
+    "Korean": "Glasshouses for Orchid Farms (Taludas)",
+    "Polish": "Glasshouses for Orchid Farms (Taludas)",
+    "Russian": "Glasshouses for Orchid Farms (Taludas)",
+    "Spanish": "Glasshouses for Orchid Farms (Taludas)",
+    "Taiwanese": "Glasshouses for Orchid Farms (Taludas)"
+  },
+  "Description": {
+    "English": "# Glasshouses for Orchid Farms \n\n This little mod changes the not very accurate farm fields of the Orchid Farm to one that actually could make sense. Orchids are usually parasitic plants, growing on trees. So them growing in plain farming soil is not really close to reality. \n\n Also the usage of a Tractor to harvest the Orchids is as sensitive as the use of a chainsaw on those precious plants. \n\n Therefore, this mod changes the one tile fields to actual Greenhouses, reducing the number of field module needed, but also getting rid of the tractor boost. \n\n If you use the Hacienda Overhaul Mod, note that the Orchid Fields for the Hacienda Farm will not change, due to the mechanic behind the recipe building.",
+    "German": "# Gewächshäuser für Orchideenfarmen \n\n Diese kleine Mod verändert die nicht sehr akkuraten Farmfelder der Orchideenfarm in eine, die tatsächlich Sinn machen könnte. Orchideen sind normalerweise Schmarotzerpflanzen, die auf Bäumen wachsen. Wenn sie also in normalem Ackerboden wachsen, ist das nicht wirklich realitätsnah. \n\n Auch der Einsatz eines Traktors zur Ernte der Orchideen wäre genauso sensibel wie der Einsatz einer Kettensäge an diesen kostbaren Pflanzen. \n\n Daher ändert dieser Mod die Ein-Kachel-Felder in echte Gewächshäuser, wodurch die Anzahl der benötigten Feldmodule reduziert wird, aber auch der Traktor-Boost wegfällt. \n\n Wenn ihr den Hacienda Overhaul Mod verwendet, beachtet, dass sich die Orchideenfelder für die Hacienda-Farm aufgrund der Mechanik hinter dem Rezeptgebäude nicht ändern werden.",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+      "DLC": "NewWorldRising",
+      "Dependant": "partly"
+    }
+  ],
+  "CreatorName": "Taludas",
+  "Image": null
+}
