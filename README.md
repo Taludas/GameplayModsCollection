@@ -370,7 +370,7 @@ This mod is an update of the mod "[Free Farmfield Placement](https://www.nexusmo
 -----
 
 ![image](https://github.com/Taludas/GameplayModsCollection/assets/64583643/1e306203-8d36-4316-a197-15aa37d923e8)
-### Free Farmfield PlacementGlasshouses for Orchid Farms
+### Glasshouses for Orchid Farms
 
 This little mod changes the not very accurate farm fields of the Orchid Farm to one that actually could make sense. Orchids are usually parasitic plants, growing on trees. So them growing in plain farming soil is not really close to reality. Also the usage of a Tractor to harvest the Orchids is as sensitive as the use of a chainsaw on those precious plants.
 

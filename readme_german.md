@@ -367,7 +367,7 @@ Diese Mod ist ein Update der Mod "[Free Farmfield Placement](https://www.nexusmo
 -----
 
 ![image](https://github.com/Taludas/GameplayModsCollection/assets/64583643/1e306203-8d36-4316-a197-15aa37d923e8)
-### Free Farmfield PlacementGlasshouses for Orchid Farms
+### Glasshouses for Orchid Farms
 
 Diese kleine Mod verändert die nicht sehr akkuraten Farmfelder der Orchideenfarm in eine, die tatsächlich Sinn machen könnte. Orchideen sind normalerweise Schmarotzerpflanzen, die auf Bäumen wachsen. Wenn sie also in normalem Ackerboden wachsen, ist das nicht wirklich realitätsnah. Auch der Einsatz eines Traktors zur Ernte der Orchideen wäre genauso sensibel wie der Einsatz einer Kettensäge an diesen kostbaren Pflanzen. 
 
