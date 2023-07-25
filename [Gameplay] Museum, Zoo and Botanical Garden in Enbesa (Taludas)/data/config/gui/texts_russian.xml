@@ -3,91 +3,91 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000111</GUID>
-      <Text>Museum</Text>
+      <Text>Музей</Text>
     </Text>
   </ModOp>	
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000112</GUID>
-      <Text>Zoo</Text>
+      <Text>Зоопарк</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000113</GUID>
-      <Text>Botanical Garden</Text>
+      <Text>Ботанический сад</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000114</GUID>
-      <Text>Amazonas Garden</Text>
+      <Text>Сад Амазонии</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000115</GUID>
-      <Text>Activates hibiscus fertility if built in Enbesa.</Text>
+      <Text>Создаёт плодородие для гибискуса, при нахождении в Энбесе.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000116</GUID>
-      <Text>Anden Garden</Text>
+      <Text>Сады Анд</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000117</GUID>
-      <Text>Activates tobacco fertility if built in Enbesa.</Text>
+      <Text>Создаёт плодородие для табака, при нахождении в Энбесе.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000118</GUID>
-      <Text>Enchanted Garden</Text>
+      <Text>Зачарованный сад</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000119</GUID>
-      <Text>Activates coffee fertility if built in Enbesa.</Text>
+      <Text>Создаёт плодородие для кофе, при нахождении в Энбесе.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000120</GUID>
-      <Text>Near East Garden</Text>
+      <Text>Сад Ближнего Востока</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000121</GUID>
-      <Text>Activates spices fertility if built in Enbesa.</Text>
+      <Text>Создаёт плодородие для специй, при нахождении в Энбесе.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000122</GUID>
-      <Text>Subalpin Garden</Text>
+      <Text>Субальпийский Сад</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000123</GUID>
-      <Text>Activates bee abundance if built in Enbesa.</Text>
+      <Text>Создаёт условия для распространения пчёл, при нахождении в Энбесе.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000124</GUID>
-      <Text>Inspiration of the Enbesan Plateau</Text>
+      <Text>Порыв Энбесанского Плато</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000125</GUID>
-      <Text>Bountiful Branches Crafting Techniques</Text>
+      <Text>Новые методы повышения урожайности.</Text>
     </Text>
   </ModOp>
 

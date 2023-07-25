@@ -2,97 +2,97 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000131</GUID>
-      <Text>Arctic Zoo</Text>
+      <Text>Зоопарк в Арктике</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000132</GUID>
-      <Text>Empty arctic Enclosure</Text>
+      <Text>Пустое арктическое ограждение</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000133</GUID>
-      <Text>Polar Circle Park</Text>
+      <Text>Парк Полярного круга</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000134</GUID>
-      <Text>Inspired by the animals that come from the Polar Circle, your engineers have optimized the use of the natural gas by-product from oil production.</Text>
+      <Text>Вдохновленные выставкой животных, обитающих за Полярным кругом, ваши инженеры придумали, как оптимизировать использование природного газа, получаемого побочным продуктом нефтедобычи.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000135</GUID>
-      <Text>Equipped in the Arctic Region, this set can give your airship engineers new inspirations.</Text>
+      <Text>Сооружённая в арктическом регионе, эта выставка вдохновит инженеров ваших дирижаблей на новые свершения.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000136</GUID>
-      <Text>Polar Circle Park</Text>
+      <Text>Парк Полярного круга</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000137</GUID>
-      <Text>This collection of rare and endangered animal species from the polar circle inspire your brave aviators to new inspirations in the design of their aircraft.</Text>
+      <Text>Эта коллекция редких и исчезающих видов животных с полярного круга вдохновит ваших отважных авиаторов на новые решения в дизайне их воздушных судов.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000138</GUID>
-      <Text>Equipped in the other sessions, this set can optimize oil production. As a result, natural gas is generated as a by-product.</Text>
+      <Text>Представленная в других регионах, эта выставка может улучшить процессы нефтедобычи. В результате, в качестве побочного продукта, можно будет улавливать образующийся природный газ.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000139</GUID>
-      <Text>Nate's Cargo Airship</Text>
+      <Text>Грузовой дирижабль Нейта</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000140</GUID>
-      <Text>Designed according to an idea by Old Nate, this huge cargo airship offers plenty of storage space for goods from all over the world. Commanded by skilled aviators, this ship can move large quantities of goods at a decent speed.</Text>
+      <Text>Этот огромный грузовой дирижабль, спроектированный по чертежам Старины Нейта, обеспечивает большие объёмы для перевозок товаров по всему миру. Управляемый опытными летчиками, это воздушное судно может перевозить внушительное количество товаров с вполне приличной скоростью.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000141</GUID>
-      <Text>Arctic Tundra Park</Text>
+      <Text>Парк арктической тундры</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000142</GUID>
-      <Text>By studying the fur of the animals that live in the harsh climatic conditions of the Arctic tundra, your tailors have made significant advances in the design of your residents' clothing.</Text>
+      <Text>Изучая мех животных, обитающих в суровых климатических условиях арктической тундры, ваши портные добились значительных успехов в дизайне одежды для ваших жителей.</Text>
     </Text>
   </ModOp>  
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000143</GUID>
-      <Text>Equipped in the Arctic Region, this set enables construction material savings in airship production.</Text>
+      <Text>Оборудованная в арктическом регионе, эта выставка позволяет экономить конструкционные материалы при производстве дирижаблей.</Text>
     </Text>
   </ModOp> 
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000144</GUID>
-      <Text>Arctic Tundra Park</Text>
+      <Text>Парк арктической тундры</Text>
     </Text>
   </ModOp>  
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000145</GUID>
-      <Text>By studying the fur of the animals that live in the harsh climatic conditions of the Arctic tundra, your airship engineers have made significant advances in the usage of airship construction materials.</Text>
+      <Text>Изучая шкуры животных, обитающих в суровых климатических условиях арктической тундры, инженеры вашего дирижабля добились значительных успехов в использовании материалов обшивки для воздухоплавания.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000146</GUID>
-      <Text>Equipped in the other sessions, this set can inspire your tailors to achieve new top performances.</Text>
+      <Text>Оборудованная на других регионах, эта выставка может вдохновить ваших портных на достижение новых выдающихся результатов.</Text>
     </Text>
   </ModOp>
 

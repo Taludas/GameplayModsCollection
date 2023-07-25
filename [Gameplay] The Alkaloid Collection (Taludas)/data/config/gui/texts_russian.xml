@@ -2,109 +2,109 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000151</GUID>
-      <Text>THE ALKALOID COLLECTION</Text>
+      <Text>КОЛЛЕКЦИЯ «АЛКАЛОИДЫ»</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000152</GUID>
-      <Text>A collection of exotic alkaloid plants. Serve as daily drugs in remote parts of the world. Maybe your residents are interested in tasting them?</Text>
+      <Text>Коллекция экзотических алкалоидных растений. В некоторых уголках мира они применяются как ежедневные стимуляторы. Может быть, и у ваших жителей тоже пойдёт мода их пробовать?</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000153</GUID>
-      <Text>Alkaloid-Garden</Text>
+      <Text>Сад Алкалоидов</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000154</GUID>
-      <Text>The introduction of new exotic and legal daily drugs leads to an unprecedented euphoria among your residents, which is accompanied by an increase in the workload of your workers. With the new alternatives, the consumption of classic daily drugs is falling. However, when importing the new "cultural asset", note that the increased consumption of psychotropic substances leads to an increased susceptibility to illness and in some cases to an increased propensity for violence on the part of your population.</Text>
+      <Text>Появление новых экзотических и легальных повседневных наркотиков вызывает небывалую эйфорию среди жителей вашего города, что ведёт к увеличению общей работоспособности среди ваших работников. Благодаря новым альтернативам снижается потребление классических повседневных стимуляторов. Однако, при ввозе нового «культурного достояния» следует учитывать, что повышенное потребление психотропных веществ может приводить к повышенной восприимчивости к болезням и повышенной склонности к импульсивному поведению со стороны вашего населения.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000155</GUID>
-      <Text>Alkaloid-Garden</Text>
+      <Text>Сад Алкалоидов</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000156</GUID>
-      <Text>Alkaloid-Garden</Text>
+      <Text>Сад Алкалоидов</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000157</GUID>
-      <Text>Areca palm</Text>
+      <Text>Пальма Арека</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000158</GUID>
-      <Text>&lt;b&gt;Areca catechu.&lt;/b&gt; The seeds of the Areca palm are traditionally chewed with slaked lime as a so-called betel bite. As a result, the arecoline contained in the seed is converted into arecaidin and can thus be more easily absorbed. It works against tiredness and exhaustion. The saliva is colored intensely red when chewed due to the coloring agents it contains.</Text>
+      <Text>&lt;b&gt;Areca catechu.&lt;/b&gt; Бетелевая пальма или Арека катеху - растения семейства Пальмовые. Семена пальмы Арека традиционно нарезают и жуют с гашеной известью в виде так называемого «укуса бетеля». В результате ареколин, содержащийся в орехах, превращается в легко усвояемый арекаидин, который помогает тонизирующим эффектом от усталости и истощения. Однако жевание орехов вредно для зубов, а слюна при жевании окрашивается в ярко-красный цвет из-за красителей.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000159</GUID>
-      <Text>Khat</Text>
+      <Text>Кат</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000160</GUID>
-      <Text>&lt;b&gt;Catha edulis.&lt;/b&gt; The branch tips and young leaves of the Kath shrub are traditionally chewed in larger groups during lunchtime. The contained cathine acts as a stimulant and keeps you awake. The cultivation is very water-intensive.</Text>
+      <Text>&lt;b&gt;Catha edulis.&lt;/b&gt; Монотипный род вечнозелёных кустарников семейства Бересклетовые. Кончики веток и молодые листья кустарника Кат традиционно жуют во время общего обеда. Содержащийся катин действует как стимулятор и не даёт вам уснуть. Выращивание этой культуры очень водозатратное.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000161</GUID>
-      <Text>Kola Tree</Text>
+      <Text>Дерево Кола</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000162</GUID>
-      <Text>&lt;b&gt;Cola nitida.&lt;/b&gt; The seeds of the kola nut tree contain significantly more caffeine than the same amount of coffee beans. When chewing, the caffeine is absorbed and acts against fatigue, headaches and loss of libido.</Text>
+      <Text>&lt;b&gt;Cola nitida.&lt;/b&gt; Вечнозелёное дерево, принадлежащих к семейству Мальвовые. Семена орехового дерева кола содержат даже большее количество кофеина, чем тот же объём кофейных зёрен. При жевании семян кофеин активно всасывается и быстро помогает от усталости, головных болей и снижении либидо.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000163</GUID>
-      <Text>Yohimbe</Text>
+      <Text>Йохимбе</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000164</GUID>
-      <Text>&lt;b&gt;Corynanthe johimbe.&lt;/b&gt; The bark of the evergreen yohimba tree contains the alkaloid yohmibine. Therefore, the bark is traditionally consumed in African countries as an aphrodisiac and sexual enhancer.</Text>
+      <Text>&lt;b&gt;Corynanthe johimbe.&lt;/b&gt; Растение семейства Мареновые, вид рода Pausinystalia, произрастающее в тропических лесах. Кора вечнозеленого дерева йохимбе содержит алкалоид йомибин. Поэтому кору традиционно употребляют в африканских странах как афродизиак и стимулятор активности либидо.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000165</GUID>
-      <Text>Coca</Text>
+      <Text>Кока</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000166</GUID>
-      <Text>&lt;b&gt;Erythroxylum coca.&lt;/b&gt; The consumption of the leaves of the coca bush is widespread in South America. They contain the alkaloid cocaine. While the leaves are traditionally chewed by native South Americans, the "pure" cocaine is consumed in western countries. In the Andes, people use it to alleviate the symptoms of altitude sickness by increasing oxygen uptake. In addition, it helps to suppress hunger, tiredness and cold. By alkalizing the chewed leaves with lime, the cocaine loses its addictive properties, which is why the Andean population is hardly dependent on the effects of cocaine.</Text>
+      <Text>&lt;b&gt;Erythroxylum coca.&lt;/b&gt; Употребление листьев кокаинового куста широко распространено в Южной Америке. Они содержат алкалоид кокаин. В Андах жевание листьев используют для облегчения симптомов высотной болезни за счет увеличения усваяемости кислорода. Кроме того, это способствует подавлению голода, усталости и чувства холода. При закислении лаймом пережеванных листьев кокаин теряет свои наркотические свойства и практически не вызывает привыкание, поэтому население Анд почти не страдает от кокаиновой зависимости. Не смотря на то, что коренные жители Южной Америки традиционно жуют листья коки, в западных странах употребляют «чистый» кокаин.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000167</GUID>
-      <Text>Opium Poppy</Text>
+      <Text>Опийный мак</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000168</GUID>
-      <Text>&lt;b&gt;Papaver somniferum.&lt;/b&gt; An alkaloid mixture is extracted from the milky sap contained in the opium poppy capsules, which has become famous as opium. It has strong analgesic and numbing effects. Perhaps your engineers can use opium to develop a highly effective medicine that can be sold in drugstores for headaches, colds and coughs?</Text>
+      <Text>&lt;b&gt;Papaver somniferum.&lt;/b&gt; Однолетнее травянистое растение семейства Маковые. Из млечного сока, содержащегося в коробочках опийного мака, извлекают смесь алкалоидов, получившую известность как опиум. Вызывает состояние эйфории, спокойствия, умиротворения и обладает обезболивающим действием. Возможно, ваши учёные смогут применить опиум в разработке продукта, которое можно будет задорого продавать инвесторам в аптеках как эффективное средство от головной боли, простуды или кашля?</Text>
     </Text>
   </ModOp>
 </ModOps>
