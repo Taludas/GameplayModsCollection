@@ -1,6 +1,6 @@
 <ModOps>
 
-    <!-- #replace main module limit to 7, disable Tractor, remove random field feedback units -->
+    <!-- #replace main module limit to 7, disable Tractor, remove random field feedback units, make farm fields placeable like animal farms, without needing adjacentcy -->
     <ModOp Type="replace" GUID="5814" Path="/Values/ModuleOwner/ModuleLimits/Main">
         <Main>
             <Limit>7</Limit>
@@ -12,6 +12,11 @@
     </ModOp>
 
     <ModOp Type="remove" GUID="141486" Path="/Values/FeedbackSessionDescription/FarmFieldConfig/FarmFieldBuildings/Item[Building = '5814']"></ModOp>
+
+    <ModOp Type="merge" GUID="5814" Path="/Values/ModuleOwner">
+        <ModuleBuildRadius>10</ModuleBuildRadius>
+        <FarmType>AnimalFarm</FarmType>
+    </ModOp>
 
     <!-- #replace main module graphics with glasshouse -->
 
