@@ -21,6 +21,22 @@ You can find a gallery of images from my mod [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.5.0</summary>
+
+* Additions:
+  * [Glasshouses for Orchid Farms]: change moduleowner property to work like animal farms with freely buildable farm modules instead of required adjacency.
+  * [Glasshouses for Orchid Farms]: add polish translation
+
+* Fixes:
+  * [Museum, Zoo and Botanical Garden in Enbesa]: fix an issue where the Botanical Garden in the OW would show four sets from various other cultural buildings on empty pages of the second page when using together with Enbesan Flora from Fam.
+  * [Burrito Boom]: fix an issue with the production buildings of this mod being attackable by ships from the coast.
+  * [Coffee and Tobacco in Enbesa]: fix missing Infotext-Description for Demand/Production of the Enbesan Coffee Roaster.
+  * [Coffee and Tobacco in Enbesa]: fix issue where default mode of the mod is set to "farms only", you now get the "light version" as default, as intended from the beginning.
+  * [Coffee and Tobacco in Enbesa]: fix wrong "IncompatibleID" modinfo.json entry
+
+</details>
+
+<details>
     <summary>Patch Notes Version 1.4.0</summary>
 
 * Additions:

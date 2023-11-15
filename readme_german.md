@@ -20,6 +20,22 @@ Hier findet ihr eine Galerie mit Bildern von meinen Mods [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.5.0</summary>
+
+* Additions:
+  * [Glasshouses for Orchid Farms]: Veränderung der Moduleigentümer-Eigenschaft, damit sie wie Tierfarmen mit frei baubaren Farmmodulen anstelle der erforderlichen Nachbarschaft funktionieren.
+  * [Glasshouses for Orchid Farms]: Hinzufügen einer polnischen Übersetzung
+
+* Fixes:
+  * [Museum, Zoo and Botanical Garden in Enbesa]: Behebung eines Problems, bei dem der Botanische Garten in der OW vier Sets von verschiedenen anderen Kulturgebäuden auf den leeren Seiten der zweiten Seite anzeigte, wenn er zusammen mit Enbesan Flora von Fam verwendet wird.
+  * [Burrito Boom]: Behebung eines Problems, bei dem die Produktionsgebäude dieses Mods von Schiffen von der Küste aus angegriffen werden können.
+  * [Coffee and Tobacco in Enbesa]: Behebung eines Problems, bei dem die fehlende Infotext-Beschreibung für Bedarf/Produktion des Enbesa-Kaffeerösters fehlte.
+  * [Coffee and Tobacco in Enbesa]: Problem behoben, bei dem der Standardmodus des Mods auf "nur Farmen" eingestellt ist, man erhält nun die "Light-Version" als Standard, wie von Anfang an vorgesehen. (NUR relevant für MOD.IO!)
+  * [Coffee and Tobacco in Enbesa]: Behebung eines falschen Eintrags für "IncompatibleID" in modinfo.json
+
+</details>
+
+<details>
     <summary>Patch Notes Version 1.4.0</summary>
 
 * Ergänzungen:
