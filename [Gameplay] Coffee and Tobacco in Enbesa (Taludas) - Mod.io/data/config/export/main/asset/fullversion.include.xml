@@ -1,0 +1,514 @@
+<ModOps>
+    <!-- #Coffee Roaster NW new recipe - Full version [on] - Light version [off] - superlight
+    version [off] - Farms Only [off] -->
+    <Group>
+        <ModOp GUID="101252" Type="replace" Path="/Values/FactoryBase">
+            <FactoryBase>
+                <FactoryInputs>
+                    <Item>
+                        <Product>120031</Product>
+                        <!-- Kaffeebohnen -->
+                        <Amount>1</Amount>
+                        <StorageAmount>6</StorageAmount>
+                    </Item>
+                    <Item>
+                        <Product>1010240</Product>
+                        <!-- Baumwollstoff -->
+                        <Amount>1</Amount>
+                        <StorageAmount>6</StorageAmount>
+                    </Item>
+                </FactoryInputs>
+                <FactoryOutputs>
+                    <Item>
+                        <Product>120032</Product>
+                        <!-- Kaffee -->
+                        <Amount>1</Amount>
+                        <StorageAmount>2</StorageAmount>
+                    </Item>
+                </FactoryOutputs>
+                <CycleTime>60</CycleTime>
+                <IsMainFactory>1</IsMainFactory>
+            </FactoryBase>
+        </ModOp>
+
+        <!-- Custom InfoDescription -->
+        <ModOp Type="add" GUID="101252" Path="/Values/Standard">
+            <InfoDescription>1999000093</InfoDescription>
+        </ModOp>
+
+        <ModOp Type="replace" GUID="101252" Path="/Values/UpgradeList">
+            <UpgradeList>
+                <DefaultBuff>1999000089</DefaultBuff>
+            </UpgradeList>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="114472">
+            <Asset>
+                <Template>GuildhouseBuff</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999000089</GUID>
+                        <Name>Hiden Buff Cotton Cloth</Name>
+                    </Standard>
+                    <ItemEffect>
+                        <EffectTargets>
+                            <Item>
+                                <GUID>101252</GUID>
+                            </Item>
+                        </EffectTargets>
+                    </ItemEffect>
+                    <Text />
+                    <FactoryUpgrade>
+                        <AdditionalOutput>
+                            <Item>
+                                <Product>1010240</Product>
+                                <AdditionalOutputCycle>2</AdditionalOutputCycle>
+                                <Amount>1</Amount>
+                            </Item>
+                        </AdditionalOutput>
+                    </FactoryUpgrade>
+                    <BuildingUpgrade />
+                    <Buff />
+                    <CultureUpgrade>
+                        <HideBuff>1</HideBuff>
+                    </CultureUpgrade>
+                    <ModuleOwnerUpgrade />
+                    <IncidentInfectableUpgrade />
+                    <PowerplantUpgrade />
+                    <IndustrializableUpgrade />
+                    <ItemContainerUpgrade />
+                    <IncidentInfluencerUpgrade />
+                    <IrrigationUpgrade />
+                    <EcoSystemProviderUpgrade />
+                    <ResourceUpgrade />
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>Text</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999000092</GUID>
+                        <Name>InfoDescription_Demand_CoffeeRoasterNW_Coffeebeans</Name>
+                    </Standard>
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>Text</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999000091</GUID>
+                        <Name>InfoDescription_Demand_CoffeeRoasterNW_Cottoncloth</Name>
+                    </Standard>
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>Text</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999000090</GUID>
+                        <Name>InfoDescription_Supply_CoffeeRoasterNW_Coffee</Name>
+                    </Standard>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- Coffee Production Chain NW change for new recipe -->
+        <ModOp GUID="500913" Type="add" Path="/Values/ProductionChain/Tier1">
+            <Item>
+                <Building>1010318</Building>
+                <Tier2>
+                    <Item>
+                        <Building>1010331</Building>
+                    </Item>
+                </Tier2>
+            </Item>
+        </ModOp>
+        <ModOp GUID="500902" Type="add" Path="/Values/ProductionChain/Tier1">
+            <Item>
+                <Building>1010318</Building>
+                <Tier2>
+                    <Item>
+                        <Building>1010331</Building>
+                    </Item>
+                </Tier2>
+            </Item>
+        </ModOp>
+        <ModOp GUID="117075" Type="add" Path="/Values/ProductionChain/Tier1">
+            <Item>
+                <Building>1010318</Building>
+                <Tier2>
+                    <Item>
+                        <Building>1010331</Building>
+                    </Item>
+                </Tier2>
+            </Item>
+        </ModOp>
+
+        <!-- Kaffee Icon ersetzen LoL alternative ProductionChain -->
+        <ModOp GUID="124740" Type="replace" Path="/Values/Standard/IconFilename">
+            <IconFilename>data/modgraphics/icons/icon_kaffeeroesterei.png</IconFilename>
+        </ModOp>
+
+        <!-- Kaffee Icon ersetzen OW -->
+        <ModOp GUID="500902" Type="replace" Path="/Values/Standard/IconFilename">
+            <IconFilename>data/modgraphics/icons/icon_kaffeeroesterei.png</IconFilename>
+        </ModOp>
+
+        <!-- Kaffee Icon ersetzen Neue Welt Produktionskette -->
+        <ModOp GUID="500913" Type="replace" Path="/Values/Standard/IconFilename">
+            <IconFilename>data/modgraphics/icons/icon_kaffeeroesterei.png</IconFilename>
+        </ModOp>
+
+        <!-- Kaffee Icon ersetzen Arktis Production Chain -->
+        <ModOp GUID="117075" Type="replace" Path="/Values/Standard/IconFilename">
+            <IconFilename>data/modgraphics/icons/icon_kaffeeroesterei.png</IconFilename>
+        </ModOp>
+
+        <ModOp Type="add" GUID="502074,502072" Path="/Values/ProductList/List">
+            <!--ADD
+    TO PRODUCT-LIST-->
+            <Item>
+                <Product>120032</Product>
+            </Item>
+        </ModOp>
+    </Group>
+
+    <!-- #kaffeeroesterei in Enbesa - Full version [on] - Light version [on] - superlight version
+    [off] - Farms Only [off] -->
+    <Group>
+        <ModOp Type="addNextSibling" GUID="101252">
+            <Asset>
+                <Template>FactoryBuilding7</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999000101</GUID>
+                        <!-- kaffeeroesterei -->
+                        <Name>kaffeeroesterei</Name>
+                        <IconFilename>data/modgraphics/icons/icon_kaffeeroesterei.png</IconFilename>
+                    </Standard>
+                    <Building>
+                        <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                        <AssociatedRegions>Africa</AssociatedRegions>
+                    </Building>
+                    <Blocking />
+                    <Cost>
+                        <Costs>
+                            <Item>
+                                <Ingredient>1010017</Ingredient>
+                                <!-- Münzen -->
+                                <Amount>9000</Amount>
+                            </Item>
+                            <Item>
+                                <Ingredient>114356</Ingredient>
+                                <!-- Wanza-Bretter -->
+                                <Amount>15</Amount>
+                            </Item>
+                            <Item>
+                                <Ingredient>114402</Ingredient>
+                                <!-- Lehmziegel -->
+                                <Amount>10</Amount>
+                            </Item>
+                        </Costs>
+                    </Cost>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>
+                                    data/modgraphics/models/production_colony02_10/production_colony02_10.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Mesh />
+                    <Selection>
+                        <ParticipantMessageArcheType>Africa_Resident_tier02</ParticipantMessageArcheType>
+                        <Colors>
+                            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                        </Colors>
+                    </Selection>
+                    <Text>
+                        <LocaText>
+                            <English>
+                                <Text>Factory</Text>
+                                <Status>Exported</Status>
+                            </English>
+                        </LocaText>
+                        <LineID>5316</LineID>
+                    </Text>
+                    <Constructable />
+                    <Locked />
+                    <SoundEmitter>
+                        <ActiveSounds>
+                            <Item>
+                                <Sound>200809</Sound>
+                            </Item>
+                            <Item>
+                                <Sound>200662</Sound>
+                            </Item>
+                        </ActiveSounds>
+                        <IncidentSounds>
+                            <InfectedFire>
+                                <Item>
+                                    <Sound>214659</Sound>
+                                </Item>
+                            </InfectedFire>
+                        </IncidentSounds>
+                    </SoundEmitter>
+                    <FeedbackController />
+                    <Infolayer />
+                    <UpgradeList>
+                        <DefaultBuff>1999000094</DefaultBuff>
+                    </UpgradeList>
+                    <Factory7 />
+                    <FactoryBase>
+                        <FactoryInputs>
+                            <Item>
+                                <Product>120031</Product>
+                                <!-- Kaffeebohnen -->
+                                <Amount>1</Amount>
+                                <StorageAmount>6</StorageAmount>
+                            </Item>
+                            <Item>
+                                <Product>114391</Product>
+                                <!-- Leinen -->
+                                <Amount>1</Amount>
+                                <StorageAmount>6</StorageAmount>
+                            </Item>
+                        </FactoryInputs>
+                        <FactoryOutputs>
+                            <Item>
+                                <Product>120032</Product>
+                                <!-- Kaffee -->
+                                <Amount>1</Amount>
+                                <StorageAmount>2</StorageAmount>
+                            </Item>
+                        </FactoryOutputs>
+                        <CycleTime>60</CycleTime>
+                        <IsMainFactory>0</IsMainFactory>
+                    </FactoryBase>
+                    <LogisticNode />
+                    <AmbientMoodProvider />
+                    <Maintenance>
+                        <Maintenances>
+                            <Item>
+                                <Product>1010017</Product>
+                                <!-- Münzen -->
+                                <Amount>150</Amount>
+                                <InactiveAmount>75</InactiveAmount>
+                            </Item>
+                            <Item>
+                                <Product>114341</Product>
+                                <!-- Ältesten-Arbeitskräfte -->
+                                <Amount>75</Amount>
+                                <InactiveAmount>35</InactiveAmount>
+                            </Item>
+                        </Maintenances>
+                    </Maintenance>
+                    <Industrializable>
+                        <MandatoryIndustrialization>0</MandatoryIndustrialization>
+                        <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                    </Industrializable>
+                    <IncidentInfectable>
+                        <IncidentInfectionChanceFactors>
+                            <Fire>
+                                <DensityDistance>20</DensityDistance>
+                                <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                                <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                            </Fire>
+                        </IncidentInfectionChanceFactors>
+                    </IncidentInfectable>
+                    <Attackable />
+                    <Culture />
+                    <Pausable />
+                    <QuestObject />
+                    <Electrifiable />
+                    <EcoSystemProvider />
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- Custom InfoDescription -->
+        <ModOp Type="add" GUID="1999000101" Path="/Values/Standard">
+            <InfoDescription>1999000098</InfoDescription>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="114472">
+            <Asset>
+                <Template>GuildhouseBuff</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999000094</GUID>
+                        <Name>Hiden Buff Linen</Name>
+                    </Standard>
+                    <ItemEffect>
+                        <EffectTargets>
+                            <Item>
+                                <GUID>1999000101</GUID>
+                            </Item>
+                        </EffectTargets>
+                    </ItemEffect>
+                    <Text />
+                    <FactoryUpgrade>
+                        <AdditionalOutput>
+                            <Item>
+                                <Product>114391</Product>
+                                <AdditionalOutputCycle>2</AdditionalOutputCycle>
+                                <Amount>1</Amount>
+                            </Item>
+                        </AdditionalOutput>
+                    </FactoryUpgrade>
+                    <BuildingUpgrade />
+                    <Buff />
+                    <CultureUpgrade>
+                        <HideBuff>1</HideBuff>
+                    </CultureUpgrade>
+                    <ModuleOwnerUpgrade />
+                    <IncidentInfectableUpgrade />
+                    <PowerplantUpgrade />
+                    <IndustrializableUpgrade />
+                    <ItemContainerUpgrade />
+                    <IncidentInfluencerUpgrade />
+                    <IrrigationUpgrade />
+                    <EcoSystemProviderUpgrade />
+                    <ResourceUpgrade />
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>Text</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999000097</GUID>
+                        <Name>InfoDescription_Demand_CoffeeRoasterEnbesa_Coffeebeans</Name>
+                    </Standard>
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>Text</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999000096</GUID>
+                        <Name>InfoDescription_Demand_CoffeeRoasterEnbesa_Linencloth</Name>
+                    </Standard>
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>Text</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999000095</GUID>
+                        <Name>InfoDescription_Supply_CoffeeRoasterEnbesa_Coffee</Name>
+                    </Standard>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- Kaffee Produktionskette Enbesa -->
+        <ModOp Type="addNextSibling" GUID="500029">
+            <Asset>
+                <Template>ProductionChain</Template>
+                <!-- ProductionChain -->
+                <Values>
+                    <Standard>
+                        <GUID>1999000103</GUID>
+                        <Name>production chain</Name>
+                        <IconFilename>data/modgraphics/icons/icon_kaffeeroesterei_enbesa.png</IconFilename>
+                    </Standard>
+                    <ProductionChain>
+                        <Building>1999000101</Building>
+                        <Tier1>
+                            <Item>
+                                <Building>1999000100</Building>
+                                <!-- Kaffeeplantage -->
+                            </Item>
+                            <Item>
+                                <Building>114441</Building>
+                                <!-- Leinenweberei -->
+                                <Tier2>
+                                    <Item>
+                                        <Building>114448</Building>
+                                        <!-- Flachsfarm -->
+                                    </Item>
+                                </Tier2>
+                            </Item>
+                        </Tier1>
+                    </ProductionChain>
+                    <Locked />
+                    <Text>
+                        <LocaText>
+                            <English>
+                                <Text>chain</Text>
+                                <Status>Exported</Status>
+                            </English>
+                        </LocaText>
+                        <LineID>14906</LineID>
+                    </Text>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <ModOp Type="add" GUID="368,193778,190901,6000018,193856"
+            Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+            <Item>
+                <GUID>1999000101</GUID>
+            </Item>
+        </ModOp>
+        <ModOp GUID="25000087" Type="add" Path="/Values/WorkforceMenu/BoostableFactories">
+            <Item>
+                <Factory>1999000101</Factory>
+            </Item>
+        </ModOp>
+        <ModOp Type="add" GUID="1500200680"
+            Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+            <Item>
+                <GUID>1999000101</GUID>
+            </Item>
+        </ModOp>
+
+        <!-- Kaffeeproduktionskette Enbesa in diversen Baumenüs ergänzen -->
+        <ModOp Type="addNextSibling" GUID="114554"
+            Path="/Values/ConstructionCategory/BuildingList/Item[Building='114570']">
+            <Item>
+                <Building>1999000103</Building>
+            </Item>
+        </ModOp>
+        <ModOp Type="addNextSibling" GUID="119024"
+            Path="/Values/ConstructionCategory/BuildingList/Item[Building='114570']">
+            <Item>
+                <Building>1999000103</Building>
+            </Item>
+        </ModOp>
+        <ModOp Type="addNextSibling" GUID="25000192"
+            Path="/Values/ConstructionCategory/BuildingList/Item[Building='500902']">
+            <Item>
+                <Building>1999000103</Building>
+            </Item>
+        </ModOp>
+        <ModOp Type="addNextSibling" GUID="500945"
+            Path="/Values/ConstructionCategory/BuildingList/Item[Building='500902']">
+            <Item>
+                <Building>1999000103</Building>
+            </Item>
+        </ModOp>
+        <ModOp Type="addNextSibling" GUID="112791"
+            Path="/Values/ConstructionCategory/BuildingList/Item[Building='117075']">
+            <Item>
+                <Building>1999000103</Building>
+            </Item>
+        </ModOp>
+        <ModOp Type="addNextSibling" GUID="116344"
+            Path="/Values/ConstructionCategory/BuildingList/Item[Building='117075']">
+            <Item>
+                <Building>1999000103</Building>
+            </Item>
+        </ModOp>
+    </Group>
+
+    <!-- Tonpfeifenproduktionskette ersetzen - Full version [on] - Light version [on] - superlight
+    version [on] - Farms Only [off] -->
+    <ModOp Type="replace" GUID="114619"
+        Path="/Values/ProductionChain/Tier1/Item[Building = '1010330']">
+        <Item>
+            <Building>1999000102</Building>
+        </Item>
+    </ModOp>
+
+</ModOps>

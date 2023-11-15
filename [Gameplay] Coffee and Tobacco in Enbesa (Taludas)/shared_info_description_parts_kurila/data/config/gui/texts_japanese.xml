@@ -1,0 +1,20 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>11143</GUID>
+			<Text>&lt;font overrideTextColor="true" color='#edc891'&gt;[AssetData(10824) Text] 1サイクルあたり: 1t&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>1500300044</GUID>
+			<Text>[AssetData(132783) Text]&#xD;&#xA;&#xD;&#xA;[AssetData(11143) Text]</Text>
+		</Text>
+		<Text>
+			<GUID>1500300045</GUID>
+			<Text>&lt;font overrideTextColor="true" color='#378cc8'&gt;[AssetData(23195) Text]&lt;/font&gt;&lt;font overrideTextColor="true" color='#edc891'&gt; per Cycle:&lt;/font&gt;</Text>
+		</Text>
+		<Text>
+			<GUID>1500300046</GUID>
+			<Text>&lt;font overrideTextColor="true" color='#56B224'&gt;[AssetData(23196) Text]&lt;/font&gt;&lt;font overrideTextColor="true" color='#edc891'&gt; per Cycle:&lt;/font&gt;</Text>
+		</Text>
+	</ModOp>
+</ModOps>

@@ -1,5 +1,5 @@
 {
-  "Version": "1.6.4",
+  "Version": "1.6.5",
   "ModID": "Taludas_CoffeeTobaccoEnbesa",
   "IncompatibleIds": [
     "Taludas_CoffeeTobaccoEnbesaFull",
@@ -14,10 +14,12 @@
     "Taludas_CoffeeTobaccoEnbesaSuperLight"
   ],
   "ModDependencies": [
-    "shared-pools-and-definitions"
+    "shared-pools-and-definitions",
+    "shared_info_description_parts_kurila"
   ],
   "LoadAfterIds": [
-    "shared-pools-and-definitions"
+    "shared-pools-and-definitions",
+    "shared_info_description_parts_kurila"
   ],
   "Category": {
     "Chinese": "Gameplay",
@@ -36,7 +38,7 @@
     "Chinese": "Coffee and Tobacco in Enbesa (Taludas)",
     "English":  "Coffee and Tobacco in Enbesa (Taludas)",
     "French":  "Coffee and Tobacco in Enbesa (Taludas)",
-    "German":  "Coffee and Tobacco in Enbesa (Taludas)",
+    "German":  "Kaffee und Tabak in Enbesa (Taludas)",
     "Italian":  "Coffee and Tobacco in Enbesa (Taludas)",
     "Japanese":  "Coffee and Tobacco in Enbesa (Taludas)",
     "Korean":  "Coffee and Tobacco in Enbesa (Taludas)",

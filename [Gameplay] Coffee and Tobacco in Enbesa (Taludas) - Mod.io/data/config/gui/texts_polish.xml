@@ -1,0 +1,70 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000100</GUID>
+      <Text>Plantacja kawy</Text>
+    </Text>
+    <Text>
+      <GUID>1999000101</GUID>
+      <Text>Palarnia kawy</Text>
+    </Text>
+    <Text>
+      <GUID>1999000102</GUID>
+      <Text>Plantacja tytoniu</Text>
+    </Text>
+    <Text>
+      <GUID>1999000103</GUID>
+      <Text>Kawa</Text>
+    </Text>
+    <Text>
+      <GUID>1999000108</GUID>
+      <Text>Uprawa kawy</Text>
+    </Text>
+    <Text>
+      <GUID>1999000109</GUID>
+      <Text>Pole tytoniu</Text>
+    </Text>
+    <Text>
+      <GUID>1999000098</GUID>
+      <Text>[AssetData(1500300045) Text]&#xD;&#xA;[AssetData(1999000097) Text][AssetData(1999000096)
+        Text]&#xD;&#xA;&#xD;&#xA;[AssetData(1500300046) Text][AssetData(1999000095) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999000097</GUID>
+      <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;b&gt;1t&lt;/b&gt; &lt;img
+        height='24' width='24' src="[AssetData(120031) Icon]"/&gt; [AssetData(120031)
+        Text]&lt;/font&gt;&#xD;&#xA;</Text>
+    </Text>
+    <Text>
+      <GUID>1999000096</GUID>
+      <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;b&gt;0.5t&lt;/b&gt; &lt;img
+        height='24' width='24' src="[AssetData(114391) Icon]"/&gt; [AssetData(114391)
+        Text]&lt;/font&gt;&#xD;&#xA;</Text>
+    </Text>
+    <Text>
+      <GUID>1999000095</GUID>
+      <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;b&gt; 1t&lt;/b&gt;&lt;/font&gt;</Text>
+    </Text>
+    <Text>
+      <GUID>1999000093</GUID>
+      <Text>[AssetData(1500300045) Text]&#xD;&#xA;[AssetData(1999000092) Text][AssetData(1999000091)
+        Text]&#xD;&#xA;&#xD;&#xA;[AssetData(1500300046) Text][AssetData(1999000090) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999000092</GUID>
+      <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;b&gt;1t&lt;/b&gt; &lt;img
+        height='24' width='24' src="[AssetData(120031) Icon]"/&gt; [AssetData(120031)
+        Text]&lt;/font&gt;&#xD;&#xA;</Text>
+    </Text>
+    <Text>
+      <GUID>1999000091</GUID>
+      <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;b&gt;0.5t&lt;/b&gt; &lt;img
+        height='24' width='24' src="[AssetData(1010240) Icon]"/&gt; [AssetData(1010240)
+        Text]&lt;/font&gt;&#xD;&#xA;</Text>
+    </Text>
+    <Text>
+      <GUID>1999000090</GUID>
+      <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;b&gt; 1t&lt;/b&gt;&lt;/font&gt;</Text>
+    </Text>
+  </ModOp>
+</ModOps>

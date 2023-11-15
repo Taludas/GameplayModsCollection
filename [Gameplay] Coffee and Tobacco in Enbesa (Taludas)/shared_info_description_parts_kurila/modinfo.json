@@ -1,0 +1,57 @@
+{
+  "Version": "1.0.1",
+  "ModID": "shared_info_description_parts_kurila",
+  "DeprecateIds": [],
+  "LoadAfterIds": [],
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "Info Description Parts (Kurila)",
+    "English": "Info Description Parts (Kurila)",
+    "French": "Info Description Parts (Kurila)",
+    "German": " Info Description Parts (Kurila)",
+    "Italian": "Info Description Parts (Kurila)",
+    "Japanese": "Info Description Parts (Kurila)",
+    "Korean": "Info Description Parts (Kurila)",
+    "Polish": "Info Description Parts (Kurila)",
+    "Russian": "Info Description Parts (Kurila)",
+    "Spanish": "Info Description Parts (Kurila)",
+    "Taiwanese": "Info Description Parts (Kurila)"
+  },
+  "Description": {
+    "English": "Provides text blocks for extended Info Descriptions.",
+    "German": "Stellt Textbausteine für erweiterte Info Beschreibungen zur verfügung.",
+    "Chinese": "Provides text blocks for extended Info Descriptions.",
+    "French": "Provides text blocks for extended Info Descriptions.",
+    "Italian": "Provides text blocks for extended Info Descriptions.",
+    "Japanese": "Provides text blocks for extended Info Descriptions.",
+    "Korean": "Provides text blocks for extended Info Descriptions.",
+    "Polish": "Provides text blocks for extended Info Descriptions.",
+    "Russian": "Provides text blocks for extended Info Descriptions.",
+    "Spanish": "Provides text blocks for extended Info Descriptions.",
+    "Taiwanese": "Provides text blocks for extended Info Descriptions."
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+      "DLC": "",
+      "Dependant": ""
+    }
+  ],
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image": null
+}

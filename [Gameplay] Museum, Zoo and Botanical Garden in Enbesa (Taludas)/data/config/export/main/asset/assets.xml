@@ -1517,7 +1517,7 @@
 	<!-- #FAMS ENBESAN FLORA INTEGRATION -->
 	<Group Condition="@1660011001">
 		<!-- Second Page at Botanical Garden -->
-		<ModOp Type="replace" GUID="114141,1999000113" Path="/Values/Culture/Sets">
+		<ModOp Type="replace" GUID="110935,114141,1999000113" Path="/Values/Culture/Sets">
 			<Sets>
 				<Item>
 					<Set>193665</Set>
@@ -1552,7 +1552,7 @@
 			</Sets>
 		</ModOp>
 
-		<ModOp Type="add" GUID="114141,1999000113"
+		<ModOp Type="add" GUID="110935,114141,1999000113"
 			Path='//Values/Culture/Sets[count(Item)=12]'>
 			<Item>
 				<Set>65488</Set>
@@ -1566,25 +1566,21 @@
 			<Item>
 				<Set>65488</Set>
 			</Item>
-			<Item />
-			<Item>
-				<Set>65488</Set>
-			</Item>
 		</ModOp>
 
-		<ModOp Type="replace" GUID="114141,1999000113"
+		<ModOp Type="replace" GUID="110935,114141,1999000113"
 			Path='//Values/Culture/Sets/Item[Set/text()="65488"][1]/Set'>
 			<Set>1660011001</Set>
 		</ModOp>
-		<ModOp Type="replace" GUID="114141,1999000113"
+		<ModOp Type="replace" GUID="110935,114141,1999000113"
 			Path='//Values/Culture/Sets/Item[Set/text()="65488"][1]/Set'>
 			<Set>1660011101</Set>
 		</ModOp>
-		<ModOp Type="replace" GUID="114141,1999000113"
+		<ModOp Type="replace" GUID="110935,114141,1999000113"
 			Path='//Values/Culture/Sets/Item[Set/text()="65488"][1]/Set'>
 			<Set>1660011201</Set>
 		</ModOp>
-		<ModOp Type="replace" GUID="114141,1999000113"
+		<ModOp Type="replace" GUID="110935,114141,1999000113"
 			Path='//Values/Culture/Sets/Item[Set/text()="65488"][1]/Set'>
 			<Set>1660011301</Set>
 		</ModOp>
