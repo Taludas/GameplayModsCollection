@@ -3,91 +3,91 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000111</GUID>
-      <Text>Museum</Text>
+      <Text>박물관</Text>
     </Text>
   </ModOp>	
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000112</GUID>
-      <Text>Zoo</Text>
+      <Text>동물원</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000113</GUID>
-      <Text>Botanical Garden</Text>
+      <Text>식물원</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000114</GUID>
-      <Text>Amazonas Garden</Text>
+      <Text>아마조나스 정원</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000115</GUID>
-      <Text>Activates hibiscus fertility if built in Enbesa.</Text>
+      <Text>이 엔베사 섬에서 히비스커스 토착 자원을 활성화합니다.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000116</GUID>
-      <Text>Anden Garden</Text>
+      <Text>안데스 정원</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000117</GUID>
-      <Text>Activates tobacco fertility if built in Enbesa.</Text>
+      <Text>이 엔베사 섬에서 담배 토착 자원을 활성화합니다.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000118</GUID>
-      <Text>Enchanted Garden</Text>
+      <Text>마법 정원</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000119</GUID>
-      <Text>Activates coffee fertility if built in Enbesa.</Text>
+      <Text>이 엔베사 섬에서 커피 토착 자원을 활성화합니다.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000120</GUID>
-      <Text>Near East Garden</Text>
+      <Text>동방 정원</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000121</GUID>
-      <Text>Activates spices fertility if built in Enbesa.</Text>
+      <Text>이 엔베사 섬에서 향신료 토착 자원을 활성화합니다.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000122</GUID>
-      <Text>Subalpin Garden</Text>
+      <Text>알프스 산록 정원</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000123</GUID>
-      <Text>Activates bee abundance if built in Enbesa.</Text>
+      <Text>이 엔베사 섬에서 벌 토착 자원을 활성화합니다.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000124</GUID>
-      <Text>Inspiration of the Enbesan Plateau</Text>
+      <Text>엔베사 고원의 영감</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000125</GUID>
-      <Text>Bountiful Branches Crafting Techniques</Text>
+      <Text>풍부한 가지 제작 기법</Text>
     </Text>
   </ModOp>
 

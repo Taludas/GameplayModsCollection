@@ -2,97 +2,97 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000131</GUID>
-      <Text>Arctic Zoo</Text>
+      <Text>북극 동물원</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000132</GUID>
-      <Text>Empty arctic Enclosure</Text>
+      <Text>빈 북극 터</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000133</GUID>
-      <Text>Polar Circle Park</Text>
+      <Text>북극권 공원</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000134</GUID>
-      <Text>Inspired by the animals that come from the Polar Circle, your engineers have optimized the use of the natural gas by-product from oil production.</Text>
+      <Text>기술자들은 북극권의 동물에서 영감을 받아 석유 생산 시 발생하는 천연가스 부산물의 사용을 최적화했습니다.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000135</GUID>
-      <Text>Equipped in the Arctic Region, this set can give your airship engineers new inspirations.</Text>
+      <Text>북극 지역에 장착된 이 세트는 비행선 기술자에게 새로운 영감을 줄 수 있습니다.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000136</GUID>
-      <Text>Polar Circle Park</Text>
+      <Text>북극권 공원</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000137</GUID>
-      <Text>This collection of rare and endangered animal species from the polar circle inspire your brave aviators to new inspirations in the design of their aircraft.</Text>
+      <Text>극지방의 희귀하고 멸종 위기에 처한 동물 종 컬렉션은 용감한 비행사에게 항공기 설계에 새로운 영감을 불어넣습니다.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000138</GUID>
-      <Text>Equipped in the other sessions, this set can optimize oil production. As a result, natural gas is generated as a by-product.</Text>
+      <Text>다른 세션에 장착된 이 세트는 석유 생산을 최적화할 수 있습니다. 그 결과, 부산물로 천연가스가 생성됩니다.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000139</GUID>
-      <Text>Nate's Cargo Airship</Text>
+      <Text>올드 네이트의 화물 비행선</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000140</GUID>
-      <Text>Designed according to an idea by Old Nate, this huge cargo airship offers plenty of storage space for goods from all over the world. Commanded by skilled aviators, this ship can move large quantities of goods at a decent speed.</Text>
+      <Text>올드 네이트의 아이디어에 따라 설계된 이 거대한 화물 비행선은 전 세계의 물품을 보관할 수 있는 넉넉한 공간을 제공합니다. 숙련된 비행사가 지휘하는 이 비행선은 상당한 속도로 많은 양의 물품을 이동할 수 있습니다.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000141</GUID>
-      <Text>Arctic Tundra Park</Text>
+      <Text>북극 툰드라 공원</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000142</GUID>
-      <Text>By studying the fur of the animals that live in the harsh climatic conditions of the Arctic tundra, your tailors have made significant advances in the design of your residents' clothing.</Text>
+      <Text>북극 툰드라의 혹독한 기후 조건에 사는 동물의 모피를 연구함으로써 재단사는 주민들의 옷 디자인에 상당한 발전을 이루었습니다.</Text>
     </Text>
   </ModOp>  
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000143</GUID>
-      <Text>Equipped in the Arctic Region, this set enables construction material savings in airship production.</Text>
+      <Text>북극 지역에 장착된 이 세트를 사용하면 비행선 생산 시 건축 자재를 절약할 수 있습니다.</Text>
     </Text>
   </ModOp> 
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000144</GUID>
-      <Text>Arctic Tundra Park</Text>
+      <Text>북극 툰드라 공원</Text>
     </Text>
   </ModOp>  
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000145</GUID>
-      <Text>By studying the fur of the animals that live in the harsh climatic conditions of the Arctic tundra, your airship engineers have made significant advances in the usage of airship construction materials.</Text>
+      <Text>비행선 기술자들은 북극 툰드라의 가혹한 기후 조건에 사는 동물의 모피를 연구함으로써 비행선 건설 자재 사용에 있어 상당한 발전을 이루었습니다.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000146</GUID>
-      <Text>Equipped in the other sessions, this set can inspire your tailors to achieve new top performances.</Text>
+      <Text>다른 세션에 장착된 이 세트는 재단사가 새로운 최고의 성과를 달성하도록 영감을 줄 수 있습니다.</Text>
     </Text>
   </ModOp>
 

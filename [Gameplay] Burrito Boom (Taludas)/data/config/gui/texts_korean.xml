@@ -3,59 +3,59 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002226</GUID>
-      <Text>Burrito Boom</Text>
+      <Text>부리토 붐</Text>
     </Text>
     <Text>
       <GUID>1999002227</GUID>
-      <Text>Due to the current popularity of burritos, their supply may lead to increased influx in new immigrants to your city.</Text>
+      <Text>현재 부리토의 인기 덕분에, 부리토 공급은 도시로 새로운 이주민 유입이 증가하도록 만들 수 있습니다.</Text>
     </Text>
     <Text>
       <GUID>1999002229</GUID>
-      <Text>Burrito Boom</Text>
+      <Text>부리토 붐</Text>
     </Text>
     <Text>
       <GUID>1999002230</GUID>
-      <Text>Due to the current popularity of burritos, the Mole Master is doing extra hours to cope with the increased demant.</Text>
+      <Text>현재 부리토의 인기때문에, 몰 마스터는 증가하는 수요에 대처하기 위한 추가 근무 시간을 보내고 있습니다.</Text>
     </Text>
     <Text>
       <GUID>15654</GUID>
-      <Text>The Investor wants to market Burritos.</Text>
+      <Text>투자가는 부리토를 거래하기를 원합니다.</Text>
     </Text>
     <Text>
       <GUID>14991</GUID>
-      <Text>BURRITOS RUN OUT!</Text>
+      <Text>부리토 부족 현상!</Text>
     </Text>
     <Text>
       <GUID>12471</GUID>
-      <Text>Quality burritos want quality corn.</Text>
+      <Text>맛있는 부리토를 만들려면 질 좋은 옥수수가 필요합니다.</Text>
     </Text>
     <Text>
       <GUID>101271</GUID>
-      <Text>Burrito Maker</Text>
+      <Text>부리토 가게</Text>
     </Text>
     <Text>
       <GUID>120035</GUID>
-      <Text>Burritos</Text>
+      <Text>부리토</Text>
     </Text>
     <Text>
       <GUID>192227</GUID>
-      <Text>Silva's Burritos</Text>
+      <Text>실바의 부리토</Text>
     </Text>
     <Text>
       <GUID>500911</GUID>
-      <Text>Burritos</Text>
+      <Text>부리토</Text>
     </Text>
     <Text>
       <GUID>16316</GUID>
-      <Text>An investor hopes to bring burritos to the old world masses. But he needs some samples to see if they'll prove a hit.</Text>
+      <Text>부리토를 세상에 선보이고자 하는 한 투자가가 정말 대박을 터트릴지 궁금하다며 시제품을 원하고 있습니다.</Text>
     </Text>
     <Text>
       <GUID>14992</GUID>
-      <Text>Burritos extremely thin on the ground in [Newspaper FindArticle([RefGuid]) Context TownName], leaving city feeling flat. "They better scoop us out of this soon, or the whole thing will leave a very bad taste in the mouth."</Text>
+      <Text>[Newspaper FindArticle([RefGuid]) Context TownName]에서 부리토 부족 현상이 일어나 주민들 기분이 말이 아니다. 주민들은 당국에서 이 문제를 어서 해결해 다시 부리토의 맛을 느낄 수 있기를 바라고 있다.</Text>
     </Text>
     <Text>
       <GUID>15024</GUID>
-      <Text>Burritos ready in [Newspaper FindArticle([RefGuid]) Context TownName], as locals perform ritual celebration of corn. A legacy of ancestors in the region, a staple of liberation and independence, it shall go marvellously with a prickly pear, or a pricklier chilli!</Text>
+      <Text>[Newspaper FindArticle([RefGuid]) Context TownName] 지역 주민들이 옥수수를 가지고 축하 행사를 벌이면서 부리토가 선을 보였다. 해당 지방에 살던 선조들의 유산이자 독립과 자유의 상징인 부리토는 선인장 열매나 칠리와 잘 어울린다.</Text>
     </Text>
   </ModOp>
 

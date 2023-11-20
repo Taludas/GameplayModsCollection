@@ -2,109 +2,109 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000151</GUID>
-      <Text>THE ALKALOID COLLECTION</Text>
+      <Text>알칼로이드 컬렉션</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000152</GUID>
-      <Text>A collection of exotic alkaloid plants. Serve as daily drugs in remote parts of the world. Maybe your residents are interested in tasting them?</Text>
+      <Text>이국적인 알칼로이드 식물 컬렉션입니다. 세계의 어느 외딴 지역에서는 일일 약물로 사용됩니다. 주민들이 맛보는 데 관심이 있을까요?</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000153</GUID>
-      <Text>Alkaloid-Garden</Text>
+      <Text>알칼로이드 정원</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000154</GUID>
-      <Text>The introduction of new exotic and legal daily drugs leads to an unprecedented euphoria among your residents, which is accompanied by an increase in the workload of your workers. With the new alternatives, the consumption of classic daily drugs is falling. However, when importing the new "cultural asset", note that the increased consumption of psychotropic substances leads to an increased susceptibility to illness and in some cases to an increased propensity for violence on the part of your population.</Text>
+      <Text>새로운 이색적이고 합법적인 일일 약물의 도입은 주민들 사이에 전례 없는 행복감을 불러일으키고, 이는 근로자의 작업량 증가를 동반합니다. 새로운 대안으로 인해 전통적인 일일 약물의 소비가 감소하고 있습니다. 그러나 새로운 "문화 자산"을 가져올 때, 향정신성 물질의 소비 증가로 인해 질병에 대한 민감성이 증가하고 어떤 경우에는 복용한 주민들의 폭력 성향이 증가한다는 점을 유의하십시오.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000155</GUID>
-      <Text>Alkaloid-Garden</Text>
+      <Text>알칼로이드 정원</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000156</GUID>
-      <Text>Alkaloid-Garden</Text>
+      <Text>알칼로이드 정원</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000157</GUID>
-      <Text>Areca palm</Text>
+      <Text>아레카 야자</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000158</GUID>
-      <Text>&lt;b&gt;Areca catechu.&lt;/b&gt; The seeds of the Areca palm are traditionally chewed with slaked lime as a so-called betel bite. As a result, the arecoline contained in the seed is converted into arecaidin and can thus be more easily absorbed. It works against tiredness and exhaustion. The saliva is colored intensely red when chewed due to the coloring agents it contains.</Text>
+      <Text>&lt;b&gt;빈랑.&lt;/b&gt; 이른바 빈랑 바이트로 불리는 아레카 야자 씨앗은 전통적으로 소석회와 함께 씹어 먹습니다. 그 결과, 씨앗에 함유된 아레콜린이 아레카이딘으로 전환되어 몸에 더 쉽게 흡수될 수 있습니다. 피로와 탈진에 효과가 있습니다. 열매에 포함된 착색성분 때문에 침은 씹으면 강렬한 빨간색으로 변합니다.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000159</GUID>
-      <Text>Khat</Text>
+      <Text>까트</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000160</GUID>
-      <Text>&lt;b&gt;Catha edulis.&lt;/b&gt; The branch tips and young leaves of the Kath shrub are traditionally chewed in larger groups during lunchtime. The contained cathine acts as a stimulant and keeps you awake. The cultivation is very water-intensive.</Text>
+      <Text>&lt;b&gt;카타 에둘리스.&lt;/b&gt; 까트 관목의 가지 끝과 어린 잎은 전통적으로 점심 시간에 많은 양으로 씹어집니다. 함유된 카틴은 각성제 역할을 하여 깨어있게 해줍니다. 물 집약적인 재배 방식이라 많은 양의 물을 사용합니다.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000161</GUID>
-      <Text>Kola Tree</Text>
+      <Text>콜라 나무</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000162</GUID>
-      <Text>&lt;b&gt;Cola nitida.&lt;/b&gt; The seeds of the kola nut tree contain significantly more caffeine than the same amount of coffee beans. When chewing, the caffeine is absorbed and acts against fatigue, headaches and loss of libido.</Text>
+      <Text>&lt;b&gt;콜라 니티다.&lt;/b&gt; 콜라 열매 나무의 씨앗에는 같은 양의 커피 원두보다 훨씬 더 많은 카페인이 포함되어 있습니다. 씹으면 카페인이 흡수되어 피로, 두통, 성욕 감퇴에 효과가 있습니다.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000163</GUID>
-      <Text>Yohimbe</Text>
+      <Text>요힘베</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000164</GUID>
-      <Text>&lt;b&gt;Corynanthe johimbe.&lt;/b&gt; The bark of the evergreen yohimba tree contains the alkaloid yohmibine. Therefore, the bark is traditionally consumed in African countries as an aphrodisiac and sexual enhancer.</Text>
+      <Text>&lt;b&gt;코리난테 요힘베.&lt;/b&gt; 상록수 요힘베 나무의 껍질에는 알칼로이드 요힘빈이 함유되어 있습니다. 따라서 나무껍질은 전통적으로 여러 아프리카 국가에서 최음제 및 성기능 강화제로 소비되었습니다.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000165</GUID>
-      <Text>Coca</Text>
+      <Text>코카</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000166</GUID>
-      <Text>&lt;b&gt;Erythroxylum coca.&lt;/b&gt; The consumption of the leaves of the coca bush is widespread in South America. They contain the alkaloid cocaine. While the leaves are traditionally chewed by native South Americans, the "pure" cocaine is consumed in western countries. In the Andes, people use it to alleviate the symptoms of altitude sickness by increasing oxygen uptake. In addition, it helps to suppress hunger, tiredness and cold. By alkalizing the chewed leaves with lime, the cocaine loses its addictive properties, which is why the Andean population is hardly dependent on the effects of cocaine.</Text>
+      <Text>&lt;b&gt;에리트록실룸 코카.&lt;/b&gt; 코카나무 잎의 소비는 남미에서 널리 퍼져 있습니다. 그들은 알칼로이드 코카인을 함유하고 있습니다. 남미 원주민들은 전통적으로 잎을 씹지만, 서구 국가에서는 "순수한" 코카인을 소비합니다. 안데스 산맥에서는 산소 섭취량을 증가시켜 고산병 증상을 완화하기 위해 이를 사용합니다. 또한 배고픔, 피로, 그리고 추위를 억제하는 데 도움을 줍니다. 씹은 잎을 석회로 알칼리화하면, 코카인의 중독성이 사라지기 때문에, 안데스 지역 주민들은 코카인 효과에 거의 의존하지 않습니다.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000167</GUID>
-      <Text>Opium Poppy</Text>
+      <Text>양귀비</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000168</GUID>
-      <Text>&lt;b&gt;Papaver somniferum.&lt;/b&gt; An alkaloid mixture is extracted from the milky sap contained in the opium poppy capsules, which has become famous as opium. It has strong analgesic and numbing effects. Perhaps your engineers can use opium to develop a highly effective medicine that can be sold in drugstores for headaches, colds and coughs?</Text>
+      <Text>&lt;b&gt;파파버 소니페룸.&lt;/b&gt; 아편으로 유명해진 양귀비 캡슐에 함유된 우유빛 수액에서 알칼로이드 혼합물이 추출됩니다. 강력한 진통 효과와 마비 효과가 있습니다. 어쩌면 기술자들이 아편을 사용하여 두통, 감기, 기침 등에 사용할 약국에서 판매할 수 있는 매우 효과적인 약을 개발할 수 있을까요?</Text>
     </Text>
   </ModOp>
 </ModOps>

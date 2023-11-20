@@ -2,27 +2,27 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000100</GUID>
-      <Text>Coffee Plantation</Text>
+      <Text>커피 농장</Text>
     </Text>
     <Text>
       <GUID>1999000101</GUID>
-      <Text>Coffee Roaster</Text>
+      <Text>커피 제조소</Text>
     </Text>
     <Text>
       <GUID>1999000102</GUID>
-      <Text>Tobacco Plantation</Text>
+      <Text>담배 농장</Text>
     </Text>
     <Text>
       <GUID>1999000103</GUID>
-      <Text>Coffee</Text>
+      <Text>커피</Text>
     </Text>
     <Text>
       <GUID>1999000108</GUID>
-      <Text>Coffee Crop</Text>
+      <Text>커피밭</Text>
     </Text>
     <Text>
       <GUID>1999000109</GUID>
-      <Text>Tobacco Field</Text>
+      <Text>담배밭</Text>
     </Text>
     <Text>
       <GUID>1999000098</GUID>

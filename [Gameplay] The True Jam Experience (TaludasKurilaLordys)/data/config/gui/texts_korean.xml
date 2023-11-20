@@ -30,38 +30,38 @@
 			<Text>
 				<!-- TODO translation -->
 				<GUID>1999000007</GUID>
-				<Text>다행히도 장인의 오래된 레시피 북에는 스타일리시하고 재사용 가능한 유리잔에 담아 과일 향이 가득한 체리 잼을 만드는 할머니의 레시피가 잘 보존된 비밀이 담겨 있습니다.</Text>
+				<Text>다행히도, 이 장인의 오래된 조리법 책에는 잘 보관된 비밀이 나와 있습니다. 이것은 우아하고 재사용이 가능한 유리병에 담긴 과일 향이 풍부한 체리 잼을 만드는 할머니의 요리비법입니다.</Text>
 			</Text>
 			<Text>
 				<!-- TODO translation -->
 				<GUID>1999000013</GUID>
-				<Text>이 과일 잼은 잘 익은 새콤달콤한 체리에 약간의 설탕을 넣어 수작업으로 만듭니다. 체리와 설탕이 완벽하게 섞일 때까지 젓고 맛을 봅니다. 잼은 세련된 재사용 가능한 유리잔에 할머니 스타일로 제공됩니다.</Text>
+				<Text>이 과일 잼은 잘 익은 새콤달콤한 체리에 약간의 설탕을 넣어 수작업으로 만듭니다. 잼의 체리와 설탕이 완벽하게 섞일 때까지 젓고 맛을 봅니다. 잼은 할머니가 방식으로 멋지고 재사용이 가능한 유리병에 담겨 제공됩니다.</Text>
 			</Text>
 		<!-- Recipe Cherries -->
 			<Text>
 				<!-- TODO translation -->
 				<GUID>1999000004</GUID>
-				<Text>유리잔 안에서 재배하지 않고 나무에서 바로 수확한 진한 과일 향의 체리.</Text>
+				<Text>유리에서 자라지 않고, 나무에서 직접 따온 두툼하고 맛과 향이 진한 체리입니다.</Text>
 			</Text>
 			<Text>
 				<!-- TODO translation -->
 				<GUID>133498</GUID>
-				<Text>체리</Text>
+				<Text>버찌(체리)</Text>
 			</Text>
 			<Text>
 				<GUID>133496</GUID>
-				<Text>과수원: 체리</Text>
+				<Text>과수원: 버찌(체리)</Text>
 			</Text>
 		<!-- Specialists -->
 			<Text>
 				<!-- TODO translation -->
 				<GUID>1999000011</GUID>
-				<Text>마멜레이드의 어머니, 마를린</Text>
+				<Text>마멀레이드의 어머니, 마를렌</Text>
 			</Text>
 			<Text>
 				<!-- TODO translation -->
 				<GUID>1999000012</GUID>
-				<Text>재활용 유리잔으로 가장 맛있는 잼을 만들 수 있습니다.</Text>
+				<Text>재활용된 유리병으로 가장 맛있는 버찌(체리) 잼을 만듭니다.</Text>
 			</Text>
 		<!-- Extended InfoDesciption -->
 			<Text>

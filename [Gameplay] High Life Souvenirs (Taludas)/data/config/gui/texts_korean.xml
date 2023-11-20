@@ -2,67 +2,67 @@
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1999000040</GUID>
-			<Text>Manufactory: Souvenirs</Text>
+			<Text>제조 공장: 기념품</Text>
 		</Text>
 		<Text>
 			<GUID>1999000041</GUID>
-			<Text>Souvenirs</Text>
+			<Text>기념품</Text>
 		</Text>
 		<Text>
 			<GUID>1999000042</GUID>
-			<Text>Today's modern tourist wants nothing more than to bring back a high-quality, hand-made souvenir from his extraordinary trip to the Old World for his loved ones at home. Both modern and traditional materials can be combined into a variety of attractive souvenirs.</Text>
+			<Text>오늘날의 현대 관광객은 집에 있는 사랑하는 사람들을 위해 구대륙의 특별한 여행에서 손으로 만든 고품질 기념품을 가져오는 것을 너무나 원합니다. 현대적인 소재와 전통적인 소재 모두 결합하여 다양한 매력적인 기념품을 만들 수 있습니다.</Text>
 		</Text>
 		<Text>
 			<GUID>137609</GUID>
-			<Text>Handcrafted Souvenirs</Text>
+			<Text>수제 기념품</Text>
 		</Text>
 		<Text>
 			<GUID>1999002257</GUID>
-			<Text>Souvenir Shop</Text>
+			<Text>기념품 가게</Text>
 		</Text>
 		<Text>
 			<GUID>1999002258</GUID>
-			<Text>Supplies your Tourists with souvenirs to buff Hotels and Tourist Moorings in the vicinity.</Text>
+			<Text>호텔과 여행객 정박지 부근을 강화하기 위해 관광객에게 기념품을 제공하세요.</Text>
 		</Text>
 		<Text>
 			<GUID>1999002259</GUID>
-			<Text>Souvenir Shop: Postcards</Text>
+			<Text>기념품 가게: 엽서</Text>
 		</Text>
 		<Text>
 			<GUID>1999002260</GUID>
-			<Text>Souvenir Shops: Kiosk</Text>
+			<Text>기념품 가게: 키오스크</Text>
 		</Text>
 		<Text>
 			<GUID>1999002261</GUID>
-			<Text>Souvenir Sales</Text>
+			<Text>기념품 판매</Text>
 		</Text>
 		<Text>
 			<GUID>1999002262</GUID>
-			<Text>Souvenir Stores</Text>
+			<Text>기념품 매장</Text>
 		</Text>
 		<Text>
 			<GUID>1999002263</GUID>
-			<Text>Overview of the Souvenir Shops used to supply your Tourists with souvenirs beside the sales in Hotels.</Text>
+			<Text>호텔 판매 외에 관광객에게 기념품을 공급하는 데 사용되는 기념품 가게 개요.</Text>
 		</Text>
 		<Text>
 			<GUID>1999002266</GUID>
-			<Text>Souvenir Sales</Text>
+			<Text>기념품 판매</Text>
 		</Text>
 		<Text>
 			<GUID>1999000050</GUID>
-			<Text>Assembly Line: Souvenirs</Text>
+			<Text>조립 라인: 기념품</Text>
 		</Text>
 		<Text>
 			<GUID>1999000051</GUID>
-			<Text>Souvenirs</Text>
+			<Text>기념품</Text>
 		</Text>
 		<Text>
 			<GUID>1999000052</GUID>
-			<Text>The modern tourist is attracted by the offer of discounted souvenirs. In order to bring enough visual material for those who stayed at home, he demands a large variety of products at a reasonable price. Modern and cheap materials, combined with the advancement of the assembly line, can be combined into a variety of suitable products.</Text>
+			<Text>현대 관광객은 할인된 기념품을 제공하는 것에 매력을 느낍니다. 집에 머무르는 사람들에게 충분한 시각적 자료를 제공하기 위해 그는 합리적인 가격에 다양한 제품을 얻기를 원합니다. 현대적이고 저렴한 재료와 조립 라인의 발전이 결합되어 다양하게 적합한 제품들로 결합될 수 있습니다.</Text>
 		</Text>
 		<Text>
 			<GUID>1999000059</GUID>
-			<Text>Mass-produced Souvenirs</Text>
+			<Text>대량 생산 기념품</Text>
 		</Text>
   </ModOp>
 </ModOps>

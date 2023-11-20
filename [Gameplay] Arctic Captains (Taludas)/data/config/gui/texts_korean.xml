@@ -3,59 +3,59 @@
     <ModOp Type="add" Path="/TextExport/Texts">
         <Text>
             <GUID>1999000171</GUID>
-            <Text>Sir John Faithful, Reinstated Admiral of the Lost Expedition</Text>
+            <Text>잃어버린 원정대의 복위된 제독, 존 페이스풀 경</Text>
         </Text>
         <Text>
             <GUID>1999000172</GUID>
-            <Text>After Sir John Faithful miraculously escaped arctic hell, he can't wait to rebuild your airship fleet.</Text>
+            <Text>존 페이스풀 경은 북극 지옥에서 기적적으로 탈출한 후, 다시 비행선 함대를 재건하고 싶어 견딜 수가 없습니다.</Text>
         </Text>
         <Text>
             <GUID>1999000173</GUID>
-            <Text>El Presidente, Globetrotter par excellence</Text>
+            <Text>탁월한 세계일주 여행자, 엘 프레지덴테</Text>
         </Text>
         <Text>
             <GUID>1999000174</GUID>
-            <Text>Born in La Corona, El Presidente traveled across the known world before he dedicated himself to the treasure hunt in the inhospitable region of the ice desert.</Text>
+            <Text>라 코로나에서 태어난 엘 프레지덴테는 얼음 사막의 척박한 지역에서 보물 찾기에 전념하기 전에 알려진 세계를 여행했습니다.</Text>
         </Text>
         <Text>
             <GUID>1999000175</GUID>
-            <Text>Ming Shu, Sharp tongue of the eastern capital</Text>
+            <Text>동부 수도의 날카로운 혀, 밍 슈</Text>
         </Text>
         <Text>
             <GUID>1999000176</GUID>
-            <Text>Hired from the Far East, Ming can wrap any man around her little finger while bargaining without him noticing.</Text>
+            <Text>극동에서 고용된 밍은 흥정을 하면서 다른 남자가 눈치채지 못하게 자신의 새끼손가락으로 어떤 남자라도 휘감을 수 있습니다.</Text>
         </Text>
         <Text>
             <GUID>1999000177</GUID>
-            <Text>Jürgen Vogel, Lifter of flying crates</Text>
+            <Text>비행 상자 리프터, 위르겐 보겔</Text>
         </Text>
         <Text>
             <GUID>1999000178</GUID>
-            <Text>Despite his constantly bad mood, Jürgen is valued by every crew, as no one else can arrange the freight boxes as efficiently as he can.</Text>
+            <Text>끊임없이 기분이 좋지 않음에도 불구하고 위르겐은 모든 승무원들로부터 높이 평가됩니다. 어느 누구도 화물 상자를 그만큼 효율적으로 정리할 수 없기 때문입니다.</Text>
         </Text>
         <Text>
             <GUID>1999000179</GUID>
-            <Text>Francis Crozier, Aerial Trade Specialist</Text>
+            <Text>항공 무역 전문가, 프랜시스 크로지어</Text>
         </Text>
         <Text>
             <GUID>1999000180</GUID>
-            <Text>Turns air into trading volume.</Text>
+            <Text>공기를 거래량으로 바꿉니다.</Text>
         </Text>
         <Text>
             <GUID>1999000181</GUID>
-            <Text>Franca d'Artois, Believer of Speed</Text>
+            <Text>속도의 신봉자, 프랭카 다르투아</Text>
         </Text>
         <Text>
             <GUID>1999000182</GUID>
-            <Text>With steam in your blood, no headwind can slow her down in the persuit of total speed.</Text>
+            <Text>그녀의 피 속에 증기가 있기 때문에, 그녀가 최대 속력을 추구하는 것에 어떤 역풍도 그 속력을 낮출 수 없습니다.</Text>
         </Text>
         <Text>
             <GUID>1999000183</GUID>
-            <Text>James Fitzjames, Expert on the pulley</Text>
+            <Text>도르래 전문가, 제임스 피츠제임스</Text>
         </Text>
         <Text>
             <GUID>1999000184</GUID>
-            <Text>The pulley blocks of any ship fear his speed when loading the goods.</Text>
+            <Text>모든 선박의 도르래 블록은 물품을 적재할 때 그의 속도를 두려워합니다.</Text>
         </Text>
     </ModOp>
 

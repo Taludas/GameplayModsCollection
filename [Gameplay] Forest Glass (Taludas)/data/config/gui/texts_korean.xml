@@ -3,31 +3,31 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002234</GUID>
-      <Text>Forest Glass Recipe</Text>
+      <Text>산림 유리(발트글라스) 레시피</Text>
     </Text>
     <Text>
       <GUID>1999002235</GUID>
-      <Text>This glassmaker now produces high-quality forest glass according to a centuries-old traditional recipe.</Text>
+      <Text>이 유리 제조업체는 현재 수백년 된 전통 제조법에 따라 고품질 산림 유리를 생산하고 있습니다.</Text>
     </Text>
     <Text>
       <GUID>1999002236</GUID>
-      <Text>Forest Glass Hut</Text>
+      <Text>산림 유리 오두막</Text>
     </Text>
     <Text>
       <GUID>1999002237</GUID>
-      <Text>Forest glass huts are located in close proximity to Potash production in the forest, as the latter have an incredibly high demand for wood.</Text>
+      <Text>산림 유리 오두막은 산림의 칼륨(포타슘) 생산과 매우 가까운 곳에 위치합니다. 이는 칼륨(포타슘) 생산에 대한 나무 수요가 엄청나게 높기 때문입니다.</Text>
     </Text>
     <Text>
       <GUID>1999002240</GUID>
-      <Text>Forest Glass Hut</Text>
+      <Text>산림 유리 오두막</Text>
     </Text>
     <Text>
       <GUID>1999002255</GUID>
-      <Text>Forest Glass Hut</Text>
+      <Text>산림 유리 오두막</Text>
     </Text>
     <Text>
       <GUID>1999002256</GUID>
-      <Text>Forest Glass Hut</Text>
+      <Text>산림 유리 오두막</Text>
     </Text>
   </ModOp>
 
