@@ -82,6 +82,6 @@
       <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000123']/Text"
         Content="/TextExport/Texts/Text[GUID='22408']/Text/text()">
       </ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22403' or GUID='22408']/Text">&#xD;&#xA;&#xD;&#xA;Aktiviert Bienen im Überfluss, sofern in Enbesa errichtet..</ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22403' or GUID='22408']/Text">&#xD;&#xA;&#xD;&#xA;Aktiviert Bienen im Überfluss, sofern in Enbesa errichtet.</ModOp>
     </Group>
 </ModOps>
