@@ -1,94 +1,87 @@
 <ModOps>
-
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000111</GUID>
-      <Text>Muzeum</Text>
-    </Text>
-  </ModOp>	
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000112</GUID>
-      <Text>Zoo</Text>
-    </Text>
-  </ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000113</GUID>
-      <Text>Ogród botaniczny</Text>
-    </Text>
-  </ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000114</GUID>
-      <Text>Ogród Amazoński</Text>
-    </Text>
-  </ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000115</GUID>
-      <Text>Zapewnia żyzność hibiskusa, jeśli jest zbudowany w Enbesie.</Text>
-    </Text>
-  </ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000116</GUID>
-      <Text>Ogród Andyjski</Text>
-    </Text>
-  </ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000117</GUID>
-      <Text>Zapewnia żyzność tytoniu, jeśli jest zbudowany w Enbesie.</Text>
-    </Text>
-  </ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000118</GUID>
-      <Text>Zaczarowany Ogród</Text>
-    </Text>
-  </ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000119</GUID>
-      <Text>Zapewnia żyzność kawy, jeśli jest zbudowany w Enbesie.</Text>
-    </Text>
-  </ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000120</GUID>
-      <Text>Ogród Bliskowschodni</Text>
-    </Text>
-  </ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000121</GUID>
-      <Text>Zapewnia żyzność przyprawy, jeśli jest zbudowany w Enbesie.</Text>
-    </Text>
-  </ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000122</GUID>
-      <Text>Ogród Subalpejski</Text>
-    </Text>
-  </ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000123</GUID>
-      <Text>Zapewnia obfitość pszczół, jeśli jest zbudowany w Enbesa.</Text>
-    </Text>
-  </ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000124</GUID>
-      <Text>Inspiracja Płaskowyżu Enbesańskiego</Text>
-    </Text>
-  </ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000125</GUID>
-      <Text>Rzemieślnicza technika Chojnych Gałęzi</Text>
-    </Text>
-  </ModOp>
-
+  <!-- Amazonas Garden in Enbesa -->
+    <Group>
+      <ModOp Type="add" Path="/TextExport/Texts">
+        <Text>
+          <GUID>1999000115</GUID>
+          <Text></Text>
+        </Text>
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000115']/Text"
+        Content="/TextExport/Texts/Text[GUID='22404']/Text/text()">
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000115']/Text">&#xD;&#xA;&#xD;&#xA;</ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000115']/Text"
+        Content="/TextExport/Texts/Text[GUID='22409']/Text/text()">
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22404' or GUID='22409']/Text">&#xD;&#xA;&#xD;&#xA;Zapewnia żyzność hibiskusa, jeśli jest zbudowany w Enbesie.</ModOp>
+    </Group>
+  <!-- Anden Garden in Enbesa -->
+    <Group>
+      <ModOp Type="add" Path="/TextExport/Texts">
+        <Text>
+          <GUID>1999000117</GUID>
+          <Text></Text>
+        </Text>
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000117']/Text"
+        Content="/TextExport/Texts/Text[GUID='22405']/Text/text()">
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000117']/Text">&#xD;&#xA;&#xD;&#xA;</ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000117']/Text"
+        Content="/TextExport/Texts/Text[GUID='22410']/Text/text()">
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22405' or GUID='22410']/Text">&#xD;&#xA;&#xD;&#xA;Zapewnia żyzność tytoniu, jeśli jest zbudowany w Enbesie.</ModOp>
+    </Group>
+  <!-- Enchanted Garden in Enbesa -->
+    <Group>
+      <ModOp Type="add" Path="/TextExport/Texts">
+        <Text>
+          <GUID>1999000119</GUID>
+          <Text></Text>
+        </Text>
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000119']/Text"
+        Content="/TextExport/Texts/Text[GUID='22406']/Text/text()">
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000119']/Text">&#xD;&#xA;&#xD;&#xA;</ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000119']/Text"
+        Content="/TextExport/Texts/Text[GUID='22411']/Text/text()">
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22406' or GUID='22411']/Text">&#xD;&#xA;&#xD;&#xA;Zapewnia żyzność kawy, jeśli jest zbudowany w Enbesie.</ModOp>
+    </Group>
+  <!-- Near East Garden in Enbesa -->
+    <Group>
+      <ModOp Type="add" Path="/TextExport/Texts">
+        <Text>
+          <GUID>1999000121</GUID>
+          <Text></Text>
+        </Text>
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000121']/Text"
+        Content="/TextExport/Texts/Text[GUID='22407']/Text/text()">
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000121']/Text">&#xD;&#xA;&#xD;&#xA;</ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000121']/Text"
+        Content="/TextExport/Texts/Text[GUID='22412']/Text/text()">
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22407' or GUID='22412']/Text">&#xD;&#xA;&#xD;&#xA;Zapewnia żyzność przyprawy, jeśli jest zbudowany w Enbesie.</ModOp>
+    </Group>
+  <!-- Subalpine Garden in Enbesa -->
+    <Group>
+      <ModOp Type="add" Path="/TextExport/Texts">
+        <Text>
+          <GUID>1999000123</GUID>
+          <Text></Text>
+        </Text>
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000123']/Text"
+        Content="/TextExport/Texts/Text[GUID='22403']/Text/text()">
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000123']/Text">&#xD;&#xA;&#xD;&#xA;</ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000123']/Text"
+        Content="/TextExport/Texts/Text[GUID='22408']/Text/text()">
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22403' or GUID='22408']/Text">&#xD;&#xA;&#xD;&#xA;Zapewnia obfitość pszczół, jeśli jest zbudowany w Enbesa.</ModOp>
+    </Group>
 </ModOps>
