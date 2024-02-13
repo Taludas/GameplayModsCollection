@@ -1080,7 +1080,7 @@
 					<ItemEffect>
 						<EffectTargets>
 							<Item>
-								<GUID>1999000102</GUID>
+								<GUID>114450</GUID>
 							</Item>
 						</EffectTargets>
 					</ItemEffect>
@@ -1099,7 +1099,7 @@
 							<Value>25</Value>
 							<Percental>1</Percental>
 						</ProductivityUpgrade>
-						<AddedFertility>1010577</AddedFertility>
+						<AddedFertility>114345</AddedFertility>
 					</FactoryUpgrade>
 					<BuildingUpgrade />
 					<Buff>
@@ -1120,6 +1120,26 @@
 				</Values>
 			</Asset>
 		</ModOp>
+
+		<Group Condition="#Taludas_CoffeeTobaccoEnbesa">
+			<ModOp Type="merge" GUID="1999000116" Path="/Values">
+				<ItemEffect>
+					<EffectTargets>
+						<Item>
+							<GUID>1500301931</GUID>
+						</Item>
+					</EffectTargets>
+				</ItemEffect>
+				<FactoryUpgrade>
+					<AddedFertility>1010577</AddedFertility>
+				</FactoryUpgrade>
+			</ModOp>
+			<ModOp Type="add" GUID="1500301931" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs" Condition="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1999000102']">
+				<Item>
+					<GUID>1999000102</GUID>
+				</Item>
+			</ModOp>
+		</Group>
 
 		<ModOp Type="addNextSibling" GUID="22411">
 			<Asset>
@@ -1154,7 +1174,7 @@
 					<ItemEffect>
 						<EffectTargets>
 							<Item>
-								<GUID>1999000100</GUID>
+								<GUID>114451</GUID>
 							</Item>
 						</EffectTargets>
 					</ItemEffect>
@@ -1173,7 +1193,7 @@
 							<Value>25</Value>
 							<Percental>1</Percental>
 						</ProductivityUpgrade>
-						<AddedFertility>120039</AddedFertility>
+						<AddedFertility>114347</AddedFertility>
 					</FactoryUpgrade>
 					<BuildingUpgrade />
 					<Buff>
@@ -1194,6 +1214,26 @@
 				</Values>
 			</Asset>
 		</ModOp>
+
+		<Group Condition="#Taludas_CoffeeTobaccoEnbesa">
+			<ModOp Type="merge" GUID="1999000118" Path="/Values">
+				<ItemEffect>
+					<EffectTargets>
+						<Item>
+							<GUID>1500301933</GUID>
+						</Item>
+					</EffectTargets>
+				</ItemEffect>
+				<FactoryUpgrade>
+					<AddedFertility>120039</AddedFertility>
+				</FactoryUpgrade>
+			</ModOp>
+			<ModOp Type="add" GUID="1500301933" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs" Condition="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1999000102']">
+				<Item>
+					<GUID>1999000100</GUID>
+				</Item>
+			</ModOp>
+		</Group>
 
 		<ModOp Type="addNextSibling" GUID="22411">
 			<Asset>

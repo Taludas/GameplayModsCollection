@@ -31,7 +31,8 @@
       <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000117']/Text"
         Content="/TextExport/Texts/Text[GUID='22410']/Text/text()">
       </ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22405' or GUID='22410']/Text">&#xD;&#xA;&#xD;&#xA;Aktiviert Tabak-Fruchtbarkeit, sofern in Enbesa errichtet.</ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22405' or GUID='22410']/Text" Condition="#Taludas_CoffeeTobaccoEnbesa">&#xD;&#xA;&#xD;&#xA;Aktiviert Teff-Fruchtbarkeit, sofern in Enbesa errichtet.</ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22405' or GUID='22410']/Text" Condition="#Taludas_CoffeeTobaccoEnbesa">&#xD;&#xA;&#xD;&#xA;Aktiviert Tabak-Fruchtbarkeit, sofern in Enbesa errichtet.</ModOp>
     </Group>
   <!-- Enchanted Garden in Enbesa -->
     <Group>
@@ -48,7 +49,8 @@
       <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000119']/Text"
         Content="/TextExport/Texts/Text[GUID='22411']/Text/text()">
       </ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22406' or GUID='22411']/Text">&#xD;&#xA;&#xD;&#xA;Aktiviert Kaffee-Fruchtbarkeit, sofern in Enbesa errichtet.</ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22406' or GUID='22411']/Text" Condition="!#Taludas_CoffeeTobaccoEnbesa">&#xD;&#xA;&#xD;&#xA;Aktiviert Indigo-Fruchtbarkeit, sofern in Enbesa errichtet.</ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22406' or GUID='22411']/Text" Condition="#Taludas_CoffeeTobaccoEnbesa">&#xD;&#xA;&#xD;&#xA;Aktiviert Kaffee-Fruchtbarkeit, sofern in Enbesa errichtet.</ModOp>
     </Group>
   <!-- Near East Garden in Enbesa -->
     <Group>
