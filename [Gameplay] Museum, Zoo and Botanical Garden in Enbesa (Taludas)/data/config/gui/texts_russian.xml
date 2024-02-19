@@ -31,8 +31,8 @@
       <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000117']/Text"
         Content="/TextExport/Texts/Text[GUID='22410']/Text/text()">
       </ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22405' or GUID='22410']/Text" Condition="!#Taludas_CoffeeTobaccoEnbesa">&#xD;&#xA;&#xD;&#xA;Создаёт плодородие для тефа, при нахождении в Энбесе.</ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22405' or GUID='22410']/Text" Condition="#Taludas_CoffeeTobaccoEnbesa">&#xD;&#xA;&#xD;&#xA;Создаёт плодородие для табака, при нахождении в Энбесе.</ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22405' or GUID='22410']/Text" Condition="!#Taludas_CoffeeTobaccoEnbesa_modio">&#xD;&#xA;&#xD;&#xA;Создаёт плодородие для тефа, при нахождении в Энбесе.</ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22405' or GUID='22410']/Text" Condition="#Taludas_CoffeeTobaccoEnbesa_modio">&#xD;&#xA;&#xD;&#xA;Создаёт плодородие для табака, при нахождении в Энбесе.</ModOp>
     </Group>
   <!-- Enchanted Garden in Enbesa -->
     <Group>
@@ -49,8 +49,8 @@
       <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000119']/Text"
         Content="/TextExport/Texts/Text[GUID='22411']/Text/text()">
       </ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22406' or GUID='22411']/Text" Condition="!#Taludas_CoffeeTobaccoEnbesa">&#xD;&#xA;&#xD;&#xA;Создаёт плодородие для индигоферы, при нахождении в Энбесе.</ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22406' or GUID='22411']/Text" Condition="#Taludas_CoffeeTobaccoEnbesa">&#xD;&#xA;&#xD;&#xA;Создаёт плодородие для кофе, при нахождении в Энбесе.</ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22406' or GUID='22411']/Text" Condition="!#Taludas_CoffeeTobaccoEnbesa_modio">&#xD;&#xA;&#xD;&#xA;Создаёт плодородие для индигоферы, при нахождении в Энбесе.</ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22406' or GUID='22411']/Text" Condition="#Taludas_CoffeeTobaccoEnbesa_modio">&#xD;&#xA;&#xD;&#xA;Создаёт плодородие для кофе, при нахождении в Энбесе.</ModOp>
     </Group>
   <!-- Near East Garden in Enbesa -->
     <Group>

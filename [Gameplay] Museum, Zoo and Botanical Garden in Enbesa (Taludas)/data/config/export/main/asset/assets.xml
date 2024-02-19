@@ -1121,8 +1121,11 @@
 			</Asset>
 		</ModOp>
 
-		<Group Condition="#Taludas_CoffeeTobaccoEnbesa">
+		<Group Condition="#Taludas_CoffeeTobaccoEnbesa_modio">
 			<ModOp Type="merge" GUID="1999000116" Path="/Values">
+					<Standard>
+						<GUID>1500302096</GUID>
+					</Standard>
 				<ItemEffect>
 					<EffectTargets>
 						<Item>
@@ -1134,11 +1137,46 @@
 					<AddedFertility>1010577</AddedFertility>
 				</FactoryUpgrade>
 			</ModOp>
-			<ModOp Type="add" GUID="1500301931" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs" Condition="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1999000102']">
+			<ModOp Type="merge" GUID="193665" Path="/Values/ItemSocketSet/RegionSetBuff">
+				<Africa>
+					<SetBuff>1500302096</SetBuff>
+				</Africa>
+			</ModOp>
+			<ModOp Type="add" GUID="1500301931" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs" Condition="!/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1999000102']">
 				<Item>
 					<GUID>1999000102</GUID>
 				</Item>
 			</ModOp>
+		</Group>
+
+		<Group Condition="#Taludas_CoffeeTobaccoEnbesa">
+			<Group Condition="!#Taludas_CoffeeTobaccoEnbesa_modio">
+				<ModOp Type="merge" GUID="1999000116" Path="/Values">
+					<Standard>
+						<GUID>1500302096</GUID>
+					</Standard>
+					<ItemEffect>
+						<EffectTargets>
+							<Item>
+								<GUID>1500301931</GUID>
+							</Item>
+						</EffectTargets>
+					</ItemEffect>
+					<FactoryUpgrade>
+						<AddedFertility>1010577</AddedFertility>
+					</FactoryUpgrade>
+				</ModOp>
+				<ModOp Type="merge" GUID="193665" Path="/Values/ItemSocketSet/RegionSetBuff">
+					<Africa>
+						<SetBuff>1500302096</SetBuff>
+					</Africa>
+				</ModOp>
+				<ModOp Type="add" GUID="1500301931" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs" Condition="!/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1999000102']">
+					<Item>
+						<GUID>1999000102</GUID>
+					</Item>
+				</ModOp>
+			</Group>
 		</Group>
 
 		<ModOp Type="addNextSibling" GUID="22411">
@@ -1215,8 +1253,11 @@
 			</Asset>
 		</ModOp>
 
-		<Group Condition="#Taludas_CoffeeTobaccoEnbesa">
+		<Group Condition="#Taludas_CoffeeTobaccoEnbesa_modio">
 			<ModOp Type="merge" GUID="1999000118" Path="/Values">
+				<Standard>
+					<GUID>1500302097</GUID>
+				</Standard>
 				<ItemEffect>
 					<EffectTargets>
 						<Item>
@@ -1228,11 +1269,46 @@
 					<AddedFertility>120039</AddedFertility>
 				</FactoryUpgrade>
 			</ModOp>
-			<ModOp Type="add" GUID="1500301933" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs" Condition="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1999000102']">
+			<ModOp Type="merge" GUID="193672" Path="/Values/ItemSocketSet/RegionSetBuff">
+				<Africa>
+					<SetBuff>1500302097</SetBuff>
+				</Africa>
+			</ModOp>
+			<ModOp Type="add" GUID="1500301933" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs" Condition="!/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1999000102']">
 				<Item>
 					<GUID>1999000100</GUID>
 				</Item>
 			</ModOp>
+		</Group>
+
+		<Group Condition="#Taludas_CoffeeTobaccoEnbesa">
+			<Group Condition="!#Taludas_CoffeeTobaccoEnbesa_modio">
+				<ModOp Type="merge" GUID="1999000118" Path="/Values">
+					<Standard>
+						<GUID>1500302097</GUID>
+					</Standard>
+					<ItemEffect>
+						<EffectTargets>
+							<Item>
+								<GUID>1500301933</GUID>
+							</Item>
+						</EffectTargets>
+					</ItemEffect>
+					<FactoryUpgrade>
+						<AddedFertility>120039</AddedFertility>
+					</FactoryUpgrade>
+				</ModOp>
+				<ModOp Type="merge" GUID="193672" Path="/Values/ItemSocketSet/RegionSetBuff">
+					<Africa>
+						<SetBuff>1500302097</SetBuff>
+					</Africa>
+				</ModOp>
+				<ModOp Type="add" GUID="1500301933" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs" Condition="!/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1999000100']">
+					<Item>
+						<GUID>1999000100</GUID>
+					</Item>
+				</ModOp>
+			</Group>
 		</Group>
 
 		<ModOp Type="addNextSibling" GUID="22411">

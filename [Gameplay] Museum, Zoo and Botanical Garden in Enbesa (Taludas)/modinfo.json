@@ -6,11 +6,12 @@
   ],
   "LoadAfterIds": [
     "Fam_EnbesanFlora",
+    "shared-pools-and-definitions",
     "Spice_CulturalModuleLimits",
     "Spice_CulturalRadius",
     "Spice_BotanicalOrnaments",
     "Spice_WorldFairOrnaments",
-    "Taludas_CoffeeTobaccoEnbesa"
+    "Taludas_CoffeeTobaccoEnbesa_modio"
   ],
   "Category": {
     "Chinese": "Gameplay",

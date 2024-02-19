@@ -31,8 +31,8 @@
       <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000117']/Text"
         Content="/TextExport/Texts/Text[GUID='22410']/Text/text()">
       </ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22405' or GUID='22410']/Text" Condition="!#Taludas_CoffeeTobaccoEnbesa">&#xD;&#xA;&#xD;&#xA;Activates teff fertility if built in Enbesa.</ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22405' or GUID='22410']/Text" Condition="#Taludas_CoffeeTobaccoEnbesa">&#xD;&#xA;&#xD;&#xA;Activates tobacco fertility if built in Enbesa.</ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22405' or GUID='22410']/Text" Condition="!#Taludas_CoffeeTobaccoEnbesa_modio">&#xD;&#xA;&#xD;&#xA;Activates teff fertility if built in Enbesa.</ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22405' or GUID='22410']/Text" Condition="#Taludas_CoffeeTobaccoEnbesa_modio">&#xD;&#xA;&#xD;&#xA;Activates tobacco fertility if built in Enbesa.</ModOp>
     </Group>
   <!-- Enchanted Garden in Enbesa -->
     <Group>
@@ -49,8 +49,8 @@
       <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000119']/Text"
         Content="/TextExport/Texts/Text[GUID='22411']/Text/text()">
       </ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22406' or GUID='22411']/Text" Condition="!#Taludas_CoffeeTobaccoEnbesa">&#xD;&#xA;&#xD;&#xA;Activates indigo fertility if built in Enbesa.</ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22406' or GUID='22411']/Text" Condition="#Taludas_CoffeeTobaccoEnbesa">&#xD;&#xA;&#xD;&#xA;Activates coffee fertility if built in Enbesa.</ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22406' or GUID='22411']/Text" Condition="!#Taludas_CoffeeTobaccoEnbesa_modio">&#xD;&#xA;&#xD;&#xA;Activates indigo fertility if built in Enbesa.</ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22406' or GUID='22411']/Text" Condition="#Taludas_CoffeeTobaccoEnbesa_modio">&#xD;&#xA;&#xD;&#xA;Activates coffee fertility if built in Enbesa.</ModOp>
     </Group>
   <!-- Near East Garden in Enbesa -->
     <Group>
