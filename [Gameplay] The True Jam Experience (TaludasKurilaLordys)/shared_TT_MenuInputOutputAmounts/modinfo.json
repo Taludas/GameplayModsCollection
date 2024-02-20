@@ -1,0 +1,22 @@
+{
+  "Version": "1.00",
+  "ModID": "shared_TT_MenuInputOutputAmounts_Serp",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "LoadAfterIds": null,
+  "Category": {
+    "English": "Shared",
+    "German": "Shared"
+  },
+  "ModName": {
+    "English": "Tooltips: Menu Input/Output Amounts (Serp)",
+    "German": "Tooltips: Menü Eingang/Ausgang Mengen (Serp)"
+  },
+  "Description": {
+    "English": "Tooltips showing when hovering over factories in the build menu will dsiplay input and output amounts of the used goods. (in vanilla they are always 1, but mods can change these numbers)",
+    "German": "Tooltips die beim hovern über Fabriken im Baumenü angezeigt werden, zeigen Eingangs- und Ausgangsmengen der genutzten Waren. (in vanilla immer 1, aber Mods können ja beliebige Werte nutzen)"
+  },
+  "DLCDependencies": null,
+  "CreatorName": "Serp",
+  "CreatorContact": "https://github.com/Serpens66"
+}

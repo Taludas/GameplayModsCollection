@@ -1,6 +1,10 @@
 {
-  "Version": "1.1.1",
+  "Version": "1.5",
   "ModID": "shared_products_extended_kurila",
+  "LoadAfterIds": [
+    "[Gameplay] Orchard Rework",
+    "Cattle Needs to be butchered"
+  ],
   "Category": {
     "English": "Shared",
     "Chinese": "Shared",
@@ -27,19 +31,19 @@
     "Spanish": "Products Extended (Kurila)",
     "Taiwanese": "Products Extended (Kurila)"
   },
-  "CreatorName": "Kurila",
-  "CreatorContact": "https://discord.gg/YTQGDFK",
   "Description": {
-    "English": "# Shared Products\n\nPlease only add products that are of the same quality as the vanilla game, useful to many and really shared between mods.\n\nAlternatively, if you have different requirements for your products you can use this mod as a template and create another shared products mod.\n",
-    "Chinese": null,
-    "French": null,
-    "German": null,
-    "Italian": null,
-    "Japanese": null,
-    "Korean": null,
-    "Polish": null,
-    "Russian": null,
-    "Spanish": null,
-    "Taiwanese": null
-  }
+    "English": "file::README.md",
+    "German": "file::README.md",
+    "Chinese": "file::README.md",
+    "French": "file::README.md",
+    "Italian": "file::README.md",
+    "Japanese": "file::README.md",
+    "Korean": "file::README.md",
+    "Polish": "file::README.md",
+    "Russian": "file::README.md",
+    "Spanish": "file::README.md",
+    "Taiwanese": "file::README.md"
+  },
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK"
 }

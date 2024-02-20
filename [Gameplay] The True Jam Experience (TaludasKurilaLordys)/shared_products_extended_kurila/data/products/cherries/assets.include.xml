@@ -16,16 +16,11 @@
           <BasePrice>25</BasePrice>
           <CivLevel>1</CivLevel>
           <AssociatedRegion>Moderate</AssociatedRegion>
-          <ProductionRegions>
-            <Item>
-              <RegionType>Moderate</RegionType>
-              <RequiredDLCs>
-                <Item>
-                  <RequiredDLC>410084</RequiredDLC>
-                </Item>
-              </RequiredDLCs>
-            </Item>
-          </ProductionRegions>
+            <ProductionRegions>
+              <Item>
+                <RegionType>Moderate</RegionType>
+              </Item>
+            </ProductionRegions>
         </Product>
         <ExpeditionAttribute>
           <BaseMorale>0</BaseMorale>
@@ -130,15 +125,15 @@
                 <ModuleGUID>1010270</ModuleGUID>
               </Item>
             </ConstructionOptions>
-          </ModuleOwner>
+          </ModuleOwner>          
         </Values>
-      </Asset>
+      </Asset>    
     </ModOp>
 
     <ModOp Type="add" GUID="131764"
       Path="/Values/TradeContractFeature/Traders/Item[TraderName='131819']/TradeLevels/Item/Trades[Item/Good='1010194']">
       <Item>
-        <Level>Uncommon</Level>
+      	<Level>Uncommon</Level>
         <Good>1404420030</Good>
       </Item>
     </ModOp>

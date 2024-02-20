@@ -85,7 +85,7 @@
               <GUID>1999000005</GUID>
               <Name>Multifactory_Jam</Name>
               <IconFilename>data/ui/2kimages/main/3dicons/icon_jam.png</IconFilename>
-              <InfoDescription>1404420043</InfoDescription>
+              <InfoDescription>132783</InfoDescription>
             </Standard>
             <Building>
               <BuildingCategoryName>132773</BuildingCategoryName>
@@ -166,7 +166,7 @@
               <FactoryInputs>
                 <Item>
                   <Product>1404420030</Product>
-                  <Amount>1</Amount>
+                  <Amount>2</Amount>
                   <StorageAmount>10</StorageAmount>
                 </Item>
                 <Item>
@@ -183,11 +183,11 @@
               <FactoryOutputs>
                 <Item>
                   <Product>133183</Product>
-                  <Amount>1</Amount>
+                  <Amount>2</Amount>
                   <StorageAmount>10</StorageAmount>
                 </Item>
               </FactoryOutputs>
-              <CycleTime>60</CycleTime>
+              <CycleTime>120</CycleTime>
               <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
               <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
             </FactoryBase>
@@ -229,9 +229,7 @@
             <Attackable>
               <MaximumHitPoints>5000</MaximumHitPoints>
             </Attackable>
-            <UpgradeList>
-              <DefaultBuff>1404420023</DefaultBuff>
-            </UpgradeList>
+            <UpgradeList />
             <Pausable />
             <FeedbackController />
             <Infolayer />
@@ -669,52 +667,6 @@
           </Values>
         </Asset>
       </ModOp>
-      <ModOp Type="addNextSibling" GUID="100451" Condition="!@1404420042">
-        <Asset>
-          <Template>GuildhouseBuff</Template>
-          <Values>
-            <Standard>
-              <GUID>1404420023</GUID>
-              <Name>Sugar_Glass_Reducing_Buff</Name>
-            </Standard>
-            <ItemEffect>
-              <EffectTargets>
-                <Item>
-                  <GUID>1999000005</GUID>
-                </Item>
-              </EffectTargets>
-            </ItemEffect>
-            <FactoryUpgrade>
-              <AdditionalOutput>
-                <Item>
-                  <Product>1010239</Product>
-                  <AdditionalOutputCycle>2</AdditionalOutputCycle>
-                  <Amount>1</Amount>
-                </Item>
-                <Item>
-                  <Product>1010241</Product>
-                  <AdditionalOutputCycle>2</AdditionalOutputCycle>
-                  <Amount>1</Amount>
-                </Item>
-              </AdditionalOutput>
-            </FactoryUpgrade>
-            <BuildingUpgrade />
-            <Buff />
-            <CultureUpgrade>
-              <HideBuff>1</HideBuff>
-            </CultureUpgrade>
-            <ModuleOwnerUpgrade />
-            <IncidentInfectableUpgrade />
-            <PowerplantUpgrade />
-            <IndustrializableUpgrade />
-            <ItemContainerUpgrade />
-            <IncidentInfluencerUpgrade />
-            <IrrigationUpgrade />
-            <EcoSystemProviderUpgrade />
-            <ResourceUpgrade />
-          </Values>
-        </Asset>
-      </ModOp>
     </Group>
     <!-- Adding to Pools / Buffs -->
     <Group>
@@ -741,30 +693,6 @@
         <Item>
           <ItemLink>1999000011</ItemLink>
         </Item>
-      </ModOp>
-      <!-- Reducing Buff -->
-      <ModOp Type="merge" GUID="1404420023" Path="/Values" Condition="@1404420023">
-        <ItemEffect>
-          <EffectTargets>
-            <Item>
-              <GUID>1999000005</GUID>
-            </Item>
-          </EffectTargets>
-        </ItemEffect>
-        <FactoryUpgrade>
-          <AdditionalOutput>
-            <Item>
-              <Product>1010239</Product>
-              <AdditionalOutputCycle>2</AdditionalOutputCycle>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Product>1010241</Product>
-              <AdditionalOutputCycle>2</AdditionalOutputCycle>
-              <Amount>1</Amount>
-            </Item>
-          </AdditionalOutput>
-        </FactoryUpgrade>
       </ModOp>
     </Group>
     <!-- Adding Production Chain to Building Menu -->

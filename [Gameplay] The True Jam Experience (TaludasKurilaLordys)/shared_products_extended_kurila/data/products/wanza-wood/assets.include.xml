@@ -15,7 +15,7 @@
           </Locked>
           <Product>
             <StorageLevel>Building</StorageLevel>
-            <ProductCategory>11707</ProductCategory>
+            <ProductCategory>11702</ProductCategory>
             <BasePrice>3</BasePrice>
             <CivLevel>1</CivLevel>
             <AssociatedRegion>Africa</AssociatedRegion>
@@ -49,15 +49,22 @@
   </Group>
   <!-- # Lists -->
   <Group>
-    <ModOp Type="add" GUID="120055"
+    <ModOp Type="addPrevSibling" GUID="120055,122362"
       Condition="!/Values/ProductStorageList/ProductList/Item[Product='1500301150']"
-      Path="/Values/ProductStorageList/ProductList">
+      Path="/Values/ProductStorageList/ProductList/Item[Product='114356']">
       <Item>
         <Product>1500301150</Product>
       </Item>
     </ModOp>
 
-    <ModOp Type="addNextSibling" GUID="502069,502071,502075"
+    <ModOp Type="addPrevSibling" GUID="502069,502071"
+      Condition="!/Values/ProductList/List/Item[Product='1500301150']"
+      Path="/Values/ProductList/List/Item[Product='114356']">
+      <Item>
+        <Product>1500301150</Product>
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="502075"
       Condition="!/Values/ProductList/List/Item[Product='1500301150']"
       Path="/Values/ProductList/List">
       <Item>

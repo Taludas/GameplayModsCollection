@@ -22,7 +22,7 @@
             </Item>
             <Item>
               <RegionType>Colony01</RegionType>
-            </Item>                
+            </Item>
           </ProductionRegions>
         </Product>
         <ExpeditionAttribute>
@@ -96,7 +96,7 @@
                 <Product>1010197</Product>
                 <Amount>1</Amount>
                 <StorageAmount>5</StorageAmount>
-              </Item>								
+              </Item>
             </FactoryInputs>
             <FactoryOutputs>
               <Item>
@@ -105,7 +105,7 @@
                 <StorageAmount>5</StorageAmount>
               </Item>
             </FactoryOutputs>
-            <CycleTime>30</CycleTime>				  
+            <CycleTime>30</CycleTime>
             <IsMainFactory>1</IsMainFactory>
           </FactoryBase>
           <Maintenance>
@@ -117,7 +117,7 @@
             </Maintenances>
           </Maintenance>
         </Values>
-      </Asset>   
+      </Asset>
     </ModOp>
 
     <ModOp Type="add" GUID="131764"

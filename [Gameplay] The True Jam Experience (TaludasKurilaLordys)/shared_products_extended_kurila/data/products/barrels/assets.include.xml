@@ -22,7 +22,7 @@
             </Item>
             <Item>
               <RegionType>Colony01</RegionType>
-            </Item>                
+            </Item>
           </ProductionRegions>
         </Product>
         <ExpeditionAttribute>
@@ -35,7 +35,7 @@
           </ExpeditionAttributes>
         </ExpeditionAttribute>
       </Values>
-    </Asset>     
+    </Asset>
   </ModOp>
 
   <!-- # Lists: After Glass / Felt -->
@@ -55,14 +55,14 @@
         <Product>1500300000</Product>
       </Item>
     </ModOp>
-    
+
     <ModOp Type="addNextSibling" GUID="502008,502044"
       Condition="!~/Values/ProductList/List/Item[Product='1500300000']"
       Path="/Values/ProductList/List/Item[Product='120044']">
       <Item>
         <Product>1500300000</Product>
       </Item>
-    </ModOp>    
+    </ModOp>
   </Group>
 
   <!-- # Docklands: Kitea -->
@@ -121,7 +121,7 @@
             </Maintenances>
           </Maintenance>
         </Values>
-      </Asset>  
+      </Asset>
     </ModOp>
     <ModOp Type="add" GUID="131764"
       Path="/Values/TradeContractFeature/Traders/Item[TraderName='131811']/TradeLevels/Item/Trades[Item/Good='1010242']/Item[1]">
