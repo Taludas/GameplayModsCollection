@@ -1549,74 +1549,56 @@
 	</Group>
 
 	<!-- #FAMS ENBESAN FLORA INTEGRATION -->
-	<Group Condition="@1660011001">
+	<Group Condition="#Fam_EnbesanFlora">
 		<!-- Second Page at Botanical Garden -->
 		<ModOp Type="replace" GUID="110935,114141,1999000113" Path="/Values/Culture/Sets">
-			<Sets>
-				<Item>
-					<Set>193665</Set>
-				</Item>
-				<Item>
-					<Set>193653</Set>
-				</Item>
-				<Item>
-					<Set>193662</Set>
-				</Item>
-				<Item>
-					<Set>193655</Set>
-				</Item>
-				<Item />
-				<Item>
-					<Set>193660</Set>
-				</Item>
-				<Item>
-					<Set>193657</Set>
-				</Item>
-				<Item>
-					<Set>193658</Set>
-				</Item>
-				<Item>
-					<Set>193670</Set>
-				</Item>
-				<Item>
-					<Set>193672</Set>
-				</Item>
-				<Item />
-				<Item />
-			</Sets>
+		<Sets>
+			<Item>
+			<Set>193665</Set>
+			</Item>
+			<Item>
+			<Set>193653</Set>
+			</Item>
+			<Item>
+			<Set>193662</Set>
+			</Item>
+			<Item>
+			<Set>193655</Set>
+			</Item>
+			<Item />
+			<Item>
+			<Set>193660</Set>
+			</Item>
+			<Item>
+			<Set>193657</Set>
+			</Item>
+			<Item>
+			<Set>193658</Set>
+			</Item>
+			<Item>
+			<Set>193670</Set>
+			</Item>
+			<Item>
+			<Set>193672</Set>
+			</Item>
+			<Item />
+			<Item />
+		</Sets>
 		</ModOp>
 
-		<ModOp Type="add" GUID="110935,114141,1999000113"
-			Path='//Values/Culture/Sets[count(Item)=12]'>
-			<Item>
-				<Set>65488</Set>
-			</Item>
-			<Item>
-				<Set>65488</Set>
-			</Item>
-			<Item>
-				<Set>65488</Set>
-			</Item>
-			<Item>
-				<Set>65488</Set>
-			</Item>
-		</ModOp>
-
-		<ModOp Type="replace" GUID="110935,114141,1999000113"
-			Path='//Values/Culture/Sets/Item[Set/text()="65488"][1]/Set'>
+		<ModOp Type="add" GUID="110935,114141,1999000113" Path='//Values/Culture/Sets'>
+		<Item>
 			<Set>1660011001</Set>
-		</ModOp>
-		<ModOp Type="replace" GUID="110935,114141,1999000113"
-			Path='//Values/Culture/Sets/Item[Set/text()="65488"][1]/Set'>
+		</Item>
+		<Item>
 			<Set>1660011101</Set>
-		</ModOp>
-		<ModOp Type="replace" GUID="110935,114141,1999000113"
-			Path='//Values/Culture/Sets/Item[Set/text()="65488"][1]/Set'>
+		</Item>
+		<Item>
 			<Set>1660011201</Set>
-		</ModOp>
-		<ModOp Type="replace" GUID="110935,114141,1999000113"
-			Path='//Values/Culture/Sets/Item[Set/text()="65488"][1]/Set'>
+		</Item>
+		<Item>
 			<Set>1660011301</Set>
+		</Item>
 		</ModOp>
 
 		<!-- Split Buff Enbesa Plateau into sessions -->
