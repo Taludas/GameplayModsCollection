@@ -158,7 +158,7 @@
 	</ModOp>
 
 	<ModOp Type="replace" GUID="110935,114141"
-		Path="/Values/Culture/Sets/Item[Set/text()='65488'][1]/Set">
+		Path="/Values/Culture/Sets/Item[Set/text()='65488'][1]/Set" Condition="!/Values/Culture/Sets/Item[Set='1999000151']">
 		<Set>1999000151</Set>
 	</ModOp>
 
