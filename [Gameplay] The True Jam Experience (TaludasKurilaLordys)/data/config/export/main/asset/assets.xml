@@ -1025,6 +1025,19 @@
       </Standard>
     </ModOp>
   </Group>
+  <!-- Old World Sugar by Lion -->
+  <Group Condition="#ow-chocolate-production-lion053">
+    <ModOp Type="replace" GUID="1999000009" Path="/Values/ProductionChain/Tier1/Item[Building='1010317']">
+      <Item>
+        <Building>2100118206</Building>
+        <Tier2>
+          <Item>
+            <Building>2100118219</Building>
+          </Item>
+        </Tier2>
+      </Item>
+    </ModOp>
+  </Group>
   <!-- Adjust Shared Products  -->
   <Group>
     <ModOp Type="merge" GUID="1404420030" Path="/Values/Standard" Condition="//Values[Standard/GUID='1404420030']">
