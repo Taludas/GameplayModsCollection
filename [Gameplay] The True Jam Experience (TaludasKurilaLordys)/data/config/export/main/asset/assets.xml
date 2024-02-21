@@ -667,6 +667,97 @@
           </Values>
         </Asset>
       </ModOp>
+      <Group Condition="@1404420052">
+        <ModOp Type="merge" GUID="1404420052" Path="/Values" >
+          <Values>
+            <Standard>
+              <Name>Marlene, Mother of Marmelade</Name>
+              <IconFilename>data/modgraphics/icons/icon_marlene_mother_of_marmelade.png</IconFilename>
+              <InfoDescription>1999000012</InfoDescription>
+            </Standard>
+            <Text>
+              <LocaText>
+                <English>
+                  <Text>Item Template</Text>
+                  <Status>Exported</Status>
+                </English>
+              </LocaText>
+              <LineID>26667</LineID>
+            </Text>
+            <Locked />
+            <Buff />
+            <Item>
+              <MaxStackSize>1</MaxStackSize>
+              <Rarity>Epic</Rarity>
+              <ItemType>Specialist</ItemType>
+              <Allocation />
+              <TradePrice>178200</TradePrice>
+              <TradePriceOnlineCurrency>78200</TradePriceOnlineCurrency>
+            </Item>
+            <FactoryUpgrade>
+              <ProductivityUpgrade>
+                <Value>50</Value>
+                <Percental>1</Percental>
+              </ProductivityUpgrade>
+              <AdditionalOutput>
+                <Item>
+                  <Product>1010241</Product>
+                  <AdditionalOutputCycle>5</AdditionalOutputCycle>
+                  <Amount>1</Amount>
+                </Item>
+              </AdditionalOutput>
+            </FactoryUpgrade>
+            <ItemEffect>
+              <EffectTargets>
+                <Item>
+                  <GUID>1999000005</GUID>
+                </Item>
+              </EffectTargets>
+            </ItemEffect>
+            <ExpeditionAttribute>
+              <BaseMorale>0</BaseMorale>
+              <ExpeditionAttributes>
+                <Item>
+                  <Attribute>PerkFemale</Attribute>
+                  <Amount>1</Amount>
+                </Item>
+                <Item>
+                  <Attribute>Crafting</Attribute>
+                  <Amount>20</Amount>
+                </Item>
+              </ExpeditionAttributes>
+              <ItemDifficulties>Hard</ItemDifficulties>
+              <FluffText>1999000012</FluffText>
+            </ExpeditionAttribute>
+            <ResidenceUpgrade />
+            <PopulationUpgrade />
+            <IndustrializableUpgrade />
+            <HeaterUpgrade />
+            <PowerplantUpgrade />
+            <IrrigationUpgrade />
+            <VehicleUpgrade />
+            <TradeShipUpgrade />
+            <AttackerUpgrade />
+            <AttackableUpgrade />
+            <ModuleOwnerUpgrade />
+            <BuildingUpgrade>
+              <MaintenanceUpgrade>
+                <Value>15</Value>
+                <Percental>1</Percental>
+              </MaintenanceUpgrade>
+              <WorkforceAmountUpgrade>
+                <Value>15</Value>
+                <Percental>1</Percental>
+              </WorkforceAmountUpgrade>
+            </BuildingUpgrade>
+            <CultureUpgrade />
+            <CraftableItem />
+            <IncidentInfluencerUpgrade />
+            <IncidentInfectableUpgrade />
+          </Values>
+        </ModOp>
+        <ModOp Type="remove" GUID="192838,192731,193091" Path="/Values/RewardPool/ItemsPool/Item[ItemLink='1404420052']"></ModOp>
+      </Group>
     </Group>
     <!-- Adding to Pools / Buffs -->
     <Group>
