@@ -150,7 +150,7 @@
 
 
 	<!-- add my new Set to the Botanical Gardens -->
-	<ModOp Type="add" GUID="110935,114141" Condition="!@1660011001" Path="/Values/Culture/Sets">
+	<ModOp Type="add" GUID="110935,114141" Condition="!/Values/Culture/Sets/Item[Set='65488']" Path="/Values/Culture/Sets">
 		<Item />
 		<Item>
 			<Set>65488</Set>
