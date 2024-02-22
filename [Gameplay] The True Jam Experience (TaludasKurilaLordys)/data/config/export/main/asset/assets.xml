@@ -1026,7 +1026,7 @@
     </ModOp>
   </Group>
   <!-- Old World Sugar by Lion -->
-  <Group Condition="#ow-chocolate-production-lion053">
+  <Group Condition="#lion053-ow-chocolate-production">
     <ModOp Type="replace" GUID="1999000009" Path="/Values/ProductionChain/Tier1/Item[Building='1010317']">
       <Item>
         <Building>2100118206</Building>
