@@ -22,8 +22,8 @@
             </Item>
             <Item>
               <RegionType>Colony01</RegionType>
-            </Item>                
-          </ProductionRegions>          
+            </Item>
+          </ProductionRegions>
         </Product>
         <ExpeditionAttribute>
           <BaseMorale>0</BaseMorale>
@@ -35,7 +35,7 @@
           </ExpeditionAttributes>
         </ExpeditionAttribute>
       </Values>
-    </Asset>   
+    </Asset>
   </ModOp>
 
   <!-- # Lists: Bevor Beef -->
@@ -62,7 +62,7 @@
       <Item>
         <Product>1404422300</Product>
       </Item>
-    </ModOp>    
+    </ModOp>
   </Group>
 
   <!-- # Expedition -->
@@ -128,9 +128,9 @@
                 <ModuleGUID>1010271</ModuleGUID>
               </Item>
             </ConstructionOptions>
-          </ModuleOwner>          
+          </ModuleOwner>
         </Values>
-      </Asset>    
+      </Asset>
     </ModOp>
 
     <ModOp Type="addPrevSibling" GUID="131764"
@@ -142,7 +142,7 @@
 
     <ModOp Type="addPrevSibling" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131819']/TradeLevels/Item/Trades/Item[Good='1010193']/Good">
       <Level>Uncommon</Level>
-    </ModOp> 
+    </ModOp>
 
     <ModOp Type="add" GUID="502233" Path="/Values/ProductList/List">
       <Item>

@@ -39,11 +39,11 @@
             <FluffText>12815</FluffText>
           </ExpeditionAttribute>
         </Values>
-      </Asset>  
+      </Asset>
     </ModOp>
       <ModOp Type="replace" GUID='135087,135088,135090' Path="/Values/Standard/IconFilename">
         <IconFilename>data/products/cherry-timber/icon_cherry_wood_2.png</IconFilename>
-      </ModOp> 
+      </ModOp>
   </Group>
   <!-- # Lists -->
   <Group>
@@ -68,7 +68,7 @@
       <Item>
         <Product>1500301151</Product>
       </Item>
-    </ModOp>    
+    </ModOp>
   </Group>
   <!-- # Docklands: Kitea -->
   <Group Condition="!//TradeLevels/Item/Trades[Item/Good='1500301151']">
@@ -100,8 +100,8 @@
                 <Product>135087</Product>
                 <Amount>1</Amount>
                 <StorageAmount>4</StorageAmount>
-              </Item>								
-            </FactoryInputs>          
+              </Item>
+            </FactoryInputs>
             <FactoryOutputs>
               <Item>
                 <Product>1500301151</Product>
@@ -121,7 +121,7 @@
             </Maintenances>
           </Maintenance>
         </Values>
-      </Asset>  
+      </Asset>
     </ModOp>
     <ModOp Type="addNextSibling" GUID="131764"
       Path="/Values/TradeContractFeature/Traders/Item[TraderName='131811']/TradeLevels/Item/Trades/Item[Good='1010242']">

@@ -85,7 +85,7 @@
               <GUID>1999000005</GUID>
               <Name>Multifactory_Jam</Name>
               <IconFilename>data/ui/2kimages/main/3dicons/icon_jam.png</IconFilename>
-              <InfoDescription>1404420043</InfoDescription>
+              <InfoDescription>132783</InfoDescription>
             </Standard>
             <Building>
               <BuildingCategoryName>132773</BuildingCategoryName>
@@ -166,7 +166,7 @@
               <FactoryInputs>
                 <Item>
                   <Product>1404420030</Product>
-                  <Amount>1</Amount>
+                  <Amount>2</Amount>
                   <StorageAmount>10</StorageAmount>
                 </Item>
                 <Item>
@@ -183,11 +183,11 @@
               <FactoryOutputs>
                 <Item>
                   <Product>133183</Product>
-                  <Amount>1</Amount>
+                  <Amount>2</Amount>
                   <StorageAmount>10</StorageAmount>
                 </Item>
               </FactoryOutputs>
-              <CycleTime>60</CycleTime>
+              <CycleTime>120</CycleTime>
               <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
               <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
             </FactoryBase>
@@ -229,9 +229,7 @@
             <Attackable>
               <MaximumHitPoints>5000</MaximumHitPoints>
             </Attackable>
-            <UpgradeList>
-              <DefaultBuff>1404420023</DefaultBuff>
-            </UpgradeList>
+            <UpgradeList />
             <Pausable />
             <FeedbackController />
             <Infolayer />
@@ -669,52 +667,6 @@
           </Values>
         </Asset>
       </ModOp>
-      <ModOp Type="addNextSibling" GUID="100451" Condition="!@1404420042">
-        <Asset>
-          <Template>GuildhouseBuff</Template>
-          <Values>
-            <Standard>
-              <GUID>1404420023</GUID>
-              <Name>Sugar_Glass_Reducing_Buff</Name>
-            </Standard>
-            <ItemEffect>
-              <EffectTargets>
-                <Item>
-                  <GUID>1999000005</GUID>
-                </Item>
-              </EffectTargets>
-            </ItemEffect>
-            <FactoryUpgrade>
-              <AdditionalOutput>
-                <Item>
-                  <Product>1010239</Product>
-                  <AdditionalOutputCycle>2</AdditionalOutputCycle>
-                  <Amount>1</Amount>
-                </Item>
-                <Item>
-                  <Product>1010241</Product>
-                  <AdditionalOutputCycle>2</AdditionalOutputCycle>
-                  <Amount>1</Amount>
-                </Item>
-              </AdditionalOutput>
-            </FactoryUpgrade>
-            <BuildingUpgrade />
-            <Buff />
-            <CultureUpgrade>
-              <HideBuff>1</HideBuff>
-            </CultureUpgrade>
-            <ModuleOwnerUpgrade />
-            <IncidentInfectableUpgrade />
-            <PowerplantUpgrade />
-            <IndustrializableUpgrade />
-            <ItemContainerUpgrade />
-            <IncidentInfluencerUpgrade />
-            <IrrigationUpgrade />
-            <EcoSystemProviderUpgrade />
-            <ResourceUpgrade />
-          </Values>
-        </Asset>
-      </ModOp>
     </Group>
     <!-- Adding to Pools / Buffs -->
     <Group>
@@ -741,30 +693,6 @@
         <Item>
           <ItemLink>1999000011</ItemLink>
         </Item>
-      </ModOp>
-      <!-- Reducing Buff -->
-      <ModOp Type="merge" GUID="1404420023" Path="/Values" Condition="@1404420023">
-        <ItemEffect>
-          <EffectTargets>
-            <Item>
-              <GUID>1999000005</GUID>
-            </Item>
-          </EffectTargets>
-        </ItemEffect>
-        <FactoryUpgrade>
-          <AdditionalOutput>
-            <Item>
-              <Product>1010239</Product>
-              <AdditionalOutputCycle>2</AdditionalOutputCycle>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Product>1010241</Product>
-              <AdditionalOutputCycle>2</AdditionalOutputCycle>
-              <Amount>1</Amount>
-            </Item>
-          </AdditionalOutput>
-        </FactoryUpgrade>
       </ModOp>
     </Group>
     <!-- Adding Production Chain to Building Menu -->
@@ -871,8 +799,8 @@
       </ModOp>
     </Group>
   </Group>
-  <!-- #Exchange Jam Munaftory from Orchard Rework -->
-  <Group Condition="@1404420042">
+  <!-- #Orchards Reworked by Lordys/Kurila  -->
+  <Group Condition="#OrchardRework">
     <ModOp Type="addNextSibling" GUID="100451">
       <Asset>
         <Template>Trigger</Template>
@@ -930,6 +858,184 @@
       <Values>
         <RecipeBuilding />
       </Values>
+    </ModOp>
+    <ModOp Type="merge" GUID="1404420052" Path="/Values" >
+      <Values>
+        <Standard>
+          <Name>Marlene, Mother of Marmelade</Name>
+          <IconFilename>data/modgraphics/icons/icon_marlene_mother_of_marmelade.png</IconFilename>
+          <InfoDescription>1999000012</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Item Template</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>26667</LineID>
+        </Text>
+        <Locked />
+        <Buff />
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Epic</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation />
+          <TradePrice>178200</TradePrice>
+          <TradePriceOnlineCurrency>78200</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>1010241</Product>
+              <AdditionalOutputCycle>5</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1999000005</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkFemale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>20</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1999000012</FluffText>
+        </ExpeditionAttribute>
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+        <VehicleUpgrade />
+        <TradeShipUpgrade />
+        <AttackerUpgrade />
+        <AttackableUpgrade />
+        <ModuleOwnerUpgrade />
+        <BuildingUpgrade>
+          <MaintenanceUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </MaintenanceUpgrade>
+          <WorkforceAmountUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+        <CultureUpgrade />
+        <CraftableItem />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+      </Values>
+    </ModOp>
+    <ModOp Type="remove" GUID="192838,192731,193091" Path="/Values/RewardPool/ItemsPool/Item[ItemLink='1404420052']"></ModOp>
+  </Group>
+  <!-- #New World Jam by Jakob -->
+  <Group Condition="#jakob_new_world_cities">
+    <ModOp Type="merge" GUID="1500011235" Path="/Values">
+      <Standard>
+        <IconFilename>data/modgraphics/icons/icon_jam_2.png</IconFilename>
+      </Standard>
+      <FactoryBase>
+        <FactoryInputs>
+          <Item>
+            <Product>133097</Product>
+            <Amount>2</Amount>
+            <StorageAmount>10</StorageAmount>
+          </Item>
+          <Item>
+            <Product>1010239</Product>
+            <Amount>1</Amount>
+            <StorageAmount>5</StorageAmount>
+          </Item>
+          <Item>
+            <Product>1010241</Product>
+            <Amount>1</Amount>
+            <StorageAmount>5</StorageAmount>
+          </Item>
+        </FactoryInputs>
+        <FactoryOutputs>
+          <Item>
+            <Product>133183</Product>
+            <Amount>2</Amount>
+            <StorageAmount>10</StorageAmount>
+          </Item>
+        </FactoryOutputs>
+        <CycleTime>120</CycleTime>
+        <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+        <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+      </FactoryBase>
+    </ModOp>
+    <ModOp Type="merge" GUID="1500010707,1500010708" Path="/Values">
+      <FactoryBase>
+        <CycleTime>30</CycleTime>
+      </FactoryBase>
+    </ModOp>
+    <ModOp Type="merge" GUID="1500011236" Path="/Values">
+      <Standard>
+        <IconFilename>data/modgraphics/icons/icon_jam_2.png</IconFilename>
+      </Standard>
+      <ProductionChain>
+        <Building>1500011235</Building>
+        <Tier1>
+          <Item>
+            <Building>133031</Building>
+          </Item>
+          <Item>
+            <Building>1010317</Building>
+            <Tier2>
+              <Item>
+                <Building>1010329</Building>
+              </Item>
+            </Tier2>
+          </Item>
+          <Item>
+            <Building>1500010707</Building>
+            <Tier2>
+              <Item>
+                <Building>1500010708</Building>
+              </Item>
+            </Tier2>
+          </Item>
+        </Tier1>
+      </ProductionChain>
+    </ModOp>
+    <ModOp Type="merge" GUID="133183" Path="/Values">
+      <Standard>
+        <IconFilename>data/modgraphics/icons/icon_jam_combi.png</IconFilename>
+      </Standard>
+    </ModOp>
+  </Group>
+  <!-- Old World Sugar by Lion -->
+  <Group Condition="#lion053-ow-chocolate-production">
+    <ModOp Type="replace" GUID="1999000009" Path="/Values/ProductionChain/Tier1/Item[Building='1010317']">
+      <Item>
+        <Building>2100118206</Building>
+        <Tier2>
+          <Item>
+            <Building>2100118219</Building>
+          </Item>
+        </Tier2>
+      </Item>
     </ModOp>
   </Group>
   <!-- Adjust Shared Products  -->

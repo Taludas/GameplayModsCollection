@@ -1,10 +1,10 @@
 {
-  "Version": "1.0.4",
+  "Version": "1.0.5",
   "ModID": "TaludasKurilaLordys_TrueJamExperience",
   "DeprecateIds": [],
   "ModDependencies": [
     "shared_products_extended_kurila",
-    "shared_info_description_parts_kurila"
+    "shared_TT_MenuInputOutputAmounts_Serp"
   ],
   "LoadAfterIds": [
     "OrchardRework",
