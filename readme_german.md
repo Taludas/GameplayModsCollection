@@ -1,7 +1,7 @@
 # GameplayModsCollection
- 
+
 Dies ist eine Sammlung meiner eigenständigen Gameplay-Mods für Anno 1800, die neue Features ins Spiel bringen oder bestehende modifizieren.
- 
+
 Wenn euch diese Mod gefällt und ihr mich unterstützen wollt, könnt ihr sie gerne mit euren Freunden teilen. Ihr könnt mir auch einen Kaffee bei Ko-Fi kaufen (ja, ich möchte meinen Kaffeekonsum auf die Höhe der Investoren bringen!)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W8L558T)
@@ -19,6 +19,30 @@ Wenn euch diese Mod gefällt und ihr mich unterstützen wollt, könnt ihr sie ge
 Hier findet ihr eine Galerie mit Bildern von meinen Mods [here](docs/).
 
 ## Changelog
+<details>
+    <summary>Patch Notes Version 1.6.0</summary>
+
+* Updates:
+  * Alle Updates wurden von @Qurila vorgeschlagen und programmiert. Vielen Dank für deine Arbeit, diese Mods auf dem neuesten Stand zu halten!
+
+  * [Museum, Zoo und Botanischer Garten in Enbesa]:
+    * Zoo, Museum und Botanischer Garten in Enbesa sind jetzt im "Kultur" Baumenü zu finden!
+    * Reduzierter Bedarf an neuen GUIDs durch Verwendung von TextOverride wo anwendbar.
+    * Fluff-Texte für Buffs zeigen nun immer beide möglichen Effekte in den beiden anderen Regionen an.
+    * Verbesserte Kompatibilität mit "Alkaloid Collection" und "Fam's Enbesan Flora".
+    * Kaffee- und Tabakfruchtbarkeiten werden nur dann als Buff verwendet, wenn mein "Kaffee und Tabak in Enbesa"-Mod aktiv ist, ansonsten sind es Teff und Indigo.
+
+  * [Alkaloid Collection]:
+    * Verbesserte Kompatibilität mit "Museum, Zoo und Botanischer Garten in Enbesa" und "Fam's Enbesan Flora"
+
+  * [True Jam Experience]:
+    * Gemeinsame Produkte Mod auf die neueste Version aktualisiert.
+    * Gemeinsame Infotipps zur Produktionsmenge von Serp hinzugefügt.
+    * Gemeinsame Infotipps entfernt von Kurila.
+    * Anpassung des Verbrauchs und der Produktion der Marmeladenfabrik an die neuen Möglichkeiten von Serps Mod.
+    * Verbesserte Kompatibilität mit Jakobs New World Cities Marmeladenproduktion und Lion's OW Schokoladenproduktion.
+</details>
+
 <details>
     <summary>Patch Notes Version 1.5.0</summary>
 
@@ -282,11 +306,11 @@ P.S.: Bitte bringt keine anderen Tiere mit in die Arktis, sie werden einen schre
 <Details>
     <summary>Buff-Spoiler</summary>
 
-* Arktische Tundra: 
-    - Arktis-Buff: Reduziert die Baukosten und die Bauzeit aller Luftschiffe um -50%. 
+* Arktische Tundra:
+    - Arktis-Buff: Reduziert die Baukosten und die Bauzeit aller Luftschiffe um -50%.
     - OW/NW/Enbesa Buff: +15% Produktivität und zusätzlicher Output Parkas 1/15 für Weberei, Pelmantel-Fabrik, Ponchoweberei, Hutmacher, Schneiderei, Schuster und Stickerei
-* Polarkreis: 
-- Arktischer Buff: Baue Nates Luftfrachtschiff: Angepasstes Modell, 6 Slots zu je 50t, 3 Itemsockel, etwas langsamer als ein normales Luftschiff und etwas voluminöser. 
+* Polarkreis:
+- Arktischer Buff: Baue Nates Luftfrachtschiff: Angepasstes Modell, 6 Slots zu je 50t, 3 Itemsockel, etwas langsamer als ein normales Luftschiff und etwas voluminöser.
     - OW/NW-Buff: Ölraffinerien: Zusätzlicher Output 1/50 Arktisgas.
 </details>
 
@@ -295,16 +319,16 @@ P.S.: Bitte bringt keine anderen Tiere mit in die Arktis, sie werden einen schre
 ![banner](https://github.com/Taludas/GameplayModsCollection/assets/64583643/4e523da2-01ab-42de-8146-4c75e0a6e991)
 ### Burrito Boom
 
-Lust auf eine geschmacksintensive Fiesta für eure Geschmacksnerven? Dann sind meine brutzelnden, köstlichen Burritos genau das Richtige für euch! 
+Lust auf eine geschmacksintensive Fiesta für eure Geschmacksnerven? Dann sind meine brutzelnden, köstlichen Burritos genau das Richtige für euch!
 
-Stellt euch das vor: zartes, mariniertes Fleisch, perfekt gegrillt und gepaart mit cremiger, kräftiger Guacamole, alles zusammen eingebettet in eine warme, weiche Tortilla. 
+Stellt euch das vor: zartes, mariniertes Fleisch, perfekt gegrillt und gepaart mit cremiger, kräftiger Guacamole, alles zusammen eingebettet in eine warme, weiche Tortilla.
 
-Eure Bürger sind auf ein altes Familienrezept mit regionalen Zutaten gestoßen, die zusammen so gut schmecken, dass Menschen aus der ganzen Welt in eure Kolonie kommen, um dieses Geschmacksparadies zu probieren. Die neuen Zutaten sind: 
-- Fleisch (nutzt 'Cattles need to be butcherd' Mod, wenn installiert) 
-- Guacamole aus frischer Avocado, verfeinert mit scharfen Gewürzen (erfordert LoL oder Seeds of Change/Hacienda). 
+Eure Bürger sind auf ein altes Familienrezept mit regionalen Zutaten gestoßen, die zusammen so gut schmecken, dass Menschen aus der ganzen Welt in eure Kolonie kommen, um dieses Geschmacksparadies zu probieren. Die neuen Zutaten sind:
+- Fleisch (nutzt 'Cattles need to be butcherd' Mod, wenn installiert)
+- Guacamole aus frischer Avocado, verfeinert mit scharfen Gewürzen (erfordert LoL oder Seeds of Change/Hacienda).
 - Tortillas aus Mais, der mit einer alten Technik namens Nixtamalisierung extrahiert wurde, wofür man Pottasche benötigt.
 
-Als Gegenleistung für eure verstärkten Bemühungen werden aufgrund der enormen Beliebtheit des neuen Rezepts mehr Menschen in eure Stadt kommen (+5 Einwohner für Obrero- und Artista-Häuser durch Burritos, Standard plus 50% Produktivität für Burrito-Manufaktur). 
+Als Gegenleistung für eure verstärkten Bemühungen werden aufgrund der enormen Beliebtheit des neuen Rezepts mehr Menschen in eure Stadt kommen (+5 Einwohner für Obrero- und Artista-Häuser durch Burritos, Standard plus 50% Produktivität für Burrito-Manufaktur).
 
 Benötigt entweder den DLC "Land der Löwen" oder "Keim der Hoffnung" für den Bezug von Gewürzen.
 
@@ -313,22 +337,22 @@ Benötigt entweder den DLC "Land der Löwen" oder "Keim der Hoffnung" für den B
 ![banner](https://github.com/Taludas/GameplayModsCollection/assets/64583643/5f6533e3-3baf-47cb-9024-f8e6679ef628)
 ### Forest Glass
 
-Waldglas ist eine Glasart, die im späten Mittelalter und in der frühen Neuzeit in Europa, insbesondere in Deutschland und Böhmen, hergestellt wurde. Es zeichnet sich durch seine ausgeprägte grüne Farbe aus und weist oft eine leicht grobe oder ungleichmäßige Textur auf. 
+Waldglas ist eine Glasart, die im späten Mittelalter und in der frühen Neuzeit in Europa, insbesondere in Deutschland und Böhmen, hergestellt wurde. Es zeichnet sich durch seine ausgeprägte grüne Farbe aus und weist oft eine leicht grobe oder ungleichmäßige Textur auf.
 
 Waldglas wurde hauptsächlich für die Herstellung von Trinkgefäßen, Flaschen und Fensterscheiben verwendet. Seine Herstellung war in den bewaldeten Gebieten, in denen es gedieh, ein bedeutender Wirtschaftszweig, daher der Name "Waldglas".
 
-Bestandteile: 
-- Quarzsand 
-- Holzasche zur Bereitstellung von Pottasche (K2CO3) als Flussmittel. 
+Bestandteile:
+- Quarzsand
+- Holzasche zur Bereitstellung von Pottasche (K2CO3) als Flussmittel.
 
-Die grüne Farbe von Waldglas ist auf Verunreinigungen in den Rohstoffen zurückzuführen, insbesondere auf Eisenoxid aus dem verwendeten Sand und der Pflanzenasche. Diese Verunreinigungen führen in Verbindung mit den besonderen Brennbedingungen bei der Waldglasherstellung zu dem charakteristischen grünen Farbton. 
+Die grüne Farbe von Waldglas ist auf Verunreinigungen in den Rohstoffen zurückzuführen, insbesondere auf Eisenoxid aus dem verwendeten Sand und der Pflanzenasche. Diese Verunreinigungen führen in Verbindung mit den besonderen Brennbedingungen bei der Waldglasherstellung zu dem charakteristischen grünen Farbton.
 
-Um den erhöhten Ressourceneinsatz zu kompensieren, gibt es mehrere Buffs: 
-- eine standardmäßige Produktionssteigerung von 10 % für das Glasshüttengebäude. 
-- ein Nahfeld-Buff, der von den Glashütten ausgeht und die Pottasche- und Holzfäller-Gebäude in der Umgebung stärkt (+50% Produktivität). 
-- ein Return-Buff von Pottasche- und Holzfällergebäuden, der die Produktivität der Glasshütte erhöht (+10% Produktivität pro Gebäude). 
+Um den erhöhten Ressourceneinsatz zu kompensieren, gibt es mehrere Buffs:
+- eine standardmäßige Produktionssteigerung von 10 % für das Glasshüttengebäude.
+- ein Nahfeld-Buff, der von den Glashütten ausgeht und die Pottasche- und Holzfäller-Gebäude in der Umgebung stärkt (+50% Produktivität).
+- ein Return-Buff von Pottasche- und Holzfällergebäuden, der die Produktivität der Glasshütte erhöht (+10% Produktivität pro Gebäude).
 
-Dies gewährleistet einen guten Synergieeffekt, wenn die Gebäude in unmittelbarer Nähe gebaut werden, da es historisch korrekt ist. 
+Dies gewährleistet einen guten Synergieeffekt, wenn die Gebäude in unmittelbarer Nähe gebaut werden, da es historisch korrekt ist.
 
 Diese Mod wird automatisch andere Mods modifizieren, die die Vanilla-Glashütten verwenden bzw. neue Produktionsketten hinzufügen, die die Glashüttenkette verwenden.
 
@@ -337,11 +361,11 @@ Diese Mod wird automatisch andere Mods modifizieren, die die Vanilla-Glashütten
 ![banner](https://github.com/Taludas/GameplayModsCollection/assets/64583643/07f6de00-0ab6-451b-af05-3ad77238aa42)
 ### High Life Souvenirs / Low Life Souvenirs
 
-Nach der Einführung der ersten Form des modernen Plastiks im DLC 'High Life' fühlte sich die Produktionskette für Souvenirs ein wenig lustlos an. Offensichtlich ähnelte die Verwendung von Campher-Wachs und Baumwolle den Bestandteilen von Zelluloid-Kunststoff. Aber warum sollte man das nach der Einführung der Zelluloidware mit High Life noch verwenden? 
+Nach der Einführung der ersten Form des modernen Plastiks im DLC 'High Life' fühlte sich die Produktionskette für Souvenirs ein wenig lustlos an. Offensichtlich ähnelte die Verwendung von Campher-Wachs und Baumwolle den Bestandteilen von Zelluloid-Kunststoff. Aber warum sollte man das nach der Einführung der Zelluloidware mit High Life noch verwenden?
 
-Um die Sache ein wenig aufzupeppen, habe ich die Souvenirs so umgestaltet, dass der Ständer aus Zelluloid, die Schneeflocken und das Modell im Inneren aus Gold und die Kuppel aus Glas bestehen. 
+Um die Sache ein wenig aufzupeppen, habe ich die Souvenirs so umgestaltet, dass der Ständer aus Zelluloid, die Schneeflocken und das Modell im Inneren aus Gold und die Kuppel aus Glas bestehen.
 
-Ihr könnt die Souvenirs jetzt auch an eure Touristen verkaufen, und zwar nicht nur direkt in den Hotels, sondern auch in kleinen Souvenirständen rund um den Ort. Das reduziert die Gesamtverkäufe in den Hotels (-50% Bedarfsreduzierung), bringt zusätzliches Geld und zieht viele neue Touristen an (+50 Touristen durch Souvenirs, +5% Besuchschance auf dem Besucherkai)! 
+Ihr könnt die Souvenirs jetzt auch an eure Touristen verkaufen, und zwar nicht nur direkt in den Hotels, sondern auch in kleinen Souvenirständen rund um den Ort. Das reduziert die Gesamtverkäufe in den Hotels (-50% Bedarfsreduzierung), bringt zusätzliches Geld und zieht viele neue Touristen an (+50 Touristen durch Souvenirs, +5% Besuchschance auf dem Besucherkai)!
 
 Wenn ihr iMYA benutzt, könnt ihr zwischen zwei Varianten dieser Mod wählen. Eine mit teuren Souvenirs, die in einem Handwerksbetrieb aus Gold hergestellt werden (High Life Souvenirs) und die andere mit billigen, die am Fließband aus Messing hergestellt werden (Low Life Souvenirs). Ihr könnt auch beide Untermods aktivieren, um das volle Erlebnis zu bekommen.
 
@@ -350,9 +374,9 @@ Wenn ihr iMYA benutzt, könnt ihr zwischen zwei Varianten dieser Mod wählen. Ei
 ![banner](https://github.com/Taludas/GameplayModsCollection/assets/64583643/9e2dd08e-0606-4473-93c0-f8797fbf5ceb)
 ### Slippery Soap
 
-Historisch gesehen war Seife das erste moderne Produkt, das zur Reinigung von Körper und Kleidung verwendet wurde. Sie wurde durch mehrstündiges Sieden von Tierfett in einer alkalischen Lösung hergestellt. In Anno ist dieses Verfahren nur unzureichend dargestellt. 
+Historisch gesehen war Seife das erste moderne Produkt, das zur Reinigung von Körper und Kleidung verwendet wurde. Sie wurde durch mehrstündiges Sieden von Tierfett in einer alkalischen Lösung hergestellt. In Anno ist dieses Verfahren nur unzureichend dargestellt.
 
-Deshalb habe ich Pottasche als frühe Version des alkalischen Zusatzstoffs in die Produktionskette aufgenommen. Pottasche kann durch Verbrennen von Holz und Extraktion der Reste mit Wasser gewonnen werden. 
+Deshalb habe ich Pottasche als frühe Version des alkalischen Zusatzstoffs in die Produktionskette aufgenommen. Pottasche kann durch Verbrennen von Holz und Extraktion der Reste mit Wasser gewonnen werden.
 
 Ich hoffe, dieses neue Seifenrezept macht es für euch ein wenig realistischer!
 
@@ -360,15 +384,15 @@ Ich hoffe, dieses neue Seifenrezept macht es für euch ein wenig realistischer!
 
 ![banner](https://github.com/Taludas/GameplayModsCollection/assets/64583643/7cfce94a-9444-46e6-8682-6d8d18220e4e)
 ### The True Jam Experience
-Hast du dich jemals gefragt, warum Marmelade in Anno 1800 direkt auf den Bäumen wächst? 
+Hast du dich jemals gefragt, warum Marmelade in Anno 1800 direkt auf den Bäumen wächst?
 
-Weil sie den einfachen Weg gewählt haben. Aber ich mag den einfachen Weg nicht. Also habe ich die Idee und die Assets von Lrds42 genommen und einen separaten Mod erstellt, der nur eine neue Marmeladenproduktionskette basierend auf Kirschen, Zucker und Glas hinzufügt. 
+Weil sie den einfachen Weg gewählt haben. Aber ich mag den einfachen Weg nicht. Also habe ich die Idee und die Assets von Lrds42 genommen und einen separaten Mod erstellt, der nur eine neue Marmeladenproduktionskette basierend auf Kirschen, Zucker und Glas hinzufügt.
 
-Man braucht 1t Kirschen/min, 0,5t Zucker und Glas/min, um 1t Marmelade/min zu produzieren. 
+Man braucht 1t Kirschen/min, 0,5t Zucker und Glas/min, um 1t Marmelade/min zu produzieren.
 
-Die Marmeladenmanufaktur ist jetzt eine Multifabrik, so dass wir sie in Zukunft mit verschiedenen Marmeladengeschmacksrichtungen erweitern können. 
+Die Marmeladenmanufaktur ist jetzt eine Multifabrik, so dass wir sie in Zukunft mit verschiedenen Marmeladengeschmacksrichtungen erweitern können.
 
-Zur Aufwertung der neuen Produktionsanlage gibt es einen besonderen Artikel: 'Marlene - Mutter der Marmeladen'. Sie ist bei Eli käuflich zu erwerben. 
+Zur Aufwertung der neuen Produktionsanlage gibt es einen besonderen Artikel: 'Marlene - Mutter der Marmeladen'. Sie ist bei Eli käuflich zu erwerben.
 
 Die Kompatibilität zwischen Lordys, Kurilas und meinem Mod wird von [Kurila](https://github.com/Qurila) gewährleistet! Ihm gebührt auch der Dank für die wunderschönen Tooltips, die den In- und Output visualisieren! Großes Dankeschön dafür!
 
@@ -386,7 +410,7 @@ Diese Mod ist ein Update der Mod "[Free Farmfield Placement](https://www.nexusmo
 ![image](https://github.com/Taludas/GameplayModsCollection/assets/64583643/1e306203-8d36-4316-a197-15aa37d923e8)
 ### Glasshouses for Orchid Farms
 
-Diese kleine Mod verändert die nicht sehr akkuraten Farmfelder der Orchideenfarm in eine, die tatsächlich Sinn machen könnte. Orchideen sind normalerweise Schmarotzerpflanzen, die auf Bäumen wachsen. Wenn sie also in normalem Ackerboden wachsen, ist das nicht wirklich realitätsnah. Auch der Einsatz eines Traktors zur Ernte der Orchideen wäre genauso sensibel wie der Einsatz einer Kettensäge an diesen kostbaren Pflanzen. 
+Diese kleine Mod verändert die nicht sehr akkuraten Farmfelder der Orchideenfarm in eine, die tatsächlich Sinn machen könnte. Orchideen sind normalerweise Schmarotzerpflanzen, die auf Bäumen wachsen. Wenn sie also in normalem Ackerboden wachsen, ist das nicht wirklich realitätsnah. Auch der Einsatz eines Traktors zur Ernte der Orchideen wäre genauso sensibel wie der Einsatz einer Kettensäge an diesen kostbaren Pflanzen.
 
 Daher ändert dieser Mod die Ein-Kachel-Felder in echte Gewächshäuser, wodurch die Anzahl der benötigten Feldmodule reduziert wird, aber auch der Traktor-Boost wegfällt.
 
