@@ -1,94 +1,89 @@
 <ModOps>
-
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000111</GUID>
-      <Text>Музей</Text>
-    </Text>
-  </ModOp>	
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000112</GUID>
-      <Text>Зоопарк</Text>
-    </Text>
-  </ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000113</GUID>
-      <Text>Ботанический сад</Text>
-    </Text>
-  </ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000114</GUID>
-      <Text>Сад Амазонии</Text>
-    </Text>
-  </ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000115</GUID>
-      <Text>Создаёт плодородие для гибискуса, при нахождении в Энбесе.</Text>
-    </Text>
-  </ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000116</GUID>
-      <Text>Сады Анд</Text>
-    </Text>
-  </ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000117</GUID>
-      <Text>Создаёт плодородие для табака, при нахождении в Энбесе.</Text>
-    </Text>
-  </ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000118</GUID>
-      <Text>Зачарованный сад</Text>
-    </Text>
-  </ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000119</GUID>
-      <Text>Создаёт плодородие для кофе, при нахождении в Энбесе.</Text>
-    </Text>
-  </ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000120</GUID>
-      <Text>Сад Ближнего Востока</Text>
-    </Text>
-  </ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000121</GUID>
-      <Text>Создаёт плодородие для специй, при нахождении в Энбесе.</Text>
-    </Text>
-  </ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000122</GUID>
-      <Text>Субальпийский Сад</Text>
-    </Text>
-  </ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000123</GUID>
-      <Text>Создаёт условия для распространения пчёл, при нахождении в Энбесе.</Text>
-    </Text>
-  </ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000124</GUID>
-      <Text>Порыв Энбесанского Плато</Text>
-    </Text>
-  </ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999000125</GUID>
-      <Text>Новые методы повышения урожайности.</Text>
-    </Text>
-  </ModOp>
-
+  <!-- Amazonas Garden in Enbesa -->
+    <Group>
+      <ModOp Type="add" Path="/TextExport/Texts">
+        <Text>
+          <GUID>1999000115</GUID>
+          <Text></Text>
+        </Text>
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000115']/Text"
+        Content="/TextExport/Texts/Text[GUID='22404']/Text/text()">
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000115']/Text">&#xD;&#xA;&#xD;&#xA;</ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000115']/Text"
+        Content="/TextExport/Texts/Text[GUID='22409']/Text/text()">
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22404' or GUID='22409']/Text">&#xD;&#xA;&#xD;&#xA;Создаёт плодородие для гибискуса, при нахождении в Энбесе.</ModOp>
+    </Group>
+  <!-- Anden Garden in Enbesa -->
+    <Group>
+      <ModOp Type="add" Path="/TextExport/Texts">
+        <Text>
+          <GUID>1999000117</GUID>
+          <Text></Text>
+        </Text>
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000117']/Text"
+        Content="/TextExport/Texts/Text[GUID='22405']/Text/text()">
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000117']/Text">&#xD;&#xA;&#xD;&#xA;</ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000117']/Text"
+        Content="/TextExport/Texts/Text[GUID='22410']/Text/text()">
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22405' or GUID='22410']/Text" Condition="!#Taludas_CoffeeTobaccoEnbesa_modio">&#xD;&#xA;&#xD;&#xA;Создаёт плодородие для тефа, при нахождении в Энбесе.</ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22405' or GUID='22410']/Text" Condition="#Taludas_CoffeeTobaccoEnbesa_modio">&#xD;&#xA;&#xD;&#xA;Создаёт плодородие для табака, при нахождении в Энбесе.</ModOp>
+    </Group>
+  <!-- Enchanted Garden in Enbesa -->
+    <Group>
+      <ModOp Type="add" Path="/TextExport/Texts">
+        <Text>
+          <GUID>1999000119</GUID>
+          <Text></Text>
+        </Text>
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000119']/Text"
+        Content="/TextExport/Texts/Text[GUID='22406']/Text/text()">
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000119']/Text">&#xD;&#xA;&#xD;&#xA;</ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000119']/Text"
+        Content="/TextExport/Texts/Text[GUID='22411']/Text/text()">
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22406' or GUID='22411']/Text" Condition="!#Taludas_CoffeeTobaccoEnbesa_modio">&#xD;&#xA;&#xD;&#xA;Создаёт плодородие для индигоферы, при нахождении в Энбесе.</ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22406' or GUID='22411']/Text" Condition="#Taludas_CoffeeTobaccoEnbesa_modio">&#xD;&#xA;&#xD;&#xA;Создаёт плодородие для кофе, при нахождении в Энбесе.</ModOp>
+    </Group>
+  <!-- Near East Garden in Enbesa -->
+    <Group>
+      <ModOp Type="add" Path="/TextExport/Texts">
+        <Text>
+          <GUID>1999000121</GUID>
+          <Text></Text>
+        </Text>
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000121']/Text"
+        Content="/TextExport/Texts/Text[GUID='22407']/Text/text()">
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000121']/Text">&#xD;&#xA;&#xD;&#xA;</ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000121']/Text"
+        Content="/TextExport/Texts/Text[GUID='22412']/Text/text()">
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22407' or GUID='22412']/Text">&#xD;&#xA;&#xD;&#xA;Cоздаёт плодородие для специй, при нахождении в Энбесе.</ModOp>
+    </Group>
+  <!-- Subalpine Garden in Enbesa -->
+    <Group>
+      <ModOp Type="add" Path="/TextExport/Texts">
+        <Text>
+          <GUID>1999000123</GUID>
+          <Text></Text>
+        </Text>
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000123']/Text"
+        Content="/TextExport/Texts/Text[GUID='22403']/Text/text()">
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000123']/Text">&#xD;&#xA;&#xD;&#xA;</ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000123']/Text"
+        Content="/TextExport/Texts/Text[GUID='22408']/Text/text()">
+      </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22403' or GUID='22408']/Text">&#xD;&#xA;&#xD;&#xA;Создаёт условия для распространения пчёл, при нахождении в Энбесе.</ModOp>
+    </Group>
 </ModOps>

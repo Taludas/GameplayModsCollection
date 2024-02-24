@@ -63,6 +63,7 @@
 							</English>
 						</LocaText>
 						<LineID>20113</LineID>
+						<TextOverride>1010471</TextOverride>
 					</Text>
 					<Constructable />
 					<Locked />
@@ -281,8 +282,8 @@
 				<Building>1999000111</Building>
 			</Item>
 		</ModOp>
-		<ModOp Type="addNextSibling" GUID="119012"
-			Path="/Values/ConstructionCategory/BuildingList/Item[Building='117859']">
+		<ModOp Type="add" GUID="119015"
+			Path="/Values/ConstructionCategory/BuildingList">
 			<Item>
 				<Building>1999000111</Building>
 			</Item>
@@ -402,6 +403,7 @@
 							</English>
 						</LocaText>
 						<LineID>20112</LineID>
+						<TextOverride>1010470</TextOverride>
 					</Text>
 					<Constructable />
 					<Locked />
@@ -623,8 +625,8 @@
 				<Building>1999000112</Building>
 			</Item>
 		</ModOp>
-		<ModOp Type="addNextSibling" GUID="119012"
-			Path="/Values/ConstructionCategory/BuildingList/Item[Building='117859']">
+		<ModOp Type="add" GUID="119015"
+			Path="/Values/ConstructionCategory/BuildingList">
 			<Item>
 				<Building>1999000112</Building>
 			</Item>
@@ -765,6 +767,7 @@
 							</English>
 						</LocaText>
 						<LineID>33177</LineID>
+						<TextOverride>110935</TextOverride>
 					</Text>
 					<Constructable />
 					<Locked>
@@ -1015,6 +1018,7 @@
 							</English>
 						</LocaText>
 						<LineID>33510</LineID>
+						<TextOverride>193764</TextOverride>
 					</Text>
 					<FactoryUpgrade>
 						<ProductivityUpgrade>
@@ -1027,10 +1031,7 @@
 					<Buff>
 						<PossibleFluffTexts>
 							<Item>
-								<FluffText>22404</FluffText>
-							</Item>
-							<Item>
-								<FluffText>22409</FluffText>
+								<FluffText>1999000115</FluffText>
 							</Item>
 						</PossibleFluffTexts>
 					</Buff>
@@ -1046,30 +1047,15 @@
 			</Asset>
 		</ModOp>
 
-		<ModOp Type="add" GUID="193652,193764" Path="/Values/Buff/PossibleFluffTexts">
-			<Item>
-				<FluffText>1999000115</FluffText>
-			</Item>
-		</ModOp>
-
 		<ModOp Type="addNextSibling" GUID="22409">
 			<Asset>
 				<Template>Text</Template>
 				<Values>
 					<Standard>
 						<GUID>1999000115</GUID>
-						<Name>Hibiscus in Enbesa</Name>
+						<Name>Amazonas_Fluff_Enbesa</Name>
 						<IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_hibiscus_farm.png</IconFilename>
 					</Standard>
-					<Text>
-						<LocaText>
-							<English>
-								<Text>Activates Hibiscus fertility if built in Enbesa.</Text>
-								<Status>Exported</Status>
-							</English>
-						</LocaText>
-						<LineID>33290</LineID>
-					</Text>
 				</Values>
 			</Asset>
 		</ModOp>
@@ -1094,7 +1080,7 @@
 					<ItemEffect>
 						<EffectTargets>
 							<Item>
-								<GUID>1999000102</GUID>
+								<GUID>114450</GUID>
 							</Item>
 						</EffectTargets>
 					</ItemEffect>
@@ -1106,22 +1092,20 @@
 							</English>
 						</LocaText>
 						<LineID>33507</LineID>
+						<TextOverride>193664</TextOverride>
 					</Text>
 					<FactoryUpgrade>
 						<ProductivityUpgrade>
 							<Value>25</Value>
 							<Percental>1</Percental>
 						</ProductivityUpgrade>
-						<AddedFertility>1010577</AddedFertility>
+						<AddedFertility>114345</AddedFertility>
 					</FactoryUpgrade>
 					<BuildingUpgrade />
 					<Buff>
 						<PossibleFluffTexts>
 							<Item>
-								<FluffText>22405</FluffText>
-							</Item>
-							<Item>
-								<FluffText>22410</FluffText>
+								<FluffText>1999000117</FluffText>
 							</Item>
 						</PossibleFluffTexts>
 					</Buff>
@@ -1137,11 +1121,63 @@
 			</Asset>
 		</ModOp>
 
-		<ModOp Type="add" GUID="193664,193767" Path="/Values/Buff/PossibleFluffTexts">
-			<Item>
-				<FluffText>1999000117</FluffText>
-			</Item>
-		</ModOp>
+		<Group Condition="#Taludas_CoffeeTobaccoEnbesa_modio">
+			<ModOp Type="merge" GUID="1999000116" Path="/Values">
+					<Standard>
+						<GUID>1500302096</GUID>
+					</Standard>
+				<ItemEffect>
+					<EffectTargets>
+						<Item>
+							<GUID>1500301931</GUID>
+						</Item>
+					</EffectTargets>
+				</ItemEffect>
+				<FactoryUpgrade>
+					<AddedFertility>1010577</AddedFertility>
+				</FactoryUpgrade>
+			</ModOp>
+			<ModOp Type="merge" GUID="193665" Path="/Values/ItemSocketSet/RegionSetBuff">
+				<Africa>
+					<SetBuff>1500302096</SetBuff>
+				</Africa>
+			</ModOp>
+			<ModOp Type="add" GUID="1500301931" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs" Condition="!/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1999000102']">
+				<Item>
+					<GUID>1999000102</GUID>
+				</Item>
+			</ModOp>
+		</Group>
+
+		<Group Condition="#Taludas_CoffeeTobaccoEnbesa">
+			<Group Condition="!#Taludas_CoffeeTobaccoEnbesa_modio">
+				<ModOp Type="merge" GUID="1999000116" Path="/Values">
+					<Standard>
+						<GUID>1500302096</GUID>
+					</Standard>
+					<ItemEffect>
+						<EffectTargets>
+							<Item>
+								<GUID>1500301931</GUID>
+							</Item>
+						</EffectTargets>
+					</ItemEffect>
+					<FactoryUpgrade>
+						<AddedFertility>1010577</AddedFertility>
+					</FactoryUpgrade>
+				</ModOp>
+				<ModOp Type="merge" GUID="193665" Path="/Values/ItemSocketSet/RegionSetBuff">
+					<Africa>
+						<SetBuff>1500302096</SetBuff>
+					</Africa>
+				</ModOp>
+				<ModOp Type="add" GUID="1500301931" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs" Condition="!/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1999000102']">
+					<Item>
+						<GUID>1999000102</GUID>
+					</Item>
+				</ModOp>
+			</Group>
+		</Group>
 
 		<ModOp Type="addNextSibling" GUID="22411">
 			<Asset>
@@ -1149,18 +1185,9 @@
 				<Values>
 					<Standard>
 						<GUID>1999000117</GUID>
-						<Name>Tabak in Enbesa</Name>
+						<Name>Anden_Fluff_Enbesa</Name>
 						<IconFilename>data/ui/2kimages/main/3dicons/icon_tobacco.png</IconFilename>
 					</Standard>
-					<Text>
-						<LocaText>
-							<English>
-								<Text>Activates Tobacco fertility if built in Enbesa.</Text>
-								<Status>Exported</Status>
-							</English>
-						</LocaText>
-						<LineID>33290</LineID>
-					</Text>
 				</Values>
 			</Asset>
 		</ModOp>
@@ -1185,7 +1212,7 @@
 					<ItemEffect>
 						<EffectTargets>
 							<Item>
-								<GUID>1999000100</GUID>
+								<GUID>114451</GUID>
 							</Item>
 						</EffectTargets>
 					</ItemEffect>
@@ -1197,22 +1224,20 @@
 							</English>
 						</LocaText>
 						<LineID>33507</LineID>
+              			<TextOverride>193671</TextOverride>
 					</Text>
 					<FactoryUpgrade>
 						<ProductivityUpgrade>
 							<Value>25</Value>
 							<Percental>1</Percental>
 						</ProductivityUpgrade>
-						<AddedFertility>120039</AddedFertility>
+						<AddedFertility>114347</AddedFertility>
 					</FactoryUpgrade>
 					<BuildingUpgrade />
 					<Buff>
 						<PossibleFluffTexts>
 							<Item>
-								<FluffText>22406</FluffText>
-							</Item>
-							<Item>
-								<FluffText>22411</FluffText>
+								<FluffText>1999000119</FluffText>
 							</Item>
 						</PossibleFluffTexts>
 					</Buff>
@@ -1228,11 +1253,63 @@
 			</Asset>
 		</ModOp>
 
-		<ModOp Type="add" GUID="193671,193768" Path="/Values/Buff/PossibleFluffTexts">
-			<Item>
-				<FluffText>1999000119</FluffText>
-			</Item>
-		</ModOp>
+		<Group Condition="#Taludas_CoffeeTobaccoEnbesa_modio">
+			<ModOp Type="merge" GUID="1999000118" Path="/Values">
+				<Standard>
+					<GUID>1500302097</GUID>
+				</Standard>
+				<ItemEffect>
+					<EffectTargets>
+						<Item>
+							<GUID>1500301933</GUID>
+						</Item>
+					</EffectTargets>
+				</ItemEffect>
+				<FactoryUpgrade>
+					<AddedFertility>120039</AddedFertility>
+				</FactoryUpgrade>
+			</ModOp>
+			<ModOp Type="merge" GUID="193672" Path="/Values/ItemSocketSet/RegionSetBuff">
+				<Africa>
+					<SetBuff>1500302097</SetBuff>
+				</Africa>
+			</ModOp>
+			<ModOp Type="add" GUID="1500301933" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs" Condition="!/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1999000102']">
+				<Item>
+					<GUID>1999000100</GUID>
+				</Item>
+			</ModOp>
+		</Group>
+
+		<Group Condition="#Taludas_CoffeeTobaccoEnbesa">
+			<Group Condition="!#Taludas_CoffeeTobaccoEnbesa_modio">
+				<ModOp Type="merge" GUID="1999000118" Path="/Values">
+					<Standard>
+						<GUID>1500302097</GUID>
+					</Standard>
+					<ItemEffect>
+						<EffectTargets>
+							<Item>
+								<GUID>1500301933</GUID>
+							</Item>
+						</EffectTargets>
+					</ItemEffect>
+					<FactoryUpgrade>
+						<AddedFertility>120039</AddedFertility>
+					</FactoryUpgrade>
+				</ModOp>
+				<ModOp Type="merge" GUID="193672" Path="/Values/ItemSocketSet/RegionSetBuff">
+					<Africa>
+						<SetBuff>1500302097</SetBuff>
+					</Africa>
+				</ModOp>
+				<ModOp Type="add" GUID="1500301933" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs" Condition="!/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1999000100']">
+					<Item>
+						<GUID>1999000100</GUID>
+					</Item>
+				</ModOp>
+			</Group>
+		</Group>
 
 		<ModOp Type="addNextSibling" GUID="22411">
 			<Asset>
@@ -1240,18 +1317,9 @@
 				<Values>
 					<Standard>
 						<GUID>1999000119</GUID>
-						<Name>Coffee in Enbesa</Name>
+						<Name>Enchanted_Fluff_Enbesa</Name>
 						<IconFilename>data/ui/2kimages/main/3dicons/icon_coffee_beans.png</IconFilename>
 					</Standard>
-					<Text>
-						<LocaText>
-							<English>
-								<Text>Activates Coffee fertility if built in Enbesa.</Text>
-								<Status>Exported</Status>
-							</English>
-						</LocaText>
-						<LineID>33290</LineID>
-					</Text>
 				</Values>
 			</Asset>
 		</ModOp>
@@ -1288,6 +1356,7 @@
 							</English>
 						</LocaText>
 						<LineID>33507</LineID>
+              			<TextOverride>193765</TextOverride>
 					</Text>
 					<FactoryUpgrade>
 						<ProductivityUpgrade>
@@ -1300,10 +1369,7 @@
 					<Buff>
 						<PossibleFluffTexts>
 							<Item>
-								<FluffText>22407</FluffText>
-							</Item>
-							<Item>
-								<FluffText>22412</FluffText>
+								<FluffText>1999000121</FluffText>
 							</Item>
 						</PossibleFluffTexts>
 					</Buff>
@@ -1319,30 +1385,15 @@
 			</Asset>
 		</ModOp>
 
-		<ModOp Type="add" GUID="193659,193765" Path="/Values/Buff/PossibleFluffTexts">
-			<Item>
-				<FluffText>1999000121</FluffText>
-			</Item>
-		</ModOp>
-
 		<ModOp Type="addNextSibling" GUID="22411">
 			<Asset>
 				<Template>Text</Template>
 				<Values>
 					<Standard>
 						<GUID>1999000121</GUID>
-						<Name>Spices in Enbesa</Name>
+						<Name>Near_East_Fluff_Enbesa</Name>
 						<IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_spices.png</IconFilename>
 					</Standard>
-					<Text>
-						<LocaText>
-							<English>
-								<Text>Activates Spices fertility if built in Enbesa.</Text>
-								<Status>Exported</Status>
-							</English>
-						</LocaText>
-						<LineID>33290</LineID>
-					</Text>
 				</Values>
 			</Asset>
 		</ModOp>
@@ -1379,6 +1430,7 @@
 							</English>
 						</LocaText>
 						<LineID>33507</LineID>
+						<TextOverride>193766</TextOverride>
 					</Text>
 					<FactoryUpgrade>
 						<ProductivityUpgrade>
@@ -1391,10 +1443,7 @@
 					<Buff>
 						<PossibleFluffTexts>
 							<Item>
-								<FluffText>22403</FluffText>
-							</Item>
-							<Item>
-								<FluffText>22408</FluffText>
+								<FluffText>1999000123</FluffText>
 							</Item>
 						</PossibleFluffTexts>
 					</Buff>
@@ -1410,30 +1459,15 @@
 			</Asset>
 		</ModOp>
 
-		<ModOp Type="add" GUID="193663,193766" Path="/Values/Buff/PossibleFluffTexts">
-			<Item>
-				<FluffText>1999000123</FluffText>
-			</Item>
-		</ModOp>
-
 		<ModOp Type="addNextSibling" GUID="22411">
 			<Asset>
 				<Template>Text</Template>
 				<Values>
 					<Standard>
 						<GUID>1999000123</GUID>
-						<Name>Bees in Enbesa</Name>
+						<Name>Subalpine_Fluff_Enbesa</Name>
 						<IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_beeswax.png</IconFilename>
 					</Standard>
-					<Text>
-						<LocaText>
-							<English>
-								<Text>Activates Bee Abundance if built in Enbesa.</Text>
-								<Status>Exported</Status>
-							</English>
-						</LocaText>
-						<LineID>33290</LineID>
-					</Text>
 				</Values>
 			</Asset>
 		</ModOp>
@@ -1515,74 +1549,56 @@
 	</Group>
 
 	<!-- #FAMS ENBESAN FLORA INTEGRATION -->
-	<Group Condition="@1660011001">
+	<Group Condition="#Fam_EnbesanFlora">
 		<!-- Second Page at Botanical Garden -->
 		<ModOp Type="replace" GUID="110935,114141,1999000113" Path="/Values/Culture/Sets">
-			<Sets>
-				<Item>
-					<Set>193665</Set>
-				</Item>
-				<Item>
-					<Set>193653</Set>
-				</Item>
-				<Item>
-					<Set>193662</Set>
-				</Item>
-				<Item>
-					<Set>193655</Set>
-				</Item>
-				<Item />
-				<Item>
-					<Set>193660</Set>
-				</Item>
-				<Item>
-					<Set>193657</Set>
-				</Item>
-				<Item>
-					<Set>193658</Set>
-				</Item>
-				<Item>
-					<Set>193670</Set>
-				</Item>
-				<Item>
-					<Set>193672</Set>
-				</Item>
-				<Item />
-				<Item />
-			</Sets>
+		<Sets>
+			<Item>
+			<Set>193665</Set>
+			</Item>
+			<Item>
+			<Set>193653</Set>
+			</Item>
+			<Item>
+			<Set>193662</Set>
+			</Item>
+			<Item>
+			<Set>193655</Set>
+			</Item>
+			<Item />
+			<Item>
+			<Set>193660</Set>
+			</Item>
+			<Item>
+			<Set>193657</Set>
+			</Item>
+			<Item>
+			<Set>193658</Set>
+			</Item>
+			<Item>
+			<Set>193670</Set>
+			</Item>
+			<Item>
+			<Set>193672</Set>
+			</Item>
+			<Item />
+			<Item />
+		</Sets>
 		</ModOp>
 
-		<ModOp Type="add" GUID="110935,114141,1999000113"
-			Path='//Values/Culture/Sets[count(Item)=12]'>
-			<Item>
-				<Set>65488</Set>
-			</Item>
-			<Item>
-				<Set>65488</Set>
-			</Item>
-			<Item>
-				<Set>65488</Set>
-			</Item>
-			<Item>
-				<Set>65488</Set>
-			</Item>
-		</ModOp>
-
-		<ModOp Type="replace" GUID="110935,114141,1999000113"
-			Path='//Values/Culture/Sets/Item[Set/text()="65488"][1]/Set'>
+		<ModOp Type="add" GUID="110935,114141,1999000113" Path='//Values/Culture/Sets'>
+		<Item>
 			<Set>1660011001</Set>
-		</ModOp>
-		<ModOp Type="replace" GUID="110935,114141,1999000113"
-			Path='//Values/Culture/Sets/Item[Set/text()="65488"][1]/Set'>
+		</Item>
+		<Item>
 			<Set>1660011101</Set>
-		</ModOp>
-		<ModOp Type="replace" GUID="110935,114141,1999000113"
-			Path='//Values/Culture/Sets/Item[Set/text()="65488"][1]/Set'>
+		</Item>
+		<Item>
 			<Set>1660011201</Set>
-		</ModOp>
-		<ModOp Type="replace" GUID="110935,114141,1999000113"
-			Path='//Values/Culture/Sets/Item[Set/text()="65488"][1]/Set'>
+		</Item>
+		<Item>
 			<Set>1660011301</Set>
+		</Item>
 		</ModOp>
 
 		<!-- Split Buff Enbesa Plateau into sessions -->
@@ -1631,6 +1647,7 @@
 							</English>
 						</LocaText>
 						<LineID>1660011004</LineID>
+            			<TextOverride>1660011003</TextOverride>
 					</Text>
 					<FactoryUpgrade>
 						<AdditionalOutput>
@@ -1715,6 +1732,7 @@
 							</English>
 						</LocaText>
 						<LineID>1660011004</LineID>
+            			<TextOverride>1660011203</TextOverride>
 					</Text>
 					<FactoryUpgrade>
 						<AdditionalOutput>
