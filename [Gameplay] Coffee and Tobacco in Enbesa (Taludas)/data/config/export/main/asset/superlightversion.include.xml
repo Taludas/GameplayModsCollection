@@ -97,7 +97,7 @@
                                 <Product>120032</Product>
                                 <!-- Kaffee -->
                                 <Amount>1</Amount>
-                                <StorageAmount>4</StorageAmount>
+                                <StorageAmount>2</StorageAmount>
                             </Item>
                         </FactoryOutputs>
                         <CycleTime>60</CycleTime>

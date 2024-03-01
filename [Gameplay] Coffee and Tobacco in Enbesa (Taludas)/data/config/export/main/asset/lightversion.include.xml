@@ -81,34 +81,34 @@
                     </SoundEmitter>
                     <FeedbackController />
                     <Infolayer />
-                    <UpgradeList>
-                        <DefaultBuff>1999000094</DefaultBuff>
-                    </UpgradeList>
+                    <UpgradeList />
                     <Factory7 />
                     <FactoryBase>
                         <FactoryInputs>
                             <Item>
                                 <Product>120031</Product>
                                 <!-- Kaffeebohnen -->
-                                <Amount>1</Amount>
-                                <StorageAmount>6</StorageAmount>
+                                <Amount>2</Amount>
+                                <StorageAmount>10</StorageAmount>
                             </Item>
                             <Item>
                                 <Product>114391</Product>
                                 <!-- Leinen -->
                                 <Amount>1</Amount>
-                                <StorageAmount>6</StorageAmount>
+                                <StorageAmount>5</StorageAmount>
                             </Item>
                         </FactoryInputs>
                         <FactoryOutputs>
                             <Item>
                                 <Product>120032</Product>
                                 <!-- Kaffee -->
-                                <Amount>1</Amount>
-                                <StorageAmount>2</StorageAmount>
+                                <Amount>2</Amount>
+                                <StorageAmount>10</StorageAmount>
                             </Item>
                         </FactoryOutputs>
-                        <CycleTime>60</CycleTime>
+                        <CycleTime>120</CycleTime>
+                        <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                        <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
                         <IsMainFactory>0</IsMainFactory>
                     </FactoryBase>
                     <LogisticNode />
@@ -148,81 +148,6 @@
                     <QuestObject />
                     <Electrifiable />
                     <EcoSystemProvider />
-                </Values>
-            </Asset>
-        </ModOp>
-
-        <!-- Custom InfoDescription -->
-        <ModOp Type="add" GUID="1999000101" Path="/Values/Standard">
-            <InfoDescription>1999000098</InfoDescription>
-        </ModOp>
-
-        <ModOp Type="addNextSibling" GUID="114472">
-            <Asset>
-                <Template>GuildhouseBuff</Template>
-                <Values>
-                    <Standard>
-                        <GUID>1999000094</GUID>
-                        <Name>Hiden Buff Linen</Name>
-                    </Standard>
-                    <ItemEffect>
-                        <EffectTargets>
-                            <Item>
-                                <GUID>1999000101</GUID>
-                            </Item>
-                        </EffectTargets>
-                    </ItemEffect>
-                    <Text />
-                    <FactoryUpgrade>
-                        <AdditionalOutput>
-                            <Item>
-                                <Product>114391</Product>
-                                <AdditionalOutputCycle>2</AdditionalOutputCycle>
-                                <Amount>1</Amount>
-                            </Item>
-                        </AdditionalOutput>
-                    </FactoryUpgrade>
-                    <BuildingUpgrade />
-                    <Buff />
-                    <CultureUpgrade>
-                        <HideBuff>1</HideBuff>
-                    </CultureUpgrade>
-                    <ModuleOwnerUpgrade />
-                    <IncidentInfectableUpgrade />
-                    <PowerplantUpgrade />
-                    <IndustrializableUpgrade />
-                    <ItemContainerUpgrade />
-                    <IncidentInfluencerUpgrade />
-                    <IrrigationUpgrade />
-                    <EcoSystemProviderUpgrade />
-                    <ResourceUpgrade />
-                </Values>
-            </Asset>
-            <Asset>
-                <Template>Text</Template>
-                <Values>
-                    <Standard>
-                        <GUID>1999000097</GUID>
-                        <Name>InfoDescription_Demand_CoffeeRoasterEnbesa_Coffeebeans</Name>
-                    </Standard>
-                </Values>
-            </Asset>
-            <Asset>
-                <Template>Text</Template>
-                <Values>
-                    <Standard>
-                        <GUID>1999000096</GUID>
-                        <Name>InfoDescription_Demand_CoffeeRoasterEnbesa_Linencloth</Name>
-                    </Standard>
-                </Values>
-            </Asset>
-            <Asset>
-                <Template>Text</Template>
-                <Values>
-                    <Standard>
-                        <GUID>1999000095</GUID>
-                        <Name>InfoDescription_Supply_CoffeeRoasterEnbesa_Coffee</Name>
-                    </Standard>
                 </Values>
             </Asset>
         </ModOp>
