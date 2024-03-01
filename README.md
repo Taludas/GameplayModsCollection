@@ -21,6 +21,20 @@ You can find a gallery of images from my mod [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.6.1</summary>
+
+* Updates:
+
+  * [Coffee and Tobacco in Enbesa]:
+    * Add shared production amount infotip overhaul by Serp.
+    * Remove shared infotips by Kurila.
+    * Adjust Coffee Roasters consumption and production according to the new possibilities of Serp's mod.
+
+  * [True Jam Experience]:
+    * Update shared production amount infotip overhaul by Serp.
+</details>
+
+<details>
     <summary>Patch Notes Version 1.6.0</summary>
 
 * Updates:

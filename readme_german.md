@@ -20,6 +20,19 @@ Hier findet ihr eine Galerie mit Bildern von meinen Mods [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.6.1</summary>
+
+* Updates:
+
+  * [Coffee and Tobacco in Enbesa]:
+ Gemeinsame Infotipps zur Produktionsmenge von Serp hinzugefügt.
+    * Gemeinsame Infotipps entfernt von Kurila.
+    * Anpassung des Verbrauchs und der Produktion der Kaffeeröster an die neuen Möglichkeiten von Serps Mod.
+
+  * [True Jam Experience]:
+    * Gemeinsame Infotipps zur Produktionsmenge von Serp auf neuste Version geupdatet.
+</details>
+<details>
     <summary>Patch Notes Version 1.6.0</summary>
 
 * Updates:
