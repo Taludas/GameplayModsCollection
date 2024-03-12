@@ -20,6 +20,16 @@ Hier findet ihr eine Galerie mit Bildern von meinen Mods [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.6.2</summary>
+
+* Fixes:
+
+  * [Coffee and Tobacco in Enbesa]:
+    * Behebt einen Fehler mit der Angabe der Mod-Abhängigkeiten in der modinfo.json Datei
+
+</details>
+
+<details>
     <summary>Patch Notes Version 1.6.1</summary>
 
 * Updates:

@@ -21,6 +21,16 @@ You can find a gallery of images from my mod [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.6.2</summary>
+
+* Fixes:
+
+  * [Coffee and Tobacco in Enbesa]:
+    * Fix error with wrong mod dependency in modinfo.json file
+
+</details>
+
+<details>
     <summary>Patch Notes Version 1.6.1</summary>
 
 * Updates:
