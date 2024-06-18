@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.6",
+  "Version": "1.0.7",
   "ModID": "TaludasKurilaLordys_TrueJamExperience",
   "DeprecateIds": [],
   "ModDependencies": [
@@ -10,7 +10,8 @@
     "OrchardRework",
     "[Gameplay] Orchard Rework",
     "shared_products_extended_kurila",
-    "FamTaubeLexy_NewWorldHotels"
+    "FamTaubeLexy_NewWorldHotels",
+    "jakob_new_world_cities"
   ],
   "IncompatibleIds": null,
   "Category": {
