@@ -1,0 +1,455 @@
+<ModOps>
+
+  <Group>
+    <!-- #Pottasche-Fabrik NW -->
+    <ModOp Type="addNextSibling" GUID="24860">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>1999002222</GUID>
+            <Name>Potash Prodcution</Name>
+            <IconFilename>data/modgraphics/ui/icon_potash.png</IconFilename>
+          </Standard>
+          <Building>
+            <SkipUnlockMessage>1</SkipUnlockMessage>
+            <BuildModeRandomRotation>90</BuildModeRandomRotation>
+            <AssociatedRegions>Colony01</AssociatedRegions>
+          </Building>
+          <Blocking />
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>1000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>5</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/modgraphics/models/potash_production/potash_production.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh />
+          <Selection>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+            <ParticipantMessageArcheType>SA_Resident_tier02_atWork</ParticipantMessageArcheType>
+            <Colors>
+              <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+            </Colors>
+          </Selection>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Potash Production</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>3720</LineID>
+          </Text>
+          <Constructable />
+          <Locked />
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>200802</Sound>
+              </Item>
+              <Item>
+                <Sound>206294</Sound>
+              </Item>
+            </ActiveSounds>
+            <ConstructionSounds>
+              <BuildSuccessful>
+                <Item>
+                  <VectorElement>
+                    <InheritedIndex>0</InheritedIndex>
+                    <InheritanceMapV2>
+                      <Entry>
+                        <TemplateName>FarmBuilding</TemplateName>
+                        <Index>0</Index>
+                      </Entry>
+                      <Entry>
+                        <TemplateName>HeavyFreeAreaBuilding</TemplateName>
+                        <Index>0</Index>
+                      </Entry>
+                    </InheritanceMapV2>
+                  </VectorElement>
+                  <Sound>203830</Sound>
+                </Item>
+              </BuildSuccessful>
+            </ConstructionSounds>
+            <IncidentSounds>
+              <InfectedFire>
+                <Item>
+                  <Sound>214659</Sound>
+                </Item>
+              </InfectedFire>
+            </IncidentSounds>
+            <BuildingRepaired>
+              <Item>
+                <Sound>203866</Sound>
+              </Item>
+            </BuildingRepaired>
+            <MaterialType>Soil</MaterialType>
+          </SoundEmitter>
+          <FeedbackController />
+          <Infolayer />
+          <UpgradeList />
+          <Factory7 />
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>120008</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <FactoryOutputs>
+              <Item>
+                <Product>1999002211</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>30</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
+          </FactoryBase>
+          <LogisticNode />
+          <AmbientMoodProvider>
+            <Murmur>Factory</Murmur>
+            <DynamicEnvironmentType>None</DynamicEnvironmentType>
+          </AmbientMoodProvider>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>50</Amount>
+                <InactiveAmount>25</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010367</Product>
+                <Amount>25</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <Attackable>
+            <AttackableType>IslandBuilding</AttackableType>
+            <MaximumHitPoints>1500</MaximumHitPoints>
+            <SelfHealPerHealTick>6</SelfHealPerHealTick>
+          </Attackable>
+          <Pausable />
+          <IncidentInfectable>
+            <Infectable>
+              <Explosion>
+                <Base>0</Base>
+                <Escalated>0</Escalated>
+              </Explosion>
+            </Infectable>
+            <Explosion>
+              <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+            </Explosion>
+            <IncidentInfectionChanceFactors>
+              <Fire>
+                <DensityDistance>20</DensityDistance>
+                <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+              </Fire>
+              <Riot>
+                <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                <HappinessThreshold>20</HappinessThreshold>
+              </Riot>
+            </IncidentInfectionChanceFactors>
+          </IncidentInfectable>
+          <Industrializable>
+            <BoostedByIndustrialization>0</BoostedByIndustrialization>
+          </Industrializable>
+          <Culture>
+            <CultureType>Factory</CultureType>
+            <Attractiveness>-5</Attractiveness>
+          </Culture>
+          <QuestObject />
+          <Electrifiable />
+          <EcoSystemProvider />
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="add" GUID="130101" Path="/Values/AssetPool/AssetList">
+      <Item>
+        <Asset>1999002222</Asset>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="368,190842,193856,6000018" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1999002222</GUID>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="142413" Path="/Values/FeedbackBuildingGroup/Buildings">
+      <Item>
+        <Building>1999002222</Building>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="190849,190848,190847" Path="/Values/ItemEffect/EffectTargets">
+      <Item>
+        <GUID>1999002222</GUID>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories/Item[Factory='101270']">
+      <Item>
+        <Factory>1999002222</Factory>
+      </Item>
+    </ModOp>
+
+    <!-- #Potasche Production OW -->
+    <ModOp Type="addNextSibling" GUID="1010298">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>1999002232</GUID>
+            <Name>Potash Prodcution</Name>
+            <IconFilename>data/modgraphics/ui/icon_potash.png</IconFilename>
+          </Standard>
+          <Building>
+            <SkipUnlockMessage>1</SkipUnlockMessage>
+            <BuildModeRandomRotation>90</BuildModeRandomRotation>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+          </Building>
+          <Blocking />
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>1000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>5</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/modgraphics/models/potash_production/potash_production_ow.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh />
+          <Selection>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+            <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+            <Colors>
+              <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+            </Colors>
+          </Selection>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Potash Production</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>3720</LineID>
+          </Text>
+          <Constructable />
+          <Locked />
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>200802</Sound>
+              </Item>
+              <Item>
+                <Sound>206294</Sound>
+              </Item>
+            </ActiveSounds>
+            <ConstructionSounds>
+              <BuildSuccessful>
+                <Item>
+                  <VectorElement>
+                    <InheritedIndex>0</InheritedIndex>
+                    <InheritanceMapV2>
+                      <Entry>
+                        <TemplateName>FarmBuilding</TemplateName>
+                        <Index>0</Index>
+                      </Entry>
+                      <Entry>
+                        <TemplateName>HeavyFreeAreaBuilding</TemplateName>
+                        <Index>0</Index>
+                      </Entry>
+                    </InheritanceMapV2>
+                  </VectorElement>
+                  <Sound>203830</Sound>
+                </Item>
+              </BuildSuccessful>
+            </ConstructionSounds>
+            <IncidentSounds>
+              <InfectedFire>
+                <Item>
+                  <Sound>214659</Sound>
+                </Item>
+              </InfectedFire>
+            </IncidentSounds>
+            <BuildingRepaired>
+              <Item>
+                <Sound>203866</Sound>
+              </Item>
+            </BuildingRepaired>
+            <MaterialType>Soil</MaterialType>
+          </SoundEmitter>
+          <FeedbackController />
+          <Infolayer />
+          <UpgradeList />
+          <Factory7 />
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>120008</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <FactoryOutputs>
+              <Item>
+                <Product>1999002211</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>30</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <LogisticNode />
+          <AmbientMoodProvider>
+            <Murmur>Factory</Murmur>
+            <DynamicEnvironmentType>None</DynamicEnvironmentType>
+          </AmbientMoodProvider>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>50</Amount>
+                <InactiveAmount>25</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010115</Product>
+                <Amount>25</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <Attackable>
+            <AttackableType>IslandBuilding</AttackableType>
+            <MaximumHitPoints>1500</MaximumHitPoints>
+            <SelfHealPerHealTick>6</SelfHealPerHealTick>
+          </Attackable>
+          <Pausable />
+          <IncidentInfectable>
+            <Infectable>
+              <Explosion>
+                <Base>0</Base>
+                <Escalated>0</Escalated>
+              </Explosion>
+            </Infectable>
+            <Explosion>
+              <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+            </Explosion>
+            <IncidentInfectionChanceFactors>
+              <Fire>
+                <DensityDistance>20</DensityDistance>
+                <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+              </Fire>
+              <Riot>
+                <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                <HappinessThreshold>20</HappinessThreshold>
+              </Riot>
+            </IncidentInfectionChanceFactors>
+          </IncidentInfectable>
+          <Industrializable />
+          <Culture>
+            <CultureType>Factory</CultureType>
+            <Attractiveness>-5</Attractiveness>
+          </Culture>
+          <QuestObject />
+          <Electrifiable />
+          <EcoSystemProvider />
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="add" GUID="368,190842,193856,6000018,193875" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1999002232</GUID>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="142413" Path="/Values/FeedbackBuildingGroup/Buildings">
+      <Item>
+        <Building>1999002232</Building>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="190849,190848,190847" Path="/Values/ItemEffect/EffectTargets">
+      <Item>
+        <GUID>1999002232</GUID>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="addPrevSibling" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories/Item[Factory='1010312']">
+      <Item>
+        <Factory>1999002232</Factory>
+      </Item>
+    </ModOp>
+  </Group>
+
+</ModOps>

@@ -1,0 +1,54 @@
+{
+  "Version": "2.0",
+  "ModID": "Taludas_sharedproduct_avocados",
+  "DeprecateIds": [],
+  "ModDependencies": [
+  ],
+  "LoadAfterIds": [
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "sharedproduct_avocados (Taludas)",
+    "English": "sharedproduct_avocados (Taludas)",
+    "French": "sharedproduct_avocados (Taludas)",
+    "German": " sharedproduct_avocados (Taludas)",
+    "Italian": "sharedproduct_avocados (Taludas)",
+    "Japanese": "sharedproduct_avocados (Taludas)",
+    "Korean": "sharedproduct_avocados (Taludas)",
+    "Polish": "sharedproduct_avocados (Taludas)",
+    "Russian": "sharedproduct_avocados (Taludas)",
+    "Spanish": "sharedproduct_avocados (Taludas)",
+    "Taiwanese": "sharedproduct_avocados (Taludas)"
+  },
+  "Description": {
+    "English": "# Extra Goods \n\n Extra Goods implemented by me for use in some of my mods. \n\n - Avocados",
+    "German": "# Extra Goods \n\n Zusätzliche Waren, die von mir für einige meiner Mods implementiert wurden. \n\n - Avocados",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Taludas",
+  "Image": null
+}

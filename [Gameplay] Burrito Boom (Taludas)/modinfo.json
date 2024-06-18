@@ -1,14 +1,20 @@
 {
-  "Version": "1.0.4",
+  "Version": "2.0.0",
   "ModID": "Taludas_BurritoBoom",
   "DeprecateIds": [],
   "ModDependencies": [
-    "Taludas_SharedExtraGoods"
+    "Taludas_sharedgood_avocados",
+    "Taludas_sharedgood_guacamole",
+    "Taludas_sharedgood_potash",
+    "Taludas_sharedgood_tortillas"
   ],
   "LoadAfterIds": [
     "Taludas_TheWholesomeHaciendaHaul",
     "Cattle Needs to be butchered",
-    "Taludas_SharedExtraGoods"
+    "Taludas_sharedgood_avocados",
+    "Taludas_sharedgood_guacamole",
+    "Taludas_sharedgood_potash",
+    "Taludas_sharedgood_tortillas"
   ],
   "IncompatibleIds": null,
   "Category": {
@@ -55,7 +61,7 @@
     {
       "DLC": "LandOfLions",
       "Dependant": "atLeastOneRequired"
-    },    
+    },
     {
       "DLC": "SeedsOfChange",
       "Dependant": "atLeastOneRequired"

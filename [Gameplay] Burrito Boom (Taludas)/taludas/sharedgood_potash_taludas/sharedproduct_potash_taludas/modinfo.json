@@ -1,0 +1,54 @@
+{
+  "Version": "2.0",
+  "ModID": "Taludas_sharedproduct_potash",
+  "DeprecateIds": [],
+  "ModDependencies": [
+  ],
+  "LoadAfterIds": [
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "sharedproduct_potash (Taludas)",
+    "English": "sharedproduct_potash (Taludas)",
+    "French": "sharedproduct_potash (Taludas)",
+    "German": " sharedproduct_potash (Taludas)",
+    "Italian": "sharedproduct_potash (Taludas)",
+    "Japanese": "sharedproduct_potash (Taludas)",
+    "Korean": "sharedproduct_potash (Taludas)",
+    "Polish": "sharedproduct_potash (Taludas)",
+    "Russian": "sharedproduct_potash (Taludas)",
+    "Spanish": "sharedproduct_potash (Taludas)",
+    "Taiwanese": "sharedproduct_potash (Taludas)"
+  },
+  "Description": {
+    "English": "# Extra Goods \n\n Extra Goods implemented by me for use in some of my mods. \n\n - Potash",
+    "German": "# Extra Goods \n\n Zusätzliche Waren, die von mir für einige meiner Mods implementiert wurden. \n\n - Pottasche",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Taludas",
+  "Image": null
+}

@@ -1,0 +1,18 @@
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1010309</GUID>
+      <Text>Limestone Quarry</Text>
+    </Text>
+    <Text>
+      <GUID>1010505</GUID>
+      <Text>Limestone Deposit</Text>
+    </Text>
+    <Text>
+      <GUID>1010231</GUID>
+      <Text>Lime</Text>
+    </Text>
+  </ModOp>
+
+</ModOps>

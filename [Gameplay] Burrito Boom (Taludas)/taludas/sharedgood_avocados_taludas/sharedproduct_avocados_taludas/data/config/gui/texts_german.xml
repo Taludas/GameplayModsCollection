@@ -1,0 +1,46 @@
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999002200</GUID>
+      <Text>Avocado-Fruchtbarkeit</Text>
+    </Text>
+    <Text>
+      <GUID>1999002201</GUID>
+      <Text>Avocado-Fruchtbarkeit</Text>
+    </Text>
+    <Text>
+      <GUID>1999002202</GUID>
+      <Text>Avocadosamen</Text>
+    </Text>
+    <Text>
+      <GUID>1999002203</GUID>
+      <Text>Diese Samen können Euch helfen, einige Avocadobäume in fremder Erde zu pflanzen.</Text>
+    </Text>
+    <Text>
+      <GUID>1999002204</GUID>
+      <Text>Qualitäts-Avocadosamen</Text>
+    </Text>
+    <Text>
+      <GUID>1999002205</GUID>
+      <Text>Diese Samen können Euch helfen, üppige Avocadobäume in fremder Erde zu pflanzen.</Text>
+    </Text>
+    <Text>
+      <GUID>1999002206</GUID>
+      <Text>Gekreuzte Avocadosamen</Text>
+    </Text>
+    <Text>
+      <GUID>1999002207</GUID>
+      <Text>Diese Samen wurden so gekreuzt, dass sie auf einer Vielzahl unterschiedlicher Böden wachsen und den Ertrag an Avocados erhöhen!</Text>
+    </Text>
+    <Text>
+      <GUID>1999002209</GUID>
+      <Text>Avocados</Text>
+    </Text>
+    <Text>
+      <GUID>1999002210</GUID>
+      <Text>Unverwechselbar geformte Früchte mit intensivem Geschmack, vielen gesunden Fettsäuren und einem viel zu großen Samen.</Text>
+    </Text>
+  </ModOp>
+
+</ModOps>

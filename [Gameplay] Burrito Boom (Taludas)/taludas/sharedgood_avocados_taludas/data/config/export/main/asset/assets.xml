@@ -1,0 +1,679 @@
+<ModOps>
+
+  <!-- #Avocado Plantage Normal -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="1010333">
+      <Asset>
+        <Template>FarmBuilding</Template>
+        <Values>
+          <Standard>
+            <GUID>1999002218</GUID>
+            <Name>Avocado Plantation</Name>
+            <IconFilename>data/modgraphics/ui/icon_avocado.png</IconFilename>
+          </Standard>
+          <Building>
+            <BuildModeRandomRotation>90</BuildModeRandomRotation>
+            <AssociatedRegions>Colony01</AssociatedRegions>
+          </Building>
+          <Blocking />
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>500</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>8</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>2</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/modgraphics/models/avocado_farm/avocado_farm.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh />
+          <Selection>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+            <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
+            <Colors>
+              <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+            </Colors>
+          </Selection>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Avocado Plantation</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>5303</LineID>
+          </Text>
+          <Constructable />
+          <Locked />
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>200795</Sound>
+              </Item>
+              <Item>
+                <Sound>200551</Sound>
+              </Item>
+            </ActiveSounds>
+            <IncidentSounds>
+              <InfectedFire>
+                <Item>
+                  <Sound>214659</Sound>
+                </Item>
+              </InfectedFire>
+            </IncidentSounds>
+          </SoundEmitter>
+          <FeedbackController />
+          <Infolayer />
+          <UpgradeList />
+          <Factory7>
+            <NeededFertility>1999002200</NeededFertility>
+          </Factory7>
+          <FactoryBase>
+            <FactoryOutputs>
+              <Item>
+                <Product>1999002209</Product>
+                <Amount>1</Amount>
+                <StorageAmount>1</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>120</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <LogisticNode />
+          <ModuleOwner>
+            <ModuleLimits>
+              <Main>
+                <Limit>128</Limit>
+              </Main>
+            </ModuleLimits>
+            <ConstructionOptions>
+              <Item>
+                <ModuleGUID>1999002217</ModuleGUID>
+              </Item>
+            </ConstructionOptions>
+            <AdditionalModule>269848</AdditionalModule>
+            <FertilizerModuleData>
+              <Module>25241</Module>
+            </FertilizerModuleData>
+            <ModuleBuildRadius>0</ModuleBuildRadius>
+            <HardFarmsConfig>2</HardFarmsConfig>
+            <FarmType>PlantFarm</FarmType>
+          </ModuleOwner>
+          <AmbientMoodProvider>
+            <AmbientMood>AgricultureBuildingsSouthAmerica</AmbientMood>
+          </AmbientMoodProvider>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>25</Amount>
+                <InactiveAmount>12</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010366</Product>
+                <Amount>10</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <Attackable>
+            <AttackableType>IslandBuilding</AttackableType>
+            <MaximumHitPoints>1750</MaximumHitPoints>
+            <SelfHealPerHealTick>4</SelfHealPerHealTick>
+          </Attackable>
+          <IncidentInfectable>
+            <Infectable>
+              <Illness>
+                <Escalated>0</Escalated>
+              </Illness>
+            </Infectable>
+            <Explosion>
+              <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+            </Explosion>
+            <IncidentInfectionChanceFactors>
+              <Fire>
+                <DensityDistance>20</DensityDistance>
+                <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+              </Fire>
+            </IncidentInfectionChanceFactors>
+          </IncidentInfectable>
+          <Pausable />
+          <Culture>
+            <CultureType>Landscaping</CultureType>
+          </Culture>
+          <QuestObject />
+          <Industrializable />
+          <Motorizable>
+            <MotorizableType>Tractor</MotorizableType>
+          </Motorizable>
+          <EcoSystemProvider />
+          <MonoCulture />
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <!-- Add to BurritosAsset Pool, AssetPool TractorFarms NW/ OW adn NW / OW and NW and AF-->
+    <ModOp Type="add" GUID="130101,270108,270127,270158" Path="/Values/AssetPool/AssetList">
+      <Item>
+        <Asset>1999002218</Asset>
+      </Item>
+    </ModOp>
+
+    <!-- Add to FeedbackBuildingGroup Production2BuildingsColony -->
+    <ModOp Type="add" GUID="142413" Path="/Values/FeedbackBuildingGroup/Buildings">
+      <Item>
+        <Building>1999002218</Building>
+      </Item>
+    </ModOp>
+
+    <!-- Fertilizer and Tractor Feedback -->
+    <ModOp Type="add" GUID="141486" Path="/Values/FeedbackSessionDescription/FarmFieldConfig/FarmFieldBuildings">
+      <Item>
+        <Building>1999002218</Building>
+        <PersonSpawners>
+          <Item>
+            <UnitClass>141706</UnitClass>
+            <Amount_Default>12</Amount_Default>
+            <Amount_RegularTractor>6</Amount_RegularTractor>
+          </Item>
+        </PersonSpawners>
+        <VehicleSpawners>
+          <Item>
+            <UnitClass>269967</UnitClass>
+            <ShrinksFieldsOnTouch>0</ShrinksFieldsOnTouch>
+            <VehicleType>Harvester</VehicleType>
+          </Item>
+          <Item>
+            <UnitClass>25312</UnitClass>
+            <VehicleType>Fertilizer</VehicleType>
+          </Item>
+        </VehicleSpawners>
+      </Item>
+    </ModOp>
+
+    <!-- Add to ItemEffectTargetPools -->
+    <ModOp Type="add" GUID="6000018,193856,190011,191472,190865,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1999002218</GUID>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="190686,190688,190690,190692" Path="/Values/ItemEffect/EffectTargets">
+      <Item>
+        <GUID>1999002218</GUID>
+      </Item>
+    </ModOp>
+
+    <!-- Add to boostable Factories -->
+    <ModOp Type="addNextSibling" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories/Item[Factory='101270']">
+      <Item>
+        <Factory>1999002218</Factory>
+      </Item>
+    </ModOp>
+
+    <!-- Add to PlayerCounterContextPools -->
+    <ModOp Type="add" GUID="700008,700010" Path="/Values/PlayerCounterContextPool/Contexts">
+      <Item>
+        <Asset>1999002218</Asset>
+      </Item>
+    </ModOp>
+
+    <!-- #Hacienda Avocado Farm -->
+    <ModOp Type="addNextSibling" GUID="24798">
+      <Asset>
+        <Template>RecipeFarm</Template>
+        <Values>
+          <Standard>
+            <GUID>1999002219</GUID>
+            <Name>Hacienda universal farm Avocados</Name>
+            <IconFilename>data/modgraphics/ui/icon_avocado.png</IconFilename>
+          </Standard>
+          <Building>
+            <BuildModeRandomRotation>180</BuildModeRandomRotation>
+            <AssociatedRegions>Colony01</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+          </Building>
+          <Blocking />
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>500</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>6</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/modgraphics/models/hacienda_avocado_farm/hacienda_avocado_farm.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh />
+          <Selection>
+            <StaticHelpEntryPoint>SeedsOfChangeRecipes</StaticHelpEntryPoint>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+            <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
+            <Colors>
+              <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+            </Colors>
+          </Selection>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Hacienda Avocado Farm</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>55200</LineID>
+          </Text>
+          <Constructable />
+          <Locked>
+            <DLCDependency>24961</DLCDependency>
+          </Locked>
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>200795</Sound>
+              </Item>
+              <Item>
+                <Sound>200571</Sound>
+              </Item>
+            </ActiveSounds>
+            <IncidentSounds>
+              <InfectedFire>
+                <Item>
+                  <Sound>214659</Sound>
+                </Item>
+              </InfectedFire>
+            </IncidentSounds>
+          </SoundEmitter>
+          <FeedbackController />
+          <Infolayer />
+          <UpgradeList />
+          <Factory7 />
+          <FactoryBase>
+            <FactoryOutputs>
+              <Item>
+                <Product>1999002209</Product>
+                <Amount>1</Amount>
+                <StorageAmount>1</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>120</CycleTime>
+          </FactoryBase>
+          <LogisticNode />
+          <ModuleOwner>
+            <ModuleLimits>
+              <Main>
+                <Limit>64</Limit>
+              </Main>
+            </ModuleLimits>
+            <ConstructionOptions>
+              <Item>
+                <ModuleGUID>1999002217</ModuleGUID>
+              </Item>
+            </ConstructionOptions>
+            <AdditionalModule>269849</AdditionalModule>
+            <FertilizerModuleData>
+              <Module>25241</Module>
+            </FertilizerModuleData>
+            <ModuleBuildRadius>0</ModuleBuildRadius>
+            <FarmType>PlantFarm</FarmType>
+          </ModuleOwner>
+          <AmbientMoodProvider>
+            <AmbientMood>AgricultureBuildingsSouthAmerica</AmbientMood>
+          </AmbientMoodProvider>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>20</Amount>
+                <InactiveAmount>10</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010366</Product>
+                <Amount>10</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <Attackable>
+            <AttackableType>IslandBuilding</AttackableType>
+            <MaximumHitPoints>1500</MaximumHitPoints>
+            <SelfHealPerHealTick>4</SelfHealPerHealTick>
+          </Attackable>
+          <IncidentInfectable>
+            <Infectable>
+              <Illness>
+                <Escalated>0</Escalated>
+              </Illness>
+            </Infectable>
+            <Explosion>
+              <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+            </Explosion>
+            <IncidentInfectionChanceFactors>
+              <Fire>
+                <DensityDistance>20</DensityDistance>
+                <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+              </Fire>
+            </IncidentInfectionChanceFactors>
+          </IncidentInfectable>
+          <Pausable>
+            <IsHaciendaDependent>1</IsHaciendaDependent>
+          </Pausable>
+          <Culture>
+            <CultureType>Landscaping</CultureType>
+          </Culture>
+          <QuestObject />
+          <Industrializable />
+          <Motorizable>
+            <MotorizableType>Tractor</MotorizableType>
+          </Motorizable>
+          <EcoSystemProvider />
+          <MonoCulture />
+          <RecipeBuilding>
+            <RecipeList>24795</RecipeList>
+          </RecipeBuilding>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="add" GUID="25672,26008" Path="/Values/AssetPool/AssetList">
+      <Item>
+        <Asset>1999002219</Asset>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="25894,25674" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1999002219</GUID>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="142413" Path="/Values/FeedbackBuildingGroup/Buildings">
+      <Item>
+        <Building>1999002219</Building>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="141486" Path="/Values/FeedbackSessionDescription/FarmFieldConfig/FarmFieldBuildings">
+      <Item>
+        <Building>1999002219</Building>
+        <PersonSpawners>
+          <Item>
+            <UnitClass>141706</UnitClass>
+            <Amount_Default>12</Amount_Default>
+            <Amount_RegularTractor>6</Amount_RegularTractor>
+          </Item>
+        </PersonSpawners>
+        <VehicleSpawners>
+          <Item>
+            <UnitClass>269967</UnitClass>
+            <ShrinksFieldsOnTouch>1</ShrinksFieldsOnTouch>
+            <VehicleType>Harvester</VehicleType>
+          </Item>
+          <Item>
+            <UnitClass>25312</UnitClass>
+            <VehicleType>Fertilizer</VehicleType>
+          </Item>
+        </VehicleSpawners>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="1999002202,1999002204,1999002206,190688,190690,190692,190686" Path="/Values/ItemEffect/EffectTargets">
+      <Item>
+        <GUID>1999002219</GUID>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories/Item[Factory='25003']">
+      <Item>
+        <Factory>1999002219</Factory>
+      </Item>
+    </ModOp>
+
+    <!-- add Hacienda Farm Avocado to ConstructionCategory (Hacienda Overhaul) -->
+    <ModOp Type="addNextSibling" GUID="1999002021" Condition="@1999002021" Path="/Values/ConstructionCategory/BuildingList/Item[Building='25003']">
+      <Item>
+        <Building>1999002219</Building>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="24796">
+      <Asset>
+        <Template>Recipe</Template>
+        <Values>
+          <Standard>
+            <GUID>1999002220</GUID>
+            <Name>Recipe_00 Avocados</Name>
+            <IconFilename>data/modgraphics/ui/icon_avocado.png</IconFilename>
+          </Standard>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Avocado</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>55208</LineID>
+          </Text>
+          <Recipe>
+            <RecipeBuilding>1999002219</RecipeBuilding>
+            <RecipeDescriptionText>1999002221</RecipeDescriptionText>
+            <RecipeImage>data/modgraphics/ui/mood_image_avocado_farm.png</RecipeImage>
+          </Recipe>
+          <Locked>
+            <DLCDependency>24961</DLCDependency>
+          </Locked>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="24795" Path="/Values/RecipeList/Recipes/Item[Recipe='25010']">
+      <Item>
+        <Recipe>1999002220</Recipe>
+      </Item>
+    </ModOp>
+
+    <!-- Adjustment for Electrified Hacienda Farms (Hacienda Overhaul) -->
+    <Group Condition="@24794/Industrializable/BoostedByIndustrialization[text()='1']">
+      <ModOp Type="replace" GUID="1999002219" Path="/Template">
+        <Template>Electrifiable_RecipeFarm_Taludas</Template>
+      </ModOp>
+
+      <ModOp GUID="1999002219" Path="/Values/Industrializable" Type="replace" ModOpID="HaciendaFarmsBoostedbyElectricity">
+        <Industrializable>
+          <BoostedByIndustrialization>1</BoostedByIndustrialization>
+          <TransporterIndustrializationFactory>1010106</TransporterIndustrializationFactory>
+          <TransporterIndustrializationWarehouse>1010106</TransporterIndustrializationWarehouse>
+        </Industrializable>
+      </ModOp>
+
+      <ModOp GUID="1999002219" Path="/Values" Type="add">
+        <Electrifiable>
+          <ElectrifiedEffect>0</ElectrifiedEffect>
+          <ElectricityBoost>0</ElectricityBoost>
+          <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+        </Electrifiable>
+      </ModOp>
+    </Group>
+    <Group Condition="@24794/Industrializable/BoostedByIndustrialization[text()='0']">
+      <ModOp Type="replace" GUID="1999002219" Path="/Template">
+        <Template>Electrifiable_RecipeFarm_Taludas</Template>
+      </ModOp>
+
+      <ModOp GUID="1999002219" Path="/Values/Industrializable" Type="replace" ModOpID="HaciendaFarmsBoostedbyElectricity">
+        <Industrializable>
+          <BoostedByIndustrialization>0</BoostedByIndustrialization>
+        </Industrializable>
+      </ModOp>
+
+      <ModOp GUID="1999002219" Path="/Values" Type="add">
+        <Electrifiable>
+          <ElectrifiedEffect>0</ElectrifiedEffect>
+          <ElectricityBoost>0</ElectricityBoost>
+          <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+        </Electrifiable>
+      </ModOp>
+    </Group>
+
+    <!-- Adjustment for Fertility is Needed by Hacienda Farms (Hacienda Overhaul) -->
+    <ModOp Type="replace" GUID="1999002219" Condition="//Values[Standard/GUID='1999002001']/Factory7/NeededFertility[text()='1010577']" Path="/Values/Factory7" ModOpID="HaciendaAvocadoFarmFertility">
+      <Factory7>
+        <NeededFertility>1999002200</NeededFertility>
+      </Factory7>
+    </ModOp>
+    <ModOp Type="replace" GUID="1999002219" Condition="//Values[Standard/GUID='1999002004']/Factory7/NeededFertility[text()='1010576']" Path="/Values/Factory7" ModOpID="HaciendaAvocadoFarmFertility">
+      <Factory7>
+        <NeededFertility>1999002200</NeededFertility>
+      </Factory7>
+    </ModOp>
+    <ModOp Type="replace" GUID="1999002219" Condition="//Values[Standard/GUID='1999002007']/Factory7/NeededFertility[text()='1010577']" Path="/Values/Factory7" ModOpID="HaciendaAvocadoFarmFertility">
+      <Factory7>
+        <NeededFertility>1999002200</NeededFertility>
+      </Factory7>
+    </ModOp>
+
+    <!-- #Avocado Farm Fields -->
+    <ModOp Type="addNextSibling" GUID="1010338">
+      <Asset>
+        <Template>Farmfield</Template>
+        <Values>
+          <Standard>
+            <GUID>1999002217</GUID>
+            <Name>Avocado Field</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_general_module_01.png</IconFilename>
+          </Standard>
+          <Building>
+            <BuildModeRandomRotation>90</BuildModeRandomRotation>
+            <AssociatedRegions>Colony01</AssociatedRegions>
+          </Building>
+          <Blocking>
+            <GroundDecalAsset>101058</GroundDecalAsset>
+            <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+          </Blocking>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>50</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/modgraphics/models/avocado_farm/avocado_farm_field_01.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/avocado_farm/avocado_farm_field_02.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/avocado_farm/avocado_farm_field_03.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/avocado_farm/avocado_farm_field_04.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/modgraphics/models/avocado_farm/avocado_farm_field_05.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh />
+          <Selection>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+          </Selection>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Avocado Grove</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>5308</LineID>
+          </Text>
+          <Constructable />
+          <Locked />
+          <SoundEmitter />
+          <FeedbackController />
+          <Infolayer />
+          <BuildingModule />
+          <AmbientMoodProvider>
+            <AmbientMood>AgricultureBuildingsSouthAmerica</AmbientMood>
+          </AmbientMoodProvider>
+          <ModuleIrrigation />
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+</ModOps>

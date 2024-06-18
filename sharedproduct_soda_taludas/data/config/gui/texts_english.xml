@@ -1,0 +1,18 @@
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999002300</GUID>
+      <Text>Soda</Text>
+    </Text>
+    <Text>
+      <GUID>1999002301</GUID>
+      <Text>The chemical revolution to add sparks to your drinks.</Text>
+    </Text>
+    <Text>
+      <GUID>1999002302</GUID>
+      <Text>Treats heartburn like a charm.</Text>
+    </Text>
+  </ModOp>
+
+</ModOps>

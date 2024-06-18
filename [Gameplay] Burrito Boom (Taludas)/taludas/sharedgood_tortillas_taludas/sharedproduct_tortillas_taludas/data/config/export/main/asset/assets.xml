@@ -1,0 +1,86 @@
+<ModOps>
+
+  <!-- #Tortilla-Fladen -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="1010240" Condition="!@1999002213">
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>1999002213</GUID>
+            <Name>Tortillas</Name>
+            <IconFilename>data/modgraphics/ui/icon_tortillas.png</IconFilename>
+            <InfoDescription>1999002214</InfoDescription>
+          </Standard>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Tortillas</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>5388</LineID>
+          </Text>
+          <Locked />
+          <Product>
+            <StorageLevel>Building</StorageLevel>
+            <ProductCategory>11703</ProductCategory>
+            <BasePrice>75</BasePrice>
+            <CivLevel>2</CivLevel>
+            <AssociatedRegion>Colony01</AssociatedRegion>
+            <ProductionRegions>
+              <Item>
+                <RegionType>Colony01</RegionType>
+              </Item>
+            </ProductionRegions>
+          </Product>
+          <ExpeditionAttribute>
+            <BaseMorale>15</BaseMorale>
+          </ExpeditionAttribute>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <!-- Add to Standard Product Storage List -->
+    <ModOp Type="addNextSibling" GUID="120055" Path="/Values/ProductStorageList/ProductList/Item[Product='120034']" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1999002213']">
+      <Item>
+        <Product>1999002213</Product>
+      </Item>
+    </ModOp>
+
+    <!-- Add to BurritosAsset Pool -->
+    <ModOp Type="add" GUID="130101" Path="/Values/AssetPool/AssetList/">
+      <Item>
+        <Asset>1999002213</Asset>
+      </Item>
+    </ModOp>
+
+    <!-- Add to Expedition Balancing -->
+    <ModOp Type="add" GUID="800111" Path="/Values/ExpeditionFeature/FeedOption/FeedOptions" Condition="!~/Values/ExpeditionFeature/FeedOption/FeedOptions/Item[Product='1999002213']">
+      <Item>
+        <MoraleFactor>0.4</MoraleFactor>
+        <Product>1999002213</Product>
+      </Item>
+    </ModOp>
+
+    <!-- Add to Obrero WorkforceGoods, ObreroUnlockGoods, IntermediateGoods_SA -->
+    <ModOp Type="addPrevSibling" GUID="502009" Path="/Values/ProductList/List/Item[Product='120035']" Condition="!~/Values/ProductList/List/Item[Product='1999002213']">
+      <Item>
+        <Product>1999002213</Product>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="addPrevSibling" GUID="502023" Path="/Values/ProductList/List/Item[Product='120035']" Condition="!~/Values/ProductList/List/Item[Product='1999002213']">
+      <Item>
+        <Product>1999002213</Product>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="addPrevSibling" GUID="502044" Path="/Values/ProductList/List/Item[Product='120044']" Condition="!~/Values/ProductList/List/Item[Product='1999002213']">
+      <Item>
+        <Product>1999002213</Product>
+      </Item>
+    </ModOp>
+  </Group>
+
+</ModOps>

@@ -1,14 +1,6 @@
 <ModOps>
-  
+
   <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1999002223</GUID>
-      <Text>Tortillamühle</Text>
-    </Text>
-    <Text>
-      <GUID>1999002224</GUID>
-      <Text>Guacamole-Küche</Text>
-    </Text>
     <Text>
       <GUID>1999002226</GUID>
       <Text>Burrito Boom</Text>

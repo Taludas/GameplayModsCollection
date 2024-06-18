@@ -1,14 +1,15 @@
 {
-  "Version": "1.0.2",
+  "Version": "2.0.0",
   "ModID": "Taludas_SlipperySoap",
   "DeprecateIds": [],
   "ModDependencies": [
-    "Taludas_SharedExtraGoods"
+    "Taludas_sharedgood_potash"
   ],
   "LoadAfterIds": [
-    "Taludas_SharedExtraGoods",
+    "Taludas_sharedgood_potash",
     "IndustrializedLowTierProduction",
-    "production-olive-soap-jakob"
+    "production-olive-soap-jakob",
+    "soap_works_kurila"
   ],
   "IncompatibleIds": null,
   "Category": {
