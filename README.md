@@ -21,6 +21,14 @@ You can find a gallery of images from my mod [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.8.0</summary>
+
+* Fixes:
+  * fix loadorder for TrueJamExperience to be compatible with Jakobs NW Cities
+
+</details>
+
+<details>
     <summary>Patch Notes Version 1.7.0</summary>
 
 * Updates:

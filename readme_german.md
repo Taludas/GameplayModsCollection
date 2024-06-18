@@ -20,6 +20,14 @@ Hier findet ihr eine Galerie mit Bildern von meinen Mods [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.8.0</summary>
+
+* Fixes:
+  * Ladereihenfolge für TrueJamExperience korrigiert, um mit Jakobs NW Cities kompatibel zu sein
+
+</details>
+
+<details>
     <summary>Patch Notes Version 1.7.0</summary>
 
 * Updates:
