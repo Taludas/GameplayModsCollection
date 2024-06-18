@@ -21,6 +21,14 @@ You can find a gallery of images from my mod [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.7.0</summary>
+
+* Updates:
+  * rework Taludas Shared Products mods into individual sub-mods
+
+</details>
+
+<details>
     <summary>Patch Notes Version 1.6.2</summary>
 
 * Fixes:

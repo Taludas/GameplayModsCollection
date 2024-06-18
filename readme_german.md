@@ -20,6 +20,14 @@ Hier findet ihr eine Galerie mit Bildern von meinen Mods [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.7.0</summary>
+
+* Updates:
+  * Überarbeitung der Mods Taludas Extra Goods in einzelne Untermods
+
+</details>
+
+<details>
     <summary>Patch Notes Version 1.6.2</summary>
 
 * Fixes:
