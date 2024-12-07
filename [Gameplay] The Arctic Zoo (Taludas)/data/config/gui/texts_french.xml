@@ -2,13 +2,13 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000131</GUID>
-      <Text>Zoo Arctic</Text>
+      <Text>Zoo arctique</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000132</GUID>
-      <Text>Parc animalier arctic vide</Text>
+      <Text>Parc animalier arctique vide</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
@@ -70,19 +70,19 @@
       <GUID>1999000142</GUID>
       <Text>En étudiant la fourrure des animaux qui vivent dans les rudes conditions climatiques de la toundra arctique, vos tailleurs ont fait des avancées significatives dans la conception des vêtements de vos résidents.</Text>
     </Text>
-  </ModOp>  
+  </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000143</GUID>
       <Text>Équipé dans la région arctique, cet ensemble permet des économies de matériaux de construction dans la production de dirigeables.</Text>
     </Text>
-  </ModOp> 
+  </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000144</GUID>
       <Text>Parc de la toundra arctique</Text>
     </Text>
-  </ModOp>  
+  </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000145</GUID>
