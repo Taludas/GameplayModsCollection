@@ -2,49 +2,49 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000151</GUID>
-      <Text>THE ALKALOID COLLECTION</Text>
+      <Text>LA COLLECTION D'ALCALOÏDES</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000152</GUID>
-      <Text>A collection of exotic alkaloid plants. Serve as daily drugs in remote parts of the world. Maybe your residents are interested in tasting them?</Text>
+      <Text>Une collection de plantes exotiques riches en alcaloïdes, utilisées quotidiennement comme drogues dans les régions les plus reculées du monde. Peut-être vos habitants seraient-ils curieux de les goûter ?</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000153</GUID>
-      <Text>Alkaloid-Garden</Text>
+      <Text>Jardin d'alcaloïdes</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000154</GUID>
-      <Text>The introduction of new exotic and legal daily drugs leads to an unprecedented euphoria among your residents, which is accompanied by an increase in the workload of your workers. With the new alternatives, the consumption of classic daily drugs is falling. However, when importing the new "cultural asset", note that the increased consumption of psychotropic substances leads to an increased susceptibility to illness and in some cases to an increased propensity for violence on the part of your population.</Text>
+      <Text>L'introduction de nouvelles drogues exotiques et légales provoque une euphorie générale parmi vos habitants mais elle augmente aussi la charge de travail de vos ouvriers. Si la consommation de drogues classiques diminue, l'importation de ce "bien culturel" entraîne toutefois une plus grande vulnérabilité aux maladies et, parfois, une tendance accrue à la violence.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000155</GUID>
-      <Text>Alkaloid-Garden</Text>
+      <Text>Jardin d'alcaloïdes</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000156</GUID>
-      <Text>Alkaloid-Garden</Text>
+      <Text>Jardin d'alcaloïdes</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000157</GUID>
-      <Text>Areca palm</Text>
+      <Text>Palmier Aréca</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000158</GUID>
-      <Text>&lt;b&gt;Areca catechu.&lt;/b&gt; The seeds of the Areca palm are traditionally chewed with slaked lime as a so-called betel bite. As a result, the arecoline contained in the seed is converted into arecaidin and can thus be more easily absorbed. It works against tiredness and exhaustion. The saliva is colored intensely red when chewed due to the coloring agents it contains.</Text>
+      <Text>&lt;b&gt;Areca catechu.&lt;/b&gt; Les graines du palmier Areca sont mâchées avec de la chaux sous forme de "bouchée de bétel", ce qui transforme l'arécoline en arécidine, facilitant ainsi son absorption. Elle lutte contre la fatigue et l'épuisement. La salive devient rouge vif en raison des colorants qu'elle contient.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
@@ -56,19 +56,19 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000160</GUID>
-      <Text>&lt;b&gt;Catha edulis.&lt;/b&gt; The branch tips and young leaves of the Kath shrub are traditionally chewed in larger groups during lunchtime. The contained cathine acts as a stimulant and keeps you awake. The cultivation is very water-intensive.</Text>
+      <Text>&lt;b&gt;Catha edulis.&lt;/b&gt; Les jeunes feuilles et pointes de branches de l'arbuste Khat sont traditionnellement mâchées en groupe lors du déjeuner. La cathine qu'elles contiennent agit comme stimulant et aide à rester éveillé. Sa culture demande beaucoup d'eau.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000161</GUID>
-      <Text>Kola Tree</Text>
+      <Text>Kolatier</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000162</GUID>
-      <Text>&lt;b&gt;Cola nitida.&lt;/b&gt; The seeds of the kola nut tree contain significantly more caffeine than the same amount of coffee beans. When chewing, the caffeine is absorbed and acts against fatigue, headaches and loss of libido.</Text>
+      <Text>&lt;b&gt;Cola nitida.&lt;/b&gt; Les graines de l'arbre à noix de kola renferment bien plus de caféine qu'une quantité équivalente de grains de café. Lorsqu'elles sont mâchées, la caféine est rapidement absorbée et lutte contre la fatigue, les maux de tête et la baisse de libido.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
@@ -80,31 +80,31 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000164</GUID>
-      <Text>&lt;b&gt;Corynanthe johimbe.&lt;/b&gt; The bark of the evergreen yohimba tree contains the alkaloid yohmibine. Therefore, the bark is traditionally consumed in African countries as an aphrodisiac and sexual enhancer.</Text>
+      <Text>&lt;b&gt;Corynanthe johimbe.&lt;/b&gt; L'écorce de l'arbre contient de la yohimbine. Elle est traditionnellement consommée dans certains pays africains pour ses propriétés aphrodisiaques et comme stimulant sexuel.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000165</GUID>
-      <Text>Coca</Text>
+      <Text>Cocaïer</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000166</GUID>
-      <Text>&lt;b&gt;Erythroxylum coca.&lt;/b&gt; The consumption of the leaves of the coca bush is widespread in South America. They contain the alkaloid cocaine. While the leaves are traditionally chewed by native South Americans, the "pure" cocaine is consumed in western countries. In the Andes, people use it to alleviate the symptoms of altitude sickness by increasing oxygen uptake. In addition, it helps to suppress hunger, tiredness and cold. By alkalizing the chewed leaves with lime, the cocaine loses its addictive properties, which is why the Andean population is hardly dependent on the effects of cocaine.</Text>
+      <Text>&lt;b&gt;Erythroxylum coca.&lt;/b&gt; Les feuilles du cocaïer, contenant de la cocaïne, sont couramment mâchées en Amérique du Sud, notamment dans les Andes, où elles aident à combattre le mal d'altitude, la faim, la fatigue et le froid. En les alcalinisant avec de la chaux, la cocaïne perd ses effets addictifs, ce qui explique la faible dépendance des populations locales. En revanche, la cocaïne "pure" est consommée en Occident.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000167</GUID>
-      <Text>Opium Poppy</Text>
+      <Text>Pavot à opium</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000168</GUID>
-      <Text>&lt;b&gt;Papaver somniferum.&lt;/b&gt; An alkaloid mixture is extracted from the milky sap contained in the opium poppy capsules, which has become famous as opium. It has strong analgesic and numbing effects. Perhaps your engineers can use opium to develop a highly effective medicine that can be sold in drugstores for headaches, colds and coughs?</Text>
+      <Text>&lt;b&gt;Papaver somniferum.&lt;/b&gt; La sève laiteuse extraite des capsules de pavot à opium, connue sous le nom d'opium, est réputée pour ses puissants effets analgésiques et anesthésiants. Pourquoi ne pas demander à vos ingénieurs de l'utiliser pour développer un médicament efficace à vendre en pharmacie contre les maux de tête, les rhumes et la toux ?</Text>
     </Text>
   </ModOp>
 </ModOps>
