@@ -2,7 +2,7 @@
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1999000040</GUID>
-			<Text>Manufactory: Souvenirs</Text>
+			<Text>Atelier : souvenirs</Text>
 		</Text>
 		<Text>
 			<GUID>1999000041</GUID>
@@ -10,47 +10,47 @@
 		</Text>
 		<Text>
 			<GUID>1999000042</GUID>
-			<Text>Today's modern tourist wants nothing more than to bring back a high-quality, hand-made souvenir from his extraordinary trip to the Old World for his loved ones at home. Both modern and traditional materials can be combined into a variety of attractive souvenirs.</Text>
+			<Text>Le touriste d'aujourd'hui cherche avant tout à rapporter de son incroyable voyage dans l'ancien monde un souvenir fait main, de qualité pour ses proches. Des matériaux modernes et traditionnels sont combinés pour créer une large gamme de souvenirs attrayants.</Text>
 		</Text>
 		<Text>
 			<GUID>137609</GUID>
-			<Text>Handcrafted Souvenirs</Text>
+			<Text>Souvenirs faits main</Text>
 		</Text>
 		<Text>
 			<GUID>1999002257</GUID>
-			<Text>Souvenir Shop</Text>
+			<Text>Boutique de souvenirs</Text>
 		</Text>
 		<Text>
 			<GUID>1999002258</GUID>
-			<Text>Supplies your Tourists with souvenirs to buff Hotels and Tourist Moorings in the vicinity.</Text>
+			<Text>Fournit des souvenirs à vos touristes pour améliorer les hôtels et les quais touristiques à proximité.</Text>
 		</Text>
 		<Text>
 			<GUID>1999002259</GUID>
-			<Text>Souvenir Shop: Postcards</Text>
+			<Text>Boutique de souvenirs : cartes postales</Text>
 		</Text>
 		<Text>
 			<GUID>1999002260</GUID>
-			<Text>Souvenir Shops: Kiosk</Text>
+			<Text>Boutiques de souvenirs : kiosque</Text>
 		</Text>
 		<Text>
 			<GUID>1999002261</GUID>
-			<Text>Souvenir Sales</Text>
+			<Text>Ventes de souvenirs</Text>
 		</Text>
 		<Text>
 			<GUID>1999002262</GUID>
-			<Text>Souvenir Stores</Text>
+			<Text>Magasins de souvenirs</Text>
 		</Text>
 		<Text>
 			<GUID>1999002263</GUID>
-			<Text>Overview of the Souvenir Shops used to supply your Tourists with souvenirs beside the sales in Hotels.</Text>
+			<Text>Vue d'ensemble des boutiques qui approvisionnent vos touristes en souvenirs, en plus des ventes réalisées dans les hôtels.</Text>
 		</Text>
 		<Text>
 			<GUID>1999002266</GUID>
-			<Text>Souvenir Sales</Text>
+			<Text>Ventes de souvenirs</Text>
 		</Text>
 		<Text>
 			<GUID>1999000050</GUID>
-			<Text>Assembly Line: Souvenirs</Text>
+			<Text>Chaîne de production : souvenirs</Text>
 		</Text>
 		<Text>
 			<GUID>1999000051</GUID>
@@ -58,11 +58,11 @@
 		</Text>
 		<Text>
 			<GUID>1999000052</GUID>
-			<Text>The modern tourist is attracted by the offer of discounted souvenirs. In order to bring enough visual material for those who stayed at home, he demands a large variety of products at a reasonable price. Modern and cheap materials, combined with the advancement of the assembly line, can be combined into a variety of suitable products.</Text>
+			<Text>Le touriste d'aujourd'hui est attiré par l'offre de souvenirs à prix réduits. Pour rapporter des souvenirs à ses proches, il jete son dévolu sur un large éventail de produits au rabais. Les matériaux modernes et bon marché, combinés aux avancées des chaînes de production, permettent de créer une large gamme de produits adaptés.</Text>
 		</Text>
 		<Text>
 			<GUID>1999000059</GUID>
-			<Text>Mass-produced Souvenirs</Text>
+			<Text>Souvenirs produits en série</Text>
 		</Text>
   </ModOp>
 </ModOps>
