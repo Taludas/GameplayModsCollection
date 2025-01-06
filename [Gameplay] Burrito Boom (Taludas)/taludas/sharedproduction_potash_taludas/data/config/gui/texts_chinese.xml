@@ -3,11 +3,11 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002222</GUID>
-      <Text>Potash Works</Text>
+      <Text>草木灰作坊</Text>
     </Text>
     <Text>
       <GUID>1999002232</GUID>
-      <Text>Potash Works</Text>
+      <Text>草木灰作坊</Text>
     </Text>
   </ModOp>
 

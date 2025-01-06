@@ -1,37 +1,36 @@
 <ModOps>
-
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002200</GUID>
-      <Text>Avocado-Fruchtbarkeit</Text>
+      <Text>Fruchtbarkeit der Avocado</Text>
     </Text>
     <Text>
       <GUID>1999002201</GUID>
-      <Text>Avocado-Fruchtbarkeit</Text>
+      <Text>Fruchtbarkeit der Avocado</Text>
     </Text>
     <Text>
       <GUID>1999002202</GUID>
-      <Text>Avocadosamen</Text>
+      <Text>Avocado Samen</Text>
     </Text>
     <Text>
       <GUID>1999002203</GUID>
-      <Text>Diese Samen können Euch helfen, einige Avocadobäume in fremder Erde zu pflanzen.</Text>
+      <Text>Diese Samen können dir helfen, ein paar Avocadobäume in fremder Erde sprießen zu lassen.</Text>
     </Text>
     <Text>
       <GUID>1999002204</GUID>
-      <Text>Qualitäts-Avocadosamen</Text>
+      <Text>Hochwertige Avocado-Samen</Text>
     </Text>
     <Text>
       <GUID>1999002205</GUID>
-      <Text>Diese Samen können Euch helfen, üppige Avocadobäume in fremder Erde zu pflanzen.</Text>
+      <Text>Diese Samen können dir helfen, reichlich Avocadobäume in fremdem Boden anzubauen.</Text>
     </Text>
     <Text>
       <GUID>1999002206</GUID>
-      <Text>Gekreuzte Avocadosamen</Text>
+      <Text>Hybrid-Avocado-Samen</Text>
     </Text>
     <Text>
       <GUID>1999002207</GUID>
-      <Text>Diese Samen wurden so gekreuzt, dass sie auf einer Vielzahl unterschiedlicher Böden wachsen und den Ertrag an Avocados erhöhen!</Text>
+      <Text>Diese Samen wurden so angepasst, dass sie auf einer Vielzahl von Böden wachsen und den Avocado-Ertrag steigern!</Text>
     </Text>
     <Text>
       <GUID>1999002209</GUID>
@@ -39,8 +38,7 @@
     </Text>
     <Text>
       <GUID>1999002210</GUID>
-      <Text>Unverwechselbar geformte Früchte mit intensivem Geschmack, vielen gesunden Fettsäuren und einem viel zu großen Samen.</Text>
+      <Text>Ausgeprägt geformte Früchte mit reichem Geschmack, vielen gesunden Fettsäuren und einem überwucherten großen Samenkorn.</Text>
     </Text>
   </ModOp>
-
 </ModOps>

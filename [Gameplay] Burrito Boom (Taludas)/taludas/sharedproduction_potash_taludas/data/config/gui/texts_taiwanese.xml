@@ -1,14 +1,12 @@
 <ModOps>
-
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002222</GUID>
-      <Text>Potash Works</Text>
+      <Text>鉀肥廠</Text>
     </Text>
     <Text>
       <GUID>1999002232</GUID>
-      <Text>Potash Works</Text>
+      <Text>鉀肥廠</Text>
     </Text>
   </ModOp>
-
 </ModOps>

@@ -1,46 +1,44 @@
 <ModOps>
-
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002200</GUID>
-      <Text>Avocado Fertility</Text>
+      <Text>아보카도 비옥도</Text>
     </Text>
     <Text>
       <GUID>1999002201</GUID>
-      <Text>Avocado Fertility</Text>
+      <Text>아보카도 비옥도</Text>
     </Text>
     <Text>
       <GUID>1999002202</GUID>
-      <Text>Avocado Seeds</Text>
+      <Text>아보카도 씨앗</Text>
     </Text>
     <Text>
       <GUID>1999002203</GUID>
-      <Text>These seeds can help you sprout a few Avocado trees in alien soil.</Text>
+      <Text>이 씨앗은 외계 토양에서 몇 그루의 아보카도 나무를 싹을 틔우는 데 도움이 될 수 있습니다.</Text>
     </Text>
     <Text>
       <GUID>1999002204</GUID>
-      <Text>Quality Avocado Seeds</Text>
+      <Text>품질 아보카도 씨앗</Text>
     </Text>
     <Text>
       <GUID>1999002205</GUID>
-      <Text>These seeds can help you grow plentiful Avocado trees in alien soil.</Text>
+      <Text>이 씨앗은 외계 토양에서 풍부한 아보카도 나무를 재배하는 데 도움이 될 수 있습니다.</Text>
     </Text>
     <Text>
       <GUID>1999002206</GUID>
-      <Text>Hybrid Avocado Seeds</Text>
+      <Text>하이브리드 아보카도 씨앗</Text>
     </Text>
     <Text>
       <GUID>1999002207</GUID>
-      <Text>These seeds have been adapted to grow in a very wide range of soils, and with increased Avocado yield!</Text>
+      <Text>이 씨앗은 매우 광범위한 토양에서 자랄 수 있도록 적응되었으며 아보카도 수확량이 증가했습니다!</Text>
     </Text>
     <Text>
       <GUID>1999002209</GUID>
-      <Text>Avocados</Text>
+      <Text>아보카도</Text>
     </Text>
     <Text>
       <GUID>1999002210</GUID>
-      <Text>Distinctly shaped fruits with rich flavour, many healthy fatty acids and an overgrown large seed.</Text>
+      <Text>풍부한 풍미, 많은 건강한 지방산 및 자란 큰 씨앗을 가진 독특한 모양의 과일.</Text>
     </Text>
   </ModOp>
-
 </ModOps>

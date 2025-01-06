@@ -1,14 +1,12 @@
 <ModOps>
-
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002211</GUID>
-      <Text>Potash</Text>
+      <Text>碳酸鉀</Text>
     </Text>
     <Text>
       <GUID>1999002212</GUID>
-      <Text>Powdery alkaline remains of once crackling woodfires.</Text>
+      <Text>曾經噼啪作響的柴火的粉狀鹼性殘骸。</Text>
     </Text>
   </ModOp>
-
 </ModOps>

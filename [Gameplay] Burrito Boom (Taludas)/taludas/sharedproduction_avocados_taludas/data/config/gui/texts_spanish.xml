@@ -1,13 +1,12 @@
 <ModOps>
-
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002217</GUID>
-      <Text>Avocado Grove</Text>
+      <Text>Plantación de aguacates</Text>
     </Text>
     <Text>
       <GUID>1999002218</GUID>
-      <Text>Avocado Plantation</Text>
+      <Text>Plantación de aguacate</Text>
     </Text>
     <Text>
       <GUID>1999002219</GUID>
@@ -15,12 +14,11 @@
     </Text>
     <Text>
       <GUID>1999002220</GUID>
-      <Text>Avocados</Text>
+      <Text>Aguacates</Text>
     </Text>
     <Text>
       <GUID>1999002221</GUID>
-      <Text>With its distinct form and taste, the Avocado has a rich tradition in the cuisine culture of the New World. Because the pulp contains a high amount of fat, the nutrtious value is very high. Biggest concern of cultivation is the hugh water consumption to grow the plant.</Text>
+      <Text>Con su forma y sabor distintivos, el aguacate tiene una rica tradición en la cultura culinaria del Nuevo Mundo. Debido a que la pulpa contiene una gran cantidad de grasa, el valor de nuez es muy alto. La mayor preocupación del cultivo es el enorme consumo de agua para cultivar la planta.</Text>
     </Text>
   </ModOp>
-
 </ModOps>

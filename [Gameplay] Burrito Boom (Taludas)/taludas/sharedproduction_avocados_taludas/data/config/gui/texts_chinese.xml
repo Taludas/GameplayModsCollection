@@ -3,23 +3,23 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002217</GUID>
-      <Text>Avocado Grove</Text>
+      <Text>牛油果树</Text>
     </Text>
     <Text>
       <GUID>1999002218</GUID>
-      <Text>Avocado Plantation</Text>
+      <Text>牛油果种植园</Text>
     </Text>
     <Text>
       <GUID>1999002219</GUID>
-      <Text>Hacienda Avocado Plantation</Text>
+      <Text>庄园牛油果种植园</Text>
     </Text>
     <Text>
       <GUID>1999002220</GUID>
-      <Text>Avocados</Text>
+      <Text>牛油果</Text>
     </Text>
     <Text>
       <GUID>1999002221</GUID>
-      <Text>With its distinct form and taste, the Avocado has a rich tradition in the cuisine culture of the New World. Because the pulp contains a high amount of fat, the nutrtious value is very high. Biggest concern of cultivation is the hugh water consumption to grow the plant.</Text>
+      <Text>由于其独特的形状和味道，牛油果在新世界的饮食文化中有着很重要的地位。因为果肉含有大量的脂肪，所以营养价值非常高。种植的最大的题是巨大的用水量。</Text>
     </Text>
   </ModOp>
 

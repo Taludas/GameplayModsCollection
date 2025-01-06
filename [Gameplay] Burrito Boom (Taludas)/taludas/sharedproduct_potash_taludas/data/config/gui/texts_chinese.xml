@@ -3,11 +3,11 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002211</GUID>
-      <Text>Potash</Text>
+      <Text>草木灰</Text>
     </Text>
     <Text>
       <GUID>1999002212</GUID>
-      <Text>Powdery alkaline remains of once crackling woodfires.</Text>
+      <Text>曾经噼啪作响的森林大火留下的粉状碱性残留物。</Text>
     </Text>
   </ModOp>
 

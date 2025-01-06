@@ -1,26 +1,24 @@
 <ModOps>
-
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002217</GUID>
-      <Text>Avocado Grove</Text>
+      <Text>アボカドグローブ</Text>
     </Text>
     <Text>
       <GUID>1999002218</GUID>
-      <Text>Avocado Plantation</Text>
+      <Text>アボカド農園</Text>
     </Text>
     <Text>
       <GUID>1999002219</GUID>
-      <Text>Hacienda Avocado Plantation</Text>
+      <Text>ハシエンダ アボカド プランテーション</Text>
     </Text>
     <Text>
       <GUID>1999002220</GUID>
-      <Text>Avocados</Text>
+      <Text>アボカド</Text>
     </Text>
     <Text>
       <GUID>1999002221</GUID>
-      <Text>With its distinct form and taste, the Avocado has a rich tradition in the cuisine culture of the New World. Because the pulp contains a high amount of fat, the nutrtious value is very high. Biggest concern of cultivation is the hugh water consumption to grow the plant.</Text>
+      <Text>その独特の形と味で、アボカドは新世界の料理文化に豊かな伝統を持っています。果肉には脂肪分が多く含まれているため、栄養価が非常に高いです。栽培の最大の関心事は、植物を育てるための膨大な水の消費量です。</Text>
     </Text>
   </ModOp>
-
 </ModOps>

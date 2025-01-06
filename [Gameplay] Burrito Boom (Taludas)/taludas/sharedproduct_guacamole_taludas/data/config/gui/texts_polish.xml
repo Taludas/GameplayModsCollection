@@ -1,5 +1,4 @@
 <ModOps>
-
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002215</GUID>
@@ -7,8 +6,7 @@
     </Text>
     <Text>
       <GUID>1999002216</GUID>
-      <Text>Velvet green creamy, spicy avocado paste.</Text>
+      <Text>Aksamitna zielona kremowa, pikantna pasta z awokado.</Text>
     </Text>
   </ModOp>
-
 </ModOps>

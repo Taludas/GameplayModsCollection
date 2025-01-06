@@ -3,43 +3,43 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002200</GUID>
-      <Text>Avocado Fertility</Text>
+      <Text>牛油果生产力</Text>
     </Text>
     <Text>
       <GUID>1999002201</GUID>
-      <Text>Avocado Fertility</Text>
+      <Text>牛油果生产力</Text>
     </Text>
     <Text>
       <GUID>1999002202</GUID>
-      <Text>Avocado Seeds</Text>
+      <Text>牛油果种子</Text>
     </Text>
     <Text>
       <GUID>1999002203</GUID>
-      <Text>These seeds can help you sprout a few Avocado trees in alien soil.</Text>
+      <Text>这些种子可以帮助你在性质不同的土壤中种植几颗牛油果树。</Text>
     </Text>
     <Text>
       <GUID>1999002204</GUID>
-      <Text>Quality Avocado Seeds</Text>
+      <Text>优质牛油果种子</Text>
     </Text>
     <Text>
       <GUID>1999002205</GUID>
-      <Text>These seeds can help you grow plentiful Avocado trees in alien soil.</Text>
+      <Text>这些种子可以帮助你在性质不同的土壤中种植许多牛油果树。</Text>
     </Text>
     <Text>
       <GUID>1999002206</GUID>
-      <Text>Hybrid Avocado Seeds</Text>
+      <Text>混种牛油果种子</Text>
     </Text>
     <Text>
       <GUID>1999002207</GUID>
-      <Text>These seeds have been adapted to grow in a very wide range of soils, and with increased Avocado yield!</Text>
+      <Text>这些种子已适应在大范围的土壤中生长，且能产出更多！</Text>
     </Text>
     <Text>
       <GUID>1999002209</GUID>
-      <Text>Avocados</Text>
+      <Text>牛油果</Text>
     </Text>
     <Text>
       <GUID>1999002210</GUID>
-      <Text>Distinctly shaped fruits with rich flavour, many healthy fatty acids and an overgrown large seed.</Text>
+      <Text>形状独特的水果，味道丰富，富含健康的脂肪酸和超大的种子。</Text>
     </Text>
   </ModOp>
 

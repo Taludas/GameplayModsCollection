@@ -1,46 +1,44 @@
 <ModOps>
-
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002200</GUID>
-      <Text>Avocado Fertility</Text>
+      <Text>Fertilidad del aguacate</Text>
     </Text>
     <Text>
       <GUID>1999002201</GUID>
-      <Text>Avocado Fertility</Text>
+      <Text>Fertilidad del aguacate</Text>
     </Text>
     <Text>
       <GUID>1999002202</GUID>
-      <Text>Avocado Seeds</Text>
+      <Text>Semillas de aguacate</Text>
     </Text>
     <Text>
       <GUID>1999002203</GUID>
-      <Text>These seeds can help you sprout a few Avocado trees in alien soil.</Text>
+      <Text>Estas semillas pueden ayudarte a hacer brotar algunos árboles de aguacate en suelo alienígena.</Text>
     </Text>
     <Text>
       <GUID>1999002204</GUID>
-      <Text>Quality Avocado Seeds</Text>
+      <Text>Semillas de aguacate de calidad</Text>
     </Text>
     <Text>
       <GUID>1999002205</GUID>
-      <Text>These seeds can help you grow plentiful Avocado trees in alien soil.</Text>
+      <Text>Estas semillas pueden ayudarlo a cultivar abundantes árboles de aguacate en suelo alienígena.</Text>
     </Text>
     <Text>
       <GUID>1999002206</GUID>
-      <Text>Hybrid Avocado Seeds</Text>
+      <Text>Semillas de aguacate híbrido</Text>
     </Text>
     <Text>
       <GUID>1999002207</GUID>
-      <Text>These seeds have been adapted to grow in a very wide range of soils, and with increased Avocado yield!</Text>
+      <Text>¡Estas semillas se han adaptado para crecer en una amplia gama de suelos y con un mayor rendimiento de aguacate!</Text>
     </Text>
     <Text>
       <GUID>1999002209</GUID>
-      <Text>Avocados</Text>
+      <Text>Aguacates</Text>
     </Text>
     <Text>
       <GUID>1999002210</GUID>
-      <Text>Distinctly shaped fruits with rich flavour, many healthy fatty acids and an overgrown large seed.</Text>
+      <Text>Frutas de forma distintiva con un rico sabor, muchos ácidos grasos saludables y una semilla grande demasiado crecida.</Text>
     </Text>
   </ModOp>
-
 </ModOps>

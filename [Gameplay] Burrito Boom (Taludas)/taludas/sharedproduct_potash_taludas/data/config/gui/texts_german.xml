@@ -1,5 +1,4 @@
 <ModOps>
-
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002211</GUID>
@@ -7,8 +6,7 @@
     </Text>
     <Text>
       <GUID>1999002212</GUID>
-      <Text>Alkalisch reagierende, pulverige Überreste von knisternden Holzfeuern.</Text>
+      <Text>Pulverförmige alkalische Überreste von einst knisternden Holzfeuern.</Text>
     </Text>
   </ModOp>
-
 </ModOps>

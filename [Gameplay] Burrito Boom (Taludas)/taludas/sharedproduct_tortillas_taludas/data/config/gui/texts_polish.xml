@@ -1,14 +1,12 @@
 <ModOps>
-
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002213</GUID>
-      <Text>Tortillas</Text>
+      <Text>Tortille</Text>
     </Text>
     <Text>
       <GUID>1999002214</GUID>
-      <Text>Versatile round corn tortillas.</Text>
+      <Text>Uniwersalne okrągłe tortille kukurydziane.</Text>
     </Text>
   </ModOp>
-
 </ModOps>

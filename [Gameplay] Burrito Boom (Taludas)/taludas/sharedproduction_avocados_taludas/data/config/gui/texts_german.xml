@@ -1,17 +1,16 @@
 <ModOps>
-
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002217</GUID>
-      <Text>Avocadohain</Text>
+      <Text>Avocado-Hain</Text>
     </Text>
     <Text>
       <GUID>1999002218</GUID>
-      <Text>Avocadoplantage</Text>
+      <Text>Avocado-Plantage</Text>
     </Text>
     <Text>
       <GUID>1999002219</GUID>
-      <Text>Hacienda Avocadoplantage</Text>
+      <Text>Hacienda Avocado Plantage</Text>
     </Text>
     <Text>
       <GUID>1999002220</GUID>
@@ -19,8 +18,7 @@
     </Text>
     <Text>
       <GUID>1999002221</GUID>
-      <Text>Mit ihrer besonderen Form und ihrem einzigartigen Geschmack hat die Avocado eine lange Tradition in der Küche der Neuen Welt. Da das Fruchtfleisch einen beträchtlichen Anteil an Fett enthält, ist der Nährwert sehr hoch. Das größte Problem beim Anbau ist der hohe Wasserverbrauch der Pflanze.</Text>
+      <Text>Mit ihrer ausgeprägten Form und ihrem Geschmack hat die Avocado eine reiche Tradition in der Küchenkultur der Neuen Welt. Da das Fruchtfleisch einen hohen Fettanteil enthält, ist der Nährwert sehr hoch. Das größte Problem beim Anbau ist der große Wasserverbrauch für den Anbau der Pflanze.</Text>
     </Text>
   </ModOp>
-
 </ModOps>

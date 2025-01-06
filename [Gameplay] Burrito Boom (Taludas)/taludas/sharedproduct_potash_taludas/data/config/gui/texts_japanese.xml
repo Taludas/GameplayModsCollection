@@ -1,14 +1,12 @@
 <ModOps>
-
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002211</GUID>
-      <Text>Potash</Text>
+      <Text>加里</Text>
     </Text>
     <Text>
       <GUID>1999002212</GUID>
-      <Text>Powdery alkaline remains of once crackling woodfires.</Text>
+      <Text>かつてパチパチと音を立てた薪の粉状のアルカリ性の残骸。</Text>
     </Text>
   </ModOp>
-
 </ModOps>
