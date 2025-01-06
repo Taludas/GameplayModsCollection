@@ -1,0 +1,14 @@
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999002211</GUID>
+      <Text>Potasse</Text>
+    </Text>
+    <Text>
+      <GUID>1999002212</GUID>
+      <Text>Résidus alcalins et poudreux de feux de bois jadis crépitants.</Text>
+    </Text>
+  </ModOp>
+
+</ModOps>

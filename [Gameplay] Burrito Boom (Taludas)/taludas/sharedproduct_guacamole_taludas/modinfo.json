@@ -1,0 +1,56 @@
+{
+  "Version": "2.1",
+  "ModID": "Taludas_sharedproduct_guacamole",
+  "DeprecateIds": [
+    "Taludas_SharedExtraGoods"
+  ],
+  "ModDependencies": [
+  ],
+  "LoadAfterIds": [
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "sharedproduct_guacamole (Taludas)",
+    "English": "sharedproduct_guacamole (Taludas)",
+    "French": "sharedproduct_guacamole (Taludas)",
+    "German": " sharedproduct_guacamole (Taludas)",
+    "Italian": "sharedproduct_guacamole (Taludas)",
+    "Japanese": "sharedproduct_guacamole (Taludas)",
+    "Korean": "sharedproduct_guacamole (Taludas)",
+    "Polish": "sharedproduct_guacamole (Taludas)",
+    "Russian": "sharedproduct_guacamole (Taludas)",
+    "Spanish": "sharedproduct_guacamole (Taludas)",
+    "Taiwanese": "sharedproduct_guacamole (Taludas)"
+  },
+  "Description": {
+    "English": "# Extra Goods \n\n Extra Goods implemented by me for use in some of my mods. \n\n - Guacamole",
+    "German": "# Extra Goods \n\n Zusätzliche Waren, die von mir für einige meiner Mods implementiert wurden. \n\n - Guacamole",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Taludas",
+  "Image": null
+}

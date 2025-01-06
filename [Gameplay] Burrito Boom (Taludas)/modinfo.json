@@ -1,20 +1,20 @@
 {
-  "Version": "2.0.0",
+  "Version": "2.0.2",
   "ModID": "Taludas_BurritoBoom",
   "DeprecateIds": [],
   "ModDependencies": [
-    "Taludas_sharedgood_avocados",
-    "Taludas_sharedgood_guacamole",
-    "Taludas_sharedgood_potash",
-    "Taludas_sharedgood_tortillas"
+    "Taludas_sharedproduction_avocados",
+    "Taludas_sharedproduction_guacamole",
+    "Taludas_sharedproduction_potash",
+    "Taludas_sharedproduction_tortillas"
   ],
   "LoadAfterIds": [
     "Taludas_TheWholesomeHaciendaHaul",
     "Cattle Needs to be butchered",
-    "Taludas_sharedgood_avocados",
-    "Taludas_sharedgood_guacamole",
-    "Taludas_sharedgood_potash",
-    "Taludas_sharedgood_tortillas"
+    "Taludas_sharedproduction_avocados",
+    "Taludas_sharedproduction_guacamole",
+    "Taludas_sharedproduction_potash",
+    "Taludas_sharedproduction_tortillas"
   ],
   "IncompatibleIds": null,
   "Category": {

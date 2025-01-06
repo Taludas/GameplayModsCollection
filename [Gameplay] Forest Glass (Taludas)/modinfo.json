@@ -1,13 +1,13 @@
 {
-  "Version": "2.0.0",
+  "Version": "2.0.1",
   "ModID": "Taludas_ForestGlass",
   "DeprecateIds": [],
   "ModDependencies": [
-    "Taludas_sharedgood_potash"
+    "Taludas_sharedproduction_potash"
   ],
   "LoadAfterIds": [
     "*",
-    "Taludas_sharedgood_potash",
+    "Taludas_sharedproduction_potash",
     "lion053_Enbesa_Spectacles_Production",
     "TaludasKurilaLordys_TrueJamExperience",
     "Taludas_HighLifeSouvenirs",
