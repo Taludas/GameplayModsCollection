@@ -1,5 +1,4 @@
 <ModOps>
-
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002226</GUID>
@@ -7,7 +6,7 @@
     </Text>
     <Text>
       <GUID>1999002227</GUID>
-      <Text>Due to the current popularity of burritos, their supply may lead to increased influx in new immigrants to your city.</Text>
+      <Text>Debido a la popularidad actual de los burritos, su suministro puede conducir a una mayor afluencia de nuevos inmigrantes a su ciudad.</Text>
     </Text>
     <Text>
       <GUID>1999002229</GUID>
@@ -15,19 +14,19 @@
     </Text>
     <Text>
       <GUID>1999002230</GUID>
-      <Text>Due to the current popularity of burritos, the Mole Master is doing extra hours to cope with the increased demant.</Text>
+      <Text>Debido a la popularidad actual de los burritos, el Mole Master está haciendo horas extras para hacer frente al aumento de la demanda.</Text>
     </Text>
     <Text>
       <GUID>15654</GUID>
-      <Text>The Investor wants to market Burritos.</Text>
+      <Text>El Inversor quiere comercializar Burritos.</Text>
     </Text>
     <Text>
       <GUID>14991</GUID>
-      <Text>BURRITOS RUN OUT!</Text>
+      <Text>¡LOS BURRITOS SE ACABAN!</Text>
     </Text>
     <Text>
       <GUID>12471</GUID>
-      <Text>Quality burritos want quality corn.</Text>
+      <Text>Los burritos de calidad quieren maíz de calidad.</Text>
     </Text>
     <Text>
       <GUID>101271</GUID>
@@ -47,16 +46,15 @@
     </Text>
     <Text>
       <GUID>16316</GUID>
-      <Text>An investor hopes to bring burritos to the old world masses. But he needs some samples to see if they'll prove a hit.</Text>
+      <Text>Un inversionista espera llevar los burritos a las masas del viejo mundo. Pero necesita algunas muestras para ver si resultan un éxito.</Text>
     </Text>
     <Text>
       <GUID>14992</GUID>
-      <Text>Burritos extremely thin on the ground in [Newspaper FindArticle([RefGuid]) Context TownName], leaving city feeling flat. "They better scoop us out of this soon, or the whole thing will leave a very bad taste in the mouth."</Text>
+      <Text>Burritos extremadamente delgados en el suelo en [Newspaper FindArticle([RefGuid]) Context TownName], dejando la ciudad sintiéndose plana. "Será mejor que nos saquen de esto pronto, o todo el asunto dejará un muy mal sabor de boca".</Text>
     </Text>
     <Text>
       <GUID>15024</GUID>
-      <Text>Burritos ready in [Newspaper FindArticle([RefGuid]) Context TownName], as locals perform ritual celebration of corn. A legacy of ancestors in the region, a staple of liberation and independence, it shall go marvellously with a prickly pear, or a pricklier chilli!</Text>
+      <Text>Burritos listos en [Newspaper FindArticle([RefGuid]) Context TownName], mientras los lugareños realizan la celebración ritual del maíz. Un legado de los antepasados en la región, un elemento básico de la liberación y la independencia, ¡irá maravillosamente con una tuna o un chile más espinoso!</Text>
     </Text>
   </ModOp>
-
 </ModOps>

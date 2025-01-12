@@ -1,62 +1,60 @@
 <ModOps>
-
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002226</GUID>
-      <Text>Burrito Boom</Text>
+      <Text>墨西哥捲餅熱潮</Text>
     </Text>
     <Text>
       <GUID>1999002227</GUID>
-      <Text>Due to the current popularity of burritos, their supply may lead to increased influx in new immigrants to your city.</Text>
+      <Text>由於墨西哥捲餅目前很受歡迎，它們的供應可能會導致新移民湧入您所在的城市。</Text>
     </Text>
     <Text>
       <GUID>1999002229</GUID>
-      <Text>Burrito Boom</Text>
+      <Text>墨西哥捲餅熱潮</Text>
     </Text>
     <Text>
       <GUID>1999002230</GUID>
-      <Text>Due to the current popularity of burritos, the Mole Master is doing extra hours to cope with the increased demant.</Text>
+      <Text>由於墨西哥捲餅目前很受歡迎，Mole Master 正在加班應對增加的 mant。</Text>
     </Text>
     <Text>
       <GUID>15654</GUID>
-      <Text>The Investor wants to market Burritos.</Text>
+      <Text>投資者想要推銷 Burritos。</Text>
     </Text>
     <Text>
       <GUID>14991</GUID>
-      <Text>BURRITOS RUN OUT!</Text>
+      <Text>墨西哥捲餅用完了！</Text>
     </Text>
     <Text>
       <GUID>12471</GUID>
-      <Text>Quality burritos want quality corn.</Text>
+      <Text>優質墨西哥捲餅需要優質玉米。</Text>
     </Text>
     <Text>
       <GUID>101271</GUID>
-      <Text>Burrito Maker</Text>
+      <Text>墨西哥捲餅機</Text>
     </Text>
     <Text>
       <GUID>120035</GUID>
-      <Text>Burritos</Text>
+      <Text>墨西哥捲餅</Text>
     </Text>
     <Text>
       <GUID>192227</GUID>
-      <Text>Silva's Burritos</Text>
+      <Text>席爾瓦的墨西哥捲餅</Text>
     </Text>
     <Text>
       <GUID>500911</GUID>
-      <Text>Burritos</Text>
+      <Text>墨西哥捲餅</Text>
     </Text>
     <Text>
       <GUID>16316</GUID>
-      <Text>An investor hopes to bring burritos to the old world masses. But he needs some samples to see if they'll prove a hit.</Text>
+      <Text>一位投資者希望將墨西哥捲餅帶給舊世界的大眾。但他需要一些樣本，看看它們是否會大受歡迎。</Text>
     </Text>
     <Text>
       <GUID>14992</GUID>
-      <Text>Burritos extremely thin on the ground in [Newspaper FindArticle([RefGuid]) Context TownName], leaving city feeling flat. "They better scoop us out of this soon, or the whole thing will leave a very bad taste in the mouth."</Text>
+      <Text>墨西哥捲餅在 [Newspaper FindArticle（[RefGuid]） Context TownName 中地上非常薄]，讓城市感覺平淡無奇。“他們最好快點把我們撈出來，否則整個事情會在嘴裏留下非常難聞的味道。”</Text>
     </Text>
     <Text>
       <GUID>15024</GUID>
-      <Text>Burritos ready in [Newspaper FindArticle([RefGuid]) Context TownName], as locals perform ritual celebration of corn. A legacy of ancestors in the region, a staple of liberation and independence, it shall go marvellously with a prickly pear, or a pricklier chilli!</Text>
+      <Text>墨西哥捲餅在 [Newspaper FindArticle（[RefGuid]） Context TownName 中準備好]，因為當地人會舉行玉米慶祝活動。它是該地區祖先的遺產，是解放和獨立的主食，它與仙人掌或仙人掌辣椒相得益彰！</Text>
     </Text>
   </ModOp>
-
 </ModOps>

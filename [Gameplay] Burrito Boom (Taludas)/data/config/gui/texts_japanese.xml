@@ -1,62 +1,60 @@
 <ModOps>
-
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002226</GUID>
-      <Text>Burrito Boom</Text>
+      <Text>ブリトーブーム</Text>
     </Text>
     <Text>
       <GUID>1999002227</GUID>
-      <Text>Due to the current popularity of burritos, their supply may lead to increased influx in new immigrants to your city.</Text>
+      <Text>ブリトーの現在の人気により、その供給はあなたの街への新しい移民の流入の増加につながる可能性があります。</Text>
     </Text>
     <Text>
       <GUID>1999002229</GUID>
-      <Text>Burrito Boom</Text>
+      <Text>ブリトーブーム</Text>
     </Text>
     <Text>
       <GUID>1999002230</GUID>
-      <Text>Due to the current popularity of burritos, the Mole Master is doing extra hours to cope with the increased demant.</Text>
+      <Text>ブリトーが人気を博している現在、モールマスターは増加したデマントに対処するために余分な時間を費やしています。</Text>
     </Text>
     <Text>
       <GUID>15654</GUID>
-      <Text>The Investor wants to market Burritos.</Text>
+      <Text>投資家はブリトーを販売したいと考えています。</Text>
     </Text>
     <Text>
       <GUID>14991</GUID>
-      <Text>BURRITOS RUN OUT!</Text>
+      <Text>ブリトーがなくなりました!</Text>
     </Text>
     <Text>
       <GUID>12471</GUID>
-      <Text>Quality burritos want quality corn.</Text>
+      <Text>高品質のブリトーには高品質のトウモロコシが必要です。</Text>
     </Text>
     <Text>
       <GUID>101271</GUID>
-      <Text>Burrito Maker</Text>
+      <Text>ブリトーメーカー</Text>
     </Text>
     <Text>
       <GUID>120035</GUID>
-      <Text>Burritos</Text>
+      <Text>ブリトー</Text>
     </Text>
     <Text>
       <GUID>192227</GUID>
-      <Text>Silva's Burritos</Text>
+      <Text>シルバのブリトー</Text>
     </Text>
     <Text>
       <GUID>500911</GUID>
-      <Text>Burritos</Text>
+      <Text>ブリトー</Text>
     </Text>
     <Text>
       <GUID>16316</GUID>
-      <Text>An investor hopes to bring burritos to the old world masses. But he needs some samples to see if they'll prove a hit.</Text>
+      <Text>投資家は、ブリトーを旧世界の大衆に届けることを望んでいます。しかし、ヒットするかどうかを見るためには、いくつかのサンプルが必要だ。</Text>
     </Text>
     <Text>
       <GUID>14992</GUID>
-      <Text>Burritos extremely thin on the ground in [Newspaper FindArticle([RefGuid]) Context TownName], leaving city feeling flat. "They better scoop us out of this soon, or the whole thing will leave a very bad taste in the mouth."</Text>
+      <Text>[Newspaper FindArticle([RefGuid]) Context TownNameの地面にブリトーが非常に薄く]、都市が平坦な感じになります。「彼らはすぐに私たちをここからすくい取った方がいい。さもないと、すべてが口の中にひどく悪い味を残すだろう」</Text>
     </Text>
     <Text>
       <GUID>15024</GUID>
-      <Text>Burritos ready in [Newspaper FindArticle([RefGuid]) Context TownName], as locals perform ritual celebration of corn. A legacy of ancestors in the region, a staple of liberation and independence, it shall go marvellously with a prickly pear, or a pricklier chilli!</Text>
+      <Text>ブリトーは[Newspaper FindArticle([RefGuid]) Context TownName]で、地元の人々がトウモロコシの儀式のお祝いを行うようにしています。この地域の先祖の遺産であり、解放と独立の定番であるこの料理は、ウチワサボテンやウチワサボテンの唐辛子と見事に調和します。</Text>
     </Text>
   </ModOp>
-
 </ModOps>

@@ -2,7 +2,7 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002224</GUID>
-      <Text>Guacamole Küche</Text>
+      <Text>Guacamole-Küche</Text>
     </Text>
   </ModOp>
 </ModOps>

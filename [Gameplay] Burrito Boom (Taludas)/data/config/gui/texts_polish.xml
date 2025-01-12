@@ -1,37 +1,36 @@
 <ModOps>
-
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002226</GUID>
-      <Text>Burrito Boom</Text>
+      <Text>Bum burrito</Text>
     </Text>
     <Text>
       <GUID>1999002227</GUID>
-      <Text>Due to the current popularity of burritos, their supply may lead to increased influx in new immigrants to your city.</Text>
+      <Text>Ze względu na obecną popularność burrito, ich podaż może prowadzić do zwiększonego napływu nowych imigrantów do Twojego miasta.</Text>
     </Text>
     <Text>
       <GUID>1999002229</GUID>
-      <Text>Burrito Boom</Text>
+      <Text>Bum burrito</Text>
     </Text>
     <Text>
       <GUID>1999002230</GUID>
-      <Text>Due to the current popularity of burritos, the Mole Master is doing extra hours to cope with the increased demant.</Text>
+      <Text>Ze względu na obecną popularność burrito, Mistrz Kretów robi dodatkowe godziny, aby poradzić sobie ze zwiększonym demantem.</Text>
     </Text>
     <Text>
       <GUID>15654</GUID>
-      <Text>The Investor wants to market Burritos.</Text>
+      <Text>Inwestor chce wprowadzić burrito na rynek.</Text>
     </Text>
     <Text>
       <GUID>14991</GUID>
-      <Text>BURRITOS RUN OUT!</Text>
+      <Text>BURRITO SIĘ SKOŃCZYŁY!</Text>
     </Text>
     <Text>
       <GUID>12471</GUID>
-      <Text>Quality burritos want quality corn.</Text>
+      <Text>Wysokiej jakości burrito chcą wysokiej jakości kukurydzy.</Text>
     </Text>
     <Text>
       <GUID>101271</GUID>
-      <Text>Burrito Maker</Text>
+      <Text>Ekspres do burrito</Text>
     </Text>
     <Text>
       <GUID>120035</GUID>
@@ -39,7 +38,7 @@
     </Text>
     <Text>
       <GUID>192227</GUID>
-      <Text>Silva's Burritos</Text>
+      <Text>Burrito Silvy</Text>
     </Text>
     <Text>
       <GUID>500911</GUID>
@@ -47,16 +46,15 @@
     </Text>
     <Text>
       <GUID>16316</GUID>
-      <Text>An investor hopes to bring burritos to the old world masses. But he needs some samples to see if they'll prove a hit.</Text>
+      <Text>Inwestor ma nadzieję, że sprowadzi burrito do mas starego świata. Potrzebuje jednak kilku próbek, aby sprawdzić, czy okażą się strzałem w dziesiątkę.</Text>
     </Text>
     <Text>
       <GUID>14992</GUID>
-      <Text>Burritos extremely thin on the ground in [Newspaper FindArticle([RefGuid]) Context TownName], leaving city feeling flat. "They better scoop us out of this soon, or the whole thing will leave a very bad taste in the mouth."</Text>
+      <Text>Burrito niezwykle cienkie na ziemi w [Newspaper FindArticle([RefGuid]) Context TownName], pozostawiając miasto jako płaskie. – Lepiej, żeby nas z tego jak najszybciej wyciągnęli, bo inaczej cała sprawa pozostawi bardzo niesmak w ustach.</Text>
     </Text>
     <Text>
       <GUID>15024</GUID>
-      <Text>Burritos ready in [Newspaper FindArticle([RefGuid]) Context TownName], as locals perform ritual celebration of corn. A legacy of ancestors in the region, a staple of liberation and independence, it shall go marvellously with a prickly pear, or a pricklier chilli!</Text>
+      <Text>Burrito gotowe w [Newspaper FindArticle([RefGuid]) Context TownName], gdy miejscowi odprawiają rytualne święto kukurydzy. Dziedzictwo przodków w tym regionie, podstawa wyzwolenia i niepodległości, będzie wspaniale komponować się z opuncją figową lub bardziej kłującą papryczką chilli!</Text>
     </Text>
   </ModOp>
-
 </ModOps>

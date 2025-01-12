@@ -1,5 +1,5 @@
 {
-  "Version": "2.0.2",
+  "Version": "2.1.0",
   "ModID": "Taludas_BurritoBoom",
   "DeprecateIds": [],
   "ModDependencies": [
@@ -14,7 +14,8 @@
     "Taludas_sharedproduction_avocados",
     "Taludas_sharedproduction_guacamole",
     "Taludas_sharedproduction_potash",
-    "Taludas_sharedproduction_tortillas"
+    "Taludas_sharedproduction_tortillas",
+    "jakob_new_world_cities"
   ],
   "IncompatibleIds": null,
   "Category": {

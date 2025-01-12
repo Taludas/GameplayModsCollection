@@ -88,7 +88,7 @@
         <Template>GuildhouseBuff</Template>
         <Values>
           <Standard>
-            <GUID>1999002229</GUID>
+            <GUID>1999002275</GUID>
             <Name>Burrito_Buff Burrito Manufactory</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_burrito.png</IconFilename>
             <InfoDescription>1999002230</InfoDescription>
@@ -101,13 +101,7 @@
             </EffectTargets>
           </ItemEffect>
           <Text>
-            <LocaText>
-              <English>
-                <Text>Burrito Boom</Text>
-                <Status>Exported</Status>
-              </English>
-            </LocaText>
-            <LineID>55229</LineID>
+            <TextOverride>1999002229</TextOverride>
           </Text>
           <FactoryUpgrade>
             <AdditionalOutput>
@@ -134,7 +128,7 @@
       </Asset>
     </ModOp>
 
-    <!-- Trigger to distribute the buff upon reaching 1 Obrero-->
+    <!-- Trigger to distribute the buff upon reaching 1 Obrero
     <ModOp Type="addNextSibling" GUID="130248">
       <Asset>
         <Template>Trigger</Template>
@@ -176,6 +170,12 @@
           </TriggerSetup>
         </Values>
       </Asset>
+    </ModOp> -->
+    <!-- Distribute Buff via UpgradeList -->
+    <ModOp Type="replace" GUID="101271" Path="/Values/UpgradeList">
+      <UpgradeList>
+        <DefaultBuff>1999002275</DefaultBuff>
+      </UpgradeList>
     </ModOp>
 
     <!-- Item Tlayolotl Savor anpassen auf Tortillas -->
@@ -457,8 +457,8 @@
         <Template>TownhallBuff</Template>
         <Values>
           <Standard>
-            <GUID>1999002226</GUID>
-            <Name>Vanilla PopBuff_Civ2 Burrito Boom</Name>
+            <GUID>1999002276</GUID>
+            <Name>Vanilla PopBuff_Civ2/3 Burrito Boom</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_burrito.png</IconFilename>
             <InfoDescription>1999002227</InfoDescription>
           </Standard>
@@ -468,23 +468,13 @@
                 <GUID>101255</GUID>
               </Item>
               <Item>
-                <GUID>24793</GUID>
-              </Item>
-              <Item>
-                <GUID>1999002092</GUID>
-              </Item>
-              <Item>
                 <GUID>5405</GUID>
-              </Item>
-              <Item>
-                <GUID>6086</GUID>
-              </Item>
-              <Item>
-                <GUID>1999002139</GUID>
               </Item>
             </EffectTargets>
           </ItemEffect>
-          <Text />
+          <Text>
+            <TextOverride>1999002226</TextOverride>
+          </Text>
           <BuildingUpgrade />
           <Buff />
           <PopulationUpgrade>
@@ -492,6 +482,7 @@
               <Item>
                 <Product>120035</Product>
                 <AdditionalSupply>5</AdditionalSupply>
+                <AdditionalMoney>5</AdditionalMoney>
               </Item>
             </InputBenefitModifier>
           </PopulationUpgrade>
@@ -507,7 +498,7 @@
       </Asset>
     </ModOp>
 
-    <!-- Trigger to distribute the buff upon reaching 1 Obrero-->
+    <!-- Trigger to distribute the buff upon reaching 1 Obrero
     <ModOp Type="addNextSibling" GUID="130248">
       <Asset>
         <Template>Trigger</Template>
@@ -569,6 +560,102 @@
           </TriggerSetup>
         </Values>
       </Asset>
+    </ModOp> -->
+    <ModOp Type="addNextSibling" GUID="130248">
+      <Asset>
+        <Template>Trigger</Template>
+        <Values>
+          <Standard>
+            <GUID>1999002274</GUID>
+            <Name>Trigger Remove old Distribution Townhall Burrito Boom Buff</Name>
+          </Standard>
+          <Trigger>
+            <TriggerCondition>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <Condition />
+                <ConditionAlwaysTrue />
+              </Values>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionBuff</Template>
+                  <Values>
+                    <Action />
+                    <ActionBuff>
+                      <BuffAsset>1999002226</BuffAsset>
+                      <AddBuff>0</AddBuff>
+                    </ActionBuff>
+                  </Values>
+                </TriggerAction>
+              </Item>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionBuff</Template>
+                  <Values>
+                    <Action />
+                    <ActionBuff>
+                      <BuffAsset>1999002229</BuffAsset>
+                      <AddBuff>0</AddBuff>
+                    </ActionBuff>
+                  </Values>
+                </TriggerAction>
+              </Item>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionRegisterTrigger</Template>
+                  <Values>
+                    <Action />
+                    <ActionRegisterTrigger>
+                      <TriggerAsset>1999002228</TriggerAsset>
+                      <UnregisterTrigger>1</UnregisterTrigger>
+                    </ActionRegisterTrigger>
+                  </Values>
+                </TriggerAction>
+              </Item>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionRegisterTrigger</Template>
+                  <Values>
+                    <Action />
+                    <ActionRegisterTrigger>
+                      <TriggerAsset>1999002231</TriggerAsset>
+                      <UnregisterTrigger>1</UnregisterTrigger>
+                    </ActionRegisterTrigger>
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+          </Trigger>
+          <TriggerSetup>
+            <AutoRegisterTrigger>1</AutoRegisterTrigger>
+          </TriggerSetup>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="101255,5405" Path="/Values/UpgradeList">
+      <UpgradeList>
+        <DefaultBuff>1999002276</DefaultBuff>
+      </UpgradeList>
+    </ModOp>
+
+    <ModOp Type="add" GUID="1500011043,1500011044" Path="/Values" Condition="#jakob_new_world_cities">
+      <UpgradeList>
+        <DefaultBuff>1999002276</DefaultBuff>
+      </UpgradeList>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product = '120035']/AdditionalSupply">
+      <AdditionalSupply>7</AdditionalSupply>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="1999002096" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product = '120035']/AdditionalSupply" Condition="@1999002092">
+      <AdditionalSupply>3</AdditionalSupply>
+    </ModOp>
+    <ModOp Type="replace" GUID="1999002140" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product = '120035']/AdditionalSupply" Condition="@1999002139">
+      <AdditionalSupply>4</AdditionalSupply>
     </ModOp>
   </Group>
 
