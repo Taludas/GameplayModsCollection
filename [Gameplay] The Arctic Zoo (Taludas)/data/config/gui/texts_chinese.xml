@@ -2,97 +2,97 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000131</GUID>
-      <Text>Arctic Zoo</Text>
+      <Text>北极动物园</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000132</GUID>
-      <Text>Empty arctic Enclosure</Text>
+      <Text>北极空围场</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000133</GUID>
-      <Text>Polar Circle Park</Text>
+      <Text>极圈</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000134</GUID>
-      <Text>Inspired by the animals that come from the Polar Circle, your engineers have optimized the use of the natural gas by-product from oil production.</Text>
+      <Text>受到来自北极圈的动物的启发，你们的工程师找到了在石油生产中生产天然气副产品的方法。</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000135</GUID>
-      <Text>Equipped in the Arctic Region, this set can give your airship engineers new inspirations.</Text>
+      <Text>在北极地区集齐，可以给你的飞艇工程师新的灵感。</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000136</GUID>
-      <Text>Polar Circle Park</Text>
+      <Text>极圈</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000137</GUID>
-      <Text>This collection of rare and endangered animal species from the polar circle inspire your brave aviators to new inspirations in the design of their aircraft.</Text>
+      <Text>这些来自极地的濒危动物物种激发了飞机设计师的新灵感。</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000138</GUID>
-      <Text>Equipped in the other sessions, this set can optimize oil production. As a result, natural gas is generated as a by-product.</Text>
+      <Text>在其他区域集齐，可以优化石油生产。天然气可以作为副产品收集。</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000139</GUID>
-      <Text>Nate's Cargo Airship</Text>
+      <Text>奈特的货运飞艇</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000140</GUID>
-      <Text>Designed according to an idea by Old Nate, this huge cargo airship offers plenty of storage space for goods from all over the world. Commanded by skilled aviators, this ship can move large quantities of goods at a decent speed.</Text>
+      <Text>根据老奈特的设计，这艘巨大的货运飞艇为越洋运输提供了充足的存储空间。在熟练飞行员的驾驶下，这艘船能以相当快的速度运送大量货物。</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000141</GUID>
-      <Text>Arctic Tundra Park</Text>
+      <Text>北极冻原</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000142</GUID>
-      <Text>By studying the fur of the animals that live in the harsh climatic conditions of the Arctic tundra, your tailors have made significant advances in the design of your residents' clothing.</Text>
+      <Text>通过研究生活在北极冻土带恶劣气候条件下的动物的皮毛，你们的裁缝在设计服装方面取得了重大进展。</Text>
     </Text>
   </ModOp>  
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000143</GUID>
-      <Text>Equipped in the Arctic Region, this set enables construction material savings in airship production.</Text>
+      <Text>装备在北极地区，可以节省飞艇生产材料。</Text>
     </Text>
   </ModOp> 
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000144</GUID>
-      <Text>Arctic Tundra Park</Text>
+      <Text>北极冻原</Text>
     </Text>
   </ModOp>  
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000145</GUID>
-      <Text>By studying the fur of the animals that live in the harsh climatic conditions of the Arctic tundra, your airship engineers have made significant advances in the usage of airship construction materials.</Text>
+      <Text>通过研究生活在北极冻原恶劣气候条件下的动物的皮毛，你们的飞艇工程师在飞艇建造材料的使用方面取得了重大进展。</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000146</GUID>
-      <Text>Equipped in the other sessions, this set can inspire your tailors to achieve new top performances.</Text>
+      <Text>装备在其他区域，可以激发你的裁缝表现地更好。</Text>
     </Text>
   </ModOp>
 

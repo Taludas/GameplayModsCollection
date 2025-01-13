@@ -70,19 +70,19 @@
       <GUID>1999000142</GUID>
       <Text>By studying the fur of the animals that live in the harsh climatic conditions of the Arctic tundra, your tailors have made significant advances in the design of your residents' clothing.</Text>
     </Text>
-  </ModOp>  
+  </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000143</GUID>
       <Text>Equipped in the Arctic Region, this set enables construction material savings in airship production.</Text>
     </Text>
-  </ModOp> 
+  </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000144</GUID>
       <Text>Arctic Tundra Park</Text>
     </Text>
-  </ModOp>  
+  </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000145</GUID>
