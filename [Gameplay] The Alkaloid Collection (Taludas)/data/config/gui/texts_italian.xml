@@ -2,49 +2,49 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000151</GUID>
-      <Text>THE ALKALOID COLLECTION</Text>
+      <Text>LA COLLEZIONE DEGLI ALCALOIDI</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000152</GUID>
-      <Text>A collection of exotic alkaloid plants. Serve as daily drugs in remote parts of the world. Maybe your residents are interested in tasting them?</Text>
+      <Text>Una collezione di piante alcaloidi esotiche. Servono come farmaci quotidiani in parti remote del mondo. Forse i tuoi residenti sono interessati ad assaggiarli?</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000153</GUID>
-      <Text>Alkaloid-Garden</Text>
+      <Text>Alcaloide-Giardino</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000154</GUID>
-      <Text>The introduction of new exotic and legal daily drugs leads to an unprecedented euphoria among your residents, which is accompanied by an increase in the workload of your workers. With the new alternatives, the consumption of classic daily drugs is falling. However, when importing the new "cultural asset", note that the increased consumption of psychotropic substances leads to an increased susceptibility to illness and in some cases to an increased propensity for violence on the part of your population.</Text>
+      <Text>L'introduzione di nuove droghe quotidiane esotiche e legali porta a un'euforia senza precedenti tra i vostri residenti, che è accompagnata da un aumento del carico di lavoro dei vostri lavoratori. Con le nuove alternative, il consumo di farmaci classici quotidiani sta diminuendo. Tuttavia, quando si importa il nuovo "bene culturale", si noti che l'aumento del consumo di sostanze psicotrope porta a una maggiore suscettibilità alle malattie e, in alcuni casi, a una maggiore propensione alla violenza da parte della popolazione.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000155</GUID>
-      <Text>Alkaloid-Garden</Text>
+      <Text>Alcaloide-Giardino</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000156</GUID>
-      <Text>Alkaloid-Garden</Text>
+      <Text>Alcaloide-Giardino</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000157</GUID>
-      <Text>Areca palm</Text>
+      <Text>Palma Areca</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000158</GUID>
-      <Text>&lt;b&gt;Areca catechu.&lt;/b&gt; The seeds of the Areca palm are traditionally chewed with slaked lime as a so-called betel bite. As a result, the arecoline contained in the seed is converted into arecaidin and can thus be more easily absorbed. It works against tiredness and exhaustion. The saliva is colored intensely red when chewed due to the coloring agents it contains.</Text>
+      <Text>&lt;b&gt;Areca catechu.&lt;/b&gt; I semi della palma Areca sono tradizionalmente masticati con calce spenta come un cosiddetto morso di betel. Di conseguenza, l'arecolina contenuta nel seme viene convertita in arecaidina e può quindi essere assorbita più facilmente. Agisce contro la stanchezza e l'esaurimento. La saliva è di colore rosso intenso quando viene masticata a causa degli agenti coloranti che contiene.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
@@ -56,19 +56,19 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000160</GUID>
-      <Text>&lt;b&gt;Catha edulis.&lt;/b&gt; The branch tips and young leaves of the Kath shrub are traditionally chewed in larger groups during lunchtime. The contained cathine acts as a stimulant and keeps you awake. The cultivation is very water-intensive.</Text>
+      <Text>&lt;b&gt;Catha edulis.&lt;/b&gt; Le punte dei rami e le foglie giovani dell'arbusto Kath vengono tradizionalmente masticate in gruppi più grandi durante l'ora di pranzo. La catina contenuta agisce come stimolante e ti tiene sveglio. La coltivazione è ad alta intensità idrica.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000161</GUID>
-      <Text>Kola Tree</Text>
+      <Text>Albero di cola</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000162</GUID>
-      <Text>&lt;b&gt;Cola nitida.&lt;/b&gt; The seeds of the kola nut tree contain significantly more caffeine than the same amount of coffee beans. When chewing, the caffeine is absorbed and acts against fatigue, headaches and loss of libido.</Text>
+      <Text>&lt;b&gt;Cola nitida.&lt;/b&gt; I semi dell'albero di noce di cola contengono molta più caffeina rispetto alla stessa quantità di chicchi di caffè. Durante la masticazione, la caffeina viene assorbita e agisce contro la stanchezza, il mal di testa e la perdita della libido.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
@@ -80,7 +80,7 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000164</GUID>
-      <Text>&lt;b&gt;Corynanthe johimbe.&lt;/b&gt; The bark of the evergreen yohimba tree contains the alkaloid yohmibine. Therefore, the bark is traditionally consumed in African countries as an aphrodisiac and sexual enhancer.</Text>
+      <Text>&lt;b&gt;Corynanthe johimbe.&lt;/b&gt; La corteccia dell'albero sempreverde di yohimba contiene l'alcaloide yohibibina. Pertanto, la corteccia è tradizionalmente consumata nei paesi africani come afrodisiaco e potenziatore sessuale.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
@@ -92,19 +92,19 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000166</GUID>
-      <Text>&lt;b&gt;Erythroxylum coca.&lt;/b&gt; The consumption of the leaves of the coca bush is widespread in South America. They contain the alkaloid cocaine. While the leaves are traditionally chewed by native South Americans, the "pure" cocaine is consumed in western countries. In the Andes, people use it to alleviate the symptoms of altitude sickness by increasing oxygen uptake. In addition, it helps to suppress hunger, tiredness and cold. By alkalizing the chewed leaves with lime, the cocaine loses its addictive properties, which is why the Andean population is hardly dependent on the effects of cocaine.</Text>
+      <Text>&lt;b&gt;Erythroxylum coca.&lt;/b&gt; Il consumo delle foglie del cespuglio di coca è molto diffuso in Sud America. Contengono l'alcaloide cocaina. Mentre le foglie sono tradizionalmente masticate dai nativi sudamericani, la cocaina "pura" viene consumata nei paesi occidentali. Nelle Ande, le persone lo usano per alleviare i sintomi del mal di montagna aumentando l'assorbimento di ossigeno. Inoltre, aiuta a sopprimere la fame, la stanchezza e il freddo. Alcalinizzando le foglie masticate con la calce, la cocaina perde le sue proprietà di dipendenza, motivo per cui la popolazione andina non dipende affatto dagli effetti della cocaina.</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000167</GUID>
-      <Text>Opium Poppy</Text>
+      <Text>Papavero da oppio</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000168</GUID>
-      <Text>&lt;b&gt;Papaver somniferum.&lt;/b&gt; An alkaloid mixture is extracted from the milky sap contained in the opium poppy capsules, which has become famous as opium. It has strong analgesic and numbing effects. Perhaps your engineers can use opium to develop a highly effective medicine that can be sold in drugstores for headaches, colds and coughs?</Text>
+      <Text>&lt;b&gt;Papaver somniferum.&lt;/b&gt; Una miscela di alcaloidi viene estratta dalla linfa lattiginosa contenuta nelle capsule di papavero da oppio, che è diventata famosa come oppio. Ha forti effetti analgesici e paralizzanti. Forse i tuoi ingegneri possono usare l'oppio per sviluppare un farmaco altamente efficace che può essere venduto nelle farmacie per mal di testa, raffreddore e tosse?</Text>
     </Text>
   </ModOp>
 </ModOps>

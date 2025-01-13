@@ -2,109 +2,109 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000151</GUID>
-      <Text>THE ALKALOID COLLECTION</Text>
+      <Text>アルカロイドコレクション</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000152</GUID>
-      <Text>A collection of exotic alkaloid plants. Serve as daily drugs in remote parts of the world. Maybe your residents are interested in tasting them?</Text>
+      <Text>エキゾチックなアルカロイド植物のコレクション。世界の遠隔地で日常的な麻薬として機能します。たぶん、あなたの居住者はそれらを試飲することに興味がありますか?</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000153</GUID>
-      <Text>Alkaloid-Garden</Text>
+      <Text>アルカロイドガーデン</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000154</GUID>
-      <Text>The introduction of new exotic and legal daily drugs leads to an unprecedented euphoria among your residents, which is accompanied by an increase in the workload of your workers. With the new alternatives, the consumption of classic daily drugs is falling. However, when importing the new "cultural asset", note that the increased consumption of psychotropic substances leads to an increased susceptibility to illness and in some cases to an increased propensity for violence on the part of your population.</Text>
+      <Text>新しいエキゾチックで合法的な日常の薬の導入は、あなたの労働者の作業負荷の増加を伴って、あなたの居住者の間で前例のない陶酔感につながります。新しい代替品により、古典的な日常の薬物の消費量は減少しています。ただし、新しい「文化財」を輸入する場合は、向精神薬の消費が増えると、病気にかかりやすくなり、場合によっては人口の暴力の傾向が増加することに注意してください。</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000155</GUID>
-      <Text>Alkaloid-Garden</Text>
+      <Text>アルカロイドガーデン</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000156</GUID>
-      <Text>Alkaloid-Garden</Text>
+      <Text>アルカロイドガーデン</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000157</GUID>
-      <Text>Areca palm</Text>
+      <Text>アレカヤシ</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000158</GUID>
-      <Text>&lt;b&gt;Areca catechu.&lt;/b&gt; The seeds of the Areca palm are traditionally chewed with slaked lime as a so-called betel bite. As a result, the arecoline contained in the seed is converted into arecaidin and can thus be more easily absorbed. It works against tiredness and exhaustion. The saliva is colored intensely red when chewed due to the coloring agents it contains.</Text>
+      <Text>&lt;b&gt;アレカカテチュウ。&lt;/b&gt;アレカヤシの種子は、伝統的に、いわゆるビンロウの噛みつきとして消石灰で噛まれます。その結果、種子に含まれるアレコリンはアレケイジンに変換され、吸収されやすくなります。疲れや疲労に対抗します。唾液は、着色剤が含まれているため、噛むと濃い赤色に着色されます。</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000159</GUID>
-      <Text>Khat</Text>
+      <Text>カット</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000160</GUID>
-      <Text>&lt;b&gt;Catha edulis.&lt;/b&gt; The branch tips and young leaves of the Kath shrub are traditionally chewed in larger groups during lunchtime. The contained cathine acts as a stimulant and keeps you awake. The cultivation is very water-intensive.</Text>
+      <Text>&lt;b&gt;Catha edulis。&lt;/b&gt;キャス低木の枝先と若葉は、伝統的にランチタイムに大きなグループで噛まれます。含まれているキャチンは興奮剤として作用し、目を覚まし続けます。栽培は非常に水を消費します。</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000161</GUID>
-      <Text>Kola Tree</Text>
+      <Text>コーラの木</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000162</GUID>
-      <Text>&lt;b&gt;Cola nitida.&lt;/b&gt; The seeds of the kola nut tree contain significantly more caffeine than the same amount of coffee beans. When chewing, the caffeine is absorbed and acts against fatigue, headaches and loss of libido.</Text>
+      <Text>&lt;b&gt;コーラニティダ。&lt;/b&gt;コーラナッツの木の種子には、同じ量のコーヒー豆よりもかなり多くのカフェインが含まれています。噛むとカフェインが吸収され、疲労感、頭痛、性欲減退に対して作用します。</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000163</GUID>
-      <Text>Yohimbe</Text>
+      <Text>ヨヒンベ</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000164</GUID>
-      <Text>&lt;b&gt;Corynanthe johimbe.&lt;/b&gt; The bark of the evergreen yohimba tree contains the alkaloid yohmibine. Therefore, the bark is traditionally consumed in African countries as an aphrodisiac and sexual enhancer.</Text>
+      <Text>&lt;b&gt;Corynantheのjohimbe。&lt;/b&gt;常緑ヨヒンバの木の樹皮には、アルカロイドのヨミビンが含まれています。したがって、樹皮は伝統的にアフリカ諸国で媚薬および性的増強剤として消費されています。</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000165</GUID>
-      <Text>Coca</Text>
+      <Text>コカ</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000166</GUID>
-      <Text>&lt;b&gt;Erythroxylum coca.&lt;/b&gt; The consumption of the leaves of the coca bush is widespread in South America. They contain the alkaloid cocaine. While the leaves are traditionally chewed by native South Americans, the "pure" cocaine is consumed in western countries. In the Andes, people use it to alleviate the symptoms of altitude sickness by increasing oxygen uptake. In addition, it helps to suppress hunger, tiredness and cold. By alkalizing the chewed leaves with lime, the cocaine loses its addictive properties, which is why the Andean population is hardly dependent on the effects of cocaine.</Text>
+      <Text>&lt;b&gt;エリスロキシラムコカ。&lt;/b&gt;コカブッシュの葉の消費は南アメリカで広まっています。それらにはアルカロイドコカインが含まれています。葉は伝統的に南米のネイティブによって噛まれていますが、「純粋な」コカインは西洋諸国で消費されています。アンデスでは、酸素摂取量を増やすことで高山病の症状を緩和するためにそれを使用しています。さらに、空腹感、疲労感、寒さを抑えるのに役立ちます。噛んだ葉をライムでアルカリ化することにより、コカインは中毒性を失い、それがアンデスの人々がコカインの影響にほとんど依存していない理由です。</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000167</GUID>
-      <Text>Opium Poppy</Text>
+      <Text>ケシのアヘン</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000168</GUID>
-      <Text>&lt;b&gt;Papaver somniferum.&lt;/b&gt; An alkaloid mixture is extracted from the milky sap contained in the opium poppy capsules, which has become famous as opium. It has strong analgesic and numbing effects. Perhaps your engineers can use opium to develop a highly effective medicine that can be sold in drugstores for headaches, colds and coughs?</Text>
+      <Text>&lt;b&gt;Papaver somniferum。&lt;/b&gt;アヘンとして有名になったケシのカプセルに含まれる乳白色の樹液からアルカロイド混合物が抽出されます。強力な鎮痛作用と麻痺作用があります。もしかしたら、あなたのエンジニアはアヘンを使って、頭痛、風邪、咳のためにドラッグストアで販売できる非常に効果的な薬を開発できるかもしれません。</Text>
     </Text>
   </ModOp>
 </ModOps>

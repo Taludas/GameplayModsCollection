@@ -2,109 +2,109 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000151</GUID>
-      <Text>THE ALKALOID COLLECTION</Text>
+      <Text>生物鹼系列</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000152</GUID>
-      <Text>A collection of exotic alkaloid plants. Serve as daily drugs in remote parts of the world. Maybe your residents are interested in tasting them?</Text>
+      <Text>外來生物鹼植物的集合。在世界偏遠地區用作日常藥物。也許您的居民有興趣品嘗它們？</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000153</GUID>
-      <Text>Alkaloid-Garden</Text>
+      <Text>生物鹼-花園</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000154</GUID>
-      <Text>The introduction of new exotic and legal daily drugs leads to an unprecedented euphoria among your residents, which is accompanied by an increase in the workload of your workers. With the new alternatives, the consumption of classic daily drugs is falling. However, when importing the new "cultural asset", note that the increased consumption of psychotropic substances leads to an increased susceptibility to illness and in some cases to an increased propensity for violence on the part of your population.</Text>
+      <Text>新的異國情調和合法的日常藥物的引入在您的居民中帶來了前所未有的欣快感，伴隨著工人工作量的增加。隨著新替代品的出現，經典日常藥物的消費量正在下降。然而，在進口新的「文化資產」時，請注意，精神藥物消費的增加會導致對疾病的易感性增加，在某些情況下會導致您的人口傾向於暴力。</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000155</GUID>
-      <Text>Alkaloid-Garden</Text>
+      <Text>生物鹼-花園</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000156</GUID>
-      <Text>Alkaloid-Garden</Text>
+      <Text>生物鹼-花園</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000157</GUID>
-      <Text>Areca palm</Text>
+      <Text>檳榔</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000158</GUID>
-      <Text>&lt;b&gt;Areca catechu.&lt;/b&gt; The seeds of the Areca palm are traditionally chewed with slaked lime as a so-called betel bite. As a result, the arecoline contained in the seed is converted into arecaidin and can thus be more easily absorbed. It works against tiredness and exhaustion. The saliva is colored intensely red when chewed due to the coloring agents it contains.</Text>
+      <Text>&lt;b&gt;檳榔。&lt;/b&gt;檳櫚棕櫚的種子傳統上是與熟石灰一起咀嚼，即所謂的檳榔咬傷。結果，種子中所含的檳榔鹼轉化為檳榔素，因此更容易被吸收。它對疲勞和疲憊有效。由於唾液中含有著色劑，咀嚼時唾液呈深紅色。</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000159</GUID>
-      <Text>Khat</Text>
+      <Text>阿拉伯茶</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000160</GUID>
-      <Text>&lt;b&gt;Catha edulis.&lt;/b&gt; The branch tips and young leaves of the Kath shrub are traditionally chewed in larger groups during lunchtime. The contained cathine acts as a stimulant and keeps you awake. The cultivation is very water-intensive.</Text>
+      <Text>&lt;b&gt;Catha edulis.&lt;/b&gt;傳統上，Kath 灌木的枝尖和嫩葉在午餐時間成群結隊地咀嚼。所含的魚卵起到興奮劑的作用，讓您保持清醒。種植非常耗水。</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000161</GUID>
-      <Text>Kola Tree</Text>
+      <Text>科拉樹</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000162</GUID>
-      <Text>&lt;b&gt;Cola nitida.&lt;/b&gt; The seeds of the kola nut tree contain significantly more caffeine than the same amount of coffee beans. When chewing, the caffeine is absorbed and acts against fatigue, headaches and loss of libido.</Text>
+      <Text>&lt;b&gt;可樂。&lt;/b&gt;可樂果樹的種子比相同數量的咖啡豆含有更多的咖啡因。咀嚼時，咖啡因被吸收並對抗疲勞、頭痛和減退。</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000163</GUID>
-      <Text>Yohimbe</Text>
+      <Text>育亨賓</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000164</GUID>
-      <Text>&lt;b&gt;Corynanthe johimbe.&lt;/b&gt; The bark of the evergreen yohimba tree contains the alkaloid yohmibine. Therefore, the bark is traditionally consumed in African countries as an aphrodisiac and sexual enhancer.</Text>
+      <Text>&lt;b&gt;Corynanthe johimbe.&lt;/b&gt;常綠育亨巴樹的樹皮含有生物鹼 yohmibine。因此，非洲國家傳統上將樹皮作為壯陽藥和性增強劑食用。</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000165</GUID>
-      <Text>Coca</Text>
+      <Text>古柯</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000166</GUID>
-      <Text>&lt;b&gt;Erythroxylum coca.&lt;/b&gt; The consumption of the leaves of the coca bush is widespread in South America. They contain the alkaloid cocaine. While the leaves are traditionally chewed by native South Americans, the "pure" cocaine is consumed in western countries. In the Andes, people use it to alleviate the symptoms of altitude sickness by increasing oxygen uptake. In addition, it helps to suppress hunger, tiredness and cold. By alkalizing the chewed leaves with lime, the cocaine loses its addictive properties, which is why the Andean population is hardly dependent on the effects of cocaine.</Text>
+      <Text>&lt;b&gt;赤蘚草古柯。&lt;/b&gt;古柯樹葉的消費在南美洲很普遍。它們含有生物鹼海洛因。雖然這些葉子傳統上由南美洲原住民咀嚼，但「純」海洛因在西方國家消費。在安第斯山脈，人們用它來通過增加氧氣攝入來緩解高原反應的癥狀。此外，它還有助於抑制饑餓、疲倦和寒冷。通過用石灰鹼化咀嚼過的葉子，海洛因失去了其成癮特性，這就是為什麼安第斯人幾乎不依賴海洛因的影響。</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000167</GUID>
-      <Text>Opium Poppy</Text>
+      <Text>罌粟</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000168</GUID>
-      <Text>&lt;b&gt;Papaver somniferum.&lt;/b&gt; An alkaloid mixture is extracted from the milky sap contained in the opium poppy capsules, which has become famous as opium. It has strong analgesic and numbing effects. Perhaps your engineers can use opium to develop a highly effective medicine that can be sold in drugstores for headaches, colds and coughs?</Text>
+      <Text>&lt;b&gt;罌粟 somniferum.&lt;/b&gt;從罌粟膠囊中所含的乳白色汁液中提取生物鹼混合物，罌粟膠囊以鴉片而聞名。具有很強的鎮痛和麻木作用。也許您的工程師可以使用鴉片開發一種高效的藥物，可以在藥店出售治療頭痛、感冒和咳嗽？</Text>
     </Text>
   </ModOp>
 </ModOps>

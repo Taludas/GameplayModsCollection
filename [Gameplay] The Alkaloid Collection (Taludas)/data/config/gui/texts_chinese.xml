@@ -2,109 +2,109 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000151</GUID>
-      <Text>THE ALKALOID COLLECTION</Text>
+      <Text>成瘾性植物</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000152</GUID>
-      <Text>A collection of exotic alkaloid plants. Serve as daily drugs in remote parts of the world. Maybe your residents are interested in tasting them?</Text>
+      <Text>一组富含生物碱的外来植物。当地居民将它们作为麻醉药物使用。也许你的住院医生也有兴趣试试？</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000153</GUID>
-      <Text>Alkaloid-Garden</Text>
+      <Text>成瘾性植物花园</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000154</GUID>
-      <Text>The introduction of new exotic and legal daily drugs leads to an unprecedented euphoria among your residents, which is accompanied by an increase in the workload of your workers. With the new alternatives, the consumption of classic daily drugs is falling. However, when importing the new "cultural asset", note that the increased consumption of psychotropic substances leads to an increased susceptibility to illness and in some cases to an increased propensity for violence on the part of your population.</Text>
+      <Text>这些新近的舶来“嗜好品”使你们的居民产生了前所未有的欣快感，同时也让工人能承担更多的工作量。有了这些止痛药品，传统日常药物的消费量正在下降。但是，请注意！这些精神药物消费导致市民更容易生病！暴力案件也在显著增加！</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000155</GUID>
-      <Text>Alkaloid-Garden</Text>
+      <Text>成瘾性植物</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000156</GUID>
-      <Text>Alkaloid-Garden</Text>
+      <Text>成瘾性植物</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000157</GUID>
-      <Text>Areca palm</Text>
+      <Text>槟榔</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000158</GUID>
-      <Text>&lt;b&gt;Areca catechu.&lt;/b&gt; The seeds of the Areca palm are traditionally chewed with slaked lime as a so-called betel bite. As a result, the arecoline contained in the seed is converted into arecaidin and can thus be more easily absorbed. It works against tiredness and exhaustion. The saliva is colored intensely red when chewed due to the coloring agents it contains.</Text>
+      <Text>&lt;b&gt;槟榔&lt;/b&gt;原产地居民会将槟榔的种子和熟石灰一起咀嚼。咀嚼之下种子中所含的槟榔碱被转化为槟榔素，咀嚼时唾液会呈深红色。它是一种抗疲劳的兴奋剂，但对口腔有极其恐怖的伤害。</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000159</GUID>
-      <Text>Khat</Text>
+      <Text>恰特草</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000160</GUID>
-      <Text>&lt;b&gt;Catha edulis.&lt;/b&gt; The branch tips and young leaves of the Kath shrub are traditionally chewed in larger groups during lunchtime. The contained cathine acts as a stimulant and keeps you awake. The cultivation is very water-intensive.</Text>
+      <Text>&lt;b&gt;恰特草&lt;/b&gt;原产地居民经常在午餐时间聚在一起咀嚼恰特草。恰特草含有的阿茶碱是一种兴奋剂，有提神的作用，有时会使人变得好斗。具有很强的成瘾性和致癌性。</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000161</GUID>
-      <Text>Kola Tree</Text>
+      <Text>可乐果树</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000162</GUID>
-      <Text>&lt;b&gt;Cola nitida.&lt;/b&gt; The seeds of the kola nut tree contain significantly more caffeine than the same amount of coffee beans. When chewing, the caffeine is absorbed and acts against fatigue, headaches and loss of libido.</Text>
+      <Text>&lt;b&gt;可乐果树&lt;/b&gt;可乐果的种子所含的咖啡因浓度比咖啡豆多得多。咀嚼时，咖啡因会被吸收，起到抗疲劳的作用。虽然与同组其他植物危害较小，但也有很强的致癌性。</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000163</GUID>
-      <Text>Yohimbe</Text>
+      <Text>卡宾达树</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000164</GUID>
-      <Text>&lt;b&gt;Corynanthe johimbe.&lt;/b&gt; The bark of the evergreen yohimba tree contains the alkaloid yohmibine. Therefore, the bark is traditionally consumed in African countries as an aphrodisiac and sexual enhancer.</Text>
+      <Text>&lt;b&gt;卡宾达树&lt;/b&gt;常绿卡宾达树的树皮含有育亨宾碱。树皮在传统上被作为催情剂和性欲增强剂食用。讽刺的是，科学证明，长期食用会导致阳痿。</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000165</GUID>
-      <Text>Coca</Text>
+      <Text>古柯树</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000166</GUID>
-      <Text>&lt;b&gt;Erythroxylum coca.&lt;/b&gt; The consumption of the leaves of the coca bush is widespread in South America. They contain the alkaloid cocaine. While the leaves are traditionally chewed by native South Americans, the "pure" cocaine is consumed in western countries. In the Andes, people use it to alleviate the symptoms of altitude sickness by increasing oxygen uptake. In addition, it helps to suppress hunger, tiredness and cold. By alkalizing the chewed leaves with lime, the cocaine loses its addictive properties, which is why the Andean population is hardly dependent on the effects of cocaine.</Text>
+      <Text>&lt;b&gt;古柯树&lt;/b&gt;吸食古柯叶在新世界很普遍。它们含有生物碱可卡因。传统上，当地人只会嚼叶子，而“纯”可卡因则在西方国家大受欢迎。可卡因是近现代对人类危害最大的毒品之一。</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000167</GUID>
-      <Text>Opium Poppy</Text>
+      <Text>罂粟花</Text>
     </Text>
   </ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000168</GUID>
-      <Text>&lt;b&gt;Papaver somniferum.&lt;/b&gt; An alkaloid mixture is extracted from the milky sap contained in the opium poppy capsules, which has become famous as opium. It has strong analgesic and numbing effects. Perhaps your engineers can use opium to develop a highly effective medicine that can be sold in drugstores for headaches, colds and coughs?</Text>
+      <Text>&lt;b&gt;罂粟花&lt;/b&gt;罂粟果实中的乳白色汁液中可以提取出鸦片，有很强的镇痛和麻木作用，曾经长期被用作止咳、镇痛药。直到该死的欧洲人发现这种作物能换回白银。</Text>
     </Text>
   </ModOp>
 </ModOps>
