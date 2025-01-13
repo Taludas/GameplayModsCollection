@@ -26,9 +26,9 @@
                         <StorageAmount>10</StorageAmount>
                     </Item>
                 </FactoryOutputs>
+                <CycleTime>120</CycleTime>
                 <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
                 <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
-                <CycleTime>120</CycleTime>
                 <IsMainFactory>1</IsMainFactory>
             </FactoryBase>
         </ModOp>

@@ -1,7 +1,8 @@
 {
-  "Version": "1.6.7",
-  "ModID": "Taludas_CoffeeTobaccoEnbesa",
+  "Version": "1.6.8",
+  "ModID": "Taludas_CoffeeTobaccoEnbesa_modio",
   "IncompatibleIds": [
+    "Taludas_CoffeeTobaccoEnbesa",
     "Taludas_CoffeeTobaccoEnbesaFull",
     "Taludas_CoffeeTobaccoEnbesaFarmsOnly",
     "Taludas_CoffeeTobaccoEnbesaLight",
@@ -21,6 +22,7 @@
     "shared-pools-and-definitions",
     "shared_TT_MenuInputOutputAmounts_Serp"
   ],
+  "ModioResourceId": 3229533,
   "Category": {
     "Chinese": "Gameplay",
     "English": "Gameplay",

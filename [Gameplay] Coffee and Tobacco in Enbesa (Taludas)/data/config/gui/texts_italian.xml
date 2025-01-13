@@ -2,27 +2,27 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999000100</GUID>
-      <Text>Coffee Plantation</Text>
+      <Text>Piantagione di caffè</Text>
     </Text>
     <Text>
       <GUID>1999000101</GUID>
-      <Text>Coffee Roaster</Text>
+      <Text>Torrefazione caffè</Text>
     </Text>
     <Text>
       <GUID>1999000102</GUID>
-      <Text>Tobacco Plantation</Text>
+      <Text>Piantagione di tabacco</Text>
     </Text>
     <Text>
       <GUID>1999000103</GUID>
-      <Text>Coffee</Text>
+      <Text>Caffè</Text>
     </Text>
     <Text>
       <GUID>1999000108</GUID>
-      <Text>Coffee Crop</Text>
+      <Text>Raccolto di caffè</Text>
     </Text>
     <Text>
       <GUID>1999000109</GUID>
-      <Text>Tobacco Field</Text>
+      <Text>Campo di tabacco</Text>
     </Text>
     <Text>
       <GUID>1999000098</GUID>
