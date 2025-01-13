@@ -1,5 +1,5 @@
 {
-  "Version": "1.3.4",
+  "Version": "1.3.5",
   "ModID": "Taludas_ZooMuseumBotanicalGardenInEnbesa",
   "IncompatibleIds": null,
   "ModDependencies": [
@@ -14,6 +14,7 @@
     "Taludas_CoffeeTobaccoEnbesa_modio",
     "Taludas_CoffeeTobaccoEnbesa"
   ],
+  "ModioResourceId": 3228007,
   "Category": {
     "Chinese": "Gameplay",
     "English": "Gameplay",

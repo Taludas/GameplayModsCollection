@@ -1,89 +1,69 @@
 <ModOps>
   <!-- Amazonas Garden in Enbesa -->
-    <Group>
-      <ModOp Type="add" Path="/TextExport/Texts">
-        <Text>
-          <GUID>1999000115</GUID>
-          <Text></Text>
-        </Text>
-      </ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000115']/Text"
-        Content="/TextExport/Texts/Text[GUID='22404']/Text/text()">
-      </ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000115']/Text">&#xD;&#xA;&#xD;&#xA;</ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000115']/Text"
-        Content="/TextExport/Texts/Text[GUID='22409']/Text/text()">
-      </ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22404' or GUID='22409']/Text">&#xD;&#xA;&#xD;&#xA;Zapewnia żyzność hibiskusa, jeśli jest zbudowany w Enbesie.</ModOp>
-    </Group>
   <!-- Anden Garden in Enbesa -->
-    <Group>
-      <ModOp Type="add" Path="/TextExport/Texts">
-        <Text>
-          <GUID>1999000117</GUID>
-          <Text></Text>
-        </Text>
-      </ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000117']/Text"
-        Content="/TextExport/Texts/Text[GUID='22405']/Text/text()">
-      </ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000117']/Text">&#xD;&#xA;&#xD;&#xA;</ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000117']/Text"
-        Content="/TextExport/Texts/Text[GUID='22410']/Text/text()">
-      </ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22405' or GUID='22410']/Text" Condition="!#Taludas_CoffeeTobaccoEnbesa_modio">&#xD;&#xA;&#xD;&#xA;Zapewnia żyzność trawa teff, jeśli jest zbudowany w Enbesie.</ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22405' or GUID='22410']/Text" Condition="#Taludas_CoffeeTobaccoEnbesa_modio">&#xD;&#xA;&#xD;&#xA;Zapewnia żyzność tytoniu, jeśli jest zbudowany w Enbesie.</ModOp>
-    </Group>
   <!-- Enchanted Garden in Enbesa -->
-    <Group>
-      <ModOp Type="add" Path="/TextExport/Texts">
-        <Text>
-          <GUID>1999000119</GUID>
-          <Text></Text>
-        </Text>
-      </ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000119']/Text"
-        Content="/TextExport/Texts/Text[GUID='22406']/Text/text()">
-      </ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000119']/Text">&#xD;&#xA;&#xD;&#xA;</ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000119']/Text"
-        Content="/TextExport/Texts/Text[GUID='22411']/Text/text()">
-      </ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22406' or GUID='22411']/Text" Condition="!#Taludas_CoffeeTobaccoEnbesa_modio">&#xD;&#xA;&#xD;&#xA;Zapewnia żyzność indygo, jeśli jest zbudowany w Enbesie.</ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22406' or GUID='22411']/Text" Condition="#Taludas_CoffeeTobaccoEnbesa_modio">&#xD;&#xA;&#xD;&#xA;Zapewnia żyzność kawy, jeśli jest zbudowany w Enbesie.</ModOp>
-    </Group>
   <!-- Near East Garden in Enbesa -->
-    <Group>
-      <ModOp Type="add" Path="/TextExport/Texts">
-        <Text>
-          <GUID>1999000121</GUID>
-          <Text></Text>
-        </Text>
-      </ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000121']/Text"
-        Content="/TextExport/Texts/Text[GUID='22407']/Text/text()">
-      </ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000121']/Text">&#xD;&#xA;&#xD;&#xA;</ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000121']/Text"
-        Content="/TextExport/Texts/Text[GUID='22412']/Text/text()">
-      </ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22407' or GUID='22412']/Text">&#xD;&#xA;&#xD;&#xA;Zapewnia żyzność przyprawy, jeśli jest zbudowany w Enbesie.</ModOp>
-    </Group>
   <!-- Subalpine Garden in Enbesa -->
-    <Group>
-      <ModOp Type="add" Path="/TextExport/Texts">
-        <Text>
-          <GUID>1999000123</GUID>
-          <Text></Text>
-        </Text>
-      </ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000123']/Text"
-        Content="/TextExport/Texts/Text[GUID='22403']/Text/text()">
-      </ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000123']/Text">&#xD;&#xA;&#xD;&#xA;</ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000123']/Text"
-        Content="/TextExport/Texts/Text[GUID='22408']/Text/text()">
-      </ModOp>
-      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22403' or GUID='22408']/Text">&#xD;&#xA;&#xD;&#xA;Zapewnia obfitość pszczół, jeśli jest zbudowany w Enbesa.</ModOp>
-    </Group>
+  <Group>
+    <ModOp Type="add" Path="/TextExport/Texts">
+      <Text>
+        <GUID>1999000115</GUID>
+        <Text></Text>
+      </Text>
+    </ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000115']/Text" Content="/TextExport/Texts/Text[GUID='22404']/Text/text()"></ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000115']/Text">&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;</ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000115']/Text" Content="/TextExport/Texts/Text[GUID='22409']/Text/text()"></ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22404' or GUID='22409']/Text">&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Activates hibiscus fertility if built in Enbesa.</ModOp>
+  </Group>
+  <Group>
+    <ModOp Type="add" Path="/TextExport/Texts">
+      <Text>
+        <GUID>1999000117</GUID>
+        <Text></Text>
+      </Text>
+    </ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000117']/Text" Content="/TextExport/Texts/Text[GUID='22405']/Text/text()"></ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000117']/Text">&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;</ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000117']/Text" Content="/TextExport/Texts/Text[GUID='22410']/Text/text()"></ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22405' or GUID='22410']/Text" Condition="!#Taludas_CoffeeTobaccoEnbesa_modio">&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Activates teff fertility if built in Enbesa.</ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22405' or GUID='22410']/Text" Condition="#Taludas_CoffeeTobaccoEnbesa_modio">&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Activates tobacco fertility if built in Enbesa.</ModOp>
+  </Group>
+  <Group>
+    <ModOp Type="add" Path="/TextExport/Texts">
+      <Text>
+        <GUID>1999000119</GUID>
+        <Text></Text>
+      </Text>
+    </ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000119']/Text" Content="/TextExport/Texts/Text[GUID='22406']/Text/text()"></ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000119']/Text">&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;</ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000119']/Text" Content="/TextExport/Texts/Text[GUID='22411']/Text/text()"></ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22406' or GUID='22411']/Text" Condition="!#Taludas_CoffeeTobaccoEnbesa_modio">&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Activates indigo fertility if built in Enbesa.</ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22406' or GUID='22411']/Text" Condition="#Taludas_CoffeeTobaccoEnbesa_modio">&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Activates coffee fertility if built in Enbesa.</ModOp>
+  </Group>
+  <Group>
+    <ModOp Type="add" Path="/TextExport/Texts">
+      <Text>
+        <GUID>1999000121</GUID>
+        <Text></Text>
+      </Text>
+    </ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000121']/Text" Content="/TextExport/Texts/Text[GUID='22407']/Text/text()"></ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000121']/Text">&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;</ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000121']/Text" Content="/TextExport/Texts/Text[GUID='22412']/Text/text()"></ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22407' or GUID='22412']/Text">&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Activates spices fertility if built in Enbesa.</ModOp>
+  </Group>
+  <Group>
+    <ModOp Type="add" Path="/TextExport/Texts">
+      <Text>
+        <GUID>1999000123</GUID>
+        <Text></Text>
+      </Text>
+    </ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000123']/Text" Content="/TextExport/Texts/Text[GUID='22403']/Text/text()"></ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000123']/Text">&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;</ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1999000123']/Text" Content="/TextExport/Texts/Text[GUID='22408']/Text/text()"></ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='22403' or GUID='22408']/Text">&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Activates bee abundance if built in Enbesa.</ModOp>
+  </Group>
 </ModOps>
