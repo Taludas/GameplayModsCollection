@@ -1,0 +1,46 @@
+{
+  "Version": "1.0",
+  "ModID": "cherries_kurila",
+  "LoadAfterIds": [],
+  "Category": {
+    "English": "Product",
+    "Chinese": "Product",
+    "French": "Product",
+    "German": "Product",
+    "Italian": "Product",
+    "Japanese": "Product",
+    "Korean": "Product",
+    "Polish": "Product",
+    "Russian": "Product",
+    "Spanish": "Product",
+    "Taiwanese": "Product"
+  },
+  "ModName": {
+    "English": "Cherries (Kurila)",
+    "Chinese": "Cherries (Kurila)",
+    "French": "Cherries (Kurila)",
+    "German": "Cherries (Kurila)",
+    "Italian": "Cherries (Kurila)",
+    "Japanese": "Cherries (Kurila)",
+    "Korean": "Cherries (Kurila)",
+    "Polish": "Cherries (Kurila)",
+    "Russian": "Cherries (Kurila)",
+    "Spanish": "Cherries (Kurila)",
+    "Taiwanese": "Cherries (Kurila)"
+  },
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Description": {
+    "English": "file::README.md",
+    "Chinese": "file::README.md",
+    "French": "file::README.md",
+    "German": "file::README.md",
+    "Italian": "file::README.md",
+    "Japanese": "file::README.md",
+    "Korean": "file::README.md",
+    "Polish": "file::README.md",
+    "Russian": "file::README.md",
+    "Spanish": "file::README.md",
+    "Taiwanese": "file::README.md"
+  }
+}

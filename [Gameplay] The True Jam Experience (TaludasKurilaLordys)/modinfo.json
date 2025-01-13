@@ -3,17 +3,18 @@
   "ModID": "TaludasKurilaLordys_TrueJamExperience",
   "DeprecateIds": [],
   "ModDependencies": [
-    "shared_products_extended_kurila",
+    "cherries_kurila",
     "shared_TT_MenuInputOutputAmounts_Serp"
   ],
   "LoadAfterIds": [
     "OrchardRework",
     "[Gameplay] Orchard Rework",
-    "shared_products_extended_kurila",
+    "cherries_kurila",
     "FamTaubeLexy_NewWorldHotels",
     "jakob_new_world_cities"
   ],
   "IncompatibleIds": null,
+  "ModioResourceId": 3227916,
   "Category": {
     "English": "Gameplay",
     "Chinese": "Gameplay",

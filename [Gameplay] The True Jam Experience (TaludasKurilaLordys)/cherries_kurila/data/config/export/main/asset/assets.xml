@@ -1,0 +1,132 @@
+<ModOps>
+  <!-- # Product: Cherries -->
+  <ModOp GUID="133183" Type="addPrevSibling">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1404420030</GUID>
+          <Name>Cherries</Name>
+          <IconFilename>data/ui\kurila\icon_cherries.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11702</ProductCategory>
+          <BasePrice>25</BasePrice>
+          <CivLevel>1</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+            <ProductionRegions>
+              <Item>
+                <RegionType>Moderate</RegionType>
+              </Item>
+            </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>5</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Storage Lists -->
+  <Group>
+    <ModOp Type="add" GUID="120055"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1404420030']"
+      Path="/Values/ProductStorageList/ProductList">
+      <Item>
+        <Product>1404420030</Product>
+      </Item>
+    </ModOp>
+  </Group>
+
+  <!-- # Expedition -->
+  <ModOp Type="add" GUID="800111"
+    Condition="!~/ExpeditionFeature/FeedOption/FeedOptions[Item/Product='1404420030']"
+    Path="/Values/ExpeditionFeature/FeedOption/FeedOptions">
+    <Item>
+      <MoraleFactor>0.5</MoraleFactor>
+      <Product>1404420030</Product>
+    </Item>
+  </ModOp>
+
+  <!-- # Cherries: Tattershire -->
+  <Group Condition="!@131764/.//TradeLevels/Item/Trades[Item/Good='1404420030']">
+    <ModOp Type="addPrevSibling" GUID="133183"
+      Condition="!//FactoryBase[FactoryOutputs/Item/Product='1404420030']/IsMainFactory[text()='1']">
+      <Asset>
+        <Template>FarmBuilding</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301132</GUID>
+            <Name>IsMainFactory_Fake: Cherries</Name>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+          </Building>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/dlc08/graphics/buildings/production/tree_planter/tree_planter_cherry.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Locked />
+          <FactoryBase>
+            <FactoryOutputs>
+              <Item>
+                <Product>1404420030</Product>
+                <Amount>1</Amount>
+                <StorageAmount>2</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>60</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010052</Product>
+                <Amount>35</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <ModuleOwner>
+            <ModuleLimits>
+              <Main>
+                <Limit>100</Limit>
+              </Main>
+            </ModuleLimits>
+            <ConstructionOptions>
+              <Item>
+                <ModuleGUID>1010270</ModuleGUID>
+              </Item>
+            </ConstructionOptions>
+          </ModuleOwner>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="add" GUID="131764"
+      Path="/Values/TradeContractFeature/Traders/Item[TraderName='131819']/TradeLevels/Item/Trades[Item/Good='1010194']">
+      <Item>
+      	<Level>Uncommon</Level>
+        <Good>1404420030</Good>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="502233" Path="/Values/ProductList/List"
+    Condition="!/Values/ProductList/List/Item[Product='1404420030']">
+      <Item>
+        <Product>1404420030</Product>
+      </Item>
+    </ModOp>
+  </Group>
+</ModOps>
