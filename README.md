@@ -16,9 +16,6 @@
 
 ***These Mods are savegame-compatible. Please use the iModYourAnno Anno Mod Manager for individual mod customization. Several mods have multiple versions which can be toggled on and off with iMYA as well.***
 
-## Mod Images
-You can find a gallery of images from my mod [here](docs/).
-
 ## Changelog
 <details>
     <summary>Patch Notes Version 1.8.0</summary>

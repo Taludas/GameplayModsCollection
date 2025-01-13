@@ -15,9 +15,6 @@ Wenn euch diese Mod gefällt und ihr mich unterstützen wollt, könnt ihr sie ge
 
 ***Diese Mods sind savegame-kompatibel. Bitte nutze den iModYourAnno Anno Mod Manager für individuelle Anpassungen.***
 
-## Mod Images
-Hier findet ihr eine Galerie mit Bildern von meinen Mods [here](docs/).
-
 ## Changelog
 <details>
     <summary>Patch Notes Version 1.8.0</summary>
