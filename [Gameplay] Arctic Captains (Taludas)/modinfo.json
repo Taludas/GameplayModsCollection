@@ -1,8 +1,9 @@
 {
-  "Version": "1.3",
+  "Version": "1.4",
   "ModID": "Taludas_ArcticCaptains",
   "IncompatibleIds": null,
   "ModDependencies": null,
+  "ModioResourceId": 3230093,
   "Category": {
     "Chinese": "Gameplay",
     "English": "Gameplay",
@@ -42,7 +43,7 @@
     "Spanish": null,
     "Taiwanese": null
   },
-  "KnownIssues": 
+  "KnownIssues":
   [
     {
       "Chinese": null,

@@ -1,62 +1,60 @@
 <ModOps>
-
-    <ModOp Type="add" Path="/TextExport/Texts">
-        <Text>
-            <GUID>1999000171</GUID>
-            <Text>Sir John Faithful, Reinstated Admiral of the Lost Expedition</Text>
-        </Text>
-        <Text>
-            <GUID>1999000172</GUID>
-            <Text>After Sir John Faithful miraculously escaped arctic hell, he can't wait to rebuild your airship fleet.</Text>
-        </Text>
-        <Text>
-            <GUID>1999000173</GUID>
-            <Text>El Presidente, Globetrotter par excellence</Text>
-        </Text>
-        <Text>
-            <GUID>1999000174</GUID>
-            <Text>Born in La Corona, El Presidente traveled across the known world before he dedicated himself to the treasure hunt in the inhospitable region of the ice desert.</Text>
-        </Text>
-        <Text>
-            <GUID>1999000175</GUID>
-            <Text>Ming Shu, Sharp tongue of the eastern capital</Text>
-        </Text>
-        <Text>
-            <GUID>1999000176</GUID>
-            <Text>Hired from the Far East, Ming can wrap any man around her little finger while bargaining without him noticing.</Text>
-        </Text>
-        <Text>
-            <GUID>1999000177</GUID>
-            <Text>Jürgen Vogel, Lifter of flying crates</Text>
-        </Text>
-        <Text>
-            <GUID>1999000178</GUID>
-            <Text>Despite his constantly bad mood, Jürgen is valued by every crew, as no one else can arrange the freight boxes as efficiently as he can.</Text>
-        </Text>
-        <Text>
-            <GUID>1999000179</GUID>
-            <Text>Francis Crozier, Aerial Trade Specialist</Text>
-        </Text>
-        <Text>
-            <GUID>1999000180</GUID>
-            <Text>Turns air into trading volume.</Text>
-        </Text>
-        <Text>
-            <GUID>1999000181</GUID>
-            <Text>Franca d'Artois, Believer of Speed</Text>
-        </Text>
-        <Text>
-            <GUID>1999000182</GUID>
-            <Text>With steam in your blood, no headwind can slow her down in the persuit of total speed.</Text>
-        </Text>
-        <Text>
-            <GUID>1999000183</GUID>
-            <Text>James Fitzjames, Expert on the pulley</Text>
-        </Text>
-        <Text>
-            <GUID>1999000184</GUID>
-            <Text>The pulley blocks of any ship fear his speed when loading the goods.</Text>
-        </Text>
-    </ModOp>
-
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999000171</GUID>
+      <Text>Sir John Faithful, almirante reincorporado de la expedición perdida</Text>
+    </Text>
+    <Text>
+      <GUID>1999000172</GUID>
+      <Text>Después de que Sir John Faithful escapó milagrosamente del infierno ártico, no puede esperar para reconstruir su flota de dirigibles.</Text>
+    </Text>
+    <Text>
+      <GUID>1999000173</GUID>
+      <Text>El Presidente, Globetrotter par excellence</Text>
+    </Text>
+    <Text>
+      <GUID>1999000174</GUID>
+      <Text>Nacido en La Corona, El Presidente viajó por todo el mundo conocido antes de dedicarse a la búsqueda del tesoro en la inhóspita región del desierto de hielo.</Text>
+    </Text>
+    <Text>
+      <GUID>1999000175</GUID>
+      <Text>Ming Shu, lengua afilada de la capital oriental</Text>
+    </Text>
+    <Text>
+      <GUID>1999000176</GUID>
+      <Text>Contratada desde el Lejano Oriente, Ming puede envolver a cualquier hombre alrededor de su dedo meñique mientras negocia sin que él se dé cuenta.</Text>
+    </Text>
+    <Text>
+      <GUID>1999000177</GUID>
+      <Text>Jürgen Vogel, Levantador de cajas voladoras</Text>
+    </Text>
+    <Text>
+      <GUID>1999000178</GUID>
+      <Text>A pesar de su constante mal humor, Jürgen es valorado por todos los tripulantes, ya que nadie más puede organizar las cajas de carga tan eficientemente como él.</Text>
+    </Text>
+    <Text>
+      <GUID>1999000179</GUID>
+      <Text>Francis Crozier, Especialista en Comercio Aéreo</Text>
+    </Text>
+    <Text>
+      <GUID>1999000180</GUID>
+      <Text>Convierte el aire en volumen de operaciones.</Text>
+    </Text>
+    <Text>
+      <GUID>1999000181</GUID>
+      <Text>Franca d'Artois, creyente de la velocidad</Text>
+    </Text>
+    <Text>
+      <GUID>1999000182</GUID>
+      <Text>Con el vapor fluyendo por sus venas, ningún viento en contra puede frenarla en la búsqueda de la velocidad total.</Text>
+    </Text>
+    <Text>
+      <GUID>1999000183</GUID>
+      <Text>James Fitzjames, experto en la polea</Text>
+    </Text>
+    <Text>
+      <GUID>1999000184</GUID>
+      <Text>Los bloques de poleas de cualquier barco temen su velocidad a la hora de cargar las mercancías.</Text>
+    </Text>
+  </ModOp>
 </ModOps>
