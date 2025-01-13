@@ -17,6 +17,20 @@ Wenn euch diese Mod gefällt und ihr mich unterstützen wollt, könnt ihr sie ge
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.9.0</summary>
+
+- Behebung des Problems mit dem Zurücksetzen von Bedürfnissen aufgrund der Mechanik, mit der der Burrito-Boom-Buff an Häuser verteilt wurde
+- Einbeziehung von Jakobs New World Citie Houses in den Burrito Boom-Buff
+- zusätzliches Geld für die Versorgung von Burritos hinzugefügt
+- tausche alte Version der shared-Mods von Kurila mit neueren Versionen aus (nur Kirschen sind für diese Mod relevant)
+- füge automatisch übersetzte Locas für die fehlenden hinzu
+- Chinesische Übersetzungen hinzugefügt von hanthe2th
+- Russische Übersetzungen hinzugefügt von Grusin99
+- weitere Überarbeitung der Art und Weise, wie meine gemeinsame Mod Potash Production in dieser Modsammlung verwendet wird
+
+</details>
+
+<details>
     <summary>Patch Notes Version 1.8.0</summary>
 
 * Fixes:

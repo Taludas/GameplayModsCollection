@@ -18,6 +18,19 @@
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.9.0</summary>
+
+- fix issue with resetting needs due to the mechanic the Burrito Boom buff was distributed to the houses
+- include Jakob's New World Citie Houses into the Burrito Boom buff
+- add additional money gained for supplying burritos
+- exchange old version of chared mods by Kurila with newer version (only Cherries are relevant for this mod)
+- include auto-translated locas for those that are missing
+- add chinese translations by hanthe2th
+- add russian translations by Grusin99
+- further rework of how my shared mod potash production is used in this mod collection
+
+</details>
+<details>
     <summary>Patch Notes Version 1.8.0</summary>
 
 * Fixes:
