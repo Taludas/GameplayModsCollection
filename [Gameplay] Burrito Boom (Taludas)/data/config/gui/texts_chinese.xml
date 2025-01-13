@@ -1,61 +1,61 @@
 <ModOps>
-
+  
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002226</GUID>
-      <Text>Burrito Boom</Text>
+      <Text>玉米饼狂热</Text>
     </Text>
     <Text>
       <GUID>1999002227</GUID>
-      <Text>Due to the current popularity of burritos, their supply may lead to increased influx in new immigrants to your city.</Text>
+      <Text>由于目前玉米饼的流行，它们的供应可能会导致新移民涌入你的城市。</Text>
     </Text>
     <Text>
       <GUID>1999002229</GUID>
-      <Text>Burrito Boom</Text>
+      <Text>玉米饼狂热</Text>
     </Text>
     <Text>
       <GUID>1999002230</GUID>
-      <Text>Due to the current popularity of burritos, the Mole Master is doing extra hours to cope with the increased demant.</Text>
+      <Text>由于玉米饼目前很受欢迎，莫雷酱大师正在加班加点，以满足日益增长的需求。</Text>
     </Text>
     <Text>
       <GUID>15654</GUID>
-      <Text>The Investor wants to market Burritos.</Text>
+      <Text>投资人想投资玉米饼产业。</Text>
     </Text>
     <Text>
       <GUID>14991</GUID>
-      <Text>BURRITOS RUN OUT!</Text>
+      <Text>玉米饼卖完了！</Text>
     </Text>
     <Text>
       <GUID>12471</GUID>
-      <Text>Quality burritos want quality corn.</Text>
+      <Text>优质的玉米饼需要优质的玉米。</Text>
     </Text>
     <Text>
       <GUID>101271</GUID>
-      <Text>Burrito Maker</Text>
+      <Text>制玉米饼店</Text>
     </Text>
     <Text>
       <GUID>120035</GUID>
-      <Text>Burritos</Text>
+      <Text>玉米饼</Text>
     </Text>
     <Text>
       <GUID>192227</GUID>
-      <Text>Silva's Burritos</Text>
+      <Text>席尔瓦的玉米饼</Text>
     </Text>
     <Text>
       <GUID>500911</GUID>
-      <Text>Burritos</Text>
+      <Text>玉米饼</Text>
     </Text>
     <Text>
       <GUID>16316</GUID>
-      <Text>An investor hopes to bring burritos to the old world masses. But he needs some samples to see if they'll prove a hit.</Text>
+      <Text>一位投资者希望把玉米饼带给旧世界的大众。但他需要一些样品，看看是否能成功。</Text>
     </Text>
     <Text>
       <GUID>14992</GUID>
-      <Text>Burritos extremely thin on the ground in [Newspaper FindArticle([RefGuid]) Context TownName], leaving city feeling flat. "They better scoop us out of this soon, or the whole thing will leave a very bad taste in the mouth."</Text>
+      <Text>[Newspaper FindArticle([RefGuid]) Context TownName]的玉米饼存量非常少了！当地居民表示：“他们最好快点想想办法，否则整件事会变得很棘手。”</Text>
     </Text>
     <Text>
       <GUID>15024</GUID>
-      <Text>Burritos ready in [Newspaper FindArticle([RefGuid]) Context TownName], as locals perform ritual celebration of corn. A legacy of ancestors in the region, a staple of liberation and independence, it shall go marvellously with a prickly pear, or a pricklier chilli!</Text>
+      <Text>[Newspaper FindArticle([RefGuid]) Context TownName]开始供应玉米饼了！当地人特意举行了庆祝仪式。这是该地区祖先的遗产，是寓意解放和独立的食物，它应该与牛油果和辣椒搭配！</Text>
     </Text>
   </ModOp>
 
