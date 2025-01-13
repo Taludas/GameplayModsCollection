@@ -1,34 +1,32 @@
 <ModOps>
-  
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002234</GUID>
-      <Text>Forest Glass Recipe</Text>
+      <Text>Ricetta del vetro della foresta</Text>
     </Text>
     <Text>
       <GUID>1999002235</GUID>
-      <Text>This glassmaker now produces high-quality forest glass according to a centuries-old traditional recipe.</Text>
+      <Text>Questo vetraio produce ora vetro forestale di alta qualità secondo una ricetta tradizionale secolare.</Text>
     </Text>
     <Text>
       <GUID>1999002236</GUID>
-      <Text>Forest Glass Hut</Text>
+      <Text>Capanna di vetro della foresta</Text>
     </Text>
     <Text>
       <GUID>1999002237</GUID>
-      <Text>Forest glass huts are located in close proximity to Potash production in the forest, as the latter have an incredibly high demand for wood.</Text>
+      <Text>Le capanne di vetro della foresta si trovano nelle immediate vicinanze della produzione di potassio nella foresta, poiché quest'ultima ha una domanda incredibilmente alta di legno.</Text>
     </Text>
     <Text>
       <GUID>1999002240</GUID>
-      <Text>Forest Glass Hut</Text>
+      <Text>Capanna di vetro della foresta</Text>
     </Text>
     <Text>
       <GUID>1999002255</GUID>
-      <Text>Forest Glass Hut</Text>
+      <Text>Capanna di vetro della foresta</Text>
     </Text>
     <Text>
       <GUID>1999002256</GUID>
-      <Text>Forest Glass Hut</Text>
+      <Text>Capanna di vetro della foresta</Text>
     </Text>
   </ModOp>
-
 </ModOps>
