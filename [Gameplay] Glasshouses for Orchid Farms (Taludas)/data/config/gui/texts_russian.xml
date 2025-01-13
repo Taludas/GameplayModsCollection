@@ -1,10 +1,8 @@
 <ModOps>
-  
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002174</GUID>
-      <Text>Orchid Glasshouse</Text>
+      <Text>Оранжерея для орхидей</Text>
     </Text>
   </ModOp>
-
 </ModOps>

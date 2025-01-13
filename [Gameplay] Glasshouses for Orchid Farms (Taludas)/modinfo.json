@@ -1,10 +1,11 @@
 {
-  "Version": "1.1.0",
+  "Version": "1.1.1",
   "ModID": "Taludas_GlasshousesforOrchidFarms",
   "DeprecateIds": [],
   "ModDependencies": [],
   "LoadAfterIds": [],
   "IncompatibleIds": null,
+  "ModioResourceId": 3229485,
   "Category": {
     "English": "Gameplay",
     "Chinese": "Gameplay",
