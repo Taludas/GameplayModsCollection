@@ -1,68 +1,68 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
-		<Text>
-			<GUID>1999000040</GUID>
-			<Text>Manufactory: Souvenirs</Text>
-		</Text>
-		<Text>
-			<GUID>1999000041</GUID>
-			<Text>Souvenirs</Text>
-		</Text>
-		<Text>
-			<GUID>1999000042</GUID>
-			<Text>Today's modern tourist wants nothing more than to bring back a high-quality, hand-made souvenir from his extraordinary trip to the Old World for his loved ones at home. Both modern and traditional materials can be combined into a variety of attractive souvenirs.</Text>
-		</Text>
-		<Text>
-			<GUID>137609</GUID>
-			<Text>Handcrafted Souvenirs</Text>
-		</Text>
-		<Text>
-			<GUID>1999002257</GUID>
-			<Text>Souvenir Shop</Text>
-		</Text>
-		<Text>
-			<GUID>1999002258</GUID>
-			<Text>Supplies your Tourists with souvenirs to buff Hotels and Tourist Moorings in the vicinity.</Text>
-		</Text>
-		<Text>
-			<GUID>1999002259</GUID>
-			<Text>Souvenir Shop: Postcards</Text>
-		</Text>
-		<Text>
-			<GUID>1999002260</GUID>
-			<Text>Souvenir Shops: Kiosk</Text>
-		</Text>
-		<Text>
-			<GUID>1999002261</GUID>
-			<Text>Souvenir Sales</Text>
-		</Text>
-		<Text>
-			<GUID>1999002262</GUID>
-			<Text>Souvenir Stores</Text>
-		</Text>
-		<Text>
-			<GUID>1999002263</GUID>
-			<Text>Overview of the Souvenir Shops used to supply your Tourists with souvenirs beside the sales in Hotels.</Text>
-		</Text>
-		<Text>
-			<GUID>1999002266</GUID>
-			<Text>Souvenir Sales</Text>
-		</Text>
-		<Text>
-			<GUID>1999000050</GUID>
-			<Text>Assembly Line: Souvenirs</Text>
-		</Text>
-		<Text>
-			<GUID>1999000051</GUID>
-			<Text>Souvenirs</Text>
-		</Text>
-		<Text>
-			<GUID>1999000052</GUID>
-			<Text>The modern tourist is attracted by the offer of discounted souvenirs. In order to bring enough visual material for those who stayed at home, he demands a large variety of products at a reasonable price. Modern and cheap materials, combined with the advancement of the assembly line, can be combined into a variety of suitable products.</Text>
-		</Text>
-		<Text>
-			<GUID>1999000059</GUID>
-			<Text>Mass-produced Souvenirs</Text>
-		</Text>
+    <Text>
+      <GUID>1999000040</GUID>
+      <Text>Manifattura: Souvenir</Text>
+    </Text>
+    <Text>
+      <GUID>1999000041</GUID>
+      <Text>Cimeli</Text>
+    </Text>
+    <Text>
+      <GUID>1999000042</GUID>
+      <Text>Il turista moderno di oggi non vuole altro che portare a casa un souvenir di alta qualità, fatto a mano, dal suo straordinario viaggio nel Vecchio Mondo. Sia i materiali moderni che quelli tradizionali possono essere combinati in una varietà di souvenir attraenti.</Text>
+    </Text>
+    <Text>
+      <GUID>137609</GUID>
+      <Text>Souvenir artigianali</Text>
+    </Text>
+    <Text>
+      <GUID>1999002257</GUID>
+      <Text>Souvenir</Text>
+    </Text>
+    <Text>
+      <GUID>1999002258</GUID>
+      <Text>Fornisce ai tuoi turisti souvenir per potenziare gli hotel e gli ormeggi turistici nelle vicinanze.</Text>
+    </Text>
+    <Text>
+      <GUID>1999002259</GUID>
+      <Text>Negozio di souvenir: cartoline</Text>
+    </Text>
+    <Text>
+      <GUID>1999002260</GUID>
+      <Text>Negozi di souvenir: chiosco</Text>
+    </Text>
+    <Text>
+      <GUID>1999002261</GUID>
+      <Text>Vendita di souvenir</Text>
+    </Text>
+    <Text>
+      <GUID>1999002262</GUID>
+      <Text>Negozi di souvenir</Text>
+    </Text>
+    <Text>
+      <GUID>1999002263</GUID>
+      <Text>Panoramica dei negozi di souvenir utilizzati per rifornire i tuoi turisti con souvenir oltre alle vendite negli hotel.</Text>
+    </Text>
+    <Text>
+      <GUID>1999002266</GUID>
+      <Text>Vendita di souvenir</Text>
+    </Text>
+    <Text>
+      <GUID>1999000050</GUID>
+      <Text>Catena di montaggio: Souvenir</Text>
+    </Text>
+    <Text>
+      <GUID>1999000051</GUID>
+      <Text>Cimeli</Text>
+    </Text>
+    <Text>
+      <GUID>1999000052</GUID>
+      <Text>Il turista moderno è attratto dall'offerta di souvenir scontati. Al fine di portare abbastanza materiale visivo per coloro che sono rimasti a casa, richiede una grande varietà di prodotti a un prezzo ragionevole. Materiali moderni ed economici, combinati con l'avanzamento della catena di montaggio, possono essere combinati in una varietà di prodotti adatti.</Text>
+    </Text>
+    <Text>
+      <GUID>1999000059</GUID>
+      <Text>Souvenir prodotti in serie</Text>
+    </Text>
   </ModOp>
 </ModOps>

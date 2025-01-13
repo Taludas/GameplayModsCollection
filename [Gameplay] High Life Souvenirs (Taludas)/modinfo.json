@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.3",
+  "Version": "1.0.4",
   "ModID": "Taludas_HighLifeSouvenirs",
   "DeprecateIds": [],
   "ModDependencies": [
@@ -8,6 +8,7 @@
     "FamTaubeLexy_NewWorldHotels"
   ],
   "IncompatibleIds": null,
+  "ModioResourceId": 3228029,
   "Category": {
     "English": "Gameplay",
     "Chinese": "Gameplay",

@@ -1,68 +1,68 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
-		<Text>
-			<GUID>1999000040</GUID>
-			<Text>Manufactory: Souvenirs</Text>
-		</Text>
-		<Text>
-			<GUID>1999000041</GUID>
-			<Text>Souvenirs</Text>
-		</Text>
-		<Text>
-			<GUID>1999000042</GUID>
-			<Text>Today's modern tourist wants nothing more than to bring back a high-quality, hand-made souvenir from his extraordinary trip to the Old World for his loved ones at home. Both modern and traditional materials can be combined into a variety of attractive souvenirs.</Text>
-		</Text>
-		<Text>
-			<GUID>137609</GUID>
-			<Text>Handcrafted Souvenirs</Text>
-		</Text>
-		<Text>
-			<GUID>1999002257</GUID>
-			<Text>Souvenir Shop</Text>
-		</Text>
-		<Text>
-			<GUID>1999002258</GUID>
-			<Text>Supplies your Tourists with souvenirs to buff Hotels and Tourist Moorings in the vicinity.</Text>
-		</Text>
-		<Text>
-			<GUID>1999002259</GUID>
-			<Text>Souvenir Shop: Postcards</Text>
-		</Text>
-		<Text>
-			<GUID>1999002260</GUID>
-			<Text>Souvenir Shops: Kiosk</Text>
-		</Text>
-		<Text>
-			<GUID>1999002261</GUID>
-			<Text>Souvenir Sales</Text>
-		</Text>
-		<Text>
-			<GUID>1999002262</GUID>
-			<Text>Souvenir Stores</Text>
-		</Text>
-		<Text>
-			<GUID>1999002263</GUID>
-			<Text>Overview of the Souvenir Shops used to supply your Tourists with souvenirs beside the sales in Hotels.</Text>
-		</Text>
-		<Text>
-			<GUID>1999002266</GUID>
-			<Text>Souvenir Sales</Text>
-		</Text>
-		<Text>
-			<GUID>1999000050</GUID>
-			<Text>Assembly Line: Souvenirs</Text>
-		</Text>
-		<Text>
-			<GUID>1999000051</GUID>
-			<Text>Souvenirs</Text>
-		</Text>
-		<Text>
-			<GUID>1999000052</GUID>
-			<Text>The modern tourist is attracted by the offer of discounted souvenirs. In order to bring enough visual material for those who stayed at home, he demands a large variety of products at a reasonable price. Modern and cheap materials, combined with the advancement of the assembly line, can be combined into a variety of suitable products.</Text>
-		</Text>
-		<Text>
-			<GUID>1999000059</GUID>
-			<Text>Mass-produced Souvenirs</Text>
-		</Text>
+    <Text>
+      <GUID>1999000040</GUID>
+      <Text>工場:お土産</Text>
+    </Text>
+    <Text>
+      <GUID>1999000041</GUID>
+      <Text>記念 品</Text>
+    </Text>
+    <Text>
+      <GUID>1999000042</GUID>
+      <Text>今日の現代の観光客は、故郷の愛する人のために、旧世界への並外れた旅行から高品質の手作りのお土産を持ち帰ることだけを望んでいます。モダンな素材と伝統的な素材の両方を組み合わせて、さまざまな魅力的なお土産にすることができます。</Text>
+    </Text>
+    <Text>
+      <GUID>137609</GUID>
+      <Text>手作りのお土産</Text>
+    </Text>
+    <Text>
+      <GUID>1999002257</GUID>
+      <Text>お土産屋さん</Text>
+    </Text>
+    <Text>
+      <GUID>1999002258</GUID>
+      <Text>あなたの観光客にお土産を提供して、近くのホテルや観光客の係留を強化します。</Text>
+    </Text>
+    <Text>
+      <GUID>1999002259</GUID>
+      <Text>お土産屋さん:ポストカード</Text>
+    </Text>
+    <Text>
+      <GUID>1999002260</GUID>
+      <Text>土産物店:キオスク</Text>
+    </Text>
+    <Text>
+      <GUID>1999002261</GUID>
+      <Text>お土産販売</Text>
+    </Text>
+    <Text>
+      <GUID>1999002262</GUID>
+      <Text>お土産屋さん</Text>
+    </Text>
+    <Text>
+      <GUID>1999002263</GUID>
+      <Text>ホテルでの販売のほかに、観光客にお土産を提供するために使用される土産物店の概要。</Text>
+    </Text>
+    <Text>
+      <GUID>1999002266</GUID>
+      <Text>お土産販売</Text>
+    </Text>
+    <Text>
+      <GUID>1999000050</GUID>
+      <Text>組立ライン:お土産</Text>
+    </Text>
+    <Text>
+      <GUID>1999000051</GUID>
+      <Text>記念 品</Text>
+    </Text>
+    <Text>
+      <GUID>1999000052</GUID>
+      <Text>現代の観光客は、割引されたお土産の提供に魅了されています。家にいた人たちに十分な視覚素材を持っていくために、彼はリーズナブルな価格で多種多様な製品を求めています。現代的で安価な材料は、組立ラインの進歩と相まって、さまざまな適切な製品を組み合わせることができます。</Text>
+    </Text>
+    <Text>
+      <GUID>1999000059</GUID>
+      <Text>量産品のお土産</Text>
+    </Text>
   </ModOp>
 </ModOps>
