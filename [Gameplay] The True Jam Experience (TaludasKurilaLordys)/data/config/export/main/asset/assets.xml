@@ -15,6 +15,17 @@
       <CycleTime>60</CycleTime>
     </FactoryBase>
   </ModOp>
+  <!-- Adjust Cherry product - add to storage lists -->
+  <ModOp Type="addPrevSibling" GUID="502308,502004" Condition="!~/Values/ProductList/List/Item[Product='1404420030']" Path="/Values/ProductList/List/Item[Product='133183']">
+    <Item>
+      <Product>1404420030</Product>
+    </Item>
+  </ModOp>
+  <ModOp Type="addPrevSibling" GUID="502037" Condition="!~/Values/ProductList/List/Item[Product='1404420030']" Path="/Values/ProductList/List/Item[Product='120014']">
+    <Item>
+      <Product>1404420030</Product>
+    </Item>
+  </ModOp>
   <!-- #Support choice between white/pink cherry trees via iMYA-->
   <ModOp Type="merge" GUID="133496" Path="/Values" Condition="!@1404429994" ModOpID="WhiteCherry">
     <Object>
