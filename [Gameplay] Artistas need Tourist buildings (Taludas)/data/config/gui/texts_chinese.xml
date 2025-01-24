@@ -1,0 +1,68 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999910302</GUID>
+      <Text>这道菜由酥脆的玉米面皮中的油炸鱿鱼肉组成，并用少许异国情调的香草调味，使其具有秘鲁海岸的独特味道。</Text>
+    </Text>
+    <Text>
+      <GUID>1999910303</GUID>
+      <Text>[AssetData(132780) Text]： [AssetData(5381) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910304</GUID>
+      <Text>[AssetData(5381) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910305</GUID>
+      <Text>[AssetData(5381) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910306</GUID>
+      <Text>[AssetData(5381) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910308</GUID>
+      <Text>与龙舌兰酒不同，梅斯卡尔酒可以由不同类型的龙舌兰制成，这赋予了它多种风味。梅斯卡尔酒的典型特点是它的烟熏味，这是通过在地下土炉中以传统方式烘烤龙舌兰心而产生的。</Text>
+    </Text>
+    <Text>
+      <GUID>1999910309</GUID>
+      <Text>[AssetData(132781) Text]： [AssetData(6600) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910310</GUID>
+      <Text>[AssetData(6600) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910311</GUID>
+      <Text>[AssetData(6600) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910312</GUID>
+      <Text>[AssetData(6600) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910313</GUID>
+      <Text>法利赛人</Text>
+    </Text>
+    <Text>
+      <GUID>1999910314</GUID>
+      <Text>法利赛人 是一种经典的北德咖啡饮料，由热的浓咖啡、一杯棕色朗姆酒和加糖的生奶油组成。这种饮料起源于北弗里斯兰的一个岛屿，据说发明是为了在教堂活动中可以在神职人员不注意的情况下偷偷喝酒。</Text>
+    </Text>
+    <Text>
+      <GUID>1999910315</GUID>
+      <Text>[AssetData(132782) Text]： [AssetData(1999910313) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910316</GUID>
+      <Text>[AssetData(1999910313) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910317</GUID>
+      <Text>[AssetData(1999910313) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910318</GUID>
+      <Text>[AssetData(1999910313) Text]</Text>
+    </Text>
+  </ModOp>
+</ModOps>

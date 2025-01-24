@@ -1,0 +1,68 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999910302</GUID>
+      <Text>この料理は、カリカリのコーンミール生地に揚げたイカ肉で構成され、エキゾチックなハーブをひとつまみ加えて味付けされており、ペルーの海岸からの独特の味がします。</Text>
+    </Text>
+    <Text>
+      <GUID>1999910303</GUID>
+      <Text>[AssetData(132780) Text]: [AssetData(5381) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910304</GUID>
+      <Text>[AssetData(5381) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910305</GUID>
+      <Text>[AssetData(5381) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910306</GUID>
+      <Text>[AssetData(5381) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910308</GUID>
+      <Text>テキーラとは異なり、メスカルはさまざまな種類のリュウゼツランから製造できるため、さまざまなフレーバープロファイルが得られます。メスカルの典型的なのは、地下のアースオーブンでリュウゼツランの心を伝統的に焼くことによって生み出されるスモーキーな味です。</Text>
+    </Text>
+    <Text>
+      <GUID>1999910309</GUID>
+      <Text>[AssetData(132781) Text]: [AssetData(6600) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910310</GUID>
+      <Text>[AssetData(6600) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910311</GUID>
+      <Text>[AssetData(6600) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910312</GUID>
+      <Text>[AssetData(6600) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910313</GUID>
+      <Text>パリサイ人</Text>
+    </Text>
+    <Text>
+      <GUID>1999910314</GUID>
+      <Text>ファリゼールは、ホットで濃いコーヒー、ブラウンラムのショット、甘くしたホイップクリームで構成されるクラシックな北ドイツのコーヒードリンクです。この飲み物は北フリジアの島で生まれ、聖職者が気付かないように教会のイベントでアルコールを密かに消費できるように発明されたと言われています。</Text>
+    </Text>
+    <Text>
+      <GUID>1999910315</GUID>
+      <Text>[AssetData(132782) Text]: [AssetData(1999910313) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910316</GUID>
+      <Text>[AssetData(1999910313) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910317</GUID>
+      <Text>[AssetData(1999910313) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910318</GUID>
+      <Text>[AssetData(1999910313) Text]</Text>
+    </Text>
+  </ModOp>
+</ModOps>

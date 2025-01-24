@@ -1,0 +1,68 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999910302</GUID>
+      <Text>이 요리는 바삭한 옥수수 가루 껍질에 튀긴 오징어 고기로 구성되어 있으며 페루 해안의 독특한 맛을주는 이국적인 허브 꼬집으로 맛을 냅니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1999910303</GUID>
+      <Text>[AssetData(132780) Text]: [AssetData(5381) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910304</GUID>
+      <Text>[AssetData(5381) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910305</GUID>
+      <Text>[AssetData(5381) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910306</GUID>
+      <Text>[AssetData(5381) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910308</GUID>
+      <Text>데킬라와 달리 메즈칼은 다양한 유형의 용설란으로 생산할 수 있어 다양한 풍미 프로필을 제공합니다. 메즈칼의 전형적인 특징은 스모키한 맛으로, 지하 흙 오븐에서 아가베 하트를 전통적으로 굽는 방식으로 만들어집니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1999910309</GUID>
+      <Text>[AssetData(132781) Text]: [AssetData(6600) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910310</GUID>
+      <Text>[AssetData(6600) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910311</GUID>
+      <Text>[AssetData(6600) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910312</GUID>
+      <Text>[AssetData(6600) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910313</GUID>
+      <Text>바리새인</Text>
+    </Text>
+    <Text>
+      <GUID>1999910314</GUID>
+      <Text>바리새인: 뜨겁고 강한 커피, 브라운 럼 샷 및 달콤한 휘핑 크림으로 구성된 고전적인 북 독일 커피 음료입니다. 이 음료는 북프리지아의 한 섬에서 유래한 것으로, 교회 행사에서 교직자들이 눈치채지 못하게 비밀리에 술을 마실 수 있도록 발명되었다고 합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1999910315</GUID>
+      <Text>[AssetData(132782) Text]: [AssetData(1999910313) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910316</GUID>
+      <Text>[AssetData(1999910313) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910317</GUID>
+      <Text>[AssetData(1999910313) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910318</GUID>
+      <Text>[AssetData(1999910313) Text]</Text>
+    </Text>
+  </ModOp>
+</ModOps>

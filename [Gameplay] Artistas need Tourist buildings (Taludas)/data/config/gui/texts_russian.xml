@@ -1,0 +1,68 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999910302</GUID>
+      <Text>Это блюдо состоит из обжаренного во фритюре мяса кальмара в хрустящей корочке из кукурузной муки и приправлено щепоткой экзотических трав, которые придают ему неповторимый вкус перуанского побережья.</Text>
+    </Text>
+    <Text>
+      <GUID>1999910303</GUID>
+      <Text>[AssetData(132780) Text]: [AssetData(5381) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910304</GUID>
+      <Text>[AssetData(5381) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910305</GUID>
+      <Text>[AssetData(5381) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910306</GUID>
+      <Text>[AssetData(5381) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910308</GUID>
+      <Text>В отличие от текилы, мескаль может быть произведен из разных видов агавы, что придает ему большое разнообразие вкусовых профилей. Типичным для мескаля является его дымный вкус, который создается путем традиционного запекания сердец агавы в подземных земляных печах.</Text>
+    </Text>
+    <Text>
+      <GUID>1999910309</GUID>
+      <Text>[AssetData(132781) Text]: [AssetData(6600) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910310</GUID>
+      <Text>[AssetData(6600) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910311</GUID>
+      <Text>[AssetData(6600) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910312</GUID>
+      <Text>[AssetData(6600) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910313</GUID>
+      <Text>Фарисей</Text>
+    </Text>
+    <Text>
+      <GUID>1999910314</GUID>
+      <Text>Фарисей — классический северогерманский кофейный напиток, состоящий из горячего, крепкого кофе, рюмки коричневого рома и подслащенных взбитых сливок. Напиток возник на Северо-Фризском острове и, как говорят, был изобретен для того, чтобы алкоголь можно было тайно употреблять на церковных мероприятиях незаметно для духовенства.</Text>
+    </Text>
+    <Text>
+      <GUID>1999910315</GUID>
+      <Text>[AssetData(132782) Text]: [AssetData(1999910313) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910316</GUID>
+      <Text>[AssetData(1999910313) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910317</GUID>
+      <Text>[AssetData(1999910313) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910318</GUID>
+      <Text>[AssetData(1999910313) Text]</Text>
+    </Text>
+  </ModOp>
+</ModOps>

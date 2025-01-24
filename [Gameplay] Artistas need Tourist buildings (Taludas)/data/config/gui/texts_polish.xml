@@ -1,0 +1,68 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999910302</GUID>
+      <Text>Danie to składa się ze smażonego w głębokim tłuszczu mięsa kalmarów w chrupiącej skórce z mąki kukurydzianej i doprawione jest szczyptą egzotycznych ziół, które nadają mu niepowtarzalny smak z peruwiańskiego wybrzeża.</Text>
+    </Text>
+    <Text>
+      <GUID>1999910303</GUID>
+      <Text>[AssetData(132780) Text]: [AssetData(5381) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910304</GUID>
+      <Text>[AssetData(5381) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910305</GUID>
+      <Text>[AssetData(5381) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910306</GUID>
+      <Text>[AssetData(5381) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910308</GUID>
+      <Text>W przeciwieństwie do tequili, mezcal może być produkowany z różnych rodzajów agawy, co nadaje mu szeroką gamę profili smakowych. Typowy dla mezcalu jest jego dymny smak, który powstaje w wyniku tradycyjnego pieczenia serc z agawy w podziemnych piecach ziemnych.</Text>
+    </Text>
+    <Text>
+      <GUID>1999910309</GUID>
+      <Text>[AssetData(132781) Text]: [AssetData(6600) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910310</GUID>
+      <Text>[AssetData(6600) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910311</GUID>
+      <Text>[AssetData(6600) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910312</GUID>
+      <Text>[AssetData(6600) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910313</GUID>
+      <Text>Pharisäer</Text>
+    </Text>
+    <Text>
+      <GUID>1999910314</GUID>
+      <Text>Pharisäer to klasyczny północnoniemiecki napój kawowy składający się z gorącej, mocnej kawy, kieliszka brązowego rumu i słodzonej bitej śmietany. Napój powstał na wyspie w północnej Fryzji i mówi się, że został wynaleziony, aby alkohol mógł być potajemnie spożywany podczas wydarzeń kościelnych, bez wiedzy duchowieństwa.</Text>
+    </Text>
+    <Text>
+      <GUID>1999910315</GUID>
+      <Text>[AssetData(132782) Text]: [AssetData(1999910313) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910316</GUID>
+      <Text>[AssetData(1999910313) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910317</GUID>
+      <Text>[AssetData(1999910313) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910318</GUID>
+      <Text>[AssetData(1999910313) Text]</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,1483 @@
+<ModOps>
+    <!-- #Needs-->
+    <Group>
+        <!-- add market instead of coffee to stay at 20 after upgrade -->
+        <ModOp GUID="5403" Type="addPrevSibling" Path="/Values/PopulationLevel7/PopulationInputs/Item[1]" Condition="!~/Values/PopulationLevel7/PopulationInputs/Item[Product = '120020']">
+            <Item>
+                <Product>120020</Product>
+                <SupplyWeight>5</SupplyWeight>
+                <IsConsideredByAI>1</IsConsideredByAI>
+                <RequiredBuildings>
+                    <Item>
+                        <RequiredBuilding>5405</RequiredBuilding>
+                    </Item>
+                </RequiredBuildings>
+            </Item>
+        </ModOp>
+        <ModOp Type="merge" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product = '5803']/SupplyWeight" Condition="~/Values/PopulationLevel7/PopulationInputs/Item[Product = '120020']">
+            <SupplyWeight>5</SupplyWeight>
+        </ModOp>
+
+        <!-- replace Jalea need with restaurant, Coffee need with Cafe and Mezcal need with Bar -->
+        <ModOp Type="remove" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product = '5381']"></ModOp>
+        <ModOp GUID="5403" Type="addNextSibling" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product = '5803']">
+            <Item>
+                <Product>1999910324</Product>
+                <SupplyWeight>5</SupplyWeight>
+                <MoneyValue>30</MoneyValue>
+                <IsConsideredByAI>0</IsConsideredByAI>
+                <FullWeightPopulationCount>1800</FullWeightPopulationCount>
+                <NoWeightPopulationCount>899</NoWeightPopulationCount>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="remove" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product = '120032']"></ModOp>
+        <ModOp GUID="5403" Type="addNextSibling" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product = '1999910324']">
+            <Item>
+                <Product>1999910325</Product>
+                <SupplyWeight>5</SupplyWeight>
+                <MoneyValue>30</MoneyValue>
+                <IsConsideredByAI>0</IsConsideredByAI>
+                <FullWeightPopulationCount>1800</FullWeightPopulationCount>
+                <NoWeightPopulationCount>899</NoWeightPopulationCount>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="remove" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product = '6600']"></ModOp>
+        <ModOp GUID="5403" Type="addNextSibling" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product = '1999910325']">
+            <Item>
+                <Product>1999910326</Product>
+                <SupplyWeight>5</SupplyWeight>
+                <MoneyValue>30</MoneyValue>
+                <IsConsideredByAI>0</IsConsideredByAI>
+                <FullWeightPopulationCount>1800</FullWeightPopulationCount>
+                <NoWeightPopulationCount>899</NoWeightPopulationCount>
+            </Item>
+        </ModOp>
+        <ModOp Type="merge" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product = '5803']/SupplyWeight">
+            <SupplyWeight>2</SupplyWeight>
+        </ModOp>
+
+        <!-- replace Mezcal need in Engineers with Lemonade -->
+        <ModOp Type="merge" GUID="15000003" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product = '6600']">
+            <Product>133185</Product>
+            <AdditionalGlobalUnlockRequirement>
+                <Population>601379</Population>
+                <MinPopulationAmount>1250</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement>
+        </ModOp>
+
+        <!-- replace Mezcal need in Technicians with Lemonade -->
+        <ModOp Type="merge" GUID="112643" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product = '6600']">
+            <Product>133185</Product>
+            <AdditionalGlobalUnlockRequirement>
+                <Population>601379</Population>
+                <MinPopulationAmount>1250</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement>
+        </ModOp>
+
+        <!-- replace Mezcal need in Tourists with Atole -->
+        <ModOp Type="merge" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product = '6600']">
+            <Product>25131</Product>
+            <AdditionalGlobalUnlockRequirement>
+                <Population>15000006</Population>
+                <MinPopulationAmount>1</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement>
+        </ModOp>
+    </Group>
+
+    <!-- #Disable normal production buildings -->
+    <Group>
+        <ModOp Type="remove" GUID="500950,5466" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '5813']" />
+        <ModOp Type="remove" GUID="500950,5466" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '6610']" />
+
+        <ModOp Type="remove" Path="//ItemEffect/EffectTargets/Item[GUID ='6594']"></ModOp>
+        <ModOp Type="remove" Path="//ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID ='6594']"></ModOp>
+        <ModOp Type="remove" Path="//ItemEffect/EffectTargets/Item[GUID ='5458']"></ModOp>
+        <ModOp Type="remove" Path="//ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID ='5458']"></ModOp>
+
+        <ModOp Type="remove" GUID="120055" Path="/Values/ProductStorageList/ProductList/Item[Product = '5381']" />
+        <ModOp Type="remove" GUID="120055" Path="/Values/ProductStorageList/ProductList/Item[Product = '6600']" />
+
+        <ModOp Type="remove" GUID="5402,7397,7398,502023" Path="/Values/ProductList/List/Item[Product = '5381']" />
+        <ModOp Type="remove" GUID="5402,7397,7398" Path="/Values/ProductList/List/Item[Product = '6600']" />
+
+        <ModOp Type="remove" GUID="120058" Path="/Values/ProductStorageList/ProductList/Item[Product = '5381']" />
+        <ModOp Type="remove" GUID="120057,120058" Path="/Values/ProductStorageList/ProductList/Item[Product = '6600']" />
+
+        <ModOp Type="remove" GUID="800111" Path="/Values/ExpeditionFeature/FeedOption/FeedOptions/Item[Product = '5381']" />
+        <ModOp Type="remove" GUID="800111" Path="/Values/ExpeditionFeature/FeedOption/FeedOptions/Item[Product = '6600']" />
+
+        <ModOp Type="remove" GUID="25634,7728" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade/Item[ProvidedNeed = '5381']" />
+        <ModOp Type="remove" GUID="6088" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product = '5381']" />
+        <ModOp Type="remove" GUID="7170" Path="/Values/RewardPool/ItemsPool/Item[ItemLink = '5381']" />
+
+        <ModOp Type="remove" GUID="191816,191817" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product = '6600']" />
+        <ModOp Type="remove" GUID="601908,601909,601910,601911,601912,136398,136399,136400" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product = '6600']" />
+        <ModOp Type="remove" GUID="7171,7168" Path="/Values/RewardPool/ItemsPool/Item[ItemLink = '6600']" />
+
+        <ModOp Type="addNextSibling" GUID="5466" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '5806']">
+            <Item>
+                <Building>1440134340</Building>
+            </Item>
+            <Item>
+                <Building>1440134341</Building>
+            </Item>
+            <Item>
+                <Building>1440134342</Building>
+            </Item>
+        </ModOp>
+    </Group>
+
+    <!-- #Recipes -->
+    <Group>
+        <!-- change existing buffs for Mezcal -->
+        <ModOp Type="merge" GUID="6148,6149,6150,6154,6155,6156" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade/Item[ProvidedNeed = '6600']">
+            <ProvidedNeed>135234</ProvidedNeed>
+        </ModOp>
+
+        <!-- add Jalea Recipe to NW Restaurant -->
+        <ModOp Type="add" GUID="1440134320" Path="/Values/RecipeList/Recipes">
+            <Item>
+                <Recipe>1999910301</Recipe>
+            </Item>
+        </ModOp>
+        <ModOp Type="addNextSibling" GUID="6139">
+            <Asset>
+                <Template>Recipe</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999910301</GUID>
+                        <Name>Recipe Jalea</Name>
+                        <IconFilename>data/ui/2kimages/main/3dicons/production_goods/icon_jalea.png</IconFilename>
+                    </Standard>
+                    <Text />
+                    <Recipe>
+                        <RecipeBuilding>1999910303</RecipeBuilding>
+                        <RecipeDescriptionText>1999910302</RecipeDescriptionText>
+                        <RecipeImage>data/ui/2kimages/main/assets/recipebook/restaurant/recipebook_restaurant_jalea.png</RecipeImage>
+                        <RecipeIngredientUIData>
+                            <Item>
+                                <PosX>30</PosX>
+                                <PosY>20</PosY>
+                                <UICirclePointer>SouthEast</UICirclePointer>
+                            </Item>
+                            <Item>
+                                <PosX>370</PosX>
+                                <PosY>20</PosY>
+                                <UICirclePointer>SouthWest</UICirclePointer>
+                            </Item>
+                            <Item>
+                                <PosX>50</PosX>
+                                <PosY>250</PosY>
+                                <UICirclePointer>NorthEast</UICirclePointer>
+                            </Item>
+                        </RecipeIngredientUIData>
+                    </Recipe>
+                    <Locked />
+                    <Text>
+                        <TextOverride>5381</TextOverride>
+                    </Text>
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>Restaurant</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999910303</GUID>
+                        <Name>Diner_009_Jalea</Name>
+                        <IconFilename>data/ui/2kimages/main/3dicons/production_goods/icon_jalea.png</IconFilename>
+                        <InfoDescription>132784</InfoDescription>
+                    </Standard>
+                    <Building>
+                        <BuildingCategoryName>134142</BuildingCategoryName>
+                        <SkipUnlockMessage>1</SkipUnlockMessage>
+                    </Building>
+                    <Blocking />
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/dlc12/graphics/buildings/public/jalea_restaurant/jalea_restaurant_01.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Cost>
+                        <Costs>
+                            <Item>
+                                <VectorElement>
+                                    <InheritedIndex>0</InheritedIndex>
+                                    <InheritanceMapV2>
+                                        <Entry>
+                                            <TemplateName>Restaurant</TemplateName>
+                                            <Index>0</Index>
+                                        </Entry>
+                                    </InheritanceMapV2>
+                                </VectorElement>
+                                <Amount>1000</Amount>
+                            </Item>
+                            <Item>
+                                <VectorElement>
+                                    <InheritedIndex>1</InheritedIndex>
+                                    <InheritanceMapV2>
+                                        <Entry>
+                                            <TemplateName>Restaurant</TemplateName>
+                                            <Index>1</Index>
+                                        </Entry>
+                                    </InheritanceMapV2>
+                                </VectorElement>
+                                <Amount>40</Amount>
+                            </Item>
+                            <Item>
+                                <VectorElement>
+                                    <InheritedIndex>2</InheritedIndex>
+                                    <InheritanceMapV2>
+                                        <Entry>
+                                            <TemplateName>Restaurant</TemplateName>
+                                            <Index>2</Index>
+                                        </Entry>
+                                    </InheritanceMapV2>
+                                </VectorElement>
+                                <Amount>35</Amount>
+                            </Item>
+                        </Costs>
+                    </Cost>
+                    <Mesh />
+                    <Selection />
+                    <Constructable />
+                    <Locked>
+                        <DLCDependency>410084</DLCDependency>
+                    </Locked>
+                    <SoundEmitter>
+                        <ActiveSounds>
+                            <Item>
+                                <Sound>279515</Sound>
+                            </Item>
+                        </ActiveSounds>
+                    </SoundEmitter>
+                    <FactoryBase>
+                        <FactoryInputs>
+                            <Item>
+                                <Product>5380</Product>
+                                <Amount>1</Amount>
+                                <StorageAmount>10</StorageAmount>
+                            </Item>
+                            <Item>
+                                <Product>5383</Product>
+                                <Amount>1</Amount>
+                                <StorageAmount>10</StorageAmount>
+                            </Item>
+                            <Item>
+                                <Product>120034</Product>
+                                <Amount>1</Amount>
+                                <StorageAmount>10</StorageAmount>
+                            </Item>
+                        </FactoryInputs>
+                        <CycleTime>60</CycleTime>
+                        <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                        <ClampedMaxTransporterLogisticCost>60</ClampedMaxTransporterLogisticCost>
+                    </FactoryBase>
+                    <LogisticNode />
+                    <Maintenance>
+                        <Maintenances>
+                            <Item>
+                                <Product>1010017</Product>
+                                <Amount>500</Amount>
+                            </Item>
+                            <Item>
+                                <Product>132723</Product>
+                                <Amount>120</Amount>
+                            </Item>
+                        </Maintenances>
+                    </Maintenance>
+                    <Industrializable>
+                        <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                    </Industrializable>
+                    <IncidentInfectable />
+                    <Electrifiable />
+                    <AmbientMoodProvider>
+                        <Murmur>Tourist_Restaurant</Murmur>
+                    </AmbientMoodProvider>
+                    <Attackable />
+                    <UpgradeList />
+                    <Pausable />
+                    <FeedbackController>
+                        <NightBehavior>HideNone</NightBehavior>
+                    </FeedbackController>
+                    <Infolayer />
+                    <BuffFactory>
+                        <ProductionBuffs>
+                            <Item>
+                                <ProductivityBuff>1999910304</ProductivityBuff>
+                                <ProductivityThresholdUp>0.3</ProductivityThresholdUp>
+                                <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+                            </Item>
+                            <Item>
+                                <ProductivityBuff>1999910305</ProductivityBuff>
+                                <ProductivityThresholdUp>0.7</ProductivityThresholdUp>
+                                <ProductivityThresholdDown>0.31</ProductivityThresholdDown>
+                            </Item>
+                            <Item>
+                                <ProductivityBuff>1999910306</ProductivityBuff>
+                                <ProductivityThresholdUp>0.99</ProductivityThresholdUp>
+                                <ProductivityThresholdDown>0.71</ProductivityThresholdDown>
+                            </Item>
+                        </ProductionBuffs>
+                        <ProductionBuffScope>Radius</ProductionBuffScope>
+                        <ProductionBuffDistance>45</ProductionBuffDistance>
+                    </BuffFactory>
+                    <RecipeBuilding>
+                        <RecipeList>1440134320</RecipeList>
+                    </RecipeBuilding>
+                    <BusActivation>
+                        <BusNeed>132751</BusNeed>
+                    </BusActivation>
+                    <Culture />
+                    <Nameable />
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>TownhallBuff</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999910304</GUID>
+                        <Name>Buff_Jalea_30</Name>
+                        <IconFilename>data/ui/2kimages/main/3dicons/production_goods/icon_jalea.png</IconFilename>
+                    </Standard>
+                    <ItemEffect>
+                        <EffectTargets>
+                            <Item>
+                                <GUID>25677</GUID>
+                            </Item>
+                        </EffectTargets>
+                        <AllowStacking>0</AllowStacking>
+                    </ItemEffect>
+                    <BuildingUpgrade />
+                    <Buff />
+                    <PopulationUpgrade />
+                    <ResidenceUpgrade>
+                        <AdditionalHappiness>5</AdditionalHappiness>
+                        <GoodConsumptionUpgrade>
+                            <Item>
+                                <ProvidedNeed>120033</ProvidedNeed>
+                                <AmountInPercent>-4.5</AmountInPercent>
+                            </Item>
+                            <Item>
+                                <ProvidedNeed>5382</ProvidedNeed>
+                                <AmountInPercent>-6</AmountInPercent>
+                            </Item>
+                        </GoodConsumptionUpgrade>
+                    </ResidenceUpgrade>
+                    <IncidentInfectableUpgrade />
+                    <CultureUpgrade />
+                    <InfluenceSourceUpgrade />
+                    <WarehouseUpgrade />
+                    <DistributionUpgrade />
+                    <ItemContainerUpgrade />
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>TownhallBuff</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999910305</GUID>
+                        <Name>Buff_Jalea_70</Name>
+                        <IconFilename>data/ui/2kimages/main/3dicons/production_goods/icon_jalea.png</IconFilename>
+                    </Standard>
+                    <ItemEffect>
+                        <EffectTargets>
+                            <Item>
+                                <GUID>25677</GUID>
+                            </Item>
+                        </EffectTargets>
+                        <AllowStacking>0</AllowStacking>
+                    </ItemEffect>
+                    <BuildingUpgrade />
+                    <Buff />
+                    <PopulationUpgrade />
+                    <ResidenceUpgrade>
+                        <AdditionalHappiness>5</AdditionalHappiness>
+                        <GoodConsumptionUpgrade>
+                            <Item>
+                                <ProvidedNeed>120033</ProvidedNeed>
+                                <AmountInPercent>-10.5</AmountInPercent>
+                            </Item>
+                            <Item>
+                                <ProvidedNeed>5382</ProvidedNeed>
+                                <AmountInPercent>-14</AmountInPercent>
+                            </Item>
+                        </GoodConsumptionUpgrade>
+                    </ResidenceUpgrade>
+                    <IncidentInfectableUpgrade />
+                    <CultureUpgrade />
+                    <InfluenceSourceUpgrade />
+                    <WarehouseUpgrade />
+                    <DistributionUpgrade />
+                    <ItemContainerUpgrade />
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>TownhallBuff</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999910306</GUID>
+                        <Name>Buff_Jalea_100</Name>
+                        <IconFilename>data/ui/2kimages/main/3dicons/production_goods/icon_jalea.png</IconFilename>
+                    </Standard>
+                    <ItemEffect>
+                        <EffectTargets>
+                            <Item>
+                                <GUID>25677</GUID>
+                            </Item>
+                        </EffectTargets>
+                        <AllowStacking>0</AllowStacking>
+                    </ItemEffect>
+                    <BuildingUpgrade />
+                    <Buff />
+                    <PopulationUpgrade />
+                    <ResidenceUpgrade>
+                        <AdditionalHappiness>5</AdditionalHappiness>
+                        <GoodConsumptionUpgrade>
+                            <Item>
+                                <ProvidedNeed>120033</ProvidedNeed>
+                                <AmountInPercent>-15</AmountInPercent>
+                            </Item>
+                            <Item>
+                                <ProvidedNeed>5382</ProvidedNeed>
+                                <AmountInPercent>-20</AmountInPercent>
+                            </Item>
+                        </GoodConsumptionUpgrade>
+                    </ResidenceUpgrade>
+                    <IncidentInfectableUpgrade />
+                    <CultureUpgrade />
+                    <InfluenceSourceUpgrade />
+                    <WarehouseUpgrade />
+                    <DistributionUpgrade />
+                    <ItemContainerUpgrade />
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- add Mezcal Recipe to NW Bar -->
+        <ModOp Type="add" GUID="1440134322" Path="/Values/RecipeList/Recipes">
+            <Item>
+                <Recipe>1999910307</Recipe>
+            </Item>
+        </ModOp>
+        <ModOp Type="addNextSibling" GUID="6139">
+            <Asset>
+                <Template>Recipe</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999910307</GUID>
+                        <Name>Recipe Mezcal</Name>
+                        <IconFilename>data/ui/2kimages/main/3dicons/production_goods/icon_mezcal.png</IconFilename>
+                    </Standard>
+                    <Text />
+                    <Recipe>
+                        <RecipeBuilding>1999910309</RecipeBuilding>
+                        <RecipeDescriptionText>1999910308</RecipeDescriptionText>
+                        <RecipeImage>data/taludas/ui/icons/newworldtourists/bookimages/mezcal.png</RecipeImage>
+                        <RecipeIngredientUIData>
+                            <Item>
+                                <PosX>380</PosX>
+                                <PosY>-10</PosY>
+                                <UICirclePointer>SouthWest</UICirclePointer>
+                            </Item>
+                            <Item>
+                                <PosY>220</PosY>
+                                <PosX>350</PosX>
+                                <UICirclePointer>NorthWest</UICirclePointer>
+                            </Item>
+                            <Item>
+                                <PosY>270</PosY>
+                                <UICirclePointer>NorthEast</UICirclePointer>
+                            </Item>
+                        </RecipeIngredientUIData>
+                    </Recipe>
+                    <Locked />
+                    <Text>
+                        <TextOverride>6600</TextOverride>
+                    </Text>
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>Restaurant</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999910309</GUID>
+                        <Name>Bar_009_Mezcal</Name>
+                        <IconFilename>data/ui/2kimages/main/3dicons/production_goods/icon_mezcal.png</IconFilename>
+                        <InfoDescription>132784</InfoDescription>
+                    </Standard>
+                    <Building>
+                        <BuildingCategoryName>134142</BuildingCategoryName>
+                        <SkipUnlockMessage>1</SkipUnlockMessage>
+                    </Building>
+                    <Blocking />
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/dlc12/graphics/buildings/public/mezcal_bar/mezcal_bar_01.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Cost>
+                        <Costs>
+                            <Item>
+                                <VectorElement>
+                                    <InheritedIndex>0</InheritedIndex>
+                                    <InheritanceMapV2>
+                                        <Entry>
+                                            <TemplateName>Restaurant</TemplateName>
+                                            <Index>0</Index>
+                                        </Entry>
+                                    </InheritanceMapV2>
+                                </VectorElement>
+                                <Amount>1000</Amount>
+                            </Item>
+                            <Item>
+                                <VectorElement>
+                                    <InheritedIndex>1</InheritedIndex>
+                                    <InheritanceMapV2>
+                                        <Entry>
+                                            <TemplateName>Restaurant</TemplateName>
+                                            <Index>1</Index>
+                                        </Entry>
+                                    </InheritanceMapV2>
+                                </VectorElement>
+                                <Amount>40</Amount>
+                            </Item>
+                            <Item>
+                                <VectorElement>
+                                    <InheritedIndex>2</InheritedIndex>
+                                    <InheritanceMapV2>
+                                        <Entry>
+                                            <TemplateName>Restaurant</TemplateName>
+                                            <Index>2</Index>
+                                        </Entry>
+                                    </InheritanceMapV2>
+                                </VectorElement>
+                                <Amount>35</Amount>
+                            </Item>
+                        </Costs>
+                    </Cost>
+                    <Mesh />
+                    <Selection />
+                    <Constructable />
+                    <Locked>
+                        <DLCDependency>410084</DLCDependency>
+                    </Locked>
+                    <SoundEmitter>
+                        <ActiveSounds>
+                            <Item>
+                                <Sound>279515</Sound>
+                            </Item>
+                        </ActiveSounds>
+                    </SoundEmitter>
+                    <FactoryBase>
+                        <FactoryInputs>
+                            <Item>
+                                <Product>5383</Product>
+                                <Amount>1</Amount>
+                                <StorageAmount>10</StorageAmount>
+                            </Item>
+                            <Item>
+                                <Product>1010239</Product>
+                                <Amount>1</Amount>
+                                <StorageAmount>10</StorageAmount>
+                            </Item>
+                            <Item>
+                                <Product>133097</Product>
+                                <Amount>1</Amount>
+                                <StorageAmount>10</StorageAmount>
+                            </Item>
+                        </FactoryInputs>
+                        <CycleTime>60</CycleTime>
+                        <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                        <ClampedMaxTransporterLogisticCost>60</ClampedMaxTransporterLogisticCost>
+                    </FactoryBase>
+                    <LogisticNode />
+                    <Maintenance>
+                        <Maintenances>
+                            <Item>
+                                <Product>1010017</Product>
+                                <Amount>500</Amount>
+                            </Item>
+                            <Item>
+                                <Product>132723</Product>
+                                <Amount>120</Amount>
+                            </Item>
+                        </Maintenances>
+                    </Maintenance>
+                    <Industrializable>
+                        <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                    </Industrializable>
+                    <IncidentInfectable />
+                    <Electrifiable />
+                    <AmbientMoodProvider>
+                        <Murmur>Tourist_Restaurant</Murmur>
+                    </AmbientMoodProvider>
+                    <Attackable />
+                    <UpgradeList />
+                    <Pausable />
+                    <FeedbackController>
+                        <NightBehavior>HideNone</NightBehavior>
+                    </FeedbackController>
+                    <Infolayer />
+                    <BuffFactory>
+                        <ProductionBuffs>
+                            <Item>
+                                <ProductivityBuff>1999910310</ProductivityBuff>
+                                <ProductivityThresholdUp>0.3</ProductivityThresholdUp>
+                                <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+                            </Item>
+                            <Item>
+                                <ProductivityBuff>1999910311</ProductivityBuff>
+                                <ProductivityThresholdUp>0.7</ProductivityThresholdUp>
+                                <ProductivityThresholdDown>0.31</ProductivityThresholdDown>
+                            </Item>
+                            <Item>
+                                <ProductivityBuff>1999910312</ProductivityBuff>
+                                <ProductivityThresholdUp>0.99</ProductivityThresholdUp>
+                                <ProductivityThresholdDown>0.71</ProductivityThresholdDown>
+                            </Item>
+                        </ProductionBuffs>
+                        <ProductionBuffScope>Radius</ProductionBuffScope>
+                        <ProductionBuffDistance>45</ProductionBuffDistance>
+                    </BuffFactory>
+                    <RecipeBuilding>
+                        <RecipeList>1440134322</RecipeList>
+                    </RecipeBuilding>
+                    <BusActivation>
+                        <BusNeed>132754</BusNeed>
+                    </BusActivation>
+                    <Culture />
+                    <Nameable />
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>TownhallBuff</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999910310</GUID>
+                        <Name>Buff_Mezcal_30</Name>
+                        <IconFilename>data/ui/2kimages/main/3dicons/production_goods/icon_mezcal.png</IconFilename>
+                    </Standard>
+                    <ItemEffect>
+                        <EffectTargets>
+                            <Item>
+                                <GUID>25677</GUID>
+                            </Item>
+                        </EffectTargets>
+                        <AllowStacking>0</AllowStacking>
+                    </ItemEffect>
+                    <BuildingUpgrade />
+                    <Buff />
+                    <PopulationUpgrade />
+                    <ResidenceUpgrade>
+                        <AdditionalHappiness>5</AdditionalHappiness>
+                        <GoodConsumptionUpgrade>
+                            <Item>
+                                <ProvidedNeed>1010257</ProvidedNeed>
+                                <AmountInPercent>-4.5</AmountInPercent>
+                            </Item>
+                            <Item>
+                                <ProvidedNeed>1010214</ProvidedNeed>
+                                <AmountInPercent>-4.5</AmountInPercent>
+                            </Item>
+                        </GoodConsumptionUpgrade>
+                    </ResidenceUpgrade>
+                    <IncidentInfectableUpgrade />
+                    <CultureUpgrade />
+                    <InfluenceSourceUpgrade />
+                    <WarehouseUpgrade />
+                    <DistributionUpgrade />
+                    <ItemContainerUpgrade />
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>TownhallBuff</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999910311</GUID>
+                        <Name>Buff_Mezcal_70</Name>
+                        <IconFilename>data/ui/2kimages/main/3dicons/production_goods/icon_mezcal.png</IconFilename>
+                    </Standard>
+                    <ItemEffect>
+                        <EffectTargets>
+                            <Item>
+                                <GUID>25677</GUID>
+                            </Item>
+                        </EffectTargets>
+                        <AllowStacking>0</AllowStacking>
+                    </ItemEffect>
+                    <BuildingUpgrade />
+                    <Buff />
+                    <PopulationUpgrade />
+                    <ResidenceUpgrade>
+                        <AdditionalHappiness>5</AdditionalHappiness>
+                        <GoodConsumptionUpgrade>
+                            <Item>
+                                <ProvidedNeed>1010257</ProvidedNeed>
+                                <AmountInPercent>-10.5</AmountInPercent>
+                            </Item>
+                            <Item>
+                                <ProvidedNeed>1010214</ProvidedNeed>
+                                <AmountInPercent>-10.5</AmountInPercent>
+                            </Item>
+                        </GoodConsumptionUpgrade>
+                    </ResidenceUpgrade>
+                    <IncidentInfectableUpgrade />
+                    <CultureUpgrade />
+                    <InfluenceSourceUpgrade />
+                    <WarehouseUpgrade />
+                    <DistributionUpgrade />
+                    <ItemContainerUpgrade />
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>TownhallBuff</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999910312</GUID>
+                        <Name>Buff_Mezcal_100</Name>
+                        <IconFilename>data/ui/2kimages/main/3dicons/production_goods/icon_mezcal.png</IconFilename>
+                    </Standard>
+                    <ItemEffect>
+                        <EffectTargets>
+                            <Item>
+                                <GUID>25677</GUID>
+                            </Item>
+                        </EffectTargets>
+                        <AllowStacking>0</AllowStacking>
+                    </ItemEffect>
+                    <BuildingUpgrade />
+                    <Buff />
+                    <PopulationUpgrade />
+                    <ResidenceUpgrade>
+                        <AdditionalHappiness>5</AdditionalHappiness>
+                        <GoodConsumptionUpgrade>
+                            <Item>
+                                <ProvidedNeed>1010257</ProvidedNeed>
+                                <AmountInPercent>-15</AmountInPercent>
+                            </Item>
+                            <Item>
+                                <ProvidedNeed>1010214</ProvidedNeed>
+                                <AmountInPercent>-15</AmountInPercent>
+                            </Item>
+                        </GoodConsumptionUpgrade>
+                    </ResidenceUpgrade>
+                    <IncidentInfectableUpgrade />
+                    <CultureUpgrade />
+                    <InfluenceSourceUpgrade />
+                    <WarehouseUpgrade />
+                    <DistributionUpgrade />
+                    <ItemContainerUpgrade />
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- add Pharisäer Recipe to NW Cafe -->
+        <ModOp Type="add" GUID="1440134321" Path="/Values/RecipeList/Recipes">
+            <Item>
+                <Recipe>1999910313</Recipe>
+            </Item>
+        </ModOp>
+        <ModOp Type="addNextSibling" GUID="6139">
+            <Asset>
+                <Template>Recipe</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999910313</GUID>
+                        <Name>Recipe Pharisäer</Name>
+                        <IconFilename>data/taludas/ui/icons/newworldtourists/pharisäer.png</IconFilename>
+                    </Standard>
+                    <Text />
+                    <Recipe>
+                        <RecipeBuilding>1999910315</RecipeBuilding>
+                        <RecipeDescriptionText>1999910314</RecipeDescriptionText>
+                        <RecipeImage>data/taludas/ui/icons/newworldtourists/bookimages/pharisäer.png</RecipeImage>
+                        <RecipeIngredientUIData>
+                            <Item>
+                                <PosY>20</PosY>
+                                <UICirclePointer>SouthEast</UICirclePointer>
+                            </Item>
+                            <Item>
+                                <PosX>370</PosX>
+                                <PosY>20</PosY>
+                                <UICirclePointer>West</UICirclePointer>
+                            </Item>
+                            <Item>
+                                <PosY>270</PosY>
+                                <UICirclePointer>NorthEast</UICirclePointer>
+                            </Item>
+                        </RecipeIngredientUIData>
+                    </Recipe>
+                    <Locked />
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>Restaurant</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999910315</GUID>
+                        <Name>Cafe_009_Pharisäer</Name>
+                        <IconFilename>data/taludas/ui/icons/newworldtourists/pharisäer.png</IconFilename>
+                        <InfoDescription>132784</InfoDescription>
+                    </Standard>
+                    <Building>
+                        <BuildingCategoryName>134142</BuildingCategoryName>
+                        <SkipUnlockMessage>1</SkipUnlockMessage>
+                    </Building>
+                    <Blocking />
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/graphics/newworldtourism/buildings/special/restaurant/restaurant_02.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Cost>
+                        <Costs>
+                            <Item>
+                                <VectorElement>
+                                    <InheritedIndex>0</InheritedIndex>
+                                    <InheritanceMapV2>
+                                        <Entry>
+                                            <TemplateName>Restaurant</TemplateName>
+                                            <Index>0</Index>
+                                        </Entry>
+                                    </InheritanceMapV2>
+                                </VectorElement>
+                                <Amount>1000</Amount>
+                            </Item>
+                            <Item>
+                                <VectorElement>
+                                    <InheritedIndex>1</InheritedIndex>
+                                    <InheritanceMapV2>
+                                        <Entry>
+                                            <TemplateName>Restaurant</TemplateName>
+                                            <Index>1</Index>
+                                        </Entry>
+                                    </InheritanceMapV2>
+                                </VectorElement>
+                                <Amount>40</Amount>
+                            </Item>
+                            <Item>
+                                <VectorElement>
+                                    <InheritedIndex>2</InheritedIndex>
+                                    <InheritanceMapV2>
+                                        <Entry>
+                                            <TemplateName>Restaurant</TemplateName>
+                                            <Index>2</Index>
+                                        </Entry>
+                                    </InheritanceMapV2>
+                                </VectorElement>
+                                <Amount>35</Amount>
+                            </Item>
+                        </Costs>
+                    </Cost>
+                    <Mesh />
+                    <Selection />
+                    <Constructable />
+                    <Locked>
+                        <DLCDependency>410084</DLCDependency>
+                    </Locked>
+                    <SoundEmitter>
+                        <ActiveSounds>
+                            <Item>
+                                <Sound>279515</Sound>
+                            </Item>
+                        </ActiveSounds>
+                    </SoundEmitter>
+                    <FactoryBase>
+                        <FactoryInputs>
+                            <Item>
+                                <Product>120032</Product>
+                                <Amount>1</Amount>
+                                <StorageAmount>10</StorageAmount>
+                            </Item>
+                            <Item>
+                                <Product>5385</Product>
+                                <Amount>1</Amount>
+                                <StorageAmount>10</StorageAmount>
+                            </Item>
+                            <Item>
+                                <Product>1010257</Product>
+                                <Amount>1</Amount>
+                                <StorageAmount>10</StorageAmount>
+                            </Item>
+                        </FactoryInputs>
+                        <CycleTime>60</CycleTime>
+                        <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                        <ClampedMaxTransporterLogisticCost>60</ClampedMaxTransporterLogisticCost>
+                    </FactoryBase>
+                    <LogisticNode />
+                    <Maintenance>
+                        <Maintenances>
+                            <Item>
+                                <Product>1010017</Product>
+                                <Amount>500</Amount>
+                            </Item>
+                            <Item>
+                                <Product>132723</Product>
+                                <Amount>120</Amount>
+                            </Item>
+                        </Maintenances>
+                    </Maintenance>
+                    <Industrializable>
+                        <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                    </Industrializable>
+                    <IncidentInfectable />
+                    <Electrifiable />
+                    <AmbientMoodProvider>
+                        <Murmur>Tourist_Restaurant</Murmur>
+                    </AmbientMoodProvider>
+                    <Attackable />
+                    <UpgradeList />
+                    <Pausable />
+                    <FeedbackController>
+                        <NightBehavior>HideNone</NightBehavior>
+                    </FeedbackController>
+                    <Infolayer />
+                    <BuffFactory>
+                        <ProductionBuffs>
+                            <Item>
+                                <ProductivityBuff>1999910316</ProductivityBuff>
+                                <ProductivityThresholdUp>0.3</ProductivityThresholdUp>
+                                <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+                            </Item>
+                            <Item>
+                                <ProductivityBuff>1999910317</ProductivityBuff>
+                                <ProductivityThresholdUp>0.7</ProductivityThresholdUp>
+                                <ProductivityThresholdDown>0.31</ProductivityThresholdDown>
+                            </Item>
+                            <Item>
+                                <ProductivityBuff>1999910318</ProductivityBuff>
+                                <ProductivityThresholdUp>0.99</ProductivityThresholdUp>
+                                <ProductivityThresholdDown>0.71</ProductivityThresholdDown>
+                            </Item>
+                        </ProductionBuffs>
+                        <ProductionBuffScope>Radius</ProductionBuffScope>
+                        <ProductionBuffDistance>45</ProductionBuffDistance>
+                    </BuffFactory>
+                    <RecipeBuilding>
+                        <RecipeList>1440134321</RecipeList>
+                    </RecipeBuilding>
+                    <BusActivation>
+                        <BusNeed>132755</BusNeed>
+                    </BusActivation>
+                    <Culture />
+                    <Nameable />
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>TownhallBuff</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999910316</GUID>
+                        <Name>Buff_Pharisäer_30</Name>
+                        <IconFilename>data/taludas/ui/icons/newworldtourists/pharisäer.png</IconFilename>
+                    </Standard>
+                    <ItemEffect>
+                        <EffectTargets>
+                            <Item>
+                                <GUID>25677</GUID>
+                            </Item>
+                        </EffectTargets>
+                        <AllowStacking>0</AllowStacking>
+                    </ItemEffect>
+                    <BuildingUpgrade />
+                    <Buff />
+                    <PopulationUpgrade />
+                    <ResidenceUpgrade>
+                        <AdditionalHappiness>5</AdditionalHappiness>
+                        <GoodConsumptionUpgrade>
+                            <Item>
+                                <ProvidedNeed>120032</ProvidedNeed>
+                                <AmountInPercent>-9</AmountInPercent>
+                            </Item>
+                            <Item>
+                                <ProvidedNeed>5803</ProvidedNeed>
+                                <AmountInPercent>-3</AmountInPercent>
+                            </Item>
+                        </GoodConsumptionUpgrade>
+                    </ResidenceUpgrade>
+                    <IncidentInfectableUpgrade />
+                    <CultureUpgrade />
+                    <InfluenceSourceUpgrade />
+                    <WarehouseUpgrade />
+                    <DistributionUpgrade />
+                    <ItemContainerUpgrade />
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>TownhallBuff</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999910317</GUID>
+                        <Name>Buff_Pharisäer_70</Name>
+                        <IconFilename>data/taludas/ui/icons/newworldtourists/pharisäer.png</IconFilename>
+                    </Standard>
+                    <ItemEffect>
+                        <EffectTargets>
+                            <Item>
+                                <GUID>25677</GUID>
+                            </Item>
+                        </EffectTargets>
+                        <AllowStacking>0</AllowStacking>
+                    </ItemEffect>
+                    <BuildingUpgrade />
+                    <Buff />
+                    <PopulationUpgrade />
+                    <ResidenceUpgrade>
+                        <AdditionalHappiness>5</AdditionalHappiness>
+                        <GoodConsumptionUpgrade>
+                            <Item>
+                                <ProvidedNeed>120032</ProvidedNeed>
+                                <AmountInPercent>-21</AmountInPercent>
+                            </Item>
+                            <Item>
+                                <ProvidedNeed>5803</ProvidedNeed>
+                                <AmountInPercent>-7</AmountInPercent>
+                            </Item>
+                        </GoodConsumptionUpgrade>
+                    </ResidenceUpgrade>
+                    <IncidentInfectableUpgrade />
+                    <CultureUpgrade />
+                    <InfluenceSourceUpgrade />
+                    <WarehouseUpgrade />
+                    <DistributionUpgrade />
+                    <ItemContainerUpgrade />
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>TownhallBuff</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999910318</GUID>
+                        <Name>Buff_Pharisäer_100</Name>
+                        <IconFilename>data/taludas/ui/icons/newworldtourists/pharisäer.png</IconFilename>
+                    </Standard>
+                    <ItemEffect>
+                        <EffectTargets>
+                            <Item>
+                                <GUID>25677</GUID>
+                            </Item>
+                        </EffectTargets>
+                        <AllowStacking>0</AllowStacking>
+                    </ItemEffect>
+                    <BuildingUpgrade />
+                    <Buff />
+                    <PopulationUpgrade />
+                    <ResidenceUpgrade>
+                        <AdditionalHappiness>5</AdditionalHappiness>
+                        <GoodConsumptionUpgrade>
+                            <Item>
+                                <ProvidedNeed>120032</ProvidedNeed>
+                                <AmountInPercent>-30</AmountInPercent>
+                            </Item>
+                            <Item>
+                                <ProvidedNeed>5803</ProvidedNeed>
+                                <AmountInPercent>-10</AmountInPercent>
+                            </Item>
+                        </GoodConsumptionUpgrade>
+                    </ResidenceUpgrade>
+                    <IncidentInfectableUpgrade />
+                    <CultureUpgrade />
+                    <InfluenceSourceUpgrade />
+                    <WarehouseUpgrade />
+                    <DistributionUpgrade />
+                    <ItemContainerUpgrade />
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- Effect Targets -->
+        <ModOp Type="add" GUID="194022" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+            <Item>
+                <GUID>1999910309</GUID>
+            </Item>
+            <Item>
+                <GUID>1999910303</GUID>
+            </Item>
+            <Item>
+                <GUID>1999910315</GUID>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+            <Item>
+                <GUID>1999910309</GUID>
+            </Item>
+            <Item>
+                <GUID>1999910303</GUID>
+            </Item>
+            <Item>
+                <GUID>1999910315</GUID>
+            </Item>
+        </ModOp>
+    </Group>
+
+    <!-- New Public Service Needs for distribution without bus -->
+    <Group>
+        <!-- New Public Need Restaurant, Cafe, Bar -->
+        <ModOp Type="addNextSibling" GUID="6139">
+            <Asset>
+                <Template>Product</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999910324</GUID>
+                        <Name>restaurant</Name>
+                        <IconFilename>data/ui/2kimages/main/3dicons/icon_restaurant.png</IconFilename>
+                    </Standard>
+                    <Text>
+                        <LocaText>
+                            <English>
+                                <Text>restaurant</Text>
+                                <Status>Exported</Status>
+                            </English>
+                        </LocaText>
+                        <LineID>5327</LineID>
+                        <TextOverride>132751</TextOverride>
+                    </Text>
+                    <Locked/>
+                    <Product>
+                        <ProductColor>-11415604</ProductColor>
+                        <StorageLevel>Building</StorageLevel>
+                        <ProductCategory>11708</ProductCategory>
+                        <IsAbstract>1</IsAbstract>
+                        <AssociatedRegion>Moderate;Colony01</AssociatedRegion>
+                    </Product>
+                    <ExpeditionAttribute/>
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>Product</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999910325</GUID>
+                        <Name>cafe</Name>
+                        <IconFilename>data/ui/2kimages/main/3dicons/icon_caffee.png</IconFilename>
+                    </Standard>
+                    <Text>
+                        <LocaText>
+                            <English>
+                                <Text>cafe</Text>
+                                <Status>Exported</Status>
+                            </English>
+                        </LocaText>
+                        <LineID>5327</LineID>
+                        <TextOverride>132755</TextOverride>
+                    </Text>
+                    <Locked/>
+                    <Product>
+                        <ProductColor>-11415604</ProductColor>
+                        <StorageLevel>Building</StorageLevel>
+                        <ProductCategory>11708</ProductCategory>
+                        <IsAbstract>1</IsAbstract>
+                        <AssociatedRegion>Moderate;Colony01</AssociatedRegion>
+                    </Product>
+                    <ExpeditionAttribute/>
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>Product</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999910326</GUID>
+                        <Name>bar</Name>
+                        <IconFilename>data/ui/2kimages/main/3dicons/icon_bar.png</IconFilename>
+                    </Standard>
+                    <Text>
+                        <LocaText>
+                            <English>
+                                <Text>bar</Text>
+                                <Status>Exported</Status>
+                            </English>
+                        </LocaText>
+                        <LineID>5327</LineID>
+                        <TextOverride>132754</TextOverride>
+                    </Text>
+                    <Locked/>
+                    <Product>
+                        <ProductColor>-11415604</ProductColor>
+                        <StorageLevel>Building</StorageLevel>
+                        <ProductCategory>11708</ProductCategory>
+                        <IsAbstract>1</IsAbstract>
+                        <AssociatedRegion>Moderate;Colony01</AssociatedRegion>
+                    </Product>
+                    <ExpeditionAttribute/>
+                </Values>
+            </Asset>
+        </ModOp>
+        <ModOp Type="add" Path="//Asset[Values/BusActivation/BusNeed = '132751']/Values/BuffFactory">
+            <ProvidesPublicServiceNeed>1</ProvidesPublicServiceNeed>
+            <PublicServiceData>
+				<PublicServices>
+					<Item>
+						<PublicService>1999910324</PublicService>
+					</Item>
+				</PublicServices>
+				<FullSatisfactionDistance>31</FullSatisfactionDistance>
+				<NoSatisfactionDistance>32</NoSatisfactionDistance>
+			</PublicServiceData>
+		</ModOp>
+        <ModOp Type="add" Path="//Asset[Values/BusActivation/BusNeed = '132755']/Values/BuffFactory">
+            <ProvidesPublicServiceNeed>1</ProvidesPublicServiceNeed>
+            <PublicServiceData>
+				<PublicServices>
+					<Item>
+						<PublicService>1999910325</PublicService>
+					</Item>
+				</PublicServices>
+				<FullSatisfactionDistance>31</FullSatisfactionDistance>
+				<NoSatisfactionDistance>32</NoSatisfactionDistance>
+			</PublicServiceData>
+		</ModOp>
+        <ModOp Type="add" Path="//Asset[Values/BusActivation/BusNeed = '132754']/Values/BuffFactory">
+            <ProvidesPublicServiceNeed>1</ProvidesPublicServiceNeed>
+            <PublicServiceData>
+				<PublicServices>
+					<Item>
+						<PublicService>1999910326</PublicService>
+					</Item>
+				</PublicServices>
+				<FullSatisfactionDistance>31</FullSatisfactionDistance>
+				<NoSatisfactionDistance>32</NoSatisfactionDistance>
+			</PublicServiceData>
+		</ModOp>
+    </Group>
+
+    <!-- #Trigger -->
+    <Group>
+        <ModOp Type="addNextSibling" GUID="130249">
+            <Asset>
+                <Template>Trigger</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999910319</GUID>
+                        <Name>Unhide all new recipes NW</Name>
+                    </Standard>
+                    <Trigger>
+                        <TriggerCondition>
+                            <Template>ConditionPlayerCounter</Template>
+                            <Values>
+                                <Condition />
+                                <ConditionPlayerCounter>
+                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                    <Context>15000006</Context>
+                                    <CounterAmount>1500</CounterAmount>
+                                </ConditionPlayerCounter>
+                            </Values>
+                        </TriggerCondition>
+                        <TriggerActions>
+                            <Item>
+                                <TriggerAction>
+                                    <Template>ActionUnlockAsset</Template>
+                                    <Values>
+                                        <Action />
+                                        <ActionUnlockAsset>
+                                            <UnhideAssets>
+                                                <Item>
+                                                    <Asset>1999910301</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1999910307</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1999910313</Asset>
+                                                </Item>
+                                            </UnhideAssets>
+                                        </ActionUnlockAsset>
+                                    </Values>
+                                </TriggerAction>
+                            </Item>
+                        </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>Trigger</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999910320</GUID>
+                        <Name>Unlock Mezcal Bar</Name>
+                    </Standard>
+                    <Trigger>
+                        <TriggerCondition>
+                            <Template>ConditionPlayerCounter</Template>
+                            <Values>
+                                <Condition />
+                                <ConditionPlayerCounter>
+                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                    <Context>5403</Context>
+                                    <CounterAmount>1</CounterAmount>
+                                </ConditionPlayerCounter>
+                            </Values>
+                        </TriggerCondition>
+                        <TriggerActions>
+                            <Item>
+                                <TriggerAction>
+                                    <Template>ActionUnlockAsset</Template>
+                                    <Values>
+                                        <Action />
+                                        <ActionUnlockAsset>
+                                            <UnlockAssets>
+                                                <Item>
+                                                    <Asset>1999910307</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1999910309</Asset>
+                                                </Item>
+                                            </UnlockAssets>
+                                        </ActionUnlockAsset>
+                                    </Values>
+                                </TriggerAction>
+                            </Item>
+                        </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>Trigger</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999910321</GUID>
+                        <Name>Unlock Jalea Bar</Name>
+                    </Standard>
+                    <Trigger>
+                        <TriggerCondition>
+                            <Template>ConditionPlayerCounter</Template>
+                            <Values>
+                                <Condition />
+                                <ConditionPlayerCounter>
+                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                    <Context>5403</Context>
+                                    <CounterAmount>900</CounterAmount>
+                                </ConditionPlayerCounter>
+                            </Values>
+                        </TriggerCondition>
+                        <TriggerActions>
+                            <Item>
+                                <TriggerAction>
+                                    <Template>ActionUnlockAsset</Template>
+                                    <Values>
+                                        <Action />
+                                        <ActionUnlockAsset>
+                                            <UnlockAssets>
+                                                <Item>
+                                                    <Asset>1999910301</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1999910303</Asset>
+                                                </Item>
+                                            </UnlockAssets>
+                                        </ActionUnlockAsset>
+                                    </Values>
+                                </TriggerAction>
+                            </Item>
+                        </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>Trigger</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999910322</GUID>
+                        <Name>Unlock Pharisäer Bar</Name>
+                    </Standard>
+                    <Trigger>
+                        <TriggerCondition>
+                            <Template>ConditionPlayerCounter</Template>
+                            <Values>
+                                <Condition />
+                                <ConditionPlayerCounter>
+                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                    <Context>5403</Context>
+                                    <CounterAmount>1800</CounterAmount>
+                                </ConditionPlayerCounter>
+                            </Values>
+                        </TriggerCondition>
+                        <TriggerActions>
+                            <Item>
+                                <TriggerAction>
+                                    <Template>ActionUnlockAsset</Template>
+                                    <Values>
+                                        <Action />
+                                        <ActionUnlockAsset>
+                                            <UnlockAssets>
+                                                <Item>
+                                                    <Asset>1999910313</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1999910315</Asset>
+                                                </Item>
+                                            </UnlockAssets>
+                                        </ActionUnlockAsset>
+                                    </Values>
+                                </TriggerAction>
+                            </Item>
+                        </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>FeatureUnlock</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999910323</GUID>
+                        <Name>Unlock new NW recipes Creative</Name>
+                    </Standard>
+                    <Trigger>
+                        <TriggerCondition>
+                            <Template>ConditionIsCreativeMode</Template>
+                            <Values>
+                                <Condition />
+                                <ConditionIsCreativeMode />
+                            </Values>
+                        </TriggerCondition>
+                        <TriggerActions>
+                            <Item>
+                                <TriggerAction>
+                                    <Template>ActionUnlockAsset</Template>
+                                    <Values>
+                                        <Action />
+                                        <ActionUnlockAsset>
+                                            <UnlockAssets>
+                                                <Item>
+                                                    <Asset>1999910301</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1999910303</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1999910307</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1999910309</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1999910313</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1999910315</Asset>
+                                                </Item>
+                                            </UnlockAssets>
+                                        </ActionUnlockAsset>
+                                    </Values>
+                                </TriggerAction>
+                            </Item>
+                        </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                </Values>
+            </Asset>
+        </ModOp>
+    </Group>
+</ModOps>

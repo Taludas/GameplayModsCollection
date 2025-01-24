@@ -1,0 +1,75 @@
+{
+  "Version": "1.0.0",
+  "ModID": "Taludas_FixedBarFlag",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "DeprecateIds": [
+  ],
+  "LoadAfterIds": [
+  ],
+  "ModioResourceId": null,
+  "Category": {
+    "Chinese": "Fix",
+    "English": "Fix",
+    "French": "Fix",
+    "German": "Fix",
+    "Italian": "Fix",
+    "Japanese": "Fix",
+    "Korean": "Fix",
+    "Polish": "Fix",
+    "Russian": "Fix",
+    "Spanish": "Fix",
+    "Taiwanese": "Fix"
+  },
+  "ModName": {
+    "Chinese": "Bar Flag fixed (Taludas)",
+    "English": "Bar Flag fixed (Taludas)",
+    "French": "Bar Flag fixed (Taludas)",
+    "German": "Bar Flag fixed (Taludas)",
+    "Italian": "Bar Flag fixed (Taludas)",
+    "Japanese": "Bar Flag fixed (Taludas)",
+    "Korean": "Bar Flag fixed (Taludas)",
+    "Polish": "Bar Flag fixed (Taludas)",
+    "Russian": "Bar Flag fixed (Taludas)",
+    "Spanish": "Bar Flag fixed (Taludas)",
+    "Taiwanese": "Bar Flag fixed (Taludas)"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Fixes the appearance of the deco flag of the Tourism-DLC Bar by replacing the texture with a fixed one not including the meczal icon/text.",
+    "French": null,
+    "German": "Korrigiert das Aussehen der Deko-Flagge der Tourismus-DLC Bar, indem die Textur durch eine gefixte ersetzt wird, die das Meczal-Symbol/den Text dazu nicht enthält.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues":
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    {
+			"DLC": "NewWorldRising",
+			"Dependant": "required"
+		}
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "https://github.com/Taludas/SmallModsCollection",
+  "Image": null
+}

@@ -1,0 +1,68 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999910302</GUID>
+      <Text>Questo piatto consiste in carne di calamaro fritta in una croccante crosta di farina di mais ed è condito con un pizzico di erbe esotiche che gli conferiscono un gusto unico della costa peruviana.</Text>
+    </Text>
+    <Text>
+      <GUID>1999910303</GUID>
+      <Text>[AssetData(132780) Text]: [AssetData(5381) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910304</GUID>
+      <Text>[AssetData(5381) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910305</GUID>
+      <Text>[AssetData(5381) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910306</GUID>
+      <Text>[AssetData(5381) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910308</GUID>
+      <Text>A differenza della tequila, il mezcal può essere prodotto da diversi tipi di agave, il che gli conferisce un'ampia varietà di profili aromatici. Tipico del mezcal è il suo gusto affumicato, che viene creato dalla tradizionale cottura dei cuori di agave in forni di terra sotterranei.</Text>
+    </Text>
+    <Text>
+      <GUID>1999910309</GUID>
+      <Text>[AssetData(132781) Text]: [AssetData(6600) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910310</GUID>
+      <Text>[AssetData(6600) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910311</GUID>
+      <Text>[AssetData(6600) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910312</GUID>
+      <Text>[AssetData(6600) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910313</GUID>
+      <Text>Pharisäer</Text>
+    </Text>
+    <Text>
+      <GUID>1999910314</GUID>
+      <Text>Il Pharisäer è una classica bevanda al caffè della Germania settentrionale composta da caffè caldo e forte, un bicchierino di rum marrone e panna montata zuccherata. La bevanda ha avuto origine su un'isola della Frisia settentrionale e si dice che sia stata inventata in modo che l'alcol potesse essere consumato segretamente durante gli eventi della chiesa senza che il clero se ne accorgesse.</Text>
+    </Text>
+    <Text>
+      <GUID>1999910315</GUID>
+      <Text>[AssetData(132782) Text]: [AssetData(1999910313) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910316</GUID>
+      <Text>[AssetData(1999910313) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910317</GUID>
+      <Text>[AssetData(1999910313) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910318</GUID>
+      <Text>[AssetData(1999910313) Text]</Text>
+    </Text>
+  </ModOp>
+</ModOps>

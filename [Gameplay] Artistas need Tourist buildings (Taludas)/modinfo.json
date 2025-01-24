@@ -1,0 +1,84 @@
+{
+  "Version": "1.0.0",
+  "ModID": "Taludas_ArtistasNeedTouristBuildings",
+  "IncompatibleIds": null,
+  "ModDependencies": [
+    "FamTaubeLexy_NewWorldHotels"
+  ],
+  "DeprecateIds": [
+  ],
+  "LoadAfterIds": [
+    "FamTaubeLexy_NewWorldHotels",
+    "Taludas_TheWholesomeHaciendaHaul",
+    "jakob_new_world_cities"
+  ],
+  "ModioResourceId": 4673222,
+  "Category": {
+    "Chinese": "Gameplay",
+    "English": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Artistas need Tourist Buildings (Taludas)",
+    "English": "Artistas need Tourist Buildings (Taludas)",
+    "French": "Artistas need Tourist Buildings (Taludas)",
+    "German": "Artistas need Tourist Buildings (Taludas)",
+    "Italian": "Artistas need Tourist Buildings (Taludas)",
+    "Japanese": "Artistas need Tourist Buildings (Taludas)",
+    "Korean": "Artistas need Tourist Buildings (Taludas)",
+    "Polish": "Artistas need Tourist Buildings (Taludas)",
+    "Russian": "Artistas need Tourist Buildings (Taludas)",
+    "Spanish": "Artistas need Tourist Buildings (Taludas)",
+    "Taiwanese": "Artistas need Tourist Buildings (Taludas)"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Exchanges the Artista's need for Jalea, Coffee and Mezcal with Restaurant, Café and Bar needs from New World Tourism.",
+    "French": null,
+    "German": "Tauscht den Bedarf der Artistas an Jalea, Kaffee und Mezcal mit dem Bedarf für Restaurants, Cafés und Bars aus New World Tourism.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues":
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    {
+			"DLC": "NewWorldRising",
+			"Dependant": "required"
+		},
+    {
+			"DLC": "Tourism",
+			"Dependant": "required"
+		}
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "https://github.com/Taludas/GameplayModsCollection",
+  "Image": null
+}

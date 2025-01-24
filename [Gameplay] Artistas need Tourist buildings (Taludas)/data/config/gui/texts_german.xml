@@ -1,0 +1,68 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999910302</GUID>
+      <Text>Dieses Gericht besteht aus frittiertem Tintenfischfleisch in einer knusprigen Maismehlkruste und wird mit einer Prise exotischer Kräuter gewürzt, die ihm einen einzigartigen Geschmack von der peruanischen Küste verleihen.</Text>
+    </Text>
+    <Text>
+      <GUID>1999910303</GUID>
+      <Text>[AssetData(132780) Text]: [AssetData(5381) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910304</GUID>
+      <Text>[AssetData(5381) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910305</GUID>
+      <Text>[AssetData(5381) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910306</GUID>
+      <Text>[AssetData(5381) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910308</GUID>
+      <Text>Im Gegensatz zu Tequila kann Mezcal aus verschiedenen Agavensorten hergestellt werden, was ihm die unterschiedlichsten Geschmacksprofile verleiht. Typisch für Mezcal ist sein rauchiger Geschmack, der durch das traditionelle Backen der Agavenherzen in unterirdischen Erdöfen entsteht.</Text>
+    </Text>
+    <Text>
+      <GUID>1999910309</GUID>
+      <Text>[AssetData(132781) Text]: [AssetData(6600) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910310</GUID>
+      <Text>[AssetData(6600) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910311</GUID>
+      <Text>[AssetData(6600) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910312</GUID>
+      <Text>[AssetData(6600) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910313</GUID>
+      <Text>Pharisäer</Text>
+    </Text>
+    <Text>
+      <GUID>1999910314</GUID>
+      <Text>Pharisäer ist ein klassisches norddeutsches Kaffeegetränk, das aus heißem, starkem Kaffee, einem Schuss braunem Rum und gesüßter Schlagsahne besteht. Das Getränk stammt ursprünglich von einer nordfriesischen Insel und soll erfunden worden sein, damit Alkohol bei kirchlichen Veranstaltungen heimlich konsumiert werden konnte, ohne dass der Klerus davon etwas mitbekam.</Text>
+    </Text>
+    <Text>
+      <GUID>1999910315</GUID>
+      <Text>[AssetData(132782) Text]: [AssetData(1999910313) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910316</GUID>
+      <Text>[AssetData(1999910313) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910317</GUID>
+      <Text>[AssetData(1999910313) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999910318</GUID>
+      <Text>[AssetData(1999910313) Text]</Text>
+    </Text>
+  </ModOp>
+</ModOps>
