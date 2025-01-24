@@ -650,6 +650,12 @@
     <ModOp Type="replace" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product = '120035']/AdditionalSupply">
       <AdditionalSupply>7</AdditionalSupply>
     </ModOp>
+    <ModOp Type="replace" GUID="1999002163" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product = '120035']/AdditionalSupply" Condition="#Taludas_TheWholesomeHaciendaHaul">
+      <AdditionalSupply>7</AdditionalSupply>
+    </ModOp>
+    <ModOp Type="replace" GUID="1999002148" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product = '120035']/AdditionalSupply" Condition="#Taludas_TheWholesomeHaciendaHaul">
+      <AdditionalSupply>7</AdditionalSupply>
+    </ModOp>
 
     <ModOp Type="replace" GUID="1999002096" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product = '120035']/AdditionalSupply" Condition="@1999002092">
       <AdditionalSupply>3</AdditionalSupply>
