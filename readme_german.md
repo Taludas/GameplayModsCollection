@@ -17,6 +17,12 @@ Wenn euch diese Mod gefällt und ihr mich unterstützen wollt, könnt ihr sie ge
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.10.1</summary>
+
+- fehlende Einträge für die Lebensstil-Bedürfnisse Lemonade und Atole in der richtigen Lebensstil-Bedürfniskategorie korrigiert.
+
+</details>
+<details>
     <summary>Patch Notes Version 1.10.0</summary>
 
 - Burrito-Boom-Buff wird nun wieder korrekt auf Obrero/Artista-Häuser angewendet, wenn die Mod Wholesome Hacienda Overhaul verwendet wird (Erweiterte Gameplay-Änderungen)

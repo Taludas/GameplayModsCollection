@@ -84,6 +84,16 @@
                 <MinPopulationAmount>1</MinPopulationAmount>
             </AdditionalGlobalUnlockRequirement>
         </ModOp>
+
+        <!-- add Lemonade and Mezcal to Food&Drink lifestyle need category -->
+        <ModOp Type="add" GUID="25000118" Path="/Values/ObjectmenuResidenceScene/BonusNeeds/BonusNeeds/Item[Category = '2289']/Needs">
+            <Item>
+                <BonusNeed>133185</BonusNeed>
+            </Item>
+            <Item>
+                <BonusNeed>25131</BonusNeed>
+            </Item>
+        </ModOp>
     </Group>
 
     <!-- #Disable normal production buildings -->

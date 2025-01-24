@@ -18,6 +18,12 @@
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.10.1</summary>
+
+- fix missing entries for Lemonade and Atole lifestyle needs in correct lifestyle need category.
+
+</details>
+<details>
     <summary>Patch Notes Version 1.10.0</summary>
 
 - fix Burrito Boom buff not applying correctly to Obrero/Artista houses when using The Wholesome Hacienda Overhaul (Extended Gameplay Changes)
