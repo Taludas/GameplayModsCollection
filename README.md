@@ -18,6 +18,19 @@
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.10.0</summary>
+
+- fix Burrito Boom buff not applying correctly to Obrero/Artista houses when using The Wholesome Hacienda Overhaul (Extended Gameplay Changes)
+- add new mod "Jalea & Mezcal Integration"
+
+</details>
+<details>
+    <summary>Patch Notes Version 1.9.1</summary>
+
+- fix missing product list entries for cherries
+
+</details>
+<details>
     <summary>Patch Notes Version 1.9.0</summary>
 
 - fix issue with resetting needs due to the mechanic the Burrito Boom buff was distributed to the houses
@@ -470,3 +483,22 @@ Therefore, this mod changes the one tile fields to actual Greenhouses, reducing 
 ***Warning***: Before installing, make sure your Orchid Farms (or at least their fields) have been deleted. Otherwise you might get funny clipping issues and non removable fences which previously sourrounded your fields!
 
 If you use the Hacienda Overhaul Mod, note that the Orchid Fields for the Hacienda Farm will not change, due to the mechanic behind the recipe building.
+
+-----
+
+![Image](https://github.com/user-attachments/assets/2094e752-4efa-4cc8-96f6-c4a77ea6e028)
+### Jalea & Mezcal Integration
+
+This mod integrates the Jalea and Mezcal products into the food and drink venues of the New World Tourism mod. This is inspired by the vanilla usage of the bar/restaurant graphics for the production buildings.
+
+DLC/Mod Dependency: 
+- "Tourism" DLC.
+- "New World Tourism" Mod
+
+This mod is savegame compatible. You can start it mid-game. 
+**HOWEVER**: If you currently have Mezcal or Jalea productions, those will no longer work correctly (products are removed from the warehouses!). Also Traderoutes with these products will no longer work.
+
+Features:
+- replace Jalea, Coffee and Mezcal needs for all Artista buildings with the need for Restaurant, Café and Bar (needs are distributed to Artista residences WITHOUT the need for bus connection - distribution is done over street range!). Mezcal lifestyle needs have been replaced with Lemonade for Engineers and Technicians and Atole for Tourists. Buffs that reduce Mezcal consumption have been edited to reduce Cognac need.
+- remove Jalea and Mezcal from the "normal" warehouse storagelists and remove/disable their usual production buildings
+- add Jalea, Pharisäer and Mezcal as recipes to the Restaurant, Café and Bar from New World Tourism.

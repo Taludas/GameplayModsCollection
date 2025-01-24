@@ -17,6 +17,19 @@ Wenn euch diese Mod gefällt und ihr mich unterstützen wollt, könnt ihr sie ge
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.10.0</summary>
+
+- Burrito-Boom-Buff wird nun wieder korrekt auf Obrero/Artista-Häuser angewendet, wenn die Mod Wholesome Hacienda Overhaul verwendet wird (Erweiterte Gameplay-Änderungen)
+- neue Mod "Jalea & Mezcal Integration" hinzugefügt
+
+</details>
+<details>
+    <summary>Patch Notes Version 1.9.1</summary>
+
+- fehlende Produktlisteneinträge für Kirschen gefixt
+
+</details>
+<details>
     <summary>Patch Notes Version 1.9.0</summary>
 
 - Behebung des Problems mit dem Zurücksetzen von Bedürfnissen aufgrund der Mechanik, mit der der Burrito-Boom-Buff an Häuser verteilt wurde
@@ -467,3 +480,22 @@ Daher ändert dieser Mod die Ein-Kachel-Felder in echte Gewächshäuser, wodurch
 ***Warnung***: Stellt vor der Installation sicher, dass eure Orchideenfarmen (oder zumindest deren Felder) gelöscht worden sind. Andernfalls kann es zu komischen Clipping-Problemen und nicht entfernbaren Zäunen kommen, die zuvor Eure Felder umgaben!
 
 Wenn ihr den Hacienda Overhaul Mod verwendet, beachtet, dass sich die Orchideenfelder für die Hacienda-Farm aufgrund der Mechanik hinter dem Rezeptgebäude nicht ändern werden.
+
+-----
+
+![Image](https://github.com/user-attachments/assets/2094e752-4efa-4cc8-96f6-c4a77ea6e028)
+### Jalea & Mezcal Integration
+
+Diese Mod integriert die Jalea- und Mezcal-Produkte in die Lokale des Mods New World Tourism Mods. Dies ist inspiriert von der Verwendung der Bar/Restaurant-Grafiken für die Produktionsgebäude im offiziellen Spiel.
+
+DLC/Mod-Abhängigkeit:
+- DLC "Reisezeit".
+- Mod "New World Tourism"
+
+Diese Mod ist spielstandkompatibel. Du kannst sie mitten im Spiel starten.
+**ALLERDINGS**: Wenn ihr derzeit Mezcal- oder Jalea-Produktionen habt, werden diese nicht mehr korrekt funktionieren (Produkte werden nämlich auch komplett aus den Lagerhäusern entfernt!). Auch Handelsrouten mit diesen Produkten werden nicht mehr funktionieren.
+
+Features:
+- Jalea-, Kaffee- und Mezcal-Bedürfnisse für alle Artista-Gebäude wurden durch die Bedürfnisse für Restaurant, Café und Bar ersetzt (die Bedürfnisse werden OHNE Busverbindung an die Artista-Häuser verteilt - die Verteilung erfolgt über die normale Straßen-Reichweite!). Der Mezcal-Lifestyle-Bedarf wurde durch Limonade für Ingenieure und Techniker und Atole für Touristen ersetzt. Buffs, die den Mezcal-Konsum reduzieren, wurden überarbeitet, um den Cognac-Bedarf zu reduzieren.
+- Jalea und Mezcal wurden aus den "normalen" Lagerhaus-Listen entfernt und ihre üblichen Produktionsgebäude entfernt/deaktiviert.
+- Jalea, Pharisäer und Mezcal wurden als neue Rezepte für das Restaurant, Café und die Bar von New World Tourism hinzugefügt.
