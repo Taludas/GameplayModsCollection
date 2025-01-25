@@ -16,6 +16,13 @@ Wenn euch diese Mod gefällt und ihr mich unterstützen wollt, könnt ihr sie ge
 ***Diese Mods sind savegame-kompatibel. Bitte nutze den iModYourAnno Anno Mod Manager für individuelle Anpassungen.***
 
 ## Changelog
+
+<details>
+    <summary>Patch Notes Version 1.10.2</summary>
+
+- Überarbeitung der Trigger für "Jalea&Mezcal Integration", Hinzufügen eines Triggers zum Freischalten der leeren Restaurant-, Café- und Bargebäuden für das Baumenü mit 900 Artistas
+
+</details>
 <details>
     <summary>Patch Notes Version 1.10.1</summary>
 

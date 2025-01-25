@@ -17,6 +17,13 @@
 ***These Mods are savegame-compatible. Please use the iModYourAnno Anno Mod Manager for individual mod customization. Several mods have multiple versions which can be toggled on and off with iMYA as well.***
 
 ## Changelog
+
+<details>
+    <summary>Patch Notes Version 1.10.2</summary>
+
+- rework triggers for "Jalea&Mezcal Integration", add trigger to unlock restaurant, cafe and bar blank buildings for the buildmenu with 900 Artistas
+
+</details>
 <details>
     <summary>Patch Notes Version 1.10.1</summary>
 
