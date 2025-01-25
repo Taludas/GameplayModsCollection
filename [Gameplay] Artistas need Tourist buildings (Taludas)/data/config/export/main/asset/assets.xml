@@ -1312,51 +1312,8 @@
                 <Template>Trigger</Template>
                 <Values>
                     <Standard>
-                        <GUID>1999910320</GUID>
-                        <Name>Unlock Mezcal Bar</Name>
-                    </Standard>
-                    <Trigger>
-                        <TriggerCondition>
-                            <Template>ConditionPlayerCounter</Template>
-                            <Values>
-                                <Condition />
-                                <ConditionPlayerCounter>
-                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                    <Context>5403</Context>
-                                    <CounterAmount>1</CounterAmount>
-                                </ConditionPlayerCounter>
-                            </Values>
-                        </TriggerCondition>
-                        <TriggerActions>
-                            <Item>
-                                <TriggerAction>
-                                    <Template>ActionUnlockAsset</Template>
-                                    <Values>
-                                        <Action />
-                                        <ActionUnlockAsset>
-                                            <UnlockAssets>
-                                                <Item>
-                                                    <Asset>1999910307</Asset>
-                                                </Item>
-                                                <Item>
-                                                    <Asset>1999910309</Asset>
-                                                </Item>
-                                            </UnlockAssets>
-                                        </ActionUnlockAsset>
-                                    </Values>
-                                </TriggerAction>
-                            </Item>
-                        </TriggerActions>
-                    </Trigger>
-                    <TriggerSetup />
-                </Values>
-            </Asset>
-            <Asset>
-                <Template>Trigger</Template>
-                <Values>
-                    <Standard>
-                        <GUID>1999910321</GUID>
-                        <Name>Unlock Jalea Bar</Name>
+                        <GUID>1999910327</GUID>
+                        <Name>Unlock Restaurant Cafe Bar with 900 Artista</Name>
                     </Standard>
                     <Trigger>
                         <TriggerCondition>
@@ -1379,48 +1336,26 @@
                                         <ActionUnlockAsset>
                                             <UnlockAssets>
                                                 <Item>
+                                                    <Asset>1440134340</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1440134341</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1440134342</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1999910307</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1999910309</Asset>
+                                                </Item>
+                                                <Item>
                                                     <Asset>1999910301</Asset>
                                                 </Item>
                                                 <Item>
                                                     <Asset>1999910303</Asset>
                                                 </Item>
-                                            </UnlockAssets>
-                                        </ActionUnlockAsset>
-                                    </Values>
-                                </TriggerAction>
-                            </Item>
-                        </TriggerActions>
-                    </Trigger>
-                    <TriggerSetup />
-                </Values>
-            </Asset>
-            <Asset>
-                <Template>Trigger</Template>
-                <Values>
-                    <Standard>
-                        <GUID>1999910322</GUID>
-                        <Name>Unlock Pharisäer Bar</Name>
-                    </Standard>
-                    <Trigger>
-                        <TriggerCondition>
-                            <Template>ConditionPlayerCounter</Template>
-                            <Values>
-                                <Condition />
-                                <ConditionPlayerCounter>
-                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                    <Context>5403</Context>
-                                    <CounterAmount>1800</CounterAmount>
-                                </ConditionPlayerCounter>
-                            </Values>
-                        </TriggerCondition>
-                        <TriggerActions>
-                            <Item>
-                                <TriggerAction>
-                                    <Template>ActionUnlockAsset</Template>
-                                    <Values>
-                                        <Action />
-                                        <ActionUnlockAsset>
-                                            <UnlockAssets>
                                                 <Item>
                                                     <Asset>1999910313</Asset>
                                                 </Item>
@@ -1461,6 +1396,15 @@
                                         <ActionUnlockAsset>
                                             <UnlockAssets>
                                                 <Item>
+                                                    <Asset>1440134340</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1440134341</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1440134342</Asset>
+                                                </Item>
+                                                <Item>
                                                     <Asset>1999910301</Asset>
                                                 </Item>
                                                 <Item>
@@ -1488,6 +1432,7 @@
                     <TriggerSetup />
                 </Values>
             </Asset>
+
         </ModOp>
     </Group>
 </ModOps>
