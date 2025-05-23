@@ -17,7 +17,13 @@
 ***These Mods are savegame-compatible. Please use the iModYourAnno Anno Mod Manager for individual mod customization. Several mods have multiple versions which can be toggled on and off with iMYA as well.***
 
 ## Changelog
+<details>
+    <summary>Patch Notes Version 1.10.3</summary>
 
+- [Museum, Zoo and Botanical Garden in Enbesa] add compatibility with New Horizons
+- [Jalea&Mezcal Integration] replace Tourist workforce in DLC12 Jalea restaurant and Mezcal bar with Artista workforce so that you do not have to build Tourists first.
+
+</details>
 <details>
     <summary>Patch Notes Version 1.10.2</summary>
 

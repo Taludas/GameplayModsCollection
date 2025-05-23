@@ -268,40 +268,29 @@
 		</ModOp>
 
 		<!-- Add Museum to ItemEffectTargetPools-->
-		<ModOp Type="add" GUID="193666,191562,190609,368"
-			Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+		<ModOp Type="add" GUID="193666,191562,190609,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
 			<Item>
 				<GUID>1999000111</GUID>
 			</Item>
 		</ModOp>
 
 		<!-- Add Museum to Construction Menus-->
-		<ModOp Type="addNextSibling" GUID="114554"
-			Path="/Values/ConstructionCategory/BuildingList/Item[Building='117859']">
+		<ModOp Type="addNextSibling" GUID="114554" Path="/Values/ConstructionCategory/BuildingList/Item[Building='117859']">
 			<Item>
 				<Building>1999000111</Building>
 			</Item>
 		</ModOp>
-		<ModOp Type="add" GUID="119015"
-			Path="/Values/ConstructionCategory/BuildingList">
+		<ModOp Type="add" GUID="119015" Path="/Values/ConstructionCategory/BuildingList">
 			<Item>
 				<Building>1999000111</Building>
 			</Item>
 		</ModOp>
 
-		<!-- Add Empty Exhibition, Music Pavillion and Ornaments to be buildable in Enbesa -->
-		<ModOp Type="replace"
-			GUID="100454,113452,112486,114148,114149,114150,114151,114435,103119,101510"
-			Path="/Values/Building/AssociatedRegions">
-			<AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
-		</ModOp>
-
-		<!-- Add different Exhibition Modules in Enbesa-->
-		<ModOp Type="replace"
-			GUID="1010481,101451,101452,101453,101454,1010482,101455,101456,101457,101458,1010483,101459,101460,101461,101462,1010484,100917,100918,100919,100920,100921,100922,100923,100924,100925,100926,100927,101956,100928,100929,100930,100931,100932,100933,100940,100941,100942,100943,100944,100945,112479,112480,112481,112482,113376,114789,114790,114791,114792,114793,124786,124787,124788,124789,124790,124791,124792,124793,124794,124795,130922,130923,125029"
-			Path="/Values/Building/AssociatedRegions">
-			<AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
-		</ModOp>
+		<!-- Make CultureModules buildable in Enbesa -->
+		<ModOp Path = "//Asset[Template='CultureModule']/Values/Building/AssociatedRegions" Type = "add">;Africa</ModOp>
+		<ModOp Path = "//Asset[Template='OrnamentalModule']/Values/Building/AssociatedRegions" Type = "add">;Africa</ModOp>
+		<ModOp Path = "//Asset[Template='BuildPermitModules']/Values/Building/AssociatedRegions" Type = "add">;Africa</ModOp>
+		<ModOp GUID = "114435" Path = "/Values/Building/AssociatedRegions" Type = "add">;Africa</ModOp>
 
 		<!-- Add Museum Set Buffs in Enbesa-->
 		<!-- Vanilla Version -->
@@ -611,39 +600,22 @@
 		</ModOp>
 
 		<!-- Add Zoo to ItemEffectTargetPools-->
-		<ModOp Type="add" GUID="193666,191561,190609"
-			Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+		<ModOp Type="add" GUID="193666,191561,190609" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
 			<Item>
 				<GUID>1999000112</GUID>
 			</Item>
 		</ModOp>
 
 		<!-- Add Zoo to Construction Menus-->
-		<ModOp Type="addNextSibling" GUID="114554"
-			Path="/Values/ConstructionCategory/BuildingList/Item[Building='117859']">
+		<ModOp Type="addNextSibling" GUID="114554" Path="/Values/ConstructionCategory/BuildingList/Item[Building='117859']">
 			<Item>
 				<Building>1999000112</Building>
 			</Item>
 		</ModOp>
-		<ModOp Type="add" GUID="119015"
-			Path="/Values/ConstructionCategory/BuildingList">
+		<ModOp Type="add" GUID="119015" Path="/Values/ConstructionCategory/BuildingList">
 			<Item>
 				<Building>1999000112</Building>
 			</Item>
-		</ModOp>
-
-		<!-- Add Empty Exhibition, Music Pavillion and Ornaments to be buildable in Enbesa -->
-		<ModOp Type="replace"
-			GUID="100455,113452,112486,114148,114149,114150,114151,114435,103119,101510"
-			Path="/Values/Building/AssociatedRegions">
-			<AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
-		</ModOp>
-
-		<!-- Add different Exhibition Modules in Enbesa-->
-		<ModOp Type="replace"
-			GUID="1010477,100812,101984,101985,102014,1010474,100813,100814,101986,101987,1010479,100815,101989,101990,101991,101992,101993,102015,100816,101810,101811,101816,102016,110255,100645,102557,102558,102559,102560,102561,102566,112477,113763,113764,114783,114784,114785,114786,114787,114788,124057,124087,124088,124091,124094,124101,124102,124109,124110,124111,124112,124113,124114,124090,124084,124089,124103,124104,124105,124106,124107,124108,125030,125031,125033,125034"
-			Path="/Values/Building/AssociatedRegions">
-			<AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
 		</ModOp>
 
 		<!-- Add Zoo Set Buffs in Enbesa-->
@@ -948,39 +920,22 @@
 		</ModOp>
 
 		<!-- Add Botanical Garden to ItemEffectTargetPools-->
-		<ModOp Type="add" GUID="193666,193667,368"
-			Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+		<ModOp Type="add" GUID="193666,193667,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
 			<Item>
 				<GUID>1999000113</GUID>
 			</Item>
 		</ModOp>
 
 		<!-- Add Botanical Garden to Construction Menus-->
-		<ModOp Type="addNextSibling" GUID="114554"
-			Path="/Values/ConstructionCategory/BuildingList/Item[Building='117859']">
+		<ModOp Type="addNextSibling" GUID="114554" Path="/Values/ConstructionCategory/BuildingList/Item[Building='117859']">
 			<Item>
 				<Building>1999000113</Building>
 			</Item>
 		</ModOp>
-		<ModOp Type="addNextSibling" GUID="119012"
-			Path="/Values/ConstructionCategory/BuildingList/Item[Building='117859']">
+		<ModOp Type="addNextSibling" GUID="119012" Path="/Values/ConstructionCategory/BuildingList/Item[Building='117859']">
 			<Item>
 				<Building>1999000113</Building>
 			</Item>
-		</ModOp>
-
-		<!-- Add Empty Plot, Music Pavillion and Ornaments to be buildable in Enbesa -->
-		<ModOp Type="replace"
-			GUID="111104,113452,112486,114148,114149,114150,114151,114435,103119,101510"
-			Path="/Values/Building/AssociatedRegions">
-			<AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
-		</ModOp>
-
-		<!-- Add different Plant Plots in Enbesa-->
-		<ModOp Type="replace"
-			GUID="111083,111086,111088,111087,111089,111090,111091,111092,111093,112610,112609,111094,111095,111096,111097,111098,111099,111100,111101,111102,114310,114311"
-			Path="/Values/Building/AssociatedRegions">
-			<AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
 		</ModOp>
 
 		<!-- Add Botanical Garden Set Buffs in Enbesa-->
@@ -1123,9 +1078,9 @@
 
 		<Group Condition="#Taludas_CoffeeTobaccoEnbesa_modio">
 			<ModOp Type="merge" GUID="1999000116" Path="/Values">
-					<Standard>
-						<GUID>1500302096</GUID>
-					</Standard>
+				<Standard>
+					<GUID>1500302096</GUID>
+				</Standard>
 				<ItemEffect>
 					<EffectTargets>
 						<Item>
@@ -1224,7 +1179,7 @@
 							</English>
 						</LocaText>
 						<LineID>33507</LineID>
-              			<TextOverride>193671</TextOverride>
+						<TextOverride>193671</TextOverride>
 					</Text>
 					<FactoryUpgrade>
 						<ProductivityUpgrade>
@@ -1356,7 +1311,7 @@
 							</English>
 						</LocaText>
 						<LineID>33507</LineID>
-              			<TextOverride>193765</TextOverride>
+						<TextOverride>193765</TextOverride>
 					</Text>
 					<FactoryUpgrade>
 						<ProductivityUpgrade>
@@ -1475,16 +1430,12 @@
 
 	<!-- #SPICE IT UP MODULE INTEGRATION -->
 	<!-- MUSEUM/ZOO/BATANICAL GARDEN NW - Modules use range instead of snap -->
-	<ModOp Type="add" GUID="1999000111,1999000112,1999000113"
-		Condition="@110935/ModuleOwner/ModuleBuildRadius[text()='32']"
-		Path="/Values/ModuleOwner">
+	<ModOp Type="add" GUID="1999000111,1999000112,1999000113" Condition="@110935/ModuleOwner/ModuleBuildRadius[text()='32']" Path="/Values/ModuleOwner">
 		<ModuleBuildRadius>32</ModuleBuildRadius>
 	</ModOp>
 
 	<!-- MUSEUM/ZOO/BOTANICAL GARDEN Modules no module limit -->
-	<ModOp Type="replace" GUID="1999000111,1999000112,1999000113"
-		Condition="@110935/ModuleOwner/ModuleLimits/Connector/Limit[text()='0']"
-		Path="/Values/ModuleOwner/ModuleLimits">
+	<ModOp Type="replace" GUID="1999000111,1999000112,1999000113" Condition="@110935/ModuleOwner/ModuleLimits/Connector/Limit[text()='0']" Path="/Values/ModuleOwner/ModuleLimits">
 		<ModuleLimits>
 			<Main>
 				<Limit>0</Limit>
@@ -1508,39 +1459,29 @@
 	<!-- MUSEUM/ZOO/BOTANICAL GARDEN Modules: Use Taube's Canal&Plaza Module -->
 	<Group Condition="@902244">
 
-		<ModOp Type="replace" GUID="1999000111,1999000112,1999000113"
-			Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID = '102466']">
+		<ModOp Type="replace" GUID="1999000111,1999000112,1999000113" Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID = '102466']">
 			<Item>
 				<ModuleGUID>902244</ModuleGUID>
 			</Item>
 		</ModOp>
-		<ModOp Type="replace" GUID="1999000111,1999000112,1999000113"
-			Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID = '102469']">
+		<ModOp Type="replace" GUID="1999000111,1999000112,1999000113" Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID = '102469']">
 			<Item>
 				<ModuleGUID>902236</ModuleGUID>
 			</Item>
 		</ModOp>
 
-		<ModOp Type="replace" GUID="902244,902236" Path="/Values/Building/AssociatedRegions">
-			<AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
-		</ModOp>
+		<ModOp Type="add" GUID="902244,902236" Path="/Values/Building/AssociatedRegions">;Africa</ModOp>
 
-		<ModOp Type="replace"
-			GUID="902246,902247,902248,902249,902250,902251,902252,902253,902254,902255,902256,902257,902258,902259,902237,902238,902239"
-			Path="/Values/Building/AssociatedRegions">
-			<AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
-		</ModOp>
+		<ModOp Type="add" GUID="902246,902247,902248,902249,902250,902251,902252,902253,902254,902255,902256,902257,902258,902259,902237,902238,902239" Path="/Values/Building/AssociatedRegions">;Africa</ModOp>
 
 		<!-- Add canals to Elder construction menu 2 (tier) -->
-		<ModOp Type="addNextSibling" GUID="114554"
-			Path="/Values/ConstructionCategory/BuildingList/Item[Building='1999000111']">
+		<ModOp Type="addNextSibling" GUID="114554" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1999000111']">
 			<Item>
 				<Building>902263</Building>
 			</Item>
 		</ModOp>
 		<!-- Add canals to Enbesa construction menu culture (category) -->
-		<ModOp Type="addNextSibling" GUID="119012"
-			Path="/Values/ConstructionCategory/BuildingList/Item[Building='1999000111']">
+		<ModOp Type="addNextSibling" GUID="119012" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1999000111']">
 			<Item>
 				<Building>902263</Building>
 			</Item>
@@ -1552,53 +1493,53 @@
 	<Group Condition="#Fam_EnbesanFlora">
 		<!-- Second Page at Botanical Garden -->
 		<ModOp Type="replace" GUID="110935,114141,1999000113" Path="/Values/Culture/Sets">
-		<Sets>
-			<Item>
-			<Set>193665</Set>
-			</Item>
-			<Item>
-			<Set>193653</Set>
-			</Item>
-			<Item>
-			<Set>193662</Set>
-			</Item>
-			<Item>
-			<Set>193655</Set>
-			</Item>
-			<Item />
-			<Item>
-			<Set>193660</Set>
-			</Item>
-			<Item>
-			<Set>193657</Set>
-			</Item>
-			<Item>
-			<Set>193658</Set>
-			</Item>
-			<Item>
-			<Set>193670</Set>
-			</Item>
-			<Item>
-			<Set>193672</Set>
-			</Item>
-			<Item />
-			<Item />
-		</Sets>
+			<Sets>
+				<Item>
+					<Set>193665</Set>
+				</Item>
+				<Item>
+					<Set>193653</Set>
+				</Item>
+				<Item>
+					<Set>193662</Set>
+				</Item>
+				<Item>
+					<Set>193655</Set>
+				</Item>
+				<Item />
+				<Item>
+					<Set>193660</Set>
+				</Item>
+				<Item>
+					<Set>193657</Set>
+				</Item>
+				<Item>
+					<Set>193658</Set>
+				</Item>
+				<Item>
+					<Set>193670</Set>
+				</Item>
+				<Item>
+					<Set>193672</Set>
+				</Item>
+				<Item />
+				<Item />
+			</Sets>
 		</ModOp>
 
 		<ModOp Type="add" GUID="110935,114141,1999000113" Path='//Values/Culture/Sets'>
-		<Item>
-			<Set>1660011001</Set>
-		</Item>
-		<Item>
-			<Set>1660011101</Set>
-		</Item>
-		<Item>
-			<Set>1660011201</Set>
-		</Item>
-		<Item>
-			<Set>1660011301</Set>
-		</Item>
+			<Item>
+				<Set>1660011001</Set>
+			</Item>
+			<Item>
+				<Set>1660011101</Set>
+			</Item>
+			<Item>
+				<Set>1660011201</Set>
+			</Item>
+			<Item>
+				<Set>1660011301</Set>
+			</Item>
 		</ModOp>
 
 		<!-- Split Buff Enbesa Plateau into sessions -->
@@ -1620,8 +1561,7 @@
 			</ItemSocketSet>
 		</ModOp>
 
-		<!--Enbesa
-		Buff Enbesa Plateau -->
+		<!--Enbesa Buff Enbesa Plateau -->
 		<ModOp Type="addNextSibling" GUID="193772">
 			<Asset>
 				<Template>GuildhouseBuff</Template>
@@ -1647,7 +1587,7 @@
 							</English>
 						</LocaText>
 						<LineID>1660011004</LineID>
-            			<TextOverride>1660011003</TextOverride>
+						<TextOverride>1660011003</TextOverride>
 					</Text>
 					<FactoryUpgrade>
 						<AdditionalOutput>
@@ -1700,8 +1640,7 @@
 			</ItemSocketSet>
 		</ModOp>
 
-		<!--Enbesa
-		Buff Enbesa Plateau -->
+		<!--Enbesa Buff Enbesa Plateau -->
 		<ModOp Type="addNextSibling" GUID="193772">
 			<Asset>
 				<Template>GuildhouseBuff</Template>
@@ -1732,7 +1671,7 @@
 							</English>
 						</LocaText>
 						<LineID>1660011004</LineID>
-            			<TextOverride>1660011203</TextOverride>
+						<TextOverride>1660011203</TextOverride>
 					</Text>
 					<FactoryUpgrade>
 						<AdditionalOutput>
