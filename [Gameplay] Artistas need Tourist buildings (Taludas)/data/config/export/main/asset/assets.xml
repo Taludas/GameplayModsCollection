@@ -19,8 +19,18 @@
         </ModOp>
 
         <!-- replace Jalea need with restaurant, Coffee need with Cafe and Mezcal need with Bar -->
-        <ModOp Type="remove" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product = '5381']"></ModOp>
+        <ModOp Type="remove" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product = '6600']"></ModOp>
         <ModOp GUID="5403" Type="addNextSibling" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product = '5803']">
+            <Item>
+                <Product>1999910326</Product>
+                <SupplyWeight>5</SupplyWeight>
+                <MoneyValue>30</MoneyValue>
+                <IsConsideredByAI>0</IsConsideredByAI>
+                <FullWeightPopulationCount>900</FullWeightPopulationCount>
+            </Item>
+        </ModOp>
+        <ModOp Type="remove" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product = '5381']"></ModOp>
+        <ModOp GUID="5403" Type="addNextSibling" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product = '1999910326']">
             <Item>
                 <Product>1999910324</Product>
                 <SupplyWeight>5</SupplyWeight>
@@ -43,17 +53,7 @@
             </Item>
         </ModOp>
 
-        <ModOp Type="remove" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product = '6600']"></ModOp>
-        <ModOp GUID="5403" Type="addNextSibling" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product = '1999910325']">
-            <Item>
-                <Product>1999910326</Product>
-                <SupplyWeight>5</SupplyWeight>
-                <MoneyValue>30</MoneyValue>
-                <IsConsideredByAI>0</IsConsideredByAI>
-                <FullWeightPopulationCount>1800</FullWeightPopulationCount>
-                <NoWeightPopulationCount>899</NoWeightPopulationCount>
-            </Item>
-        </ModOp>
+
         <ModOp Type="merge" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product = '5803']/SupplyWeight">
             <SupplyWeight>2</SupplyWeight>
         </ModOp>
@@ -98,8 +98,12 @@
 
     <!-- #Disable normal production buildings -->
     <Group>
-        <ModOp Type="remove" GUID="500950,5466" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '5813']" />
-        <ModOp Type="remove" GUID="500950,5466" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '6610']" />
+        <ModOp Type="replace" GUID="5813" Path="/Values/ProductionChain/Building">
+            <Building>1999910303</Building>
+        </ModOp>
+        <ModOp Type="replace" GUID="6610" Path="/Values/ProductionChain/Building">
+            <Building>1999910309</Building>
+        </ModOp>
 
         <ModOp Type="remove" Path="//ItemEffect/EffectTargets/Item[GUID ='6594']"></ModOp>
         <ModOp Type="remove" Path="//ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID ='6594']"></ModOp>
@@ -126,16 +130,60 @@
         <ModOp Type="remove" GUID="601908,601909,601910,601911,601912,136398,136399,136400" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product = '6600']" />
         <ModOp Type="remove" GUID="7171,7168" Path="/Values/RewardPool/ItemsPool/Item[ItemLink = '6600']" />
 
-        <ModOp Type="addNextSibling" GUID="5466" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '5806']">
+        <ModOp Type="addNextSibling" GUID="5466" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '5813']">
             <Item>
-                <Building>1440134340</Building>
+                <Building>1999910328</Building>
             </Item>
-            <Item>
-                <Building>1440134341</Building>
-            </Item>
-            <Item>
-                <Building>1440134342</Building>
-            </Item>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="6610">
+            <Asset>
+                <Template>ProductionChain</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999910328</GUID>
+                        <Name>Pharisäer Chain</Name>
+                        <IconFilename>data/taludas/ui/icons/newworldtourists/pharisäer.png</IconFilename>
+                    </Standard>
+                    <ProductionChain>
+                        <Building>1999910315</Building>
+                        <Tier1>
+                            <Item>
+                                <Building>101252</Building>
+                                <Tier2>
+                                    <Item>
+                                        <Building>101251</Building>
+                                    </Item>
+                                </Tier2>
+                            </Item>
+                            <Item>
+                                <Building>101269</Building>
+                                <ForceIcon>5385</ForceIcon>
+                                <Tier2>
+                                    <Item>
+                                        <Building>5164</Building>
+                                    </Item>
+                                </Tier2>
+                            </Item>
+                            <Item>
+                                <Building>1010340</Building>
+                                <Tier2>
+                                    <Item>
+                                        <Building>101260</Building>
+                                    </Item>
+                                    <Item>
+                                        <Building>1010329</Building>
+                                    </Item>
+                                </Tier2>
+                            </Item>
+                        </Tier1>
+                    </ProductionChain>
+                    <Locked />
+                    <Text>
+                        <TextOverride>1999910313</TextOverride>
+                    </Text>
+                </Values>
+            </Asset>
         </ModOp>
     </Group>
 
@@ -339,6 +387,7 @@
                         <RecipeList>1440134320</RecipeList>
                     </RecipeBuilding>
                     <BusActivation>
+                        <ShutDownCompletelyWhenMissingBus>0</ShutDownCompletelyWhenMissingBus>
                         <BusNeed>132751</BusNeed>
                     </BusActivation>
                     <Culture />
@@ -659,6 +708,7 @@
                         <RecipeList>1440134322</RecipeList>
                     </RecipeBuilding>
                     <BusActivation>
+                        <ShutDownCompletelyWhenMissingBus>0</ShutDownCompletelyWhenMissingBus>
                         <BusNeed>132754</BusNeed>
                     </BusActivation>
                     <Culture />
@@ -975,6 +1025,7 @@
                         <RecipeList>1440134321</RecipeList>
                     </RecipeBuilding>
                     <BusActivation>
+                        <ShutDownCompletelyWhenMissingBus>0</ShutDownCompletelyWhenMissingBus>
                         <BusNeed>132755</BusNeed>
                     </BusActivation>
                     <Culture />
@@ -1362,6 +1413,9 @@
                                                 <Item>
                                                     <Asset>1999910315</Asset>
                                                 </Item>
+                                                <Item>
+                                                    <Asset>1999910328</Asset>
+                                                </Item>
                                             </UnlockAssets>
                                         </ActionUnlockAsset>
                                     </Values>
@@ -1422,6 +1476,9 @@
                                                 <Item>
                                                     <Asset>1999910315</Asset>
                                                 </Item>
+                                                <Item>
+                                                    <Asset>1999910328</Asset>
+                                                </Item>
                                             </UnlockAssets>
                                         </ActionUnlockAsset>
                                     </Values>
@@ -1432,7 +1489,75 @@
                     <TriggerSetup />
                 </Values>
             </Asset>
-
+            <Asset>
+                <Template>Trigger</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999910329</GUID>
+                        <Name>Unhide Restaurant Cafe with 1 Artista, Unlock Bar with 1 Artista</Name>
+                    </Standard>
+                    <Trigger>
+                        <TriggerCondition>
+                            <Template>ConditionPlayerCounter</Template>
+                            <Values>
+                                <Condition />
+                                <ConditionPlayerCounter>
+                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                    <Context>5403</Context>
+                                    <CounterAmount>1</CounterAmount>
+                                </ConditionPlayerCounter>
+                            </Values>
+                        </TriggerCondition>
+                        <TriggerActions>
+                            <Item>
+                                <TriggerAction>
+                                    <Template>ActionUnlockAsset</Template>
+                                    <Values>
+                                        <Action />
+                                        <ActionUnlockAsset>
+                                            <UnhideAssets>
+                                                <Item>
+                                                    <Asset>1440134340</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1440134341</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1440134342</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1999910309</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1999910303</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1999910315</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1999910328</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>7305</Asset>
+                                                </Item>
+                                            </UnhideAssets>
+                                            <UnlockAssets>
+                                                <Item>
+                                                    <Asset>1999910307</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1999910309</Asset>
+                                                </Item>
+                                            </UnlockAssets>
+                                        </ActionUnlockAsset>
+                                    </Values>
+                                </TriggerAction>
+                            </Item>
+                        </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                </Values>
+            </Asset>
         </ModOp>
     </Group>
 </ModOps>

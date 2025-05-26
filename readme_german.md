@@ -17,6 +17,12 @@ Wenn euch diese Mod gefällt und ihr mich unterstützen wollt, könnt ihr sie ge
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.10.4</summary>
+
+- [Jalea&Mezcal Integration] Die fehlenden Mezcal- und Jalea-Produktionsketten wieder in das Artista Baumenü ergänzt und eine Pharisäer-Produktionskette hinzugefügt. Ändern des Artista-Restaurants, Cafés und der Bar so, dass sie auch ohne Busanbindung produzieren (sie erfüllen das Bedürfnis der Artistas, aber nicht das der Touristen ohne Busanbindung).
+
+</details>
+<details>
     <summary>Patch Notes Version 1.10.3</summary>
 
 - [Museum, Zoo and Botanical Garden in Enbesa] Kompatibilität mit New Horizons hinzugefügt
