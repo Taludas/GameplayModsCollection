@@ -1558,6 +1558,46 @@
                     <TriggerSetup />
                 </Values>
             </Asset>
+            <Asset>
+                <Template>Trigger</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999910330</GUID>
+                        <Name>Unlock Pharisäer Chain for existing savegames with 900 Artista</Name>
+                    </Standard>
+                    <Trigger>
+                        <TriggerCondition>
+                            <Template>ConditionPlayerCounter</Template>
+                            <Values>
+                                <Condition />
+                                <ConditionPlayerCounter>
+                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                    <Context>5403</Context>
+                                    <CounterAmount>900</CounterAmount>
+                                </ConditionPlayerCounter>
+                            </Values>
+                        </TriggerCondition>
+                        <TriggerActions>
+                            <Item>
+                                <TriggerAction>
+                                    <Template>ActionUnlockAsset</Template>
+                                    <Values>
+                                        <Action />
+                                        <ActionUnlockAsset>
+                                            <UnlockAssets>
+                                                <Item>
+                                                    <Asset>1999910328</Asset>
+                                                </Item>
+                                            </UnlockAssets>
+                                        </ActionUnlockAsset>
+                                    </Values>
+                                </TriggerAction>
+                            </Item>
+                        </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                </Values>
+            </Asset>
         </ModOp>
     </Group>
 </ModOps>

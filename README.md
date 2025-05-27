@@ -18,6 +18,12 @@
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.10.5</summary>
+
+- [Jalea&Mezcal Integration] add additional unlock for Pharisäer Production chain to support existing savegames.
+
+</details>
+<details>
     <summary>Patch Notes Version 1.10.4</summary>
 
 - [Jalea&Mezcal Integration] readd the missing Mezcal and Jalea production chains, add a Pharisäer production chain. Change the Artista restauarant, cafe and bar to work without bus connection (they will supply the need to the Artistas but not Tourists without bus connection).
