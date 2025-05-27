@@ -142,8 +142,8 @@
                 <Values>
                     <Standard>
                         <GUID>1999910328</GUID>
-                        <Name>Pharisäer Chain</Name>
-                        <IconFilename>data/taludas/ui/icons/newworldtourists/pharisäer.png</IconFilename>
+                        <Name>Pharisaer Chain</Name>
+                        <IconFilename>data/taludas/ui/icons/newworldtourists/pharisaer.png</IconFilename>
                     </Standard>
                     <ProductionChain>
                         <Building>1999910315</Building>
@@ -837,7 +837,7 @@
             </Asset>
         </ModOp>
 
-        <!-- add Pharisäer Recipe to NW Cafe -->
+        <!-- add Pharisaer Recipe to NW Cafe -->
         <ModOp Type="add" GUID="1440134321" Path="/Values/RecipeList/Recipes">
             <Item>
                 <Recipe>1999910313</Recipe>
@@ -849,14 +849,14 @@
                 <Values>
                     <Standard>
                         <GUID>1999910313</GUID>
-                        <Name>Recipe Pharisäer</Name>
-                        <IconFilename>data/taludas/ui/icons/newworldtourists/pharisäer.png</IconFilename>
+                        <Name>Recipe Pharisaer</Name>
+                        <IconFilename>data/taludas/ui/icons/newworldtourists/pharisaer.png</IconFilename>
                     </Standard>
                     <Text />
                     <Recipe>
                         <RecipeBuilding>1999910315</RecipeBuilding>
                         <RecipeDescriptionText>1999910314</RecipeDescriptionText>
-                        <RecipeImage>data/taludas/ui/icons/newworldtourists/bookimages/pharisäer.png</RecipeImage>
+                        <RecipeImage>data/taludas/ui/icons/newworldtourists/bookimages/pharisaer.png</RecipeImage>
                         <RecipeIngredientUIData>
                             <Item>
                                 <PosY>20</PosY>
@@ -881,8 +881,8 @@
                 <Values>
                     <Standard>
                         <GUID>1999910315</GUID>
-                        <Name>Cafe_009_Pharisäer</Name>
-                        <IconFilename>data/taludas/ui/icons/newworldtourists/pharisäer.png</IconFilename>
+                        <Name>Cafe_009_Pharisaer</Name>
+                        <IconFilename>data/taludas/ui/icons/newworldtourists/pharisaer.png</IconFilename>
                         <InfoDescription>132784</InfoDescription>
                     </Standard>
                     <Building>
@@ -1037,8 +1037,8 @@
                 <Values>
                     <Standard>
                         <GUID>1999910316</GUID>
-                        <Name>Buff_Pharisäer_30</Name>
-                        <IconFilename>data/taludas/ui/icons/newworldtourists/pharisäer.png</IconFilename>
+                        <Name>Buff_Pharisaer_30</Name>
+                        <IconFilename>data/taludas/ui/icons/newworldtourists/pharisaer.png</IconFilename>
                     </Standard>
                     <ItemEffect>
                         <EffectTargets>
@@ -1077,8 +1077,8 @@
                 <Values>
                     <Standard>
                         <GUID>1999910317</GUID>
-                        <Name>Buff_Pharisäer_70</Name>
-                        <IconFilename>data/taludas/ui/icons/newworldtourists/pharisäer.png</IconFilename>
+                        <Name>Buff_Pharisaer_70</Name>
+                        <IconFilename>data/taludas/ui/icons/newworldtourists/pharisaer.png</IconFilename>
                     </Standard>
                     <ItemEffect>
                         <EffectTargets>
@@ -1117,8 +1117,8 @@
                 <Values>
                     <Standard>
                         <GUID>1999910318</GUID>
-                        <Name>Buff_Pharisäer_100</Name>
-                        <IconFilename>data/taludas/ui/icons/newworldtourists/pharisäer.png</IconFilename>
+                        <Name>Buff_Pharisaer_100</Name>
+                        <IconFilename>data/taludas/ui/icons/newworldtourists/pharisaer.png</IconFilename>
                     </Standard>
                     <ItemEffect>
                         <EffectTargets>
@@ -1563,7 +1563,7 @@
                 <Values>
                     <Standard>
                         <GUID>1999910330</GUID>
-                        <Name>Unlock Pharisäer Chain for existing savegames with 900 Artista</Name>
+                        <Name>Unlock Pharisaer Chain for existing savegames with 900 Artista</Name>
                     </Standard>
                     <Trigger>
                         <TriggerCondition>

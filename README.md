@@ -18,6 +18,12 @@
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.10.6</summary>
+
+- [Jalea&Mezcal Integration] fix "Pharisäer" icon/recipe book image not being visible if installed via ingame modbrowser.
+
+</details>
+<details>
     <summary>Patch Notes Version 1.10.5</summary>
 
 - [Jalea&Mezcal Integration] add additional unlock for Pharisäer Production chain to support existing savegames.

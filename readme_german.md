@@ -17,6 +17,12 @@ Wenn euch diese Mod gefällt und ihr mich unterstützen wollt, könnt ihr sie ge
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.10.6</summary>
+
+- [Jalea&Mezcal Integration] Fix für das unsichtbare "Pharisäer"-Icon/Rezeptbuch-Bild, wenn es über den Modbrowser im Spiel installiert wird.
+
+</details>
+<details>
     <summary>Patch Notes Version 1.10.5</summary>
 
 - [Jalea&Mezcal Integration] Zusätzliche Freischalt-Trigger für die Pharisäer-Produktionskette hinzugefügt, um bestehende Savegames zu unterstützen.
