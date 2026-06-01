@@ -17,6 +17,12 @@ Wenn euch diese Mod gefällt und ihr mich unterstützen wollt, könnt ihr sie ge
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.10.7</summary>
+
+- [The Arctic Zoo] Behebung eines Problems, bei dem es in Kombination mit "Noblesse Oblige" zu Abstürzen kam, wenn Items in den leeren Modulen des Arktis-Zoos ausgerüstet wurden.
+
+</details>
+<details>
     <summary>Patch Notes Version 1.10.6</summary>
 
 - [Jalea&Mezcal Integration] Fix für das unsichtbare "Pharisäer"-Icon/Rezeptbuch-Bild, wenn es über den Modbrowser im Spiel installiert wird.

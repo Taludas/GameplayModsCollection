@@ -18,6 +18,12 @@
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.10.7</summary>
+
+- [The Arctic Zoo] fix issue with crashes when equipping items in the empty Arctic zoo modules in combination with Noblesse Oblige.
+
+</details>
+<details>
     <summary>Patch Notes Version 1.10.6</summary>
 
 - [Jalea&Mezcal Integration] fix "Pharisäer" icon/recipe book image not being visible if installed via ingame modbrowser.
