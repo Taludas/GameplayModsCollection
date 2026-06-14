@@ -17,6 +17,12 @@ Wenn euch diese Mod gefällt und ihr mich unterstützen wollt, könnt ihr sie ge
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.10.8</summary>
+
+- [The Arctic Zoo] Behebung eines Problems, bei dem es in Kombination mit "Noblesse Oblige" zu Abstürzen kam, wenn Items in den leeren Modulen des Arktis-Zoos ausgerüstet wurden.
+
+</details>
+<details>
     <summary>Patch Notes Version 1.10.7</summary>
 
 - [The Arctic Zoo] Behebung eines Problems, bei dem es in Kombination mit "Noblesse Oblige" zu Abstürzen kam, wenn Items in den leeren Modulen des Arktis-Zoos ausgerüstet wurden.

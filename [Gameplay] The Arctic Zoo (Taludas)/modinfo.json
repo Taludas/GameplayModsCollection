@@ -1,12 +1,12 @@
 {
-  "Version": "1.3.4",
+  "Version": "1.3.5",
   "ModID": "Taludas_ArcticZoo",
   "IncompatibleIds": null,
   "ModDependencies": null,
   "LoadAfterIds": [
-    "*",
-    "Taludas_ZooMuseumBotanicalGardenInEnbesa",
-    "RickyTaludas_OWHacienda"
+    "Spice_CulturalRadius",
+    "Spice_CulturalModuleLimits",
+    "Taludas_ZooMuseumBotanicalGardenInEnbesa"
   ],
   "ModioResourceId": 3227952,
   "Category": {
